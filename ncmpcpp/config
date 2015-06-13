@@ -1,0 +1,97 @@
+mpd_music_dir = "/media/Local/Music/"
+visualizer_fifo_path = "/tmp/mpd.fifo"
+##
+## Note: Below parameter is needed for ncmpcpp
+## to determine which output provides data for
+## visualizer and thus allow syncing between
+## visualization and sound as currently there
+## are some problems with it.
+##
+visualizer_output_name = "FIFO"
+##
+## Note: Below parameter defines how often ncmpcpp
+## has to "synchronize" visualizer and audio outputs.
+## 30 seconds is optimal value, but if you experience
+## synchronization problems, set it to lower value.
+## Keep in mind that sane values start with >=10.
+##
+visualizer_sync_interval = "25"
+##
+## Note: To enable spectrum frequency visualization
+## you need to compile ncmpcpp with fftw3 support.
+##
+visualizer_type = "spectrum" (spectrum/wave)
+visualizer_in_stereo = no
+visualizer_look = ▋▋
+##### system encoding #####
+##
+## ncmpcpp should detect your charset encoding
+## but if it failed to do so, you can specify
+## charset encoding you are using here.
+##
+## Note: You can see whether your ncmpcpp build
+## supports charset detection by checking output
+## of `ncmpcpp --version`.
+##
+## Note: Since MPD uses utf8 by default, setting
+## this option makes sense only if your encoding
+## is different.
+##
+system_encoding = "utf-8"
+##### delays #####
+## delay after playlist highlighting will be disabled (0 = don't disable)
+playlist_disable_highlight_delay = "5"
+## defines how long various messages are supposed to be visible
+message_delay_time = "4"
+
+# Playlist
+song_columns_list_format = "$L(9)[blue]{l} (20)[blue]{a} (30)[blue]{b}$R(20)[blue]{t}"
+now_playing_prefix = "$b >>"
+#now_playing_subfix = "/$b"
+playlist_display_mode = "classic" (classic/columns)
+autocenter_mode = "yes"
+centered_cursor = "yes"
+cyclic_scrolling = "yes"
+mouse_list_scroll_whole_page = "no"
+song_list_format = "{ $8[%l] - }{%t }$R{$5%a - $7%b }"
+#song_list_format = " $5%l $1║{$7 %a $1│$2 %t$1 $R $3%b$1 }|{$6 %f $1}"
+#song_list_format = " $8%l $1│{$7 %a $1│$6 %t }|{$6 %f }$1 $R $1%b$1"
+#
+#song_library_format = "{%n > }{%t}|{%f}"
+#
+# # Bars
+song_status_format = "{%a - }{%t - }{%b}"
+#progressbar_look = "|> "
+#progressbar_look = "▪▪▪"
+#progressbar_look = "░█ "
+progressbar_look = "=>-"
+progressbar_boldness = "yes"
+titles_visibility = "no"
+header_visibility = "no"
+statusbar_visibility = "yes" 
+
+# Browser
+browser_playlist_prefix = "$2plist »$9 "
+browser_display_mode = "classic" (classic/columns)
+
+# Colors
+discard_colors_if_item_is_selected = "yes"
+header_window_color = "default"
+volume_color = "cyan"
+state_line_color = "black"
+state_flags_color = "blue"
+main_window_color = "default"
+color1 = "cyan"
+color2 = "black"
+main_window_highlight_color = "blue"
+progressbar_color = "black"
+progressbar_elapsed_color = "blue"
+statusbar_color = "white"
+active_column_color = "blue"
+visualizer_color = "cyan"
+
+# Others
+song_window_title_format = "MPD: {%a > }{%t}|{%f}"
+search_engine_display_mode = "columns" (classic/columns)
+follow_now_playing_lyrics = "yes"
+user_interface = "classic" (classic/alternative)

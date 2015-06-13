@@ -1,0 +1,12 @@
+XTerm*foreground: #ffffff
+XTerm*background: #202020
+xterm*faceName:pragmatapro for powerline:size=10:antialias=false
+URxvt.scrollBar: false
+! Background color
+URxvt*background: #202020
+
+! Font color
+URxvt*foreground: white
+
+URxvt.font: xft:pragmatapro for powerline:size=9:antialias=true
+URxvt.letterSpace: -1

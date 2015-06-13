@@ -1,0 +1,45 @@
+[
+    {
+        "class": "tree_row",
+        "layer0.texture": "Theme - Default/row_highlight_dark.png",
+        "layer0.tint": [
+            82,
+            82,
+            82
+        ]
+    },
+    {
+        "class": "sidebar_container",
+        "layer0.opacity": 1.0,
+        "layer0.tint": [
+            82,
+            82,
+            82
+        ]
+    },
+    {
+        "class": "sidebar_tree",
+        "dark_content": true,
+        "layer0.opacity": 1,
+        "layer0.tint": [
+            32,
+            32,
+            32
+        ]
+    },
+    {
+        "class": "sidebar_label",
+        "color": [
+            220,
+            220,
+            220
+        ]
+    },
+    {
+        "class": "sidebar_heading",
+        "shadow_offset": [
+            0,
+            0
+        ]
+    }
+]

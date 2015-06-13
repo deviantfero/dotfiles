@@ -1,0 +1,103 @@
+# Use Xft?
+use_xft yes
+xftfont Trebuchet MS:size=10
+
+xftalpha 1.0
+
+text_buffer_size 4096
+
+# Update interval in seconds
+update_interval 60
+
+# This is the number of times Conky will update before quitting.
+# Set to zero to run forever.
+total_run_times 0
+
+# Create own window instead of using desktop (required in nautilus)
+    own_window yes
+    own_window_transparent no
+    own_window_argb_visual yes
+	own_window_argb_value 255
+    own_window_type desktop
+    own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
+
+# Use double buffering (reduces flicker, may not work for everyone)
+double_buffer yes
+
+# Minimum size of text area
+minimum_size 250 50
+
+# Draw shades?
+draw_shades no
+
+# Draw outlines?
+draw_outline no
+
+# Draw borders around text
+draw_borders no
+draw_graph_borders yes
+
+# Stippled borders?
+stippled_borders 0
+
+# border margins
+border_margin 0
+
+# border width
+border_width 1
+
+# Default colors and also border colors
+default_color white
+own_window_colour 202020
+
+# Text alignment, other possible values are commented
+alignment top_right
+
+# Gap between borders of screen and text
+# same thing as passing -x at command line
+gap_x 20
+gap_y 60
+
+# Subtract file system buffers from used memory?
+no_buffers yes
+
+# set to yes if you want all text to be in uppercase
+uppercase yes
+
+# number of cpu samples to average
+# set to 1 to disable averaging
+cpu_avg_samples 1
+
+# number of net samples to average
+# set to 1 to disable averaging
+net_avg_samples 2
+
+# Force UTF8? note that UTF8 support required XFT
+override_utf8_locale yes
+
+# Add spaces to keep things from moving about?  This only affects certain objects.
+use_spacer none
+
+lua_load /home/glen/conky/draw_bg.lua
+lua_draw_hook_pre draw_bg
+imlib_cache_size 0
+text_buffer_size 4096
+max_specials 1024
+max_user_text 4000
+stippled_borders 10
+border_inner_margin 5
+border_outer_margin 6
+#colors
+#como celeste
+color1 2f95a4 
+#gris oscurito
+color2 b6b7b7 
+color3 666867
+color4 1cbbd2
+
+TEXT
+Local Disk:
+${fs_free /media/Local Disk}/${fs_size /media/Local Disk} ${alignr}$color1${fs_bar 6,135 /media/Local Disk}${color}
+
+pk-crunch:
+${fs_free /root}/${fs_size /root} ${alignr}$color1${fs_bar 6,135 /root}${color}
