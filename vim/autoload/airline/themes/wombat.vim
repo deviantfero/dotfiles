@@ -9,10 +9,10 @@ let s:N3 = [ '#CAE682' , '#242424' , 192 , 234 ] " statusline
 let s:N4 = [ '#86CD74' , 113 ]                   " mode modified
 
 " Insert mode
-let s:I1 = [ '#141413' , '#FDE76E' , 231 , 73 ]
+let s:I1 = [ '#141413' , '#FDE76E' , 231 , 74 ]
 let s:I2 = [ '#FDE76E' , '#87ffff' , 231 , 236 ]
-let s:I3 = [ '#FDE76E' , '#242424' , 73 , 234 ]
-let s:I4 = [ '#FADE3E' , 72 ]
+let s:I3 = [ '#FDE76E' , '#242424' , 74 , 234 ]
+let s:I4 = [ '#FADE3E' , 74 ]
 
 " Visual mode
 let s:V1 = [ '#141413' , '#B5D3F3' , 232 , 153 ]
