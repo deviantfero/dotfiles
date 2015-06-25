@@ -3,3 +3,5 @@ This are some packages i recommend you install
 -yaourt -S vim-airline
 -yaourt -S vim-fugitive
 -yaourt -S vim-multiple-cursors-git
+
+wombat goes into /usr/share/vim/vimfiles/autoload/autoload/airline/themes/
