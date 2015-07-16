@@ -1,4 +1,4 @@
-wp change yellow1.jpg &
+wp change forest3.jpg &
 setxkbmap es &
 volumeicon &
 compton --config ~/.config/compton.conf -b &

@@ -52,21 +52,7 @@
 			<menu id="root-menu-23433" label="Take Screenshot">
 				<item label="Now">
 					<action name="Execute">
-						<execute>scrot -d 0.8 '%Y-%m-%d--%s_$wx$h_scrot.png' -e 'mv $f ~/ &amp; feh ~/$f'</execute>
-					</action>
-				</item>
-				<item label="In 5 Seconds...">
-					<action name="Execute">
-						<execute>
-							scrot -d 5 '%Y-%m-%d--%s_$wx$h_scrot.png' -e 'mv $f ~/ &amp; gpicview ~/$f'
-						</execute>
-					</action>
-				</item>
-				<item label="In 10 Seconds...">
-					<action name="Execute">
-						<execute>
-							scrot -d 10 '%Y-%m-%d--%s_$wx$h_scrot.png' -e 'mv $f ~/ &amp; gpicview ~/$f'
-						</execute>
+						<execute>scrot -d 1 '%Y-%m-%d--%s_$wx$h_scrot.png' -e 'mv $f ~/ &amp; feh ~/$f'</execute>
 					</action>
 				</item>
 				<item label="Selected Area... (click &amp; drag mouse)">
@@ -78,7 +64,12 @@
 				</item>
 				<item label="Record Desktop">
 					<action name="Execute">
-						<execute>terminator -e &quot;ffmpeg -video_size 1920x1080 -framerate 25 -f x11grab -i :0.0+100,200 output.mp4&quot;</execute>
+						<execute>urxvt -e sh -c &quot;ffmpeg -video_size 1920x1200 -framerate 30  -threads 4   -f x11grab -i :0.0  -c:v libx264 -preset ultrafast -crf 5 out.mkv&quot;</execute>
+					</action>
+				</item>
+				<item label="Create WebM">
+					<action name="Execute">
+						<execute>urxvt -e sh -c &quot;ffmpeg -i out.mkv -c:v libvpx -framerate 30  -qmin 1 -an -qmax 10  -threads 4 -slices 8 -auto-alt-ref 1 -lag-in-frames 16 -crf 10 -b:v 1M -c:a libvorbis out.webm&quot;</execute>
 					</action>
 				</item>
 			</menu>
