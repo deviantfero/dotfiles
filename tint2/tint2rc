@@ -20,7 +20,7 @@ border_color = #224F55 0
 # ID 3
 rounded = 0
 border_width = 0
-background_color = #46919C 100
+background_color = #46919C 32
 border_color = #FFFFFF 100
 
 # Panel
@@ -54,10 +54,10 @@ task_text = 1
 task_centered = 1
 task_maximum_size = 160 30
 task_padding = 8 2
-task_background_id = 1
+task_background_id = 3
 task_active_background_id = 2
-task_urgent_background_id = 0
-task_iconified_background_id = 0
+task_urgent_background_id = 2
+task_iconified_background_id = 3
 
 # Task Icons
 task_icon_asb = 100 0 0
@@ -75,9 +75,9 @@ font_shadow = 0
 
 # System Tray
 systray = 1
-systray_padding = 3 0 4
+systray_padding = 7 0 5
 systray_sort = ascending
-systray_background_id = 2
+systray_background_id = 3
 systray_icon_size = 24
 systray_icon_asb = 100 0 50
 
@@ -86,7 +86,7 @@ time1_format = %I:%M %d %b
 time1_font = Droid Sans 11
 clock_font_color = #FFFFFF 100
 clock_padding = 8 0
-clock_background_id = 3
+clock_background_id = 2
 
 # Tooltips
 tooltip = 0

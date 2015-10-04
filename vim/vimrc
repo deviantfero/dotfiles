@@ -70,7 +70,8 @@ hi LineNr ctermfg=DarkGrey cterm=none
 set laststatus=2
 let $PYTHONPATH='/usr/lib/python2/site-packages'
 let g:airline_powerline_fonts = 1
-let g:airline_extensions = ['branch']
+"let g:airline_extensions = ['branch','tabline'] for vim-fugitive
+let g:airline_extensions = ['tabline']
 let g:airline_section_y = '%{getcwd()}'
 let g:airline_theme = 'wombat'
 
