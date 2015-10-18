@@ -17,6 +17,8 @@ compinit
 autoload -Uz colors
 colors
 
-PROMPT="%{$fg_bold[blue]%}%n%{$reset_color%}%{$fg_bold[white]%} %~%{$reset_color%} > %"
+PROMPT="%{$fg_bold[blue]%}%m%{$reset_color%}%{$fg_bold[white]%} %~%{$reset_color%} > %"
+#PROMPT="[%{$fg_bold[blue]%} %~ %{$reset_color%}] >> "
+#RPROMPT="%{$fg_bold[yellow]%} %m %{$reset_color%}"
 
 # End of lines added by compinstall
