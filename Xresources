@@ -3,7 +3,7 @@ XTerm*background: #202020
 xterm*faceName:pragmatapro for powerline:size=10:antialias=false
 URxvt.scrollBar: false
 ! Background color
-URxvt*background: #202020
+URxvt*background: #121212
 
 ! Font color
 URxvt*foreground: white
@@ -11,5 +11,6 @@ URxvt*foreground: white
 !URxvt.font: xft:Pragmatapro for powerline:size=9:antialias=false
 URxvt.font: xft:ProggysquareTT for Powerline:size=12:antialias=true
 URxvt.letterSpace: -1
+URxvt.internalBorder: 4
 URxvt.boldFont:
 !URxvt.letterSpace: -2

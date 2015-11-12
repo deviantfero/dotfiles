@@ -1,8 +1,8 @@
-gtk-color-scheme = "base_color:#121212\nbg_color:#202020"
+gtk-color-scheme = "base_color:#090909\nbg_color:#121212"
 gtk-color-scheme = "text_color:#FFFFFF\nfg_color:#FFFFFF"
 gtk-color-scheme = "tooltip_bg_color:#202020\ntooltip_fg_color:#ffffff\nlink_color:#4a90f9"
 
-gtk-color-scheme = "theme_bg_dark_color:#202020\ntheme_fg_dark_color:#FFFFFC\ntheme_text_dark_color:#202020"
+gtk-color-scheme = "theme_bg_dark_color:#121212\ntheme_fg_dark_color:#FFFFFC\ntheme_text_dark_color:#121212"
 #gtk-color-scheme = "theme_bg_dark_color:#D0D0D0\ntheme_fg_dark_color:#363636\ntheme_text_dark_color:#242424"
 
 #  selection text color
@@ -200,10 +200,10 @@ style "button" {
     xthickness	= 3
     ythickness	= 3
 
-    bg[NORMAL]                      = shade (0.70, @bg_color)
-    bg[PRELIGHT]                    = shade (0.55, @bg_color)    
-	bg[ACTIVE]                      = shade (0.20, @selected_bg_color)	# Pulsado
-  	bg[INSENSITIVE] 				= shade (0.93, @bg_color)
+    bg[NORMAL]                      = shade (1.70, @bg_color)
+    bg[PRELIGHT]                    = shade (1.55, @bg_color)    
+	bg[ACTIVE]                      = shade (0.90, @selected_bg_color)	# Pulsado
+  	bg[INSENSITIVE] 				= shade (1.93, @bg_color)
 
 	engine "murrine" {
 		contrast                = 0.0
@@ -222,6 +222,7 @@ style "button_label" {
 	#fg[SELECTED]		= "#ffffff"
 	#text[ACTIVE]		= "#ffffff"
 	#text[SELECTED]		= "#ffffff"
+	fg[INSENSITIVE]		= "#505050"
 }
 
 style "checkradio_label" {	
@@ -302,7 +303,7 @@ style "menu" {
 	ythickness	= 0
 	GtkMenuItem::arrow-scaling	= 0.5
 
-	bg[NORMAL]			= shade (0.60, @theme_bg_dark_color)
+	bg[NORMAL]			= shade (1.00, @theme_bg_dark_color)
 
 	engine "murrine" {
 		gradient_shades		= {1.0, 1.0, 1.0, 1.0}
@@ -402,7 +403,7 @@ style "scale" { # slider
 	bg[SELECTED]            = shade (1.00, @selected_bg_color)
 
 	engine "murrine" {
-		sliderstyle			= 0 						# forma del slider
+		sliderstyle			= 1 						# forma del slider
 		contrast 			= 0.9						# borde de todos los elementos
 		gradient_shades 	= {1.0, 1.0, 1.0, 1.0}		# gradiente del slider
 		border_shades 		= {1.0, 1.0}				# borde del slider
@@ -413,8 +414,8 @@ style "scale" { # slider
 }
 
 style "scrollbar" {
-	bg[SELECTED]		= shade (0.70, @base_color)			# color indicador
-	bg[NORMAL]			= shade (0.83, @bg_color)			# color borde indicador
+	bg[SELECTED]		= shade (1.00, @selected_bg_color)			# color indicador
+	bg[NORMAL]			= shade (1.00, @selected_bg_color)			# color borde indicador
 
     # color flechas (stepper)	
     fg[NORMAL]          = shade (1.00, @base_color)
