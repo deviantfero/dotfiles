@@ -1,8 +1,8 @@
 
 /* Default color scheme */
-@define-color base_color #FBFBFB;
-@define-color bg_color #202020;
-@define-color text_color #101010;
+@define-color base_color #161616;
+@define-color bg_color #121212;
+@define-color text_color #ffffff;
 @define-color fg_color #ffffff;
 @define-color selected_bg_color #4A838F;
 @define-color selected_fg_color #FFFFFF;
@@ -15,15 +15,15 @@
 @define-color selection_ubuntu		#df602d;
 @define-color selection_ubuntu_mod	#c8654a;
 @define-color selection_acid_green	#409797;
-@define-color selection_blue		#477bb4;
+@define-color selection_blue		#4A838F;
 @define-color selection_blue2		#6d8cc7;
 @define-color selection_mint		#628d64;
 @define-color selection_red			#8e4f4f;
 @define-color selection_mono		#888888;
 /* Here you can set the color selection, I recommend one of the above,
    but you can put the one you like */
-@define-color theme_selected_bg_color 		@selection_mono;
-@define-color theme_selected_fg_color 		#fafafa;
+@define-color theme_selected_bg_color 		@selection_blue;
+@define-color theme_selected_fg_color 		#ffffff;
 @define-color theme_selected_shadow_color 	alpha(#000, 0.08);
 /*******************************************************************/
 
@@ -45,8 +45,8 @@
 @define-color theme_bg_dark_color @bg_color;
 @define-color theme_fg_dark_color @fg_color;
 @define-color theme_text_dark_color @text_color;
-@define-color theme_shadow_dark_color alpha(#fff, 0.10);
-@define-color theme_selected_fg_dark_color #FFFFFF;
+@define-color theme_shadow_dark_color alpha(#202020, 0.10);
+@define-color theme_selected_fg_dark_color #202020;
 @define-color theme_selected_shadow_dark_color alpha(#000, 0.08);
 
 
@@ -64,8 +64,8 @@
 @define-color button_raised_gradient_color_b shade(@theme_bg_dark_color, 0.91);
 @define-color button_raised_linked_shadow alpha(@theme_base_color, 0.70);
 
-@define-color menu_bg_color shade(@theme_bg_color, 0.86);
-@define-color menu_fg_color shade(@theme_text_color, 0.70);
+@define-color menu_bg_color shade(@theme_bg_color, 1.00);
+@define-color menu_fg_color shade(@theme_text_color, 1.00);
 @define-color menu_controls_color shade (@theme_fg_dark_color, 0.89);
 @define-color menu_combobox_border #3277bf;
 @define-color menu_separator shade(@menu_bg_color, 0.95);

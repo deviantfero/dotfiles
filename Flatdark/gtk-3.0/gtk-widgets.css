@@ -54,7 +54,7 @@
     -WnckTasklist-fade-overlay-rect: 0;
 
     border-width: 1px;
-	engine: unico;
+/*	engine: unico; */ 
 	
 	/* Resaltar destino en drag-drop */
 
@@ -594,18 +594,18 @@ GtkScrolledWindow.frame {
     border-width: 1px;
     border-radius: 0px;
     border-style: solid;
-    border-color: mix(@theme_bg_color, @theme_mix_base, 0.10);
+    border-color: shade(@theme_bg_color, 1.85);
 
 	/* box-shadow Syntax */
 	/* box-shadow: [ inset ] horizontal_offset vertical_offset [ blur_radius ] [ spread ] color */
 
 	background-image: -gtk-gradient (linear,
                                      left top, left bottom,
-                                     from (mix(@theme_bg_color, @theme_mix_base, 0.10)),
-                                     to   (mix(@theme_bg_color, @theme_mix_base, 0.10)));
+                                     from (shade(@theme_bg_color, 1.85)),
+                                     to   (shade(@theme_bg_color, 1.85)));
 
     color: 		 @theme_fg_color;
-	text-shadow: 0px 1px @theme_shadow_color;
+	text-shadow: 0px 0px @theme_shadow_color;
 }
 
 .button:hover {
