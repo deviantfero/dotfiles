@@ -48,7 +48,7 @@
 .primary-toolbar .entry:selected,
 .entry:selected:focus,
 .primary-toolbar .entry:selected:focus {
-    background-color: shade(@theme_bg_color, 0.9);
+    background-color: shade(@theme_selected_bg_color, 1.0);
 }
 
 .header-bar .entry:selected,
