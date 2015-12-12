@@ -6,6 +6,7 @@
 " Homepage: http://www.vim.org/scripts/script.php?script_id=3599
 " Repository: https://github.com/jiangmiao/auto-pairs
 " License: MIT
+" Edited on 11/Dec/2015, Fernando Vásquez, added <> completion
 
 if exists('g:AutoPairsLoaded') || &cp
   finish

@@ -6,3 +6,13 @@ This are some packages i recommend you install
 -yaourt -S tmuxline-git (for powerline only needed once!)
 
 wombat goes into /usr/share/vim/vimfiles/autoload/autoload/airline/themes/
+when you install through pacman vim-airline
+
+//extra
+pathogen.vim wich goes into ~/.vim/autoload/
+you create a bundle folder to clone git plugins to
+
+/bundle/neocomplete -> to complete in a more organized fashion
+/bundle/vimcompletesme -> to hit tab for context auto-complete
+/bundle/nerdtree -> file explorer
+/bundle/nerdtreetabs -> file explorer improvements
