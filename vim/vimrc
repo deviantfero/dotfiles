@@ -102,6 +102,7 @@ endif
 
 " for autocompletion only "
 """""""""""""""""""""""""""
+autocmd CompleteDone * pclose
 " Disable AutoComplPop.
 let g:acp_enableAtStartup = 0
 " Use neocomplete.
