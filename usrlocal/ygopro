@@ -1,0 +1,3 @@
+#!/bin/sh
+
+cd /home/fernando/Downloads/ygopro/ && wine ./ygopro_vs.exe

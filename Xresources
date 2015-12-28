@@ -1,6 +1,6 @@
-XTerm*foreground: #ffffff
-XTerm*background: #202020
-xterm*faceName:pragmatapro for powerline:size=10:antialias=false
+!XTerm*foreground: #ffffff
+!XTerm*background: #202020
+!xterm*faceName:pragmatapro for powerline:size=10:antialias=false
 URxvt.scrollBar: false
 ! Background color
 URxvt*background: #121212
