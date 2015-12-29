@@ -18,14 +18,14 @@ menu.title.text.color: #FFFFFF
 menu.title.text.font: shadow=n
 menu.title.text.justify: Left
 osd.bg: flat border vertical gradient
-osd.bg.color: #202020
-osd.bg.colorTo: #202020
+osd.bg.color: #121212
+osd.bg.colorTo: #121212
 osd.bg.border.color: #46919C
 osd.border.color: #46919C
 osd.border.width: 3
 osd.label.bg: parentrelative
 osd.label.text.color: #f0f0f0
-padding.width: 3
+padding.height: 5
 window.active.border.color: #202020
 window.active.button.disabled.bg: Flat Gradient Vertical Border
 window.active.button.disabled.bg.color: #2E2920

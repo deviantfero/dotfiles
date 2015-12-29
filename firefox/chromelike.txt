@@ -14,17 +14,17 @@
 
 :root {
     /* TAB VARIABLES */
-    --bg-light: #17181A; --bg-dark: #202020;
+    --bg-light: #121212; --bg-dark: #121212;
     --fg-light: #FFFFFF; --fg-dark: #AAABAD;
     /*--tab-triangle-correction: -1px;/**/
-    --tab-height: 24px; --tab-icon-size: 16px; --tab-strip-margin: -12px; --tab-overlap: -5px;
-    --tab-fonts: "ProggysquareTT for powerline","Droid Sans", "Source Sans Pro", "Lemon",monospace,"Dejavu Sans"; --tab-font-size: 12pt;
+    --tab-height: 28px; --tab-icon-size: 16px; --tab-strip-margin: -12px; --tab-overlap: -5px;
+    --tab-fonts: "terminess powerline","Droid Sans", "Source Sans Pro", "Lemon",monospace,"Dejavu Sans"; --tab-font-size: 9pt;
     --tab-triangle: none; /* block | none */
 
     /* URL VARIABLES */
     --url-background: var(--bg-light); --url-color: var(--fg-dark);
-    --url-height: 24px; --url-right-margin: 5px;
-    --url-fonts: "ProggysquareTT for powerline","Droid Sans", "Source Sans Pro", "Lemon",monospace,"Dejavu Sans"; --url-font-size: 12pt;
+    --url-height: 28px; --url-right-margin: 5px;
+    --url-fonts: "terminess powerline","Droid Sans", "Source Sans Pro", "Lemon",monospace,"Dejavu Sans"; --url-font-size: 9pt;
     --url-text-align: center; /* left | center | right */
     --url-position: absolute; /* absolute == top (under tabs) || fixed == bottom of browser */
     
@@ -56,7 +56,7 @@
     }
        #nav-bar-customization-target { width: 100% !important; }
           #urlbar-wrapper {
-              width: 100% !important; margin-top: -1px !important; /* adjust margin-top to ~ -5px if you experience gap */
+              width: 100% !important; margin-top: -2px !important; /* adjust margin-top to ~ -5px if you experience gap */
               position: absolute !important; top: 0 !important; left: 0 !important;
               border-bottom: 0px solid var(--bg-light) !important;
           }
@@ -114,9 +114,9 @@
     #tabbrowser-tabs[overflow]:not([positionpinnedtabs]) { -moz-padding-start: 20px !important; }
     
     .tabbrowser-tab[selected="true"] .tab-stack {
-        background: var(--bg-light) !important; color: var(--fg-light) !important;
+        background: #4A838F !important; color: var(--fg-light) !important;
         border-radius: 1px !important; position: relative !important;
-        border-top: 2px solid #5CA6B5 !important;/**/
+        border-top: 0px solid #5CA6B5 !important;/**/
     }
     .tabbrowser-tab[selected="true"]:before { /* Left Triangle (of selected tab) */
         content: '' !important; display: var(--tab-triangle);
@@ -239,19 +239,19 @@
     scrollbar > slider { -moz-appearance: none !important; }
     
     scrollbar[orient="vertical"] { margin: -3px -7px -3px -3px !important; }
-    scrollbar[orient='vertical'] > slider { background: #202020 !important; max-width: 5px !important; }
+    scrollbar[orient='vertical'] > slider { background: #202020 !important; max-width: 15px !important; }
     scrollbar[orient='vertical'] > slider > thumb {
         -moz-appearance: none !important;
         background: #5CA6B5 !important; border: 0 !important;
-        width: 10px !important; max-width: 5px !important;
+        width: 15px !important; max-width: 15px !important;
     }
     
     scrollbar[orient="horizontal"] { margin: -3px -3px -7px -3px !important; }
-    scrollbar[orient='horizontal'] > slider { background: #202020 !important; max-height: 5px !important; }
+    scrollbar[orient='horizontal'] > slider { background: #202020 !important; max-height: 15px !important; }
     scrollbar[orient='horizontal'] > slider > thumb {
         -moz-appearance: none !important;
         background: #5CA6B5 !important; border: 0 !important;
-        height: 10px !important; max-height: 5px !important;
+        height: 15px !important; max-height: 15px !important;
     }
     
     scrollbar > scrollbarbutton { -moz-appearance: none !important; border: none !important; background: none !important; }
