@@ -30,7 +30,7 @@ GtkComboBox.combobox-entry .button:insensitive {
 GtkComboBox .button,
 .action-bar GtkComboBox .button {
     padding: 4px 10px;
-    background-color: shade(@theme_bg_color, 0.87);
+    background-color: shade(@theme_bg_color, 1.55);
     color: shade(@theme_text_color, 1.10);
 }
 
@@ -42,6 +42,6 @@ GtkComboBox .button:active:hover,
 .action-bar GtkComboBox .button:active,
 .action-bar GtkComboBox .button:checked,
 .action-bar GtkComboBox .button:active:hover  {
-    background-color: shade(@theme_bg_color, 0.9);
-    color: shade(@theme_text_color, 0.92); 
+    background-color: shade(@theme_selected_bg_color, 1);
+    color: shade(@theme_text_color, 1); 
 }

@@ -9,9 +9,9 @@
     border-style: solid;
     border-radius: 0px;
     border-width: 1px;
-    background-color: shade(@theme_bg_color, 0.96);
+    background-color: shade(@theme_bg_color, 1.55);
     background-image: none;
-    border-color: shade(@theme_bg_color, 0.87);
+    border-color: shade(@theme_bg_color, 1.55);
     color: @theme_text_color;
 }
 
@@ -23,7 +23,7 @@
     border-width: 1px;
     background-color: shade(@menu_bg_color, 0.96);
     background-image: none;
-    border-color: shade(@menu_bg_color, 0.87);
+    border-color: shade(@theme_bg_color, 1.55);
     color: @theme_base_color;
 }
 
@@ -32,7 +32,7 @@
     transition: 200ms linear;
     background-color: @theme_base_color;
     border-style: solid;
-    border-color: shade(@theme_bg_color, 0.87);
+    border-color: shade(@theme_selected_bg_color, 1);
     color: @theme_text_color;
 }
 
