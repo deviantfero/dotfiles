@@ -3,16 +3,16 @@
 
 " Normal mode
 "          [ guifg, guibg, ctermfg, ctermbg, opts ]
-let s:N1 = [ '#141413' , '#CAE682' , 232 , 113 ] " mode fg, bg
-let s:N2 = [ '#CAE682' , '#32322F' , 113 , 236 ] " info
-let s:N3 = [ '#CAE682' , '#242424' , 113 , 234 ] " statusline
-let s:N4 = [ '#86CD74' , 192 ]                   " mode modified
+let s:N1 = [ '#141413' , '#CAE682' , 17 , 5 ] " mode fg, bg
+let s:N2 = [ '#CAE682' , '#32322F' , 5 , 236 ] " info
+let s:N3 = [ '#CAE682' , '#242424' , 5 , 234 ] " statusline
+let s:N4 = [ '#86CD74' , 4 ]                   " mode modified
 
 " Insert mode
-let s:I1 = [ '#141413' , '#FDE76E' , 234 , 74 ]
-let s:I2 = [ '#FDE76E' , '#87ffff' , 231 , 236 ]
-let s:I3 = [ '#FDE76E' , '#242424' , 74 , 234 ]
-let s:I4 = [ '#FADE3E' , 74 ]
+let s:I1 = [ '#141413' , '#FDE76E' , 17 , 10 ]
+let s:I2 = [ '#FDE76E' , '#87ffff' , 10 , 236 ]
+let s:I3 = [ '#FDE76E' , '#242424' , 10 , 234 ]
+let s:I4 = [ '#FADE3E' , 9 ]
 
 " Visual mode
 let s:V1 = [ '#141413' , '#B5D3F3' , 232 , 153 ]
@@ -86,5 +86,5 @@ endif
 let g:airline#themes#wombat#palette.ctrlp = airline#extensions#ctrlp#generate_color_map(
       \ [ '#DADADA' , '#242424' , 253 , 234 , ''     ] ,
       \ [ '#DADADA' , '#40403C' , 253 , 238 , ''     ] ,
-      \ [ '#141413' , '#DADADA' , 232 , 253 , 'bold' ] )
+      \ [ '#141413' , '#DADADA' , 232 , 253 , '' ] )
 

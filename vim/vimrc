@@ -4,6 +4,11 @@ map <C-f> :NERDTreeTabsToggle<CR>
 
 " random options "
 """"""""""""""""""
+let g:tmuxline_powerline_separators = 0
+if strlen($TMUX) > 0
+autocmd VimEnter * Tmuxline airline_insert minimal
+autocmd VimEnter * TmuxlineSnapshot! .tmuxline
+endif
 set number	"line numbers on the left
 set nocompatible	"no vi compatibility
 set noexrc	"don't use ~/.exrc config
@@ -41,7 +46,7 @@ execute pathogen#infect()
 
 " color options "
 """""""""""""""""
-set t_Co=256
+set t_Co=16
 "colorscheme elflord
 "colorscheme desert
 "colorscheme slate
@@ -80,6 +85,8 @@ let $PYTHONPATH='/usr/lib/python2/site-packages'
 let g:airline_powerline_fonts = 1
 let g:airline_extensions = ['branch','tabline']
 "let g:airline#extensions#tabline#enabled = 1
+let g:airline_left_sep = ' '
+let g:airline_right_sep = ' '
 let g:airline_section_y = '%{getcwd()}'
 let g:airline_theme = 'wombat'
 
