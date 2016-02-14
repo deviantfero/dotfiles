@@ -2,12 +2,16 @@
 """"""""""
 map <C-f> :NERDTreeTabsToggle<CR>
 
+" ctrlp fuzzy finder "
+""""""""""""""""""""""
+let g:ctrlp_working_path_mode = 'wa'
+
 " random options "
 """"""""""""""""""
 let g:tmuxline_powerline_separators = 0
 if strlen($TMUX) > 0
 autocmd VimEnter * Tmuxline airline_insert minimal
-autocmd VimEnter * TmuxlineSnapshot! .tmuxline
+autocmd VimEnter * TmuxlineSnapshot! ~/.tmuxline
 endif
 set number	"line numbers on the left
 set nocompatible	"no vi compatibility
@@ -58,7 +62,7 @@ colorscheme pablo
 hi ColorColumn ctermbg=234
 hi CursorLine ctermbg=234	cterm=none
 hi CursorLineNr ctermfg=255
-hi LineNr ctermfg=DarkGrey cterm=none
+hi LineNr ctermfg=DarkGrey ctermbg=none
 
 " tabs "
 """"""""
