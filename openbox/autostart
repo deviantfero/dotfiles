@@ -1,5 +1,6 @@
-wp change forest3.jpg &
-setxkbmap es &
+sh ~/.wallpapers/wp_init.sh &
+#just in case of usage of MODEL M KEYBOARD
+#setxkbmap -option caps:super &
 volumeicon &
 compton --config ~/.config/compton.conf -b &
 tint2 &

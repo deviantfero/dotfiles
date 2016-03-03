@@ -20,7 +20,7 @@ set cursorline "highlight the current line
 set noerrorbells "no audio bell aka beeping
 set novisualbell "no visual bell aka blinking
 set incsearch "search while typing
-set hlsearch "highlight all search matches
+set nohlsearch "highlight all search matches
 set mouse=a "Use mouse to navigate the file
 
 " indent options "
@@ -52,14 +52,15 @@ execute pathogen#infect()
 """""""""""""""""
 set t_Co=16
 "colorscheme elflord
-"colorscheme desert
+colorscheme desert
 "colorscheme slate
-colorscheme pablo
+"colorscheme pablo
+"colorscheme delek
 
 " changes to colorscheme "
 """"""""""""""""""""""""""
 " Name foreground background extras
-hi ColorColumn ctermbg=234
+"hi ColorColumn ctermbg=234
 hi CursorLine ctermbg=234	cterm=none
 hi CursorLineNr ctermfg=255
 hi LineNr ctermfg=DarkGrey ctermbg=none

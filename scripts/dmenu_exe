@@ -1,0 +1,2 @@
+#!/bin/bash
+dmenu_run -b -fn "terminess powerline-9" -sb "#46919c" -sf "#ffffff" -p "hqarch ~ >"

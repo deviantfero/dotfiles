@@ -13,5 +13,5 @@ URxvt*foreground: white
 URxvt.font: xft:terminess powerline:size=9:antialias=true
 URxvt.letterSpace: 0
 URxvt.internalBorder: 8
-URxvt.boldFont:
+!URxvt.boldFont:
 !URxvt.letterSpace: -2

@@ -40,8 +40,8 @@
                     'Active' - where the active window is -->
   </placement>
   <theme>
-    <name>Bamboo</name>
-    <titleLayout>DSLIMC</titleLayout>
+    <name>colorbamboo</name>
+    <titleLayout>LIMC</titleLayout>
     <!--
       avaible characters are NDSLIMC, each can occur at most once.
       N: window icon
@@ -55,8 +55,8 @@
     <keepBorder>yes</keepBorder>
     <animateIconify>no</animateIconify>
     <font place="ActiveWindow">
-      <name>Droid Sans</name>
-      <size>10</size>
+      <name>Terminess Powerline</name>
+      <size>9</size>
       <!-- font size in points -->
       <weight>Normal</weight>
       <!-- 'bold' or 'normal' -->
@@ -64,8 +64,8 @@
       <!-- 'italic' or 'normal' -->
     </font>
     <font place="InactiveWindow">
-      <name>Droid Sans</name>
-      <size>10</size>
+      <name>Terminess Powerline</name>
+      <size>9</size>
       <!-- font size in points -->
       <weight>Normal</weight>
       <!-- 'bold' or 'normal' -->
@@ -73,8 +73,8 @@
       <!-- 'italic' or 'normal' -->
     </font>
     <font place="MenuHeader">
-      <name>ProggySquareTT for Powerline</name>
-      <size>12</size>
+      <name>Terminess Powerline</name>
+      <size>9</size>
       <!-- font size in points -->
       <weight>Normal</weight>
       <!-- 'bold' or 'normal' -->
@@ -82,8 +82,8 @@
       <!-- 'italic' or 'normal' -->
     </font>
     <font place="MenuItem">
-      <name>ProggySquareTT for Powerline</name>
-      <size>12</size>
+      <name>Terminess Powerline</name>
+      <size>9</size>
       <!-- font size in points -->
       <weight>Normal</weight>
       <!-- 'bold' or 'normal' -->
@@ -91,8 +91,8 @@
       <!-- 'italic' or 'normal' -->
     </font>
     <font place="ActiveOnScreenDisplay">
-      <name>ProggySquareTT for Powerline</name>
-      <size>12</size>
+      <name>Terminess Powerline</name>
+      <size>9</size>
       <!-- font size in points -->
       <weight>Normal</weight>
       <!-- 'bold' or 'normal' -->
@@ -100,8 +100,8 @@
       <!-- 'italic' or 'normal' -->
     </font>
     <font place="InactiveOnScreenDisplay">
-      <name>ProggySquareTT for Powerline</name>
-      <size>12</size>
+      <name>Terminess Powerline</name>
+      <size>9</size>
       <!-- font size in points -->
       <weight>Normal</weight>
       <!-- 'bold' or 'normal' -->
@@ -332,9 +332,9 @@
       <action name="Execute">
         <startupnotify>
           <enabled>true</enabled>
-          <name>Run Program</name>
+          <name>dmenu</name>
         </startupnotify>
-        <command>gmrun</command>
+        <command>dmenu_exe</command>
       </action>
     </keybind>
     <keybind key="W-f">

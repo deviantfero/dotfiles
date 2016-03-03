@@ -46,26 +46,27 @@ message_delay_time = "4"
 
 # Playlist
 song_columns_list_format = "$L(9)[blue]{l} (20)[blue]{a} (30)[blue]{b}$R(20)[blue]{t}"
-now_playing_prefix = "$b >>"
+now_playing_prefix = "$b •"
 #now_playing_subfix = "/$b"
 playlist_display_mode = "classic" (classic/columns)
 autocenter_mode = "yes"
 centered_cursor = "yes"
 cyclic_scrolling = "yes"
 mouse_list_scroll_whole_page = "no"
-song_list_format = "{ $8[%l] - }{%t }$R{$5%a - $7%b }"
+song_list_format = "{ $8[%l]  }{%t }$R{$4%a  $4%b }"
 #song_list_format = " $5%l $1║{$7 %a $1│$2 %t$1 $R $3%b$1 }|{$6 %f $1}"
 #song_list_format = " $8%l $1│{$7 %a $1│$6 %t }|{$6 %f }$1 $R $1%b$1"
 #
 #song_library_format = "{%n > }{%t}|{%f}"
 #
 # # Bars
-song_status_format = "{%a - }{%t - }{%b}"
+song_status_format = "{%a | }{%t | }{%b}"
 #progressbar_look = "|> "
 #progressbar_look = "▪▪▪"
-#progressbar_look = "░█ "
-progressbar_look = "=>-"
-progressbar_boldness = "yes"
+#progressbar_look = "█░░"
+#progressbar_look = "███"
+progressbar_look = "==="
+progressbar_boldness = "no"
 titles_visibility = "no"
 header_visibility = "no"
 statusbar_visibility = "yes" 
@@ -85,13 +86,13 @@ color1 = "cyan"
 color2 = "black"
 main_window_highlight_color = "blue"
 progressbar_color = "black"
-progressbar_elapsed_color = "blue"
+progressbar_elapsed_color = "green"
 statusbar_color = "white"
 active_column_color = "blue"
-visualizer_color = "cyan"
+visualizer_color = "green"
 
 # Others
-song_window_title_format = "MPD: {%a > }{%t}|{%f}"
+song_window_title_format = "{%a :: }{%t}|{%f}"
 search_engine_display_mode = "columns" (classic/columns)
 follow_now_playing_lyrics = "yes"
 user_interface = "classic" (classic/alternative)

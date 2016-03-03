@@ -7,9 +7,9 @@
 			</action>
 		</item>
 		<menu execute="/usr/bin/openbox-menu lxde-applications.menu" id="openbox-menu" label="Applications"/>
-		<item label="Documents">
+		<item label="Github">
 			<action name="Execute">
-				<execute>thunar ~/Documents</execute>
+				<execute>thunar ~/Documents/github</execute>
 			</action>
 		</item>
 		<menu id="Preferences" label="Preferences">
@@ -52,14 +52,12 @@
 			<menu id="root-menu-23433" label="Take Screenshot">
 				<item label="Now">
 					<action name="Execute">
-						<execute>scrot -d 1 '%Y-%m-%d--%s_$wx$h_scrot.png' -e 'mv $f ~/ &amp; feh ~/$f'</execute>
+						<execute>scrot</execute>
 					</action>
 				</item>
 				<item label="Selected Area... (click &amp; drag mouse)">
 					<action name="Execute">
-						<execute>
-							scrot -s '%Y-%m-%d--%s_$wx$h_scrot.png' -e 'mv $f ~/ &amp; gpicview ~/$f'
-						</execute>
+						<execute>scrot -s</execute>
 					</action>
 				</item>
 				<item label="Record Desktop">
@@ -112,9 +110,7 @@
 			</item>
 			<item label="Wallpaper">
 				<action name="Execute">
-					<execute>
-						nitrogen
-					</execute>
+					<execute>wpg</execute>
 				</action>
 			</item>
 		</menu>

@@ -1,5 +1,6 @@
 - remember sixad
 - zsh as default
+- infinality for font rendering
 
 - package manager for subl
 	- install themes
