@@ -922,6 +922,9 @@
 
   # end of the example
 -->
+    <application name="*">
+      <decor>yes</decor>
+    </application>
     <application name="gmessage">
       <decor>no</decor>
       <shade>no</shade>
