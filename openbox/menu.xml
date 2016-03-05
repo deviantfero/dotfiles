@@ -16,9 +16,12 @@
 			<menu id="root-menu-525118" label="Openbox Config">
 				<item label="Edit autostart">
 					<action name="Execute">
-						<execute>
-							mousepad ~/.config/openbox/autostart
-						</execute>
+						<execute>urxvt -e vim ~/.config/openbox/autostart</execute>
+					</action>
+				</item>
+				<item label="Edit rc.xml">
+					<action name="Execute">
+						<execute>urxvt -e vim ~/.config/openbox/rc.xml</execute>
 					</action>
 				</item>
 				<item label="GUI Menu Editor">
@@ -32,13 +35,6 @@
 					<action name="Execute">
 						<execute>
 							obconf
-						</execute>
-					</action>
-				</item>
-				<item label="Key Editor">
-					<action name="Execute">
-						<execute>
-							obkey
 						</execute>
 					</action>
 				</item>
@@ -74,43 +70,39 @@
 			<menu id="root-menu-571948" label="tint2 config">
 				<item label="Edit tint2rc">
 					<action name="Execute">
-						<execute>
-							mousepad ~/.config/tint2/tint2rc
-						</execute>
+						<execute>urxvt -e vim ~/.config/tint2/tint2rc</execute>
 					</action>
 				</item>
 				<item label="Tint Wizard">
 					<action name="Execute">
-						<execute>
-							tintwizard.py
-						</execute>
+						<execute>tint2conf</execute>
 					</action>
 				</item>
 			</menu>
-			<item label="Input Device Preferences">
-				<action name="Execute">
-					<execute>
-						lxinput
-					</execute>
-				</action>
-			</item>
-			<item label="Screen Resolution">
-				<action name="Execute">
-					<execute>
-						arandr
-					</execute>
-				</action>
-			</item>
-			<item label="User Interface Settings">
-				<action name="Execute">
-					<execute>
-						lxappearance
-					</execute>
-				</action>
-			</item>
 			<item label="Wallpaper">
 				<action name="Execute">
 					<execute>wpg</execute>
+				</action>
+			</item>
+			<item label="Input Settings">
+				<action name="Execute">
+					<execute>lxinput</execute>
+				</action>
+			</item>
+			<item label="Screen Settings">
+				<action name="Execute">
+					<execute>arandr</execute>
+				</action>
+			</item>
+			<item label="UI Settings">
+				<action name="Execute">
+					<execute>lxappearance</execute>
+				</action>
+			</item>
+			<separator/>
+			<item label="Backup Dotfiles">
+				<action name="Execute">
+					<execute>urxvt  --hold -e updatedot</execute>
 				</action>
 			</item>
 		</menu>

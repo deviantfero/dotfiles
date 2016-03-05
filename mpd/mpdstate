@@ -1,4 +1,4 @@
-sw_volume: 96
+sw_volume: 0
 audio_device_state:1:MPD
 audio_device_state:1:Visualizer feed
 state: stop
@@ -12,4 +12,9 @@ mixrampdelay: -1.000000
 playlist_begin
 0:Kiko Lureiro/Kiko Loureiro - 2006 Universo Inverso/02 Ojos Verdes.mp3
 1:Kiko Lureiro/Kiko Loureiro - 2006 Universo Inverso/11 Hidden Track.mp3
+2:Pink Floyd/1977 - Animals 2011 Remaster/01 Pigs On The Wing 1.mp3
+3:Pink Floyd/1977 - Animals 2011 Remaster/02 Dogs.mp3
+4:Pink Floyd/1977 - Animals 2011 Remaster/03 Pigs (Three Different Ones).mp3
+5:Pink Floyd/1977 - Animals 2011 Remaster/04 Sheep.mp3
+6:Pink Floyd/1977 - Animals 2011 Remaster/05 Pigs On The Wing 2.mp3
 playlist_end

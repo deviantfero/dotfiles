@@ -187,6 +187,12 @@
         <wrap>no</wrap>
       </action>
     </keybind>
+	<keybind key="W-x">
+	  <action name="ToggleDecorations"/>
+	</keybind>
+	<keybind key="W-c">
+	  <action name="ToggleFullscreen"/>
+	</keybind>
     <keybind key="C-A-Right">
       <action name="GoToDesktop">
         <to>right</to>
@@ -268,7 +274,12 @@
     </keybind>
     <keybind key="Print">
       <action name="Execute">
-        <command>xfce4-screenshooter</command>
+        <command>scrot</command>
+      </action>
+    </keybind>
+    <keybind key="S-Print">
+      <action name="Execute">
+        <command>scrot -s</command>
       </action>
     </keybind>
     <keybind key="A-Print">
@@ -407,15 +418,6 @@
           <name>Volume</name>
         </startupnotify>
         <command>pavucontrol</command>
-      </action>
-    </keybind>
-    <keybind key="W-x">
-      <action name="Execute">
-        <startupnotify>
-          <enabled>true</enabled>
-          <name>Logout</name>
-        </startupnotify>
-        <command>cb-exit</command>
       </action>
     </keybind>
     <keybind key="W-Tab">

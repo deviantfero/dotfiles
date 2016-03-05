@@ -1,6 +1,7 @@
 " remaps "
 """"""""""
 map <C-f> :NERDTreeTabsToggle<CR>
+nnoremap <f2> :call NumberToggle()<cr>
 
 " ctrlp fuzzy finder "
 """"""""""""""""""""""
@@ -14,6 +15,7 @@ autocmd VimEnter * Tmuxline airline_insert minimal
 autocmd VimEnter * TmuxlineSnapshot! ~/.tmuxline
 endif
 set number	"line numbers on the left
+set norelativenumber "normal numbers as default
 set nocompatible	"no vi compatibility
 set noexrc	"don't use ~/.exrc config
 set cursorline "highlight the current line
@@ -52,10 +54,11 @@ execute pathogen#infect()
 """""""""""""""""
 set t_Co=16
 "colorscheme elflord
-colorscheme desert
+"colorscheme desert
 "colorscheme slate
 "colorscheme pablo
 "colorscheme delek
+colorscheme zellner
 
 " changes to colorscheme "
 """"""""""""""""""""""""""
