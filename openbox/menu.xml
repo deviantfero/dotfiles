@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openbox_menu xmlns="http://openbox.org/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openbox.org/                 file:///usr/share/openbox/menu.xsd">
+	<menu id="root-menu" label="Openbox 3.5">
+		<item label="Palemoon">
+			<action name="Execute">
+				<execute>palemoon</execute>
+			</action>
+		</item>
+		<item label="Github">
+			<action name="Execute">
+				<execute>thunar ~/Documents/github</execute>
+			</action>
+		</item>
+		<menu id="Preferences" label="Preferences">
+			<menu id="root-menu-525118" label="Openbox Config">
+				<item label="Edit autostart">
+					<action name="Execute">
+						<execute>urxvt -e vim ~/.config/openbox/autostart</execute>
+					</action>
+				</item>
+				<item label="Edit rc.xml">
+					<action name="Execute">
+						<execute>urxvt -e vim ~/.config/openbox/rc.xml</execute>
+					</action>
+				</item>
+				<item label="GUI Menu Editor">
+					<action name="Execute">
+						<execute>
+							obmenu
+						</execute>
+					</action>
+				</item>
+				<item label="GUI Config Tool">
+					<action name="Execute">
+						<execute>
+							obconf
+						</execute>
+					</action>
+				</item>
+				<item label="Reconfigure">
+					<action name="Reconfigure"/>
+				</item>
+				<item label="Restart">
+					<action name="Restart"/>
+				</item>
+			</menu>
+			<menu id="root-menu-23433" label="Take Screenshot">
+				<item label="Now">
+					<action name="Execute">
+						<execute>scrot</execute>
+					</action>
+				</item>
+				<item label="Selected Area... (click &amp; drag mouse)">
+					<action name="Execute">
+						<execute>scrot -s</execute>
+					</action>
+				</item>
+				<item label="Record Desktop">
+					<action name="Execute">
+						<execute>urxvt -e sh -c &quot;ffmpeg -video_size 1920x1200 -framerate 30  -threads 4   -f x11grab -i :0.0  -c:v libx264 -preset ultrafast -crf 5 out.mkv&quot;</execute>
+					</action>
+				</item>
+				<item label="Create WebM">
+					<action name="Execute">
+						<execute>urxvt -e sh -c &quot;ffmpeg -i out.mkv -c:v libvpx -framerate 30  -qmin 1 -an -qmax 10  -threads 4 -slices 8 -auto-alt-ref 1 -lag-in-frames 16 -crf 10 -b:v 1M -c:a libvorbis out.webm&quot;</execute>
+					</action>
+				</item>
+			</menu>
+			<menu id="root-menu-571948" label="tint2 config">
+				<item label="Edit tint2rc">
+					<action name="Execute">
+						<execute>urxvt -e vim ~/.config/tint2/tint2rc</execute>
+					</action>
+				</item>
+				<item label="Tint Wizard">
+					<action name="Execute">
+						<execute>tint2conf</execute>
+					</action>
+				</item>
+			</menu>
+			<item label="Wallpaper">
+				<action name="Execute">
+					<execute>wpg</execute>
+				</action>
+			</item>
+			<item label="Input Settings">
+				<action name="Execute">
+					<execute>lxinput</execute>
+				</action>
+			</item>
+			<item label="Screen Settings">
+				<action name="Execute">
+					<execute>arandr</execute>
+				</action>
+			</item>
+			<item label="UI Settings">
+				<action name="Execute">
+					<execute>lxappearance</execute>
+				</action>
+			</item>
+		</menu>
+		<separator/>
+		<item label="Exit">
+			<action name="Execute">
+				<execute>urxvt -e sudo shutdown -hP now</execute>
+			</action>
+		</item>
+	</menu>
+</openbox_menu>

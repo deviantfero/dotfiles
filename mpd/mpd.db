@@ -1,0 +1,102 @@
+info_begin
+format: 1
+mpd_version: 0.18.7
+fs_charset: UTF-8
+tag: Artist
+tag: ArtistSort
+tag: Album
+tag: AlbumArtist
+tag: AlbumArtistSort
+tag: Title
+tag: Track
+tag: Name
+tag: Genre
+tag: Date
+tag: Composer
+tag: Performer
+tag: Disc
+tag: MUSICBRAINZ_ARTISTID
+tag: MUSICBRAINZ_ALBUMID
+tag: MUSICBRAINZ_ALBUMARTISTID
+tag: MUSICBRAINZ_TRACKID
+info_end
+directory: OST
+mtime: 1445745470
+begin: OST
+song_begin: Battle Against a Familiar Foe.mp3
+Time: 138
+Artist: SNOBODYS
+AlbumArtist: SNOBODYS
+Title: Battle Against a Familiar Foe
+Album: MOTHER 4 - OST
+Date: 2012
+Genre: Game
+Composer: shane mesa
+mtime: 1445745231
+song_end
+song_begin: Boom Town Lounge.mp3
+Time: 184
+Artist: shane mesa
+Title: Boom Town Lounge
+Album: MOTHER 4 - OST
+Date: 2014
+Date: 2014
+Genre: Game
+mtime: 1445745321
+song_end
+song_begin: Distant High Life.mp3
+Time: 202
+Artist: Shane Mesa
+Title: Distant High Life
+Album: MOTHER 4 - OST
+Date: 2015-04-15T15:52
+Genre: Game
+Composer: Shane Mesa
+mtime: 1445745398
+song_end
+song_begin: Mom and Cooking and Stuff.mp3
+Time: 118
+Artist: shane mesa
+Title: Mom and Cooking and Stuff
+Album: MOTHER 4 - OST
+Date: 2012
+Date: 2012
+Genre: Game
+mtime: 1445745470
+song_end
+song_begin: Useful Vacation.mp3
+Time: 86
+Artist: shane mesa
+Title: Useful Vacation
+Album: MOTHER 4 - OST
+Date: 2012
+Date: 2012
+Genre: Game
+mtime: 1445745507
+song_end
+end: OST
+song_begin: Can't Say Goodbye to Yesterday.mp3
+Time: 458
+Date: 2002
+mtime: 1457515273
+song_end
+song_begin: Here's To You.mp3
+Time: 191
+mtime: 1429598814
+song_end
+song_begin: Kids in America.mp3
+Time: 200
+mtime: 1428132383
+song_end
+song_begin: Maneater.mp3
+Time: 275
+mtime: 1427960452
+song_end
+song_begin: Not Your Kind Of People.mp3
+Time: 299
+mtime: 1429602907
+song_end
+song_begin: Take me On.mp3
+Time: 224
+mtime: 1434103844
+song_end

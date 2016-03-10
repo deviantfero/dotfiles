@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/usr/share/themes'
+let g:netrw_dirhist_2='/usr/share/themes/Flatdark'
+let g:netrw_dirhist_3='/usr/share/themes/Flatdark/gtk-3.0'
+let g:netrw_dirhist_4='/home/fernando/Documents/java/Helloworld'

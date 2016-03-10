@@ -1,0 +1,6 @@
+sh ~/.wallpapers/wp_init.sh &
+#just in case of usage of MODEL M KEYBOARD
+#setxkbmap -option caps:super &
+volumeicon &
+tint2 &
+#/usr/lib/lxpolkit/lxpolkit &

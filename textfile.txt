@@ -1,0 +1,22 @@
+- remember sixad
+- zsh as default
+- infinality for font rendering
+
+- package manager for subl
+	- install themes
+	- sidebar color
+
+- play on linux
+	- wine x86
+		-wine 1.5.11 photoshop
+		-wine 1.5.1 Illustrator
+		
+- winbind
+- fix skype
+- tint2
+-pragmataPro for Powerline (Subl, Terminal)
+-conky
+-droid mono for windows and theme default
+-Infinality font rendering
+
+- install pavucontrol
