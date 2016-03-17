@@ -187,12 +187,12 @@
         <wrap>no</wrap>
       </action>
     </keybind>
-	<keybind key="W-x">
-	  <action name="ToggleDecorations"/>
-	</keybind>
-	<keybind key="W-c">
-	  <action name="ToggleFullscreen"/>
-	</keybind>
+    <keybind key="W-x">
+      <action name="ToggleDecorations"/>
+    </keybind>
+    <keybind key="W-c">
+      <action name="ToggleFullscreen"/>
+    </keybind>
     <keybind key="C-A-Right">
       <action name="GoToDesktop">
         <to>right</to>
@@ -275,6 +275,16 @@
     <keybind key="Print">
       <action name="Execute">
         <command>scrot</command>
+      </action>
+    </keybind>
+    <keybind key="W-Print">
+      <action name="Execute">
+        <command>desktop-record</command>
+      </action>
+    </keybind>
+    <keybind key="W-A-Insert">
+      <action name="Execute">
+        <command>killall ffmpeg</command>
       </action>
     </keybind>
     <keybind key="S-Print">

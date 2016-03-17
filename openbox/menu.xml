@@ -79,11 +79,6 @@
 					</action>
 				</item>
 			</menu>
-			<item label="Wallpaper">
-				<action name="Execute">
-					<execute>wpg</execute>
-				</action>
-			</item>
 			<item label="Input Settings">
 				<action name="Execute">
 					<execute>lxinput</execute>
@@ -97,6 +92,11 @@
 			<item label="UI Settings">
 				<action name="Execute">
 					<execute>lxappearance</execute>
+				</action>
+			</item>
+			<item label="Wallpapers">
+				<action name="Execute">
+					<execute>wpg</execute>
 				</action>
 			</item>
 			<separator/>

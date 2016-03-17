@@ -1,0 +1,17 @@
+#!/bin/bash
+videoname="$(date +"%h-%I-%M-%S-%d-%Y")"
+
+function record_mkv {
+	notify-send "Now recording" "Press Win+Alt+INS to stop"
+	ffmpeg -video_size 1920x1200 -framerate 60 -threads 0  -f x11grab -i :0.0  -c:v libx264 -preset ultrafast -crf 5 "$videoname".mkv
+}
+
+function convert_webm {
+	notify-send "Converting to WebM"
+	ffmpeg -i "$videoname".mkv -c:v libvpx -framerate 60  -qmin 1 -an -qmax 10  -threads 4 -slices 8 -auto-alt-ref 1 -lag-in-frames 16 -crf 10 -b:v 1M -c:a libvorbis "$videoname".webm
+}
+
+record_mkv
+convert_webm
+rm ./"$videoname".mkv
+notify-send "Finished" ""$videoname".webm"

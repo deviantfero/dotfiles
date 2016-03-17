@@ -11641,3 +11641,355 @@ Mar 05 11:30 : player: played "Pink Floyd/1977 - Animals 2011 Remaster/02 Dogs.m
 Mar 05 11:41 : player: played "Pink Floyd/1977 - Animals 2011 Remaster/03 Pigs (Three Different Ones).mp3"
 Mar 05 11:52 : player: played "Pink Floyd/1977 - Animals 2011 Remaster/04 Sheep.mp3"
 Mar 05 11:53 : player: played "Pink Floyd/1977 - Animals 2011 Remaster/05 Pigs On The Wing 2.mp3"
+Mar 05 18:19 : client: [0] opened from 127.0.0.1:47790
+Mar 05 18:21 : player: played "Kiko Lureiro/Kiko Loureiro - 2006 Universo Inverso/11 Hidden Track.mp3"
+Mar 05 18:22 : player: played "Pink Floyd/1977 - Animals 2011 Remaster/01 Pigs On The Wing 1.mp3"
+Mar 05 18:47 : player: played "Pink Floyd/1977 - Animals 2011 Remaster/02 Dogs.mp3"
+Mar 05 18:55 : player: played "Pink Floyd/1977 - Animals 2011 Remaster/03 Pigs (Three Different Ones).mp3"
+Mar 05 18:55 : client: [0] closed
+Mar 05 19:22 : client: [1] opened from 127.0.0.1:48034
+Mar 05 19:22 : client: [1] closed
+Mar 05 19:22 : client: [2] opened from 127.0.0.1:48038
+Mar 05 19:23 : client: [2] closed
+Mar 05 19:29 : client: [3] opened from 127.0.0.1:48088
+Mar 05 19:29 : player: played "Pink Floyd/1977 - Animals 2011 Remaster/02 Dogs.mp3"
+Mar 05 19:29 : client: [3] closed
+Mar 05 20:47 : client: [4] opened from 127.0.0.1:48468
+Mar 05 20:47 : client: [4] closed
+Mar 06 11:51 : client: [0] opened from 127.0.0.1:49078
+Mar 06 11:52 : client: [0] closed
+Mar 06 12:07 : player: played "Pink Floyd/1977 - Animals 2011 Remaster/02 Dogs.mp3"
+Mar 06 12:18 : client: [1] opened from 127.0.0.1:49352
+Mar 06 12:18 : player: played "Pink Floyd/1977 - Animals 2011 Remaster/03 Pigs (Three Different Ones).mp3"
+Mar 06 12:18 : client: [1] closed
+Mar 07 17:06 : client: [0] opened from 127.0.0.1:50988
+Mar 07 17:06 : client: [0] closed
+Mar 07 17:08 : player: played "Kiko Lureiro/Kiko Loureiro - 2006 Universo Inverso/11 Hidden Track.mp3"
+Mar 07 17:09 : client: [1] opened from 127.0.0.1:51068
+Mar 07 17:09 : player: played "Pink Floyd/1977 - Animals 2011 Remaster/01 Pigs On The Wing 1.mp3"
+Mar 07 17:09 : client: [1] closed
+Mar 07 22:55 : client: [2] opened from 127.0.0.1:54144
+Mar 07 22:55 : player: played "Pink Floyd/1977 - Animals 2011 Remaster/02 Dogs.mp3"
+Mar 07 22:55 : client: [2] closed
+Mar 07 23:17 : client: [3] opened from 127.0.0.1:54198
+Mar 07 23:17 : player: played "Pink Floyd/1977 - Animals 2011 Remaster/02 Dogs.mp3"
+Mar 07 23:17 : client: [3] closed
+Mar 08 13:37 : client: [0] opened from 127.0.0.1:37408
+Mar 08 14:05 : client: [1] opened from 127.0.0.1:37784
+Mar 08 14:05 : player: played "Pink Floyd/1977 - Animals 2011 Remaster/02 Dogs.mp3"
+Mar 08 14:05 : client: [1] closed
+Mar 08 14:07 : player: played "Kiko Lureiro/Kiko Loureiro - 2006 Universo Inverso/11 Hidden Track.mp3"
+Mar 08 14:08 : player: played "Pink Floyd/1977 - Animals 2011 Remaster/01 Pigs On The Wing 1.mp3"
+Mar 08 14:36 : player: played "Pink Floyd/1977 - Animals 2011 Remaster/03 Pigs (Three Different Ones).mp3"
+Mar 08 14:36 : player: played "Pink Floyd/1977 - Animals 2011 Remaster/04 Sheep.mp3"
+Mar 08 14:36 : player: played "Pink Floyd/1977 - Animals 2011 Remaster/05 Pigs On The Wing 2.mp3"
+Mar 08 14:36 : player: played "Pink Floyd/1977 - Animals 2011 Remaster/04 Sheep.mp3"
+Mar 08 14:36 : client: [0] closed
+Mar 08 14:38 : client: [2] opened from 127.0.0.1:37960
+Mar 08 14:49 : player: played "Pink Floyd/1977 - Animals 2011 Remaster/03 Pigs (Three Different Ones).mp3"
+Mar 08 14:50 : player: played "Pink Floyd/1977 - Animals 2011 Remaster/04 Sheep.mp3"
+Mar 08 14:56 : player: played "David Gilmour/Rattle That Lock/08 - The Girl In The Yellow Dress - David Gilmour.mp3"
+Mar 08 15:06 : player: played "David Gilmour/Rattle That Lock/05 - Dancing Right In Front of Me - David Gilmour.mp3"
+Mar 08 15:21 : player: played "Kiko Lureiro/Kiko Loureiro - 2006 Universo Inverso/09 Realidade Paralela.mp3"
+Mar 08 15:26 : player: played "Kiko Lureiro/Kiko Loureiro - 2006 Universo Inverso/10 Recuerdos.mp3"
+Mar 08 15:31 : player: played "Kiko Lureiro/Kiko Loureiro - 2006 Universo Inverso/11 Hidden Track.mp3"
+Mar 08 15:43 : client: [2] closed
+Mar 08 15:43 : client: [3] opened from 127.0.0.1:38908
+Mar 08 15:44 : client: [3] closed
+Mar 08 15:49 : player: played "David Gilmour/Rattle That Lock/08 - The Girl In The Yellow Dress - David Gilmour.mp3"
+Mar 08 15:55 : player: played "David Gilmour/Rattle That Lock/05 - Dancing Right In Front of Me - David Gilmour.mp3"
+Mar 08 16:02 : player: played "Kiko Lureiro/Kiko Loureiro - 2006 Universo Inverso/02 Ojos Verdes.mp3"
+Mar 08 16:04 : client: [4] opened from 127.0.0.1:38978
+Mar 08 16:04 : client: [4] closed
+Mar 08 16:07 : player: played "Kiko Lureiro/Kiko Loureiro - 2006 Universo Inverso/09 Realidade Paralela.mp3"
+Mar 08 16:12 : player: played "Kiko Lureiro/Kiko Loureiro - 2006 Universo Inverso/10 Recuerdos.mp3"
+Mar 08 16:12 : client: [5] opened from 127.0.0.1:39024
+Mar 08 16:12 : client: [5] closed
+Mar 08 16:15 : player: played "Kiko Lureiro/Kiko Loureiro - 2006 Universo Inverso/11 Hidden Track.mp3"
+Mar 08 16:27 : client: [6] opened from 127.0.0.1:39108
+Mar 08 16:27 : player: played "Kiko Lureiro/Kiko Loureiro - 2006 Universo Inverso/02 Ojos Verdes.mp3"
+Mar 08 16:27 : client: [6] closed
+Mar 08 16:33 : player: played "Kiko Lureiro/Kiko Loureiro - 2006 Universo Inverso/09 Realidade Paralela.mp3"
+Mar 08 16:35 : client: [7] opened from 127.0.0.1:39190
+Mar 08 16:35 : client: [8] opened from 127.0.0.1:39196
+Mar 08 16:35 : client: [8] closed
+Mar 08 16:35 : client: [9] opened from 127.0.0.1:39204
+Mar 08 16:36 : client: [9] closed
+Mar 08 16:37 : player: played "Kiko Lureiro/Kiko Loureiro - 2006 Universo Inverso/10 Recuerdos.mp3"
+Mar 08 16:38 : client: [10] opened from 127.0.0.1:39212
+Mar 08 16:38 : client: [7] closed
+Mar 08 16:38 : client: [11] opened from 127.0.0.1:39220
+Mar 08 16:38 : client: [11] closed
+Mar 08 16:38 : client: [10] closed
+Mar 08 16:40 : client: [12] opened from 127.0.0.1:39226
+Mar 08 16:40 : client: [13] opened from 127.0.0.1:39230
+Mar 08 16:40 : client: [13] closed
+Mar 08 16:40 : client: [14] opened from 127.0.0.1:39236
+Mar 08 16:40 : client: [14] closed
+Mar 08 16:41 : client: [15] opened from 127.0.0.1:39240
+Mar 08 16:41 : client: [15] closed
+Mar 08 16:41 : client: [16] opened from 127.0.0.1:39244
+Mar 08 16:41 : client: [16] closed
+Mar 08 16:41 : client: [17] opened from 127.0.0.1:39252
+Mar 08 16:42 : client: [17] closed
+Mar 08 16:43 : player: played "Kiko Lureiro/Kiko Loureiro - 2006 Universo Inverso/11 Hidden Track.mp3"
+Mar 08 16:47 : client: [18] opened from 127.0.0.1:39272
+Mar 08 16:47 : client: [18] closed
+Mar 08 16:49 : player: played "Kiko Lureiro/Kiko Loureiro - 2006 Universo Inverso/11 Hidden Track.mp3"
+Mar 08 16:51 : client: [19] opened from 127.0.0.1:39288
+Mar 08 16:51 : client: [19] closed
+Mar 08 17:05 : client: [20] opened from 127.0.0.1:39448
+Mar 08 17:11 : player: played "Kiko Lureiro/Kiko Loureiro - 2006 Universo Inverso/09 Realidade Paralela.mp3"
+Mar 08 17:16 : player: played "Kiko Lureiro/Kiko Loureiro - 2006 Universo Inverso/10 Recuerdos.mp3"
+Mar 08 17:18 : player: played "Kiko Lureiro/Kiko Loureiro - 2006 Universo Inverso/11 Hidden Track.mp3"
+Mar 08 17:24 : client: [21] opened from 127.0.0.1:39644
+Mar 08 17:24 : client: [21] closed
+Mar 08 17:25 : client: [22] opened from 127.0.0.1:39648
+Mar 08 17:25 : client: [22] closed
+Mar 08 17:27 : client: [23] opened from 127.0.0.1:39684
+Mar 08 17:27 : player: played "Pink Floyd/1967 - The Piper At The Gates Of Dawn 2011 Remaster/01. Astronomy Domine.mp3"
+Mar 08 17:27 : player: played "Pink Floyd/2011 - A Foot In The Door - The Best Of Pink Floyd/01. Hey You.mp3"
+Mar 08 17:28 : client: [23] closed
+Mar 08 17:28 : client: [24] opened from 127.0.0.1:39690
+Mar 08 17:28 : client: [24] closed
+Mar 08 17:28 : client: [25] opened from 127.0.0.1:39694
+Mar 08 17:28 : player: played "Pink Floyd/2011 - A Foot In The Door - The Best Of Pink Floyd/01. Hey You.mp3"
+Mar 08 17:30 : client: [25] closed
+Mar 08 17:30 : client: [26] opened from 127.0.0.1:39710
+Mar 08 17:31 : client: [26] closed
+Mar 08 17:31 : client: [20] closed
+Mar 08 17:31 : client: [27] opened from 127.0.0.1:39716
+Mar 08 17:31 : client: [27] closed
+Mar 08 17:32 : client: [28] opened from 127.0.0.1:39720
+Mar 08 17:32 : client: [28] closed
+Mar 08 17:32 : client: [29] opened from 127.0.0.1:39724
+Mar 08 17:32 : player: played "Pink Floyd/1972 - Obscured By Clouds 2011 Remaster/05. Wot's... Uh The Deal.mp3"
+Mar 08 17:32 : player: played "Pink Floyd/1979 - The Wall 2011 Remaster/CD1/06. Mother.mp3"
+Mar 08 17:32 : client: [29] closed
+Mar 08 17:32 : client: [30] opened from 127.0.0.1:39730
+Mar 08 17:33 : client: [31] opened from 127.0.0.1:39736
+Mar 08 17:33 : client: [31] closed
+Mar 08 17:35 : player: played "Pink Floyd/1972 - Obscured By Clouds 2011 Remaster/06. Mudmen.mp3"
+Mar 08 17:35 : player: played "Pink Floyd/1979 - The Wall 2011 Remaster/CD1/10. One Of My Turns.mp3"
+Mar 08 17:35 : player: played "Pink Floyd/1987 - A Momentary Lapse Of Reason 2011 Remaster/11. Sorrow.mp3"
+Mar 08 17:35 : player: played "Pink Floyd/1979 - The Wall 2011 Remaster/CD1/01. In The Flesh.mp3"
+Mar 08 17:35 : player: played "Pink Floyd/1969 - Music From The Film More 2011 Remaster/01. Cirrus Minor.mp3"
+Mar 08 17:35 : player: played "Pink Floyd/1972 - Obscured By Clouds 2011 Remaster/07. Childhood's End.mp3"
+Mar 08 17:35 : client: [30] closed
+Mar 08 17:36 : client: [32] opened from 127.0.0.1:39796
+Mar 08 17:37 : player: played "Pink Floyd/1979 - The Wall 2011 Remaster/CD2/04. Vera.mp3"
+Mar 08 17:42 : player: played "Pink Floyd/1973 - The Dark Side Of The Moon 2011 Remaster/06. Money.mp3"
+Mar 08 17:45 : client: [33] opened from 127.0.0.1:39948
+Mar 08 17:45 : client: [33] closed
+Mar 08 17:45 : client: [32] closed
+Mar 08 17:45 : client: [34] opened from 127.0.0.1:39952
+Mar 08 17:45 : client: [34] closed
+Mar 08 17:46 : client: [35] opened from 127.0.0.1:39956
+Mar 08 17:46 : client: [35] closed
+Mar 08 17:46 : client: [36] opened from 127.0.0.1:39960
+Mar 08 17:46 : client: [36] closed
+Mar 08 17:47 : client: [37] opened from 127.0.0.1:39966
+Mar 08 17:47 : client: [37] closed
+Mar 08 17:47 : client: [38] opened from 127.0.0.1:39972
+Mar 08 17:48 : client: [38] closed
+Mar 08 17:48 : client: [39] opened from 127.0.0.1:39976
+Mar 08 17:48 : client: [39] closed
+Mar 08 17:48 : client: [40] opened from 127.0.0.1:39980
+Mar 08 17:48 : client: [40] closed
+Mar 08 17:48 : client: [41] opened from 127.0.0.1:39984
+Mar 08 17:49 : client: [41] closed
+Mar 08 17:49 : client: [42] opened from 127.0.0.1:39988
+Mar 08 17:50 : player: played "Pink Floyd/1973 - The Dark Side Of The Moon 2011 Remaster/05. The Great Gig in the Sky.mp3"
+Mar 08 17:50 : player: played "Pink Floyd/1969 - Ummagumma 2011 Remaster/Live Album/01. Astronomy Domine.mp3"
+Mar 08 17:50 : player: played "Pink Floyd/1982 - The Final Cut 2011 Remaster/12. Not Now John.mp3"
+Mar 08 17:50 : player: played "Pink Floyd/1971 - Meddle 2011 Remaster/04. San Tropez.mp3"
+Mar 08 17:50 : player: played "Pink Floyd/1967 - The Piper At The Gates Of Dawn 2011 Remaster/04. Flaming.mp3"
+Mar 08 17:50 : player: played "Pink Floyd/1971 - Meddle 2011 Remaster/04. San Tropez.mp3"
+Mar 08 17:50 : player: played "Pink Floyd/1967 - The Piper At The Gates Of Dawn 2011 Remaster/04. Flaming.mp3"
+Mar 08 17:50 : client: [42] closed
+Mar 08 17:50 : client: [43] opened from 127.0.0.1:40000
+Mar 08 17:51 : client: [43] closed
+Mar 08 17:51 : client: [44] opened from 127.0.0.1:40004
+Mar 08 17:54 : player: played "Pink Floyd/1994 - The Divison Bell 2011 Remaster/06. Wearing The Inside Out.mp3"
+Mar 08 17:55 : player: played "Pink Floyd/2011 - A Foot In The Door - The Best Of Pink Floyd/09. Money.mp3"
+Mar 08 17:55 : player: played "Pink Floyd/1994 - The Divison Bell 2011 Remaster/03. Poles Apart.mp3"
+Mar 08 17:56 : player: played "Pink Floyd/2011 - A Foot In The Door - The Best Of Pink Floyd/16. Eclipse.mp3"
+Mar 08 17:57 : client: [45] opened from 127.0.0.1:40038
+Mar 08 17:57 : player: played "Pink Floyd/1975 - Wish You Were Here 2011 Remaster/04 Wish You Were Here.mp3"
+Mar 08 18:00 : client: [45] closed
+Mar 08 18:01 : client: [46] opened from 127.0.0.1:40046
+Mar 08 18:35 : player: played "Pink Floyd/1977 - Animals 2011 Remaster/02 Dogs.mp3"
+Mar 08 18:35 : player: played "Pink Floyd/2011 - A Foot In The Door - The Best Of Pink Floyd/06. Wish You Were Here.mp3"
+Mar 08 18:35 : player: played "Pink Floyd/1994 - The Divison Bell 2011 Remaster/02. What Do You Want From Me.mp3"
+Mar 08 18:36 : player: played "Pink Floyd/1969 - Ummagumma 2011 Remaster/Live Album/04. A Saucerful Of Secrets.mp3"
+Mar 08 18:36 : player: played "Pink Floyd/1987 - A Momentary Lapse Of Reason 2011 Remaster/01. Signs Of Life.mp3"
+Mar 08 18:36 : player: played "Pink Floyd/1970 - Atom Heart Mother 2011 Remaster/01. Atom Heart Mother.mp3"
+Mar 08 18:36 : player: played "Pink Floyd/1979 - The Wall 2011 Remaster/CD2/02. Is There Anybody Out There.mp3"
+Mar 08 18:36 : player: played "Pink Floyd/1969 - Music From The Film More 2011 Remaster/13. Dramatic Theme.mp3"
+Mar 08 18:38 : player: played "Pink Floyd/1979 - The Wall 2011 Remaster/CD2/02. Is There Anybody Out There.mp3"
+Mar 08 18:39 : player: played "Pink Floyd/1969 - Music From The Film More 2011 Remaster/13. Dramatic Theme.mp3"
+Mar 08 18:39 : player: played "Pink Floyd/1982 - The Final Cut 2011 Remaster/02. Your Possible Pasts.mp3"
+Mar 08 18:39 : player: played "Pink Floyd/1982 - The Final Cut 2011 Remaster/11. The Final Cut.mp3"
+Mar 08 18:39 : player: played "Pink Floyd/1987 - A Momentary Lapse Of Reason 2011 Remaster/06. Yet Another Movie.mp3"
+Mar 08 18:43 : player: played "Pink Floyd/1968 - A Saucerful Of Secrets 2011 Remaster/03. Set the Controls for the Heart of the Sun.mp3"
+Mar 08 18:43 : client: [44] closed
+Mar 08 18:43 : client: [47] opened from 127.0.0.1:40420
+Mar 08 18:43 : client: [47] closed
+Mar 08 18:45 : client: [46] closed
+Mar 08 18:45 : client: [48] opened from 127.0.0.1:40438
+Mar 08 18:46 : player: played "Pink Floyd/1979 - The Wall 2011 Remaster/CD2/03. Nobody Home.mp3"
+Mar 08 18:46 : player: played "Pink Floyd/1969 - Ummagumma 2011 Remaster/Live Album/03. Set The Controls For The Heart Of The Sun.mp3"
+Mar 08 18:46 : player: played "Pink Floyd/1969 - Ummagumma 2011 Remaster/Studio Album/11. The Grand Vizier's Garden Party - Part Two (Entertainment).mp3"
+Mar 08 18:47 : player: played "Pink Floyd/1969 - Music From The Film More 2011 Remaster/02. The Nile Song.mp3"
+Mar 08 18:47 : player: played "Pink Floyd/1969 - Ummagumma 2011 Remaster/Studio Album/06. Several Species Of Small Furry Animals Gathered Together in A Cave And Grooving With A Pict.mp3"
+Mar 08 18:47 : player: played "Pink Floyd/1971 - Meddle 2011 Remaster/03. Fearless.mp3"
+Mar 08 18:47 : player: played "Pink Floyd/1969 - Music From The Film More 2011 Remaster/10. More Blues.mp3"
+Mar 08 18:47 : player: played "Pink Floyd/1969 - Music From The Film More 2011 Remaster/06. Cymbaline.mp3"
+Mar 08 18:47 : client: [48] closed
+Mar 08 18:49 : client: [49] opened from 127.0.0.1:40494
+Mar 08 18:49 : player: played "Pink Floyd/1967 - The Piper At The Gates Of Dawn 2011 Remaster/11. Bike.mp3"
+Mar 08 18:49 : player: played "Pink Floyd/1969 - Music From The Film More 2011 Remaster/07. Party Sequence.mp3"
+Mar 08 18:49 : player: played "Pink Floyd/1968 - A Saucerful Of Secrets 2011 Remaster/06. See-Saw.mp3"
+Mar 08 18:49 : player: played "Pink Floyd/1979 - The Wall 2011 Remaster/CD2/05. Bring The Boys Back Home.mp3"
+Mar 08 18:49 : player: played "Pink Floyd/2011 - A Foot In The Door - The Best Of Pink Floyd/13. The Fletcher Memorial Home.mp3"
+Mar 08 18:49 : player: played "Pink Floyd/1970 - Atom Heart Mother 2011 Remaster/05. Alan's Psychedelic Breakfast.mp3"
+Mar 08 18:56 : client: [49] closed
+Mar 08 18:56 : client: [50] opened from 127.0.0.1:40552
+Mar 08 19:13 : player: played "Pink Floyd/2011 - A Foot In The Door - The Best Of Pink Floyd/13. The Fletcher Memorial Home.mp3"
+Mar 08 19:13 : player: played "Pink Floyd/1970 - Atom Heart Mother 2011 Remaster/05. Alan's Psychedelic Breakfast.mp3"
+Mar 08 19:13 : player: played "Pink Floyd/1970 - Atom Heart Mother 2011 Remaster/04. Fat Old Sun.mp3"
+Mar 08 19:13 : player: played "Pink Floyd/1969 - Ummagumma 2011 Remaster/Studio Album/12. The Grand Vizier's Garden Party - Part Three (Exit).mp3"
+Mar 08 19:13 : player: played "Pink Floyd/1994 - The Divison Bell 2011 Remaster/01. Cluster One.mp3"
+Mar 08 19:13 : player: played "Pink Floyd/1987 - A Momentary Lapse Of Reason 2011 Remaster/03. The Dogs Of War.mp3"
+Mar 08 19:13 : player: played "Pink Floyd/1968 - A Saucerful Of Secrets 2011 Remaster/07. Jugband Blues.mp3"
+Mar 08 19:13 : player: played "Pink Floyd/1967 - The Piper At The Gates Of Dawn 2011 Remaster/10. Scarecrow.mp3"
+Mar 08 19:13 : player: played "Pink Floyd/1994 - The Divison Bell 2011 Remaster/08. Coming Back To Life.mp3"
+Mar 08 19:13 : player: played "Pink Floyd/1968 - A Saucerful Of Secrets 2011 Remaster/01. Let There Be More Light.mp3"
+Mar 08 19:15 : client: [51] opened from 127.0.0.1:40648
+Mar 08 19:15 : client: [51] closed
+Mar 08 19:20 : player: played "Pink Floyd/2011 - A Foot In The Door - The Best Of Pink Floyd/10. Comfortably Numb.mp3"
+Mar 08 19:20 : player: played "Pink Floyd/1969 - Music From The Film More 2011 Remaster/03. Crying Song.mp3"
+Mar 08 19:20 : player: played "Pink Floyd/1969 - Music From The Film More 2011 Remaster/03. Crying Song.mp3"
+Mar 08 19:20 : player: played "Pink Floyd/1971 - Meddle 2011 Remaster/05. Seamus.mp3"
+Mar 08 19:20 : player: played "Pink Floyd/1969 - Music From The Film More 2011 Remaster/07. Party Sequence.mp3"
+Mar 08 19:20 : player: played "Pink Floyd/1969 - Ummagumma 2011 Remaster/Studio Album/11. The Grand Vizier's Garden Party - Part Two (Entertainment).mp3"
+Mar 08 19:20 : player: played "Pink Floyd/1987 - A Momentary Lapse Of Reason 2011 Remaster/10. A New Machine Pt.2.mp3"
+Mar 08 19:21 : player: played "Pink Floyd/1977 - Animals 2011 Remaster/03 Pigs (Three Different Ones).mp3"
+Mar 08 19:21 : player: played "Pink Floyd/1994 - The Divison Bell 2011 Remaster/10. Lost For Words.mp3"
+Mar 08 19:21 : player: played "Pink Floyd/1971 - Meddle 2011 Remaster/01. One of These Days.mp3"
+Mar 08 19:21 : player: played "Pink Floyd/1994 - The Divison Bell 2011 Remaster/03. Poles Apart.mp3"
+Mar 08 19:21 : player: played "Pink Floyd/1967 - The Piper At The Gates Of Dawn 2011 Remaster/11. Bike.mp3"
+Mar 08 19:21 : player: played "Pink Floyd/1979 - The Wall 2011 Remaster/CD1/03. Another Brick In The Wall Pt.1.mp3"
+Mar 08 19:21 : player: played "Pink Floyd/1987 - A Momentary Lapse Of Reason 2011 Remaster/02. Learning To Fly.mp3"
+Mar 08 19:21 : player: played "Pink Floyd/1979 - The Wall 2011 Remaster/CD1/03. Another Brick In The Wall Pt.1.mp3"
+Mar 08 19:21 : player: played "Pink Floyd/1979 - The Wall 2011 Remaster/CD1/05. Another Brick In The Wall Pt.2.mp3"
+Mar 08 19:21 : player: played "Pink Floyd/1979 - The Wall 2011 Remaster/CD1/04. The Happiest Days Of Our Lives.mp3"
+Mar 08 19:21 : player: played "Pink Floyd/1979 - The Wall 2011 Remaster/CD1/03. Another Brick In The Wall Pt.1.mp3"
+Mar 08 19:23 : client: [50] closed
+Mar 08 19:23 : client: [52] opened from 127.0.0.1:40898
+Mar 08 19:23 : client: [52] closed
+Mar 08 19:23 : player: played "Pink Floyd/1979 - The Wall 2011 Remaster/CD1/04. The Happiest Days Of Our Lives.mp3"
+Mar 08 19:27 : player: played "Pink Floyd/1979 - The Wall 2011 Remaster/CD1/05. Another Brick In The Wall Pt.2.mp3"
+Mar 08 19:33 : client: [53] opened from 127.0.0.1:41004
+Mar 08 19:33 : player: played "Pink Floyd/1979 - The Wall 2011 Remaster/CD1/06. Mother.mp3"
+Mar 08 19:33 : player: played "Pink Floyd/1979 - The Wall 2011 Remaster/CD1/07. Goodbye Blue Sky.mp3"
+Mar 08 19:33 : player: played "Pink Floyd/1979 - The Wall 2011 Remaster/CD1/06. Mother.mp3"
+Mar 08 19:36 : player: played "Pink Floyd/1979 - The Wall 2011 Remaster/CD1/07. Goodbye Blue Sky.mp3"
+Mar 08 19:36 : player: played "Pink Floyd/1979 - The Wall 2011 Remaster/CD1/08. Empty Spaces.mp3"
+Mar 08 19:36 : player: played "Pink Floyd/1979 - The Wall 2011 Remaster/CD1/09. Young Lust.mp3"
+Mar 08 19:36 : player: played "Pink Floyd/1979 - The Wall 2011 Remaster/CD1/10. One Of My Turns.mp3"
+Mar 08 19:36 : player: played "Pink Floyd/1979 - The Wall 2011 Remaster/CD1/11. Don't Leave Now.mp3"
+Mar 08 19:37 : player: played "Pink Floyd/1979 - The Wall 2011 Remaster/CD1/12. Another Brick In The Wall Pt.3.mp3"
+Mar 08 19:37 : player: played "Pink Floyd/1979 - The Wall 2011 Remaster/CD1/13. Goodbye Cruel World.mp3"
+Mar 08 21:59 : player: played "Pink Floyd/1979 - The Wall 2011 Remaster/CD2/01. Hey You.mp3"
+Mar 08 21:59 : player: played "Pink Floyd/1979 - The Wall 2011 Remaster/CD2/02. Is There Anybody Out There.mp3"
+Mar 08 21:59 : player: played "Pink Floyd/1979 - The Wall 2011 Remaster/CD2/01. Hey You.mp3"
+Mar 08 21:59 : player: played "Pink Floyd/1979 - The Wall 2011 Remaster/CD2/02. Is There Anybody Out There.mp3"
+Mar 08 22:04 : player: played "Pink Floyd/1979 - The Wall 2011 Remaster/CD2/01. Hey You.mp3"
+Mar 08 22:06 : player: played "Pink Floyd/1979 - The Wall 2011 Remaster/CD2/02. Is There Anybody Out There.mp3"
+Mar 08 22:10 : player: played "Pink Floyd/1979 - The Wall 2011 Remaster/CD2/03. Nobody Home.mp3"
+Mar 08 22:11 : player: played "Pink Floyd/1979 - The Wall 2011 Remaster/CD2/04. Vera.mp3"
+Mar 08 22:13 : player: played "Pink Floyd/1979 - The Wall 2011 Remaster/CD2/05. Bring The Boys Back Home.mp3"
+Mar 08 22:19 : player: played "Pink Floyd/1979 - The Wall 2011 Remaster/CD2/06. Comfortably Numb.mp3"
+Mar 08 22:20 : client: [53] closed
+Mar 08 22:20 : client: [54] opened from 127.0.0.1:42094
+Mar 08 23:41 : player: played "Pink Floyd/1979 - The Wall 2011 Remaster/CD2/07. The Show Must Go On.mp3"
+Mar 08 23:41 : player: played "Pink Floyd/1979 - The Wall 2011 Remaster/CD2/08. In The Flesh.mp3"
+Mar 08 23:41 : player: played "Pink Floyd/1979 - The Wall 2011 Remaster/CD2/09. Run Like Hell.mp3"
+Mar 08 23:45 : player: played "Pink Floyd/1979 - The Wall 2011 Remaster/CD2/10. Waiting For The Worms.mp3"
+Mar 08 23:45 : player: played "Pink Floyd/1979 - The Wall 2011 Remaster/CD2/11. Stop.mp3"
+Mar 08 23:49 : player: played "Pink Floyd/1979 - The Wall 2011 Remaster/CD2/12. The Trial.mp3"
+Mar 08 23:49 : client: [54] closed
+Mar 12 13:36 : client: [0] opened from 127.0.0.1:56738
+Mar 12 13:37 : client: [0] closed
+Mar 14 06:38 : client: [0] opened from 127.0.0.1:38016
+Mar 14 06:38 : client: [0] closed
+Mar 15 21:13 : client: [0] opened from 127.0.0.1:46226
+Mar 15 21:13 : client: [0] closed
+Mar 15 21:15 : player: played "Pink Floyd/1979 - The Wall 2011 Remaster/CD2/13. Outside The Wall.mp3"
+Mar 15 21:16 : client: [1] opened from 127.0.0.1:46294
+Mar 15 21:16 : client: [1] closed
+Mar 15 21:17 : client: [2] opened from 127.0.0.1:46306
+Mar 15 21:20 : player: played "Pink Floyd/1982 - The Final Cut 2011 Remaster/01. The Post War Dream.mp3"
+Mar 15 21:22 : client: [2] closed
+Mar 15 21:25 : player: played "Pink Floyd/1982 - The Final Cut 2011 Remaster/02. Your Possible Pasts.mp3"
+Mar 15 21:25 : client: [3] opened from 127.0.0.1:46340
+Mar 15 21:26 : player: played "Pink Floyd/1982 - The Final Cut 2011 Remaster/03. One of the Few.mp3"
+Mar 15 21:29 : player: played "Pink Floyd/1982 - The Final Cut 2011 Remaster/04. When the Tigers Broke Free.mp3"
+Mar 15 21:30 : player: played "Pink Floyd/1982 - The Final Cut 2011 Remaster/05. The Hero's Return.mp3"
+Mar 15 21:30 : client: [3] closed
+Mar 15 21:47 : client: [4] opened from 127.0.0.1:46416
+Mar 15 21:48 : client: [4] closed
+Mar 15 21:49 : client: [5] opened from 127.0.0.1:46440
+Mar 15 21:49 : client: [5] closed
+Mar 15 21:50 : client: [6] opened from 127.0.0.1:46470
+Mar 15 21:53 : player: played "Pink Floyd/1982 - The Final Cut 2011 Remaster/01. The Post War Dream.mp3"
+Mar 15 21:55 : client: [6] closed
+Mar 15 21:58 : player: played "Pink Floyd/1982 - The Final Cut 2011 Remaster/02. Your Possible Pasts.mp3"
+Mar 15 21:58 : client: [7] opened from 127.0.0.1:46534
+Mar 15 21:58 : player: played "Pink Floyd/1982 - The Final Cut 2011 Remaster/03. One of the Few.mp3"
+Mar 15 22:02 : player: played "Pink Floyd/1982 - The Final Cut 2011 Remaster/06. The Gunner's Dream.mp3"
+Mar 15 22:04 : client: [7] closed
+Mar 15 22:04 : client: [8] opened from 127.0.0.1:46636
+Mar 15 22:04 : client: [8] closed
+Mar 15 22:06 : player: played "Pink Floyd/1982 - The Final Cut 2011 Remaster/07. Paranoid Eyes.mp3"
+Mar 15 22:07 : player: played "Pink Floyd/1982 - The Final Cut 2011 Remaster/08. Get Your Filthy Hands Off My Desert.mp3"
+Mar 15 22:11 : player: played "Pink Floyd/1982 - The Final Cut 2011 Remaster/09. The Fletcher Memorial Home.mp3"
+Mar 15 22:13 : player: played "Pink Floyd/1982 - The Final Cut 2011 Remaster/10. Southampton Dock.mp3"
+Mar 15 22:18 : player: played "Pink Floyd/1982 - The Final Cut 2011 Remaster/11. The Final Cut.mp3"
+Mar 15 22:23 : player: played "Pink Floyd/1982 - The Final Cut 2011 Remaster/12. Not Now John.mp3"
+Mar 15 22:23 : client: [9] opened from 127.0.0.1:46854
+Mar 15 22:23 : player: played "Pink Floyd/1982 - The Final Cut 2011 Remaster/13. Two Suns In The Sunset.mp3"
+Mar 15 22:23 : player: played "Pink Floyd/1982 - The Final Cut 2011 Remaster/06. The Gunner's Dream.mp3"
+Mar 15 22:31 : client: [9] closed
+Mar 16 02:00 : pulse_output: failed to connect the stream: Connection terminated
+Mar 16 02:00 : player: played "Pink Floyd/1982 - The Final Cut 2011 Remaster/01. The Post War Dream.mp3"
+Mar 16 20:26 : client: [0] opened from 127.0.0.1:55658
+Mar 16 20:26 : update: added Red Hot Chilli Peppers/Red Hot Chilli Peppers - Greatest Hits (2003)/01 Red Hot Chili Peppers - Under the Bridge.mp3
+Mar 16 20:26 : update: added Red Hot Chilli Peppers/Red Hot Chilli Peppers - Greatest Hits (2003)/02 Red Hot Chili Peppers - Give It Away.mp3
+Mar 16 20:26 : update: added Red Hot Chilli Peppers/Red Hot Chilli Peppers - Greatest Hits (2003)/03 Red Hot Chili Peppers - Californication.mp3
+Mar 16 20:26 : update: added Red Hot Chilli Peppers/Red Hot Chilli Peppers - Greatest Hits (2003)/04 Red Hot Chili Peppers - Scar Tissue.mp3
+Mar 16 20:26 : update: added Red Hot Chilli Peppers/Red Hot Chilli Peppers - Greatest Hits (2003)/05 Red Hot Chili Peppers - Soul to Squeeze.mp3
+Mar 16 20:26 : update: added Red Hot Chilli Peppers/Red Hot Chilli Peppers - Greatest Hits (2003)/06 Red Hot Chili Peppers - Otherside.mp3
+Mar 16 20:26 : update: added Red Hot Chilli Peppers/Red Hot Chilli Peppers - Greatest Hits (2003)/07 Red Hot Chili Peppers - Suck My Kiss.mp3
+Mar 16 20:26 : update: added Red Hot Chilli Peppers/Red Hot Chilli Peppers - Greatest Hits (2003)/08 Red Hot Chili Peppers - By the Way.mp3
+Mar 16 20:26 : update: added Red Hot Chilli Peppers/Red Hot Chilli Peppers - Greatest Hits (2003)/09 Red Hot Chili Peppers - Parallel Universe.mp3
+Mar 16 20:26 : update: added Red Hot Chilli Peppers/Red Hot Chilli Peppers - Greatest Hits (2003)/10 Red Hot Chili Peppers - Breaking the Girl.mp3
+Mar 16 20:26 : update: added Red Hot Chilli Peppers/Red Hot Chilli Peppers - Greatest Hits (2003)/11 Red Hot Chili Peppers - My Friends.mp3
+Mar 16 20:26 : update: added Red Hot Chilli Peppers/Red Hot Chilli Peppers - Greatest Hits (2003)/12 Red Hot Chili Peppers - Higher Ground.mp3
+Mar 16 20:26 : update: added Red Hot Chilli Peppers/Red Hot Chilli Peppers - Greatest Hits (2003)/13 Red Hot Chili Peppers - Universally Speaking.mp3
+Mar 16 20:26 : update: added Red Hot Chilli Peppers/Red Hot Chilli Peppers - Greatest Hits (2003)/14 Red Hot Chili Peppers - Road Trippin'.mp3
+Mar 16 20:26 : update: added Red Hot Chilli Peppers/Red Hot Chilli Peppers - Greatest Hits (2003)/15 Red Hot Chili Peppers - Fortune Faded.mp3
+Mar 16 20:26 : update: added Red Hot Chilli Peppers/Red Hot Chilli Peppers - Greatest Hits (2003)/16 Red Hot Chili Peppers - Save the Population.mp3
+Mar 16 20:26 : player: played "Pink Floyd/1982 - The Final Cut 2011 Remaster/01. The Post War Dream.mp3"
+Mar 16 20:30 : player: played "Red Hot Chilli Peppers/Red Hot Chilli Peppers - Greatest Hits (2003)/06 Red Hot Chili Peppers - Otherside.mp3"
+Mar 16 20:46 : player: played "Red Hot Chilli Peppers/Red Hot Chilli Peppers - Greatest Hits (2003)/08 Red Hot Chili Peppers - By the Way.mp3"
+Mar 16 20:46 : client: [0] closed
+Mar 16 20:50 : player: played "Red Hot Chilli Peppers/Red Hot Chilli Peppers - Greatest Hits (2003)/06 Red Hot Chili Peppers - Otherside.mp3"
+Mar 16 20:51 : client: [1] opened from 127.0.0.1:56062
+Mar 16 20:55 : player: played "Red Hot Chilli Peppers/Red Hot Chilli Peppers - Greatest Hits (2003)/08 Red Hot Chili Peppers - By the Way.mp3"
+Mar 16 21:01 : player: played "Red Hot Chilli Peppers/Red Hot Chilli Peppers - Greatest Hits (2003)/01 Red Hot Chili Peppers - Under the Bridge.mp3"
+Mar 16 21:52 : player: played "Red Hot Chilli Peppers/Red Hot Chilli Peppers - Greatest Hits (2003)/06 Red Hot Chili Peppers - Otherside.mp3"
+Mar 16 21:56 : player: played "Red Hot Chilli Peppers/Red Hot Chilli Peppers - Greatest Hits (2003)/08 Red Hot Chili Peppers - By the Way.mp3"
+Mar 16 22:00 : player: played "Red Hot Chilli Peppers/Red Hot Chilli Peppers - Greatest Hits (2003)/01 Red Hot Chili Peppers - Under the Bridge.mp3"
+Mar 16 22:31 : client: [1] closed

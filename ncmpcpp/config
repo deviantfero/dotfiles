@@ -46,14 +46,14 @@ message_delay_time = "4"
 
 # Playlist
 song_columns_list_format = "$L(9)[blue]{l} (20)[blue]{a} (30)[blue]{b}$R(20)[blue]{t}"
-now_playing_prefix = "$b •"
+now_playing_prefix = "$b⚫ "
 #now_playing_subfix = "/$b"
 playlist_display_mode = "classic" (classic/columns)
 autocenter_mode = "yes"
 centered_cursor = "yes"
 cyclic_scrolling = "yes"
 mouse_list_scroll_whole_page = "no"
-song_list_format = "{ $8[%l]  }{%t }$R{$4%a  $4%b }"
+song_list_format = "{$5[%l] }{%t }$R{$7%a - $7%b}"
 #song_list_format = " $5%l $1║{$7 %a $1│$2 %t$1 $R $3%b$1 }|{$6 %f $1}"
 #song_list_format = " $8%l $1│{$7 %a $1│$6 %t }|{$6 %f }$1 $R $1%b$1"
 #
@@ -93,6 +93,6 @@ visualizer_color = "green"
 
 # Others
 song_window_title_format = "{%a :: }{%t}|{%f}"
-search_engine_display_mode = "columns" (classic/columns)
+search_engine_display_mode = "classic" (classic/columns)
 follow_now_playing_lyrics = "yes"
 user_interface = "classic" (classic/alternative)
