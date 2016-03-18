@@ -15,4 +15,4 @@ URxvt*internalBorder: 8
 URxvt*loginShell: true
 URxvt.scrollBar: false
 URxvt*perl-ext:
-URxvt*perl-ext-common:
+!URxvt*perl-ext-common:
