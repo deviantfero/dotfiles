@@ -91,10 +91,7 @@ endif
 " for autocompletion  "
 """""""""""""""""""""""
 "important for java completion
-autocmd VimEnter *
-	\  if exists( ':PingEclim' )
-		\| let g:EclimCompletionMethod = 'omnifunc'
-	\| endif
+silent! let g:EclimCompletionMethod = 'omnifunc'
 autocmd CompleteDone * pclose
 let g:acp_enableAtStartup = 0 " Disable AutoComplPop
 let g:neocomplete#enable_at_startup = 1

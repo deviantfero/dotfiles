@@ -12067,3 +12067,28 @@ Mar 18 02:37 : player: played "Pink Floyd/1973 - The Dark Side Of The Moon 2011 
 Mar 18 02:37 : client: [7] closed
 Mar 18 02:45 : client: [8] opened from 127.0.0.1:53028
 Mar 18 02:45 : client: [8] closed
+Mar 18 03:34 : client: [9] opened from 127.0.0.1:55462
+Mar 18 03:34 : client: [9] closed
+Mar 18 03:50 : avahi: Client Disconnected, will reconnect shortly
+Mar 18 03:50 : avahi: Could not reconnect: An unexpected D-Bus error occurred
+Mar 18 23:18 : client: [0] opened from 127.0.0.1:37610
+Mar 18 23:18 : errno: Failed to open "/media/Local/Music/Red Hot Chilli Peppers/Red Hot Chilli Peppers - Greatest Hits (2003)/06 Red Hot Chili Peppers - Otherside.mp3": No such file or directory
+Mar 18 23:18 : errno: Failed to open "/media/Local/Music/Red Hot Chilli Peppers/Red Hot Chilli Peppers - Greatest Hits (2003)/06 Red Hot Chili Peppers - Otherside.mp3": No such file or directory
+Mar 18 23:18 : player: played "Red Hot Chilli Peppers/Red Hot Chilli Peppers - Greatest Hits (2003)/06 Red Hot Chili Peppers - Otherside.mp3"
+Mar 18 23:18 : errno: Failed to open "/media/Local/Music/Red Hot Chilli Peppers/Red Hot Chilli Peppers - Greatest Hits (2003)/08 Red Hot Chili Peppers - By the Way.mp3": No such file or directory
+Mar 18 23:18 : errno: Failed to open "/media/Local/Music/Red Hot Chilli Peppers/Red Hot Chilli Peppers - Greatest Hits (2003)/08 Red Hot Chili Peppers - By the Way.mp3": No such file or directory
+Mar 18 23:18 : player: played "Red Hot Chilli Peppers/Red Hot Chilli Peppers - Greatest Hits (2003)/08 Red Hot Chili Peppers - By the Way.mp3"
+Mar 18 23:18 : errno: Failed to open "/media/Local/Music/Red Hot Chilli Peppers/Red Hot Chilli Peppers - Greatest Hits (2003)/01 Red Hot Chili Peppers - Under the Bridge.mp3": No such file or directory
+Mar 18 23:18 : errno: Failed to open "/media/Local/Music/Red Hot Chilli Peppers/Red Hot Chilli Peppers - Greatest Hits (2003)/01 Red Hot Chili Peppers - Under the Bridge.mp3": No such file or directory
+Mar 18 23:18 : player: played "Red Hot Chilli Peppers/Red Hot Chilli Peppers - Greatest Hits (2003)/01 Red Hot Chili Peppers - Under the Bridge.mp3"
+Mar 18 23:18 : client: [0] closed
+Mar 18 23:23 : player: played "Red Hot Chilli Peppers/Red Hot Chilli Peppers - Greatest Hits (2003)/06 Red Hot Chili Peppers - Otherside.mp3"
+Mar 18 23:26 : player: played "Red Hot Chilli Peppers/Red Hot Chilli Peppers - Greatest Hits (2003)/08 Red Hot Chili Peppers - By the Way.mp3"
+Mar 18 23:31 : player: played "Red Hot Chilli Peppers/Red Hot Chilli Peppers - Greatest Hits (2003)/01 Red Hot Chili Peppers - Under the Bridge.mp3"
+Mar 19 01:52 : client: [0] opened from 127.0.0.1:57352
+Mar 19 01:56 : player: played "Red Hot Chilli Peppers/Red Hot Chilli Peppers - Greatest Hits (2003)/01 Red Hot Chili Peppers - Under the Bridge.mp3"
+Mar 19 01:56 : client: [0] closed
+Mar 23 21:49 : client: [0] opened from 127.0.0.1:33822
+Mar 23 21:50 : player: played "Pink Floyd/1967 - The Piper At The Gates Of Dawn 2011 Remaster/02. Lucifer Sam.mp3"
+Mar 23 22:10 : client: [0] closed
+Mar 23 23:00 : player: played "Pink Floyd/1967 - The Piper At The Gates Of Dawn 2011 Remaster/03. Matilda Mother.mp3"
