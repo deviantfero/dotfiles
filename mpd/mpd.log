@@ -12092,3 +12092,319 @@ Mar 23 21:49 : client: [0] opened from 127.0.0.1:33822
 Mar 23 21:50 : player: played "Pink Floyd/1967 - The Piper At The Gates Of Dawn 2011 Remaster/02. Lucifer Sam.mp3"
 Mar 23 22:10 : client: [0] closed
 Mar 23 23:00 : player: played "Pink Floyd/1967 - The Piper At The Gates Of Dawn 2011 Remaster/03. Matilda Mother.mp3"
+Mar 24 13:44 : client: [0] opened from 127.0.0.1:54436
+Mar 24 13:44 : player: played "Pink Floyd/1967 - The Piper At The Gates Of Dawn 2011 Remaster/03. Matilda Mother.mp3"
+Mar 24 13:44 : player: played "Pink Floyd/1967 - The Piper At The Gates Of Dawn 2011 Remaster/05. Pow R. Toc H..mp3"
+Mar 24 21:34 : player: played "Red Hot Chilli Peppers/Red Hot Chilli Peppers - Greatest Hits (2003)/01 Red Hot Chili Peppers - Under the Bridge.mp3"
+Mar 24 21:36 : player: played "Pink Floyd/2011 - A Foot In The Door - The Best Of Pink Floyd/16. Eclipse.mp3"
+Mar 24 21:36 : player: played "Red Hot Chilli Peppers/Red Hot Chilli Peppers - Greatest Hits (2003)/06 Red Hot Chili Peppers - Otherside.mp3"
+Mar 24 21:38 : player: played "Pink Floyd/1979 - The Wall 2011 Remaster/CD2/07. The Show Must Go On.mp3"
+Mar 24 21:39 : player: played "Pink Floyd/1982 - The Final Cut 2011 Remaster/07. Paranoid Eyes.mp3"
+Mar 24 21:45 : player: played "Pink Floyd/1979 - The Wall 2011 Remaster/CD2/12. The Trial.mp3"
+Mar 24 21:46 : client: [0] closed
+Mar 24 21:48 : player: played "Pink Floyd/1969 - Music From The Film More 2011 Remaster/09. Ibiza Bar.mp3"
+Mar 24 21:48 : client: [1] opened from 127.0.0.1:55966
+Mar 24 21:48 : player: played "Pink Floyd/1967 - The Piper At The Gates Of Dawn 2011 Remaster/06. Take up Thy Stethoscope and Walk.mp3"
+Mar 24 21:48 : player: played "Pink Floyd/2011 - A Foot In The Door - The Best Of Pink Floyd/05. Have A Cigar.mp3"
+Mar 24 21:48 : player: played "Pink Floyd/1987 - A Momentary Lapse Of Reason 2011 Remaster/07. Round And Around.mp3"
+Mar 24 21:48 : player: played "Pink Floyd/1969 - Music From The Film More 2011 Remaster/10. More Blues.mp3"
+Mar 24 21:48 : player: played "Pink Floyd/1987 - A Momentary Lapse Of Reason 2011 Remaster/05. On The Turning Away.mp3"
+Mar 24 21:48 : player: played "Pink Floyd/1994 - The Divison Bell 2011 Remaster/11. High Hopes.mp3"
+Mar 24 21:48 : player: played "Red Hot Chilli Peppers/Red Hot Chilli Peppers - Greatest Hits (2003)/08 Red Hot Chili Peppers - By the Way.mp3"
+Mar 24 21:48 : client: [1] closed
+Mar 25 01:41 : client: [0] opened from 127.0.0.1:32920
+Mar 25 01:52 : client: [1] opened from 127.0.0.1:32924
+Mar 25 01:52 : client: [0] closed
+Mar 25 01:52 : client: [2] opened from 127.0.0.1:32928
+Mar 25 01:52 : client: [1] closed
+Mar 25 01:52 : client: [3] opened from 127.0.0.1:32932
+Mar 25 01:52 : client: [2] closed
+Mar 25 01:52 : client: [4] opened from 127.0.0.1:32936
+Mar 25 01:52 : client: [3] closed
+Mar 25 01:52 : client: [5] opened from 127.0.0.1:32940
+Mar 25 01:52 : client: [4] closed
+Mar 25 01:52 : errno: Failed to read: Input/output error
+Mar 25 01:52 : errno: Failed to open "/media/Local/Music/Pink Floyd/1982 - The Final Cut 2011 Remaster/11. The Final Cut.mp3": Permission denied
+Mar 25 01:52 : errno: Failed to open "/media/Local/Music/Pink Floyd/1982 - The Final Cut 2011 Remaster/11. The Final Cut.mp3": Permission denied
+Mar 25 01:53 : player: played "Angra/Fireworks/05 Paradise.mp3"
+Mar 25 01:53 : player: played "Angra/Fireworks/05 Paradise.mp3"
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     Mar 25 01:55 : client: [0] opened from 127.0.0.1:58768
+Mar 25 01:55 : player: played "Angra/Fireworks/05 Paradise.mp3"
+Mar 25 01:58 : player: played "Pink Floyd/1982 - The Final Cut 2011 Remaster/06. The Gunner's Dream.mp3"
+Mar 25 02:09 : player: played "Angra/Fireworks/05 Paradise.mp3"
+Mar 25 02:09 : player: played "Red Hot Chilli Peppers/Red Hot Chilli Peppers - Greatest Hits (2003)/01 Red Hot Chili Peppers - Under the Bridge.mp3"
+Mar 25 02:09 : player: played "Red Hot Chilli Peppers/Red Hot Chilli Peppers - Greatest Hits (2003)/08 Red Hot Chili Peppers - By the Way.mp3"
+Mar 25 03:02 : client: [1] opened from 127.0.0.1:58868
+Mar 25 03:02 : client: [1] closed
+Mar 25 03:42 : client: [0] closed
+Mar 25 12:46 : client: [0] opened from 127.0.0.1:33038
+Mar 25 12:46 : client: [0] closed
+Mar 25 12:51 : client: [1] opened from 127.0.0.1:33114
+Mar 25 13:26 : client: [2] opened from 127.0.0.1:33400
+Mar 25 13:26 : update: added Queen/Queen - Absolute Greatest (2009)/01 We Will Rock You.mp3
+Mar 25 13:26 : update: added Queen/Queen - Absolute Greatest (2009)/02 We Are The Champions.mp3
+Mar 25 13:26 : update: added Queen/Queen - Absolute Greatest (2009)/03 Radio Ga Ga.mp3
+Mar 25 13:26 : update: added Queen/Queen - Absolute Greatest (2009)/04 Another One Bites The Dust.mp3
+Mar 25 13:26 : update: added Queen/Queen - Absolute Greatest (2009)/05 I Want It All.mp3
+Mar 25 13:26 : update: added Queen/Queen - Absolute Greatest (2009)/06 Crazy Little Thing Called Love.mp3
+Mar 25 13:26 : update: added Queen/Queen - Absolute Greatest (2009)/07 A Kind Of Magic.mp3
+Mar 25 13:26 : update: added Queen/Queen - Absolute Greatest (2009)/08 Under Pressure.mp3
+Mar 25 13:26 : update: added Queen/Queen - Absolute Greatest (2009)/09 One Vision.mp3
+Mar 25 13:26 : update: added Queen/Queen - Absolute Greatest (2009)/10 You're My Best Friend.mp3
+Mar 25 13:26 : update: added Queen/Queen - Absolute Greatest (2009)/11 Don't Stop Me Now.mp3
+Mar 25 13:26 : update: added Queen/Queen - Absolute Greatest (2009)/12 Killer Queen.mp3
+Mar 25 13:26 : update: added Queen/Queen - Absolute Greatest (2009)/13 These Are The Days Of Our Lives.mp3
+Mar 25 13:26 : update: added Queen/Queen - Absolute Greatest (2009)/14 Who Wants To Live Forever.mp3
+Mar 25 13:26 : update: added Queen/Queen - Absolute Greatest (2009)/15 Seven Seas Of Rhye.mp3
+Mar 25 13:26 : update: added Queen/Queen - Absolute Greatest (2009)/16 Heaven For Everyone.mp3
+Mar 25 13:26 : update: added Queen/Queen - Absolute Greatest (2009)/17 Somebody To Love.mp3
+Mar 25 13:26 : update: added Queen/Queen - Absolute Greatest (2009)/18 I Want To Break Free.mp3
+Mar 25 13:26 : update: added Queen/Queen - Absolute Greatest (2009)/19 The Show Must Go On.mp3
+Mar 25 13:26 : update: added Queen/Queen - Absolute Greatest (2009)/20 Bohemian Rhapsody.mp3
+Mar 25 13:26 : player: played "David Gilmour/Rattle That Lock/08 - The Girl In The Yellow Dress - David Gilmour.mp3"
+Mar 25 13:28 : player: played "Queen/Queen - Absolute Greatest (2009)/01 We Will Rock You.mp3"
+Mar 25 13:38 : player: played "Queen/Queen - Absolute Greatest (2009)/08 Under Pressure.mp3"
+Mar 25 13:39 : player: played "Queen/Queen - Absolute Greatest (2009)/01 We Will Rock You.mp3"
+Mar 25 13:39 : player: played "Queen/Queen - Absolute Greatest (2009)/03 Radio Ga Ga.mp3"
+Mar 25 13:39 : player: played "Queen/Queen - Absolute Greatest (2009)/01 We Will Rock You.mp3"
+Mar 25 13:41 : player: played "Queen/Queen - Absolute Greatest (2009)/04 Another One Bites The Dust.mp3"
+Mar 25 13:41 : player: played "Queen/Queen - Absolute Greatest (2009)/04 Another One Bites The Dust.mp3"
+Mar 25 13:45 : player: played "Queen/Queen - Absolute Greatest (2009)/05 I Want It All.mp3"
+Mar 25 13:48 : client: [1] closed
+Mar 25 13:49 : player: played "Queen/Queen - Absolute Greatest (2009)/13 These Are The Days Of Our Lives.mp3"
+Mar 25 13:51 : player: played "Queen/Queen - Absolute Greatest (2009)/20 Bohemian Rhapsody.mp3"
+Mar 25 13:56 : player: played "Queen/Queen - Absolute Greatest (2009)/07 A Kind Of Magic.mp3"
+Mar 25 14:01 : player: played "Queen/Queen - Absolute Greatest (2009)/03 Radio Ga Ga.mp3"
+Mar 25 14:17 : client: [2] closed
+Mar 25 14:20 : player: played "Queen/Queen - Absolute Greatest (2009)/11 Don't Stop Me Now.mp3"
+Mar 26 17:51 : client: [0] opened from 127.0.0.1:38804
+Mar 26 17:51 : player: played "Queen/Queen - Absolute Greatest (2009)/11 Don't Stop Me Now.mp3"
+Mar 26 17:51 : client: [0] closed
+Mar 26 17:56 : player: played "David Gilmour/Rattle That Lock/08 - The Girl In The Yellow Dress - David Gilmour.mp3"
+Mar 26 17:57 : client: [1] opened from 127.0.0.1:38880
+Mar 26 17:57 : player: played "Queen/Queen - Absolute Greatest (2009)/01 We Will Rock You.mp3"
+Mar 26 18:03 : player: played "David Gilmour/Rattle That Lock/05 - Dancing Right In Front of Me - David Gilmour.mp3"
+Mar 26 18:09 : player: played "David Gilmour/Rattle That Lock/08 - The Girl In The Yellow Dress - David Gilmour.mp3"
+Mar 26 18:10 : player: played "David Gilmour/Rattle That Lock/05 - Dancing Right In Front of Me - David Gilmour.mp3"
+Mar 26 18:10 : client: [1] closed
+Mar 27 12:47 : client: [0] opened from 127.0.0.1:55764
+Mar 27 22:58 : client: [0] closed
+Mar 27 23:14 : player: played "Pink Floyd/1977 - Animals 2011 Remaster/03 Pigs (Three Different Ones).mp3"
+Mar 28 13:33 : client: [0] opened from 127.0.0.1:37550
+Mar 28 13:33 : player: played "Pink Floyd/1977 - Animals 2011 Remaster/03 Pigs (Three Different Ones).mp3"
+Mar 28 13:33 : player: played "Pink Floyd/1977 - Animals 2011 Remaster/03 Pigs (Three Different Ones).mp3"
+Mar 28 13:36 : player: played "Queen/Queen - Absolute Greatest (2009)/12 Killer Queen.mp3"
+Mar 28 13:40 : player: played "Queen/Queen - Absolute Greatest (2009)/11 Don't Stop Me Now.mp3"
+Mar 28 13:42 : player: played "Queen/Queen - Absolute Greatest (2009)/12 Killer Queen.mp3"
+Mar 28 13:47 : player: played "Queen/Queen - Absolute Greatest (2009)/13 These Are The Days Of Our Lives.mp3"
+Mar 28 13:51 : player: played "Queen/Queen - Absolute Greatest (2009)/14 Who Wants To Live Forever.mp3"
+Mar 28 13:53 : player: played "Queen/Queen - Absolute Greatest (2009)/15 Seven Seas Of Rhye.mp3"
+Mar 28 13:53 : player: played "Queen/Queen - Absolute Greatest (2009)/16 Heaven For Everyone.mp3"
+Mar 28 13:53 : player: played "Queen/Queen - Absolute Greatest (2009)/17 Somebody To Love.mp3"
+Mar 28 13:53 : client: [0] closed
+Mar 28 13:57 : player: played "Queen/Queen - Absolute Greatest (2009)/18 I Want To Break Free.mp3"
+Mar 28 14:01 : player: played "Queen/Queen - Absolute Greatest (2009)/19 The Show Must Go On.mp3"
+Mar 28 14:07 : player: played "Queen/Queen - Absolute Greatest (2009)/20 Bohemian Rhapsody.mp3"
+Mar 28 14:12 : client: [1] opened from 127.0.0.1:37982
+Mar 28 16:08 : client: [1] closed
+Mar 28 16:08 : client: [2] opened from 127.0.0.1:38814
+Mar 28 16:08 : client: [2] closed
+Mar 28 16:26 : client: [3] opened from 127.0.0.1:38878
+Mar 28 16:26 : client: [3] closed
+Mar 28 16:28 : client: [4] opened from 127.0.0.1:38886
+Mar 28 16:28 : client: [4] closed
+Mar 28 16:36 : client: [5] opened from 127.0.0.1:38908
+Mar 28 16:36 : client: [5] closed
+Mar 28 16:41 : client: [6] opened from 127.0.0.1:38918
+Mar 28 16:41 : client: [6] closed
+Mar 28 17:07 : client: [7] opened from 127.0.0.1:39036
+Mar 28 17:07 : client: [7] closed
+Mar 28 17:14 : client: [8] opened from 127.0.0.1:39080
+Mar 28 17:14 : client: [8] closed
+Mar 28 17:44 : player: played "David Gilmour/Rattle That Lock/08 - The Girl In The Yellow Dress - David Gilmour.mp3"
+Mar 28 17:52 : client: [0] opened from 127.0.0.1:38658
+Mar 28 17:52 : player: played "David Gilmour/Rattle That Lock/08 - The Girl In The Yellow Dress - David Gilmour.mp3"
+Mar 28 17:53 : client: [0] closed
+Mar 28 17:53 : client: [1] opened from 127.0.0.1:38662
+Mar 28 17:53 : client: [1] closed
+Mar 28 17:54 : client: [2] opened from 127.0.0.1:38666
+Mar 28 17:56 : player: played "Queen/Queen - Absolute Greatest (2009)/18 I Want To Break Free.mp3"
+Mar 28 17:57 : client: [2] closed
+Mar 28 17:57 : client: [3] opened from 127.0.0.1:38868
+Mar 28 17:58 : client: [3] closed
+Mar 28 17:58 : client: [4] opened from 127.0.0.1:38872
+Mar 28 17:58 : client: [4] closed
+Mar 28 18:00 : client: [5] opened from 127.0.0.1:38890
+Mar 28 18:00 : client: [5] closed
+Mar 28 18:00 : client: [6] opened from 127.0.0.1:38894
+Mar 28 18:00 : client: [6] closed
+Mar 28 18:01 : player: played "Queen/Queen - Absolute Greatest (2009)/19 The Show Must Go On.mp3"
+Mar 28 18:03 : client: [7] opened from 127.0.0.1:38914
+Mar 28 18:03 : player: played "Queen/Queen - Absolute Greatest (2009)/20 Bohemian Rhapsody.mp3"
+Mar 28 18:03 : player: played "Queen/Queen - Absolute Greatest (2009)/15 Seven Seas Of Rhye.mp3"
+Mar 28 18:03 : client: [7] closed
+Mar 28 18:05 : client: [8] opened from 127.0.0.1:38924
+Mar 28 18:05 : client: [8] closed
+Mar 28 18:05 : client: [9] opened from 127.0.0.1:38928
+Mar 28 18:05 : client: [9] closed
+Mar 28 18:05 : client: [10] opened from 127.0.0.1:38932
+Mar 28 18:05 : client: [10] closed
+Mar 28 18:05 : client: [11] opened from 127.0.0.1:38938
+Mar 28 18:05 : client: [11] closed
+Mar 28 18:05 : client: [12] opened from 127.0.0.1:38942
+Mar 28 18:05 : client: [12] closed
+Mar 28 18:06 : client: [13] opened from 127.0.0.1:38946
+Mar 28 18:06 : client: [13] closed
+Mar 28 18:06 : client: [14] opened from 127.0.0.1:38950
+Mar 28 18:06 : player: played "Queen/Queen - Absolute Greatest (2009)/20 Bohemian Rhapsody.mp3"
+Mar 28 18:07 : player: played "Queen/Queen - Absolute Greatest (2009)/19 The Show Must Go On.mp3"
+Mar 28 18:07 : player: played "Queen/Queen - Absolute Greatest (2009)/18 I Want To Break Free.mp3"
+Mar 28 18:07 : client: [14] closed
+Mar 28 18:08 : client: [15] opened from 127.0.0.1:38954
+Mar 28 18:08 : client: [15] closed
+Mar 28 18:08 : client: [16] opened from 127.0.0.1:38958
+Mar 28 18:08 : client: [16] closed
+Mar 28 18:08 : client: [17] opened from 127.0.0.1:38962
+Mar 28 18:09 : client: [17] closed
+Mar 28 18:09 : client: [18] opened from 127.0.0.1:38966
+Mar 28 18:09 : client: [18] closed
+Mar 28 18:09 : client: [19] opened from 127.0.0.1:38970
+Mar 28 18:10 : player: played "Queen/Queen - Absolute Greatest (2009)/12 Killer Queen.mp3"
+Mar 28 18:10 : client: [20] opened from 127.0.0.1:38974
+Mar 28 18:10 : client: [20] closed
+Mar 28 18:10 : client: [19] closed
+Mar 28 18:10 : client: [21] opened from 127.0.0.1:38978
+Mar 28 18:10 : client: [21] closed
+Mar 28 18:10 : client: [22] opened from 127.0.0.1:38982
+Mar 28 18:10 : client: [22] closed
+Mar 28 18:10 : client: [23] opened from 127.0.0.1:38986
+Mar 28 18:10 : client: [23] closed
+Mar 28 18:11 : client: [24] opened from 127.0.0.1:38990
+Mar 28 18:11 : client: [24] closed
+Mar 28 18:11 : client: [25] opened from 127.0.0.1:38994
+Mar 28 18:11 : client: [25] closed
+Mar 28 18:11 : client: [26] opened from 127.0.0.1:38998
+Mar 28 18:11 : client: [26] closed
+Mar 28 18:11 : client: [27] opened from 127.0.0.1:39002
+Mar 28 18:12 : client: [27] closed
+Mar 28 18:12 : client: [28] opened from 127.0.0.1:39006
+Mar 28 18:12 : player: played "Queen/Queen - Absolute Greatest (2009)/13 These Are The Days Of Our Lives.mp3"
+Mar 28 18:12 : player: played "Queen/Queen - Absolute Greatest (2009)/14 Who Wants To Live Forever.mp3"
+Mar 28 18:12 : client: [28] closed
+Mar 28 18:13 : client: [29] opened from 127.0.0.1:39012
+Mar 28 18:14 : client: [29] closed
+Mar 28 18:15 : player: played "Queen/Queen - Absolute Greatest (2009)/13 These Are The Days Of Our Lives.mp3"
+Mar 28 18:16 : client: [30] opened from 127.0.0.1:39100
+Mar 28 18:17 : client: [30] closed
+Mar 28 18:19 : player: played "Queen/Queen - Absolute Greatest (2009)/14 Who Wants To Live Forever.mp3"
+Mar 28 18:22 : player: played "Queen/Queen - Absolute Greatest (2009)/15 Seven Seas Of Rhye.mp3"
+Mar 28 18:22 : client: [31] opened from 127.0.0.1:39262
+Mar 28 18:22 : player: played "Queen/Queen - Absolute Greatest (2009)/16 Heaven For Everyone.mp3"
+Mar 28 18:22 : player: played "Queen/Queen - Absolute Greatest (2009)/17 Somebody To Love.mp3"
+Mar 28 18:22 : player: played "Queen/Queen - Absolute Greatest (2009)/18 I Want To Break Free.mp3"
+Mar 28 18:23 : player: played "Queen/Queen - Absolute Greatest (2009)/19 The Show Must Go On.mp3"
+Mar 28 18:24 : client: [32] opened from 127.0.0.1:39268
+Mar 28 18:24 : client: [32] closed
+Mar 28 18:25 : client: [33] opened from 127.0.0.1:39272
+Mar 28 18:25 : client: [33] closed
+Mar 28 18:25 : client: [34] opened from 127.0.0.1:39276
+Mar 28 18:25 : client: [34] closed
+Mar 28 18:26 : client: [35] opened from 127.0.0.1:39280
+Mar 28 18:26 : player: played "Queen/Queen - Absolute Greatest (2009)/19 The Show Must Go On.mp3"
+Mar 28 18:26 : client: [35] closed
+Mar 28 18:26 : client: [36] opened from 127.0.0.1:39284
+Mar 28 18:26 : client: [36] closed
+Mar 28 18:26 : client: [37] opened from 127.0.0.1:39288
+Mar 28 18:26 : client: [37] closed
+Mar 28 18:26 : client: [38] opened from 127.0.0.1:39292
+Mar 28 18:26 : client: [38] closed
+Mar 28 18:26 : client: [39] opened from 127.0.0.1:39300
+Mar 28 18:27 : client: [39] closed
+Mar 28 18:27 : client: [40] opened from 127.0.0.1:39304
+Mar 28 18:27 : client: [40] closed
+Mar 28 18:27 : client: [41] opened from 127.0.0.1:39308
+Mar 28 18:27 : client: [41] closed
+Mar 28 18:27 : client: [42] opened from 127.0.0.1:39312
+Mar 28 18:27 : client: [42] closed
+Mar 28 18:27 : client: [43] opened from 127.0.0.1:39318
+Mar 28 18:27 : client: [43] closed
+Mar 28 18:27 : client: [44] opened from 127.0.0.1:39322
+Mar 28 18:27 : client: [44] closed
+Mar 28 18:27 : client: [45] opened from 127.0.0.1:39326
+Mar 28 18:28 : client: [45] closed
+Mar 28 18:28 : client: [46] opened from 127.0.0.1:39330
+Mar 28 18:28 : client: [46] closed
+Mar 28 18:28 : client: [47] opened from 127.0.0.1:39334
+Mar 28 18:28 : client: [47] closed
+Mar 28 18:28 : client: [48] opened from 127.0.0.1:39338
+Mar 28 18:28 : client: [48] closed
+Mar 28 18:28 : client: [49] opened from 127.0.0.1:39342
+Mar 28 18:28 : client: [49] closed
+Mar 28 18:29 : client: [50] opened from 127.0.0.1:39346
+Mar 28 18:29 : client: [50] closed
+Mar 28 18:29 : client: [51] opened from 127.0.0.1:39350
+Mar 28 18:29 : client: [51] closed
+Mar 28 18:29 : client: [52] opened from 127.0.0.1:39354
+Mar 28 18:30 : client: [52] closed
+Mar 28 18:30 : client: [53] opened from 127.0.0.1:39368
+Mar 28 18:30 : client: [53] closed
+Mar 28 18:31 : client: [31] closed
+Mar 28 18:32 : client: [54] opened from 127.0.0.1:39402
+Mar 28 18:32 : player: played "David Gilmour/Rattle That Lock/08 - The Girl In The Yellow Dress - David Gilmour.mp3"
+Mar 28 18:32 : player: played "David Gilmour/Rattle That Lock/08 - The Girl In The Yellow Dress - David Gilmour.mp3"
+Mar 28 18:32 : player: played "David Gilmour/Rattle That Lock/08 - The Girl In The Yellow Dress - David Gilmour.mp3"
+Mar 28 18:33 : client: [55] opened from 127.0.0.1:39410
+Mar 28 18:34 : player: played "David Gilmour/Rattle That Lock/08 - The Girl In The Yellow Dress - David Gilmour.mp3"
+Mar 28 18:34 : client: [55] closed
+Mar 28 18:34 : player: played "Queen/Queen - Absolute Greatest (2009)/01 We Will Rock You.mp3"
+Mar 28 18:34 : update: updating Fallout/ Anything Goes.mp3
+Mar 28 18:35 : update: updating Fallout/Civilization (Bingo Bango Bongo).mp3
+Mar 28 18:35 : update: updating Fallout/I don't want to set the world on fire.mp3
+Mar 28 18:35 : update: updating Fallout/Way Back Home.mp3
+Mar 28 18:35 : update: updating Fallout/Blue Moon.mp3
+Mar 28 18:35 : update: updating Fallout/Jingle Jangle Jingle.mp3
+Mar 28 18:35 : client: [54] closed
+Mar 28 18:36 : client: [56] opened from 127.0.0.1:39424
+Mar 28 18:36 : client: [56] closed
+Mar 28 18:36 : client: [57] opened from 127.0.0.1:39428
+Mar 28 18:36 : client: [57] closed
+Mar 28 18:36 : client: [58] opened from 127.0.0.1:39432
+Mar 28 18:36 : player: played "Fallout/ Anything Goes.mp3"
+Mar 28 18:37 : client: [58] closed
+Mar 28 18:37 : client: [59] opened from 127.0.0.1:39436
+Mar 28 18:37 : client: [59] closed
+Mar 28 18:37 : client: [60] opened from 127.0.0.1:39442
+Mar 28 18:38 : client: [60] closed
+Mar 28 18:39 : client: [61] opened from 127.0.0.1:39446
+Mar 28 18:39 : client: [61] closed
+Mar 28 18:39 : client: [62] opened from 127.0.0.1:39450
+Mar 28 18:39 : client: [62] closed
+Mar 28 18:40 : client: [63] opened from 127.0.0.1:39454
+Mar 28 18:40 : client: [63] closed
+Mar 28 18:40 : client: [64] opened from 127.0.0.1:39458
+Mar 28 18:40 : client: [64] closed
+Mar 28 18:40 : client: [65] opened from 127.0.0.1:39462
+Mar 28 18:40 : client: [65] closed
+Mar 28 18:41 : client: [66] opened from 127.0.0.1:39468
+Mar 28 18:41 : client: [66] closed
+Mar 28 18:41 : player: played "Nujabes/23 Minmi - Who's Theme.mp3"
+Mar 28 18:42 : client: [67] opened from 127.0.0.1:39472
+Mar 28 18:42 : client: [67] closed
+Mar 28 18:42 : client: [68] opened from 127.0.0.1:39478
+Mar 28 18:42 : client: [69] opened from 127.0.0.1:39482
+Mar 28 18:42 : client: [69] closed
+Mar 28 18:43 : client: [70] opened from 127.0.0.1:39486
+Mar 28 18:43 : client: [70] closed
+Mar 28 18:43 : client: [68] closed
+Mar 28 18:43 : client: [71] opened from 127.0.0.1:39490
+Mar 28 18:45 : client: [72] opened from 127.0.0.1:39496
+Mar 28 18:46 : player: played "Nujabes/17 Minmi - Shiki No Uta.mp3"
+Mar 28 18:47 : client: [0] opened from [::1]:58746
+Mar 28 18:47 : client: [0] opened from [::1]:58760
+Mar 28 18:47 : client: [1] opened from [::1]:58762
+Mar 28 18:47 : client: [1] closed
+Mar 28 18:48 : client: [0] opened from [::1]:58776
+Mar 28 18:50 : client: [1] opened from [::1]:58800
+Mar 28 18:50 : player: played "Fallout/Civilization (Bingo Bango Bongo).mp3"
+Mar 28 18:50 : update: updating Fallout/Jingle Jangle Jingle.mp3
+Mar 28 18:50 : client: [1] closed

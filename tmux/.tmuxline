@@ -1,5 +1,5 @@
 # This tmux statusbar config was created by tmuxline.vim
-# on Fri, 18 Mar 2016
+# on Mon, 28 Mar 2016
 
 set -g status-bg "colour234"
 set -g message-command-fg "colour10"

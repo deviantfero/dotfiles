@@ -5,6 +5,8 @@ execute pathogen#infect()
 """"""""""
 map <C-f> :NERDTreeTabsToggle<CR>
 nnoremap <f2> :call NumberToggle()<cr>
+"this adds sudo saving support, with the command sudow
+command Sw :execute ':silent w !sudo tee % > /dev/null' | :edit!
 
 " ctrlp fuzzy finder "
 """"""""""""""""""""""
@@ -46,7 +48,7 @@ au BufNewFile,BufRead,BufEnter *.c,*.h set omnifunc=ccomplete#Complete
 " color options "
 """""""""""""""""
 set t_Co=16
-colorscheme pablo
+colorscheme peachpuff
 
 " changes to colorscheme "
 """"""""""""""""""""""""""
