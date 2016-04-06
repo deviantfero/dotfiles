@@ -1,8 +1,7 @@
-sw_volume: 0
+sw_volume: 100
 audio_device_state:1:MPD
 audio_device_state:1:Visualizer feed
 state: stop
-current: 0
 random: 0
 repeat: 0
 single: 0
@@ -11,12 +10,11 @@ crossfade: 0
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:Fallout/ Anything Goes.mp3
-1:Fallout/Civilization (Bingo Bango Bongo).mp3
-2:Fallout/I don't want to set the world on fire.mp3
-3:Fallout/Way Back Home.mp3
-4:Fallout/Blue Moon.mp3
-5:Fallout/Jingle Jangle Jingle.mp3
-6:Nujabes/23 Minmi - Who's Theme.mp3
-7:Nujabes/17 Minmi - Shiki No Uta.mp3
+0:Metallica/S&M - Metallica And The San Francisco Symphony /S&M Disc 1/Fuel.mp3
+1:Led Zeppelin/Led Zeppelin - Greatest Hits 2CD (2008)/Disc 1/15. Stairway To Heaven.mp3
+2:Led Zeppelin/Led Zeppelin - Greatest Hits 2CD (2008)/Disc 1/06. Babe I'm Gonna Leave You.mp3
+3:Metallica/S&M - Metallica And The San Francisco Symphony /S&M Disc 2/12 One.mp3
+4:Metallica/S&M - Metallica And The San Francisco Symphony /S&M Disc 2/16 Battery.mp3
+5:Metallica/S&M - Metallica And The San Francisco Symphony /S&M Disc 2/03 Until It Sleeps.mp3
+6:Metallica/S&M - Metallica And The San Francisco Symphony /S&M Disc 1/Devil's Dance.mp3
 playlist_end
