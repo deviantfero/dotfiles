@@ -5,6 +5,8 @@ execute pathogen#infect()
 """"""""""
 map <C-f> :NERDTreeTabsToggle<CR>
 nnoremap <f2> :call NumberToggle()<cr>
+nmap <F7> <Plug>ColorstepPrev
+nmap <F8> <Plug>ColorstepNext
 "this adds sudo saving support, with the command sudow
 command Sw :execute ':silent w !sudo tee % > /dev/null' | :edit!
 
@@ -48,27 +50,25 @@ au BufNewFile,BufRead,BufEnter *.c,*.h set omnifunc=ccomplete#Complete
 " color options "
 """""""""""""""""
 set t_Co=16
-colorscheme peachpuff
+colorscheme deviantfero
+"colorscheme tango-desert
 
 " changes to colorscheme "
 """"""""""""""""""""""""""
-"hi ColorColumn ctermbg=234
 hi CursorLine ctermbg=234	cterm=none
-hi CursorLineNr ctermfg=255
-hi LineNr ctermfg=DarkGrey ctermbg=none
+hi CursorLineNr ctermfg=249
 
 
 " Make vim recognize Y86 assembly files "
 """""""""""""""""""""""""""""""""""""""""
-:autocmd BufNewFile,BufRead *.ys set ft=asm
-:autocmd BufNewFile,BufRead *.ys set nosmartindent
+:autocmd BufNewFile,BufRead *.rkt set noautoindent
 
 " vim powerline "
 """""""""""""""""
 set laststatus=2
 let $PYTHONPATH='/usr/lib/python2/site-packages'
 let g:airline_powerline_fonts = 1
-let g:airline_extensions = ['branch','tabline']
+let g:airline_extensions = ['branch','tabline','ctrlp']
 let g:tmuxline_powerline_separators = 0
 let g:airline_left_sep = ' '
 let g:airline_right_sep = ' '
@@ -83,11 +83,8 @@ endif
 " TTY only "
 """"""""""""
 if &term=~"linux"
-	colorscheme zellner
-	let g:airline_theme = 'base16'
-	hi ColorColumn ctermbg=234
-	hi CursorLine ctermbg=234	cterm=none
-	hi CursorLineNr ctermfg=255
+	colorscheme peachpuff
+	let g:airline_theme = 'behelit'
 endif
 
 " for autocompletion  "

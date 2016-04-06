@@ -12571,3 +12571,10 @@ Apr 05 10:17 : player: played "Metallica/S&M - Metallica And The San Francisco S
 Apr 05 10:22 : player: played "Metallica/S&M - Metallica And The San Francisco Symphony /S&M Disc 1/Devil's Dance.mp3"
 Apr 05 10:26 : client: [0] closed
 Apr 05 22:21 : client: [0] opened from 127.0.0.1:60808
+Apr 05 22:26 : player: played "Queen/Queen - Absolute Greatest (2009)/18 I Want To Break Free.mp3"
+Apr 05 22:57 : client: [0] closed
+Apr 05 23:03 : client: [1] opened from 127.0.0.1:32880
+Apr 05 23:03 : client: [1] closed
+Apr 06 01:11 : client: [2] opened from 127.0.0.1:34022
+Apr 06 01:11 : client: [2] closed
+Apr 06 01:18 : player: played "Led Zeppelin/Led Zeppelin - Greatest Hits 2CD (2008)/Disc 1/06. Babe I'm Gonna Leave You.mp3"
