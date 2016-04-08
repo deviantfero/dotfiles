@@ -52,7 +52,6 @@ highlight Special    term=bold      ctermfg=Magenta                    guifg=Ora
 highlight Ignore                    ctermfg=black                      guifg=bg
 highlight Error                     ctermfg=15      ctermbg=2     guifg=White    guibg=Red
 highlight Todo                      ctermfg=15       ctermbg=2  guifg=Blue     guibg=Yellow
-hi LineNr ctermfg=249 ctermbg=234
 
 " Change the highlight of search matches (for use with :set hls).
 highlight Search                    ctermfg=Black      ctermbg=Yellow  guifg=Black    guibg=Yellow  
@@ -62,7 +61,7 @@ highlight Visual      cterm=NONE    ctermfg=Black      ctermbg=LightGrey  gui=NO
 
 highlight Float                     ctermfg=Blue                       guifg=#88AAEE
 highlight Exception                 ctermfg=2          ctermbg=234   guifg=Red      guibg=White
-highlight Typedef                   ctermfg=White      ctermbg=Blue    gui=bold       guifg=White guibg=Blue
+highlight Typedef                   ctermfg=Blue      ctermbg=234    gui=bold       guifg=White guibg=Blue
 highlight SpecialChar               ctermfg=3          ctermbg=234   guifg=Black    guibg=White
 highlight Delimiter                 ctermfg=White      ctermbg=Black   guifg=White    guibg=Black
 highlight SpecialComment            ctermfg=16         ctermbg=3   guifg=Black    guibg=Green

@@ -51,17 +51,21 @@ au BufNewFile,BufRead,BufEnter *.c,*.h set omnifunc=ccomplete#Complete
 """""""""""""""""
 set t_Co=16
 colorscheme deviantfero
+"this defines the number of the colums
+hi LineNr ctermfg=249 ctermbg=234
 "colorscheme tango-desert
 
 " changes to colorscheme "
 """"""""""""""""""""""""""
 hi CursorLine ctermbg=234	cterm=none
-hi CursorLineNr ctermfg=249
+hi CursorLineNr ctermfg=253 ctermbg=233
+"hi CursorLineNr ctermfg=16 ctermbg=2
 
 
 " Make vim recognize Y86 assembly files "
 """""""""""""""""""""""""""""""""""""""""
 :autocmd BufNewFile,BufRead *.rkt set noautoindent
+:autocmd BufNewFile,BufRead *.rkt set ts=2
 
 " vim powerline "
 """""""""""""""""

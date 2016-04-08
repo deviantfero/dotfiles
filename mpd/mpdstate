@@ -1,9 +1,8 @@
 sw_volume: 100
 audio_device_state:1:MPD
 audio_device_state:1:Visualizer feed
-state: play
-current: 3
-time: 119.989000
+state: stop
+current: 8
 random: 0
 repeat: 0
 single: 0
@@ -20,4 +19,5 @@ playlist_begin
 5:Metallica/S&M - Metallica And The San Francisco Symphony /S&M Disc 2/03 Until It Sleeps.mp3
 6:Metallica/S&M - Metallica And The San Francisco Symphony /S&M Disc 1/Devil's Dance.mp3
 7:Queen/Queen - Absolute Greatest (2009)/18 I Want To Break Free.mp3
+8:System of a Down/Best Of-System Of A Down/CD 1/07. Chop Suey!.mp3
 playlist_end
