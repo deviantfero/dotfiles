@@ -16,6 +16,7 @@ compinit
 
 autoload -Uz colors
 colors
+# End of lines added by compinstall
 
 PROMPT="%{$fg_bold[blue]%}%m%{$reset_color%}%{$fg[green]%} %~%{$fg_bold[blue]%} : %{$reset_color%}%"
 #PROMPT="[%{$fg_bod[blue]%} %~ %{$reset_color%}] %{$fg_bold[green]%}>>%{$reset_color%} %"
@@ -27,5 +28,3 @@ function precmd() {
 function chpwd() {
 	print -Pn "\e]2;%M %~ :\a"
 }
-
-# End of lines added by compinstall

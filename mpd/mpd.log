@@ -12638,3 +12638,25 @@ Apr 07 10:26 : update: added System of a Down/Best Of-System Of A Down/CD 2/25. 
 Apr 07 10:26 : update: added System of a Down/Best Of-System Of A Down/CD 2/26. Lost In Hollywood.mp3
 Apr 07 10:27 : player: played "System of a Down/Best Of-System Of A Down/CD 1/07. Chop Suey!.mp3"
 Apr 07 10:27 : client: [0] closed
+Apr 09 08:50 : client: [0] opened from 127.0.0.1:42532
+Apr 09 08:53 : player: played "System of a Down/Best Of-System Of A Down/CD 1/10. Spiders.mp3"
+Apr 09 09:00 : player: played "System of a Down/Best Of-System Of A Down/CD 1/10. Spiders.mp3"
+Apr 09 09:06 : player: played "System of a Down/Best Of-System Of A Down/CD 1/07. Chop Suey!.mp3"
+Apr 09 09:10 : player: played "System of a Down/Best Of-System Of A Down/CD 1/10. Spiders.mp3"
+Apr 09 09:18 : client: [1] opened from 127.0.0.1:43002
+Apr 09 09:21 : player: played "System of a Down/Best Of-System Of A Down/CD 1/10. Spiders.mp3"
+Apr 09 09:21 : client: [0] closed
+Apr 09 10:02 : client: [2] opened from 127.0.0.1:43368
+Apr 09 10:05 : player: played "System of a Down/Best Of-System Of A Down/CD 1/10. Spiders.mp3"
+Apr 09 10:05 : client: [2] closed
+Apr 09 10:05 : client: [1] closed
+Apr 09 21:44 : client: [0] opened from 127.0.0.1:33450
+Apr 09 21:46 : client: [0] closed
+Apr 09 21:46 : client: [1] opened from 127.0.0.1:33460
+Apr 09 21:47 : player: played "System of a Down/Best Of-System Of A Down/CD 1/10. Spiders.mp3"
+Apr 09 21:52 : player: played "Metallica/S&M - Metallica And The San Francisco Symphony /S&M Disc 2/03 Until It Sleeps.mp3"
+Apr 09 21:57 : player: played "Metallica/S&M - Metallica And The San Francisco Symphony /S&M Disc 1/Devil's Dance.mp3"
+Apr 09 22:00 : player: played "Queen/Queen - Absolute Greatest (2009)/18 I Want To Break Free.mp3"
+Apr 09 22:00 : player: played "System of a Down/Best Of-System Of A Down/CD 1/07. Chop Suey!.mp3"
+Apr 09 22:03 : player: played "System of a Down/Best Of-System Of A Down/CD 1/10. Spiders.mp3"
+Apr 09 22:07 : client: [1] closed

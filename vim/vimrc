@@ -27,16 +27,6 @@ set incsearch "search while typing
 set nohlsearch "don't highlight all search matches
 set mouse=a "Use mouse to navigate the file
 
-" indent options "
-""""""""""""""""""
-set autoindent	"set indenting
-set ts=4	"set tab space
-set sw=2	"set soft tab
-set noexpandtab	"do not expand a tab to spaces
-set shiftwidth=4	"set autoindent to one tab
-
-" more random options "
-"""""""""""""""""""""""
 set shell=/bin/zsh "shell to use
 set t_vb=	"disable all bells
 set undolevels=1000	"undo levels
@@ -47,25 +37,32 @@ filetype plugin on	"load the filetype specific config
 set omnifunc=syntaxcomplete#Complete "Omnicomplete ON
 au BufNewFile,BufRead,BufEnter *.c,*.h set omnifunc=ccomplete#Complete
 
+" indent options "
+""""""""""""""""""
+set autoindent	"set indenting
+set ts=4	"set tab space
+set sw=2	"set soft tab
+set noexpandtab	"do not expand a tab to spaces
+set shiftwidth=4	"set autoindent to one tab
+
+
 " color options "
 """""""""""""""""
 set t_Co=16
 colorscheme deviantfero
 "this defines the number of the colums
 hi LineNr ctermfg=249 ctermbg=234
-"colorscheme tango-desert
-
-" changes to colorscheme "
-""""""""""""""""""""""""""
 hi CursorLine ctermbg=234	cterm=none
 hi CursorLineNr ctermfg=253 ctermbg=233
 "hi CursorLineNr ctermfg=16 ctermbg=2
 
 
-" Make vim recognize Y86 assembly files "
+" racket preferences for vim            "
 """""""""""""""""""""""""""""""""""""""""
 :autocmd BufNewFile,BufRead *.rkt set noautoindent
 :autocmd BufNewFile,BufRead *.rkt set ts=2
+:autocmd BufNewFile,BufRead *.rkt set sw=2
+:autocmd BufNewFile,BufRead *.rkt set expandtab
 
 " vim powerline "
 """""""""""""""""
@@ -91,7 +88,7 @@ if &term=~"linux"
 	let g:airline_theme = 'behelit'
 endif
 
-" for autocompletion  "
+" for autocompletion  "{{{
 """""""""""""""""""""""
 "important for java completion
 silent! let g:EclimCompletionMethod = 'omnifunc'
@@ -155,3 +152,4 @@ let g:neocomplete#sources#omni#input_patterns.php = '[^. \t]->\h\w*\|\h\w*::'
 let g:neocomplete#sources#omni#input_patterns.java = '\h\w*\.\w*'
 let g:neocomplete#sources#omni#input_patterns.c = '[^.[:digit:] *\t]\%(\.\|->\)'
 let g:neocomplete#sources#omni#input_patterns.cpp = '[^.[:digit:] *\t]\%(\.\|->\)\|\h\w*::'
+"}}}
