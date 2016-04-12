@@ -42,9 +42,15 @@ function up_scripts {
 	echo "please clean up scripts directory"
 }
 
+function up_compton {
+	echo "COMPTON::BACKUP"
+	cp ~/.config/compton.conf $backupdir
+}
+
 up_openbox
 up_vim
 up_zsh
 up_tint2
 up_mpd
+up_compton
 up_scripts

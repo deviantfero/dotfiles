@@ -1,7 +1,9 @@
-sw_volume: 100
+sw_volume: 96
 audio_device_state:1:MPD
 audio_device_state:1:Visualizer feed
-state: stop
+state: play
+current: 2
+time: 120.093000
 random: 0
 repeat: 0
 single: 0
@@ -10,14 +12,9 @@ crossfade: 0
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:Metallica/S&M - Metallica And The San Francisco Symphony /S&M Disc 1/Fuel.mp3
-1:Led Zeppelin/Led Zeppelin - Greatest Hits 2CD (2008)/Disc 1/15. Stairway To Heaven.mp3
-2:Led Zeppelin/Led Zeppelin - Greatest Hits 2CD (2008)/Disc 1/06. Babe I'm Gonna Leave You.mp3
-3:Metallica/S&M - Metallica And The San Francisco Symphony /S&M Disc 2/12 One.mp3
-4:Metallica/S&M - Metallica And The San Francisco Symphony /S&M Disc 2/16 Battery.mp3
-5:Metallica/S&M - Metallica And The San Francisco Symphony /S&M Disc 2/03 Until It Sleeps.mp3
-6:Metallica/S&M - Metallica And The San Francisco Symphony /S&M Disc 1/Devil's Dance.mp3
-7:Queen/Queen - Absolute Greatest (2009)/18 I Want To Break Free.mp3
-8:System of a Down/Best Of-System Of A Down/CD 1/07. Chop Suey!.mp3
-9:System of a Down/Best Of-System Of A Down/CD 1/10. Spiders.mp3
+0:Nujabes/17 Minmi - Shiki No Uta.mp3
+1:Stratovarius/2009 - Polaris/05 - Winter Skies.mp3
+2:Stratovarius/2009 - Polaris/08 - Somehow Precious.mp3
+3:Stratovarius/2009 - Polaris/11 - When Mountains Fall.mp3
+4:Stratovarius/2011 - Elysium/07 - Move The Mountain.mp3
 playlist_end
