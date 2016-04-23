@@ -59,10 +59,10 @@ hi CursorLineNr ctermfg=253 ctermbg=233
 
 " racket preferences for vim            "
 """""""""""""""""""""""""""""""""""""""""
-:autocmd BufNewFile,BufRead *.rkt set noautoindent
-:autocmd BufNewFile,BufRead *.rkt set ts=2
-:autocmd BufNewFile,BufRead *.rkt set sw=2
-:autocmd BufNewFile,BufRead *.rkt set expandtab
+autocmd BufNewFile,BufRead *.rkt set noautoindent
+autocmd BufNewFile,BufRead *.rkt set ts=2
+autocmd BufNewFile,BufRead *.rkt set sw=2
+autocmd BufNewFile,BufRead *.rkt set expandtab
 
 " vim powerline "
 """""""""""""""""

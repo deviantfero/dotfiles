@@ -1,6 +1,7 @@
 sh ~/.wallpapers/wp_init.sh &
 #just in case of usage of MODEL M KEYBOARD
 #setxkbmap -option caps:super &
+xmodmap -e 'clear Lock' -e 'keycode 0x42 = Escape' 
 volumeicon &
 compton --config ~/.config/compton.conf -b &
 tint2 &
