@@ -1,4 +1,4 @@
-mpd_music_dir = "/media/Local/Music/"
+mpd_music_dir = "/home/fernando/Music/"
 visualizer_fifo_path = "/tmp/mpd.fifo"
 ##
 ## Note: Below parameter is needed for ncmpcpp

@@ -1,5 +1,5 @@
 # This tmux statusbar config was created by tmuxline.vim
-# on Thu, 21 Apr 2016
+# on Thu, 28 Apr 2016
 
 set -g status-justify "left"
 set -g status "on"

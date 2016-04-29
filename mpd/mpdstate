@@ -1,9 +1,9 @@
-sw_volume: 100
+sw_volume: 1
 audio_device_state:1:MPD
 audio_device_state:1:Visualizer feed
 state: pause
-current: 59
-time: 60.290000
+current: 9
+time: 142.675000
 random: 0
 repeat: 0
 single: 0
@@ -12,64 +12,14 @@ crossfade: 0
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:David Gilmour/On An Island - 2006/01 - David Gilmour - Castellorizon.mp3
-1:David Gilmour/On An Island - 2006/02 - David Gilmour - On an Island.mp3
-2:David Gilmour/On An Island - 2006/03 - David Gilmour - The Blue.mp3
-3:David Gilmour/On An Island - 2006/04 - David Gilmour - Take a Breath.mp3
-4:David Gilmour/On An Island - 2006/05 - David Gilmour - Red Sky at Night.mp3
-5:David Gilmour/On An Island - 2006/06 - David Gilmour - This Heaven.mp3
-6:David Gilmour/On An Island - 2006/07 - David Gilmour - Then I Close My Eyes.mp3
-7:David Gilmour/On An Island - 2006/08 - David Gilmour - Smile.mp3
-8:David Gilmour/On An Island - 2006/09 - David Gilmour - A Pocketful of Stones.mp3
-9:David Gilmour/On An Island - 2006/10 - David Gilmour - Where We Start.mp3
-10:David Gilmour/Rattle That Lock/01 - 5 A.M. - David Gilmour.mp3
-11:David Gilmour/Rattle That Lock/02 - Rattle That Lock - David Gilmour.mp3
-12:David Gilmour/Rattle That Lock/03 - Faces of Stone - David Gilmour.mp3
-13:David Gilmour/Rattle That Lock/04 - A Boat Lies Waiting - David Gilmour.mp3
-14:David Gilmour/Rattle That Lock/05 - Dancing Right In Front of Me - David Gilmour.mp3
-15:David Gilmour/Rattle That Lock/06 - In Any Tongue - David Gilmour.mp3
-16:David Gilmour/Rattle That Lock/07 - Beauty - David Gilmour.mp3
-17:David Gilmour/Rattle That Lock/08 - The Girl In The Yellow Dress - David Gilmour.mp3
-18:David Gilmour/Rattle That Lock/09 - Today - David Gilmour.mp3
-19:David Gilmour/Rattle That Lock/10 - And Then... - David Gilmour.mp3
-20:David Gilmour/Rattle That Lock/11 - Rattle That Lock (Extended Mix) - David Gilmour.mp3
-21:David Gilmour/Rattle That Lock/12 - The Girl In The Yellow Dress (Orchestral Version) - David Gilmour.mp3
-22:David Gilmour/Rattle That Lock/13 - Rattle That Lock (Youth Mix - 12' Extended Radio Dub) - David Gilmour.mp3
-23:David Gilmour/Rattle That Lock/14 - Rattle That Lock (Radio Edit) - David Gilmour.mp3
-24:Sean Lennon/Friendly Fire/01-Dead Meat.mp3
-25:Sean Lennon/Friendly Fire/02-Wait For Me.mp3
-26:Sean Lennon/Friendly Fire/03-Parachute.mp3
-27:Sean Lennon/Friendly Fire/04-Friendly Fire.mp3
-28:Sean Lennon/Friendly Fire/05-Spectacle.mp3
-29:Sean Lennon/Friendly Fire/06-Tomorrow.mp3
-30:Sean Lennon/Friendly Fire/07-On Again Off Again.mp3
-31:Sean Lennon/Friendly Fire/08-Headlights.mp3
-32:Sean Lennon/Friendly Fire/09-Would I Be The One.mp3
-33:Sean Lennon/Friendly Fire/10-Falling Out Of Love.mp3
-34:The Beatles/White Album/The White Album (Disc1)/17 - Julia.mp3
-35:Pink Floyd/1982 - The Final Cut 2011 Remaster/01. The Post War Dream.mp3
-36:Pink Floyd/1982 - The Final Cut 2011 Remaster/02. Your Possible Pasts.mp3
-37:Pink Floyd/1982 - The Final Cut 2011 Remaster/03. One of the Few.mp3
-38:Pink Floyd/1982 - The Final Cut 2011 Remaster/04. When the Tigers Broke Free.mp3
-39:Pink Floyd/1982 - The Final Cut 2011 Remaster/05. The Hero's Return.mp3
-40:Pink Floyd/1982 - The Final Cut 2011 Remaster/06. The Gunner's Dream.mp3
-41:Pink Floyd/1982 - The Final Cut 2011 Remaster/07. Paranoid Eyes.mp3
-42:Pink Floyd/1982 - The Final Cut 2011 Remaster/08. Get Your Filthy Hands Off My Desert.mp3
-43:Pink Floyd/1982 - The Final Cut 2011 Remaster/09. The Fletcher Memorial Home.mp3
-44:Pink Floyd/1982 - The Final Cut 2011 Remaster/10. Southampton Dock.mp3
-45:Pink Floyd/1982 - The Final Cut 2011 Remaster/11. The Final Cut.mp3
-46:Pink Floyd/1982 - The Final Cut 2011 Remaster/12. Not Now John.mp3
-47:Pink Floyd/1982 - The Final Cut 2011 Remaster/13. Two Suns In The Sunset.mp3
-48:Pink Floyd/1977 - Animals 2011 Remaster/01 Pigs On The Wing 1.mp3
-49:Pink Floyd/1977 - Animals 2011 Remaster/02 Dogs.mp3
-50:Pink Floyd/1977 - Animals 2011 Remaster/03 Pigs (Three Different Ones).mp3
-51:Pink Floyd/1977 - Animals 2011 Remaster/04 Sheep.mp3
-52:Pink Floyd/1977 - Animals 2011 Remaster/05 Pigs On The Wing 2.mp3
-53:Nujabes/23 Minmi - Who's Theme.mp3
-54:Pink Floyd/1972 - Obscured By Clouds 2011 Remaster/05. Wot's... Uh The Deal.mp3
-55:Fallout/I don't want to set the world on fire.mp3
-56:Fallout/Jingle Jangle Jingle.mp3
-57:Fallout/ Anything Goes.mp3
-58:Fallout/Blue Moon.mp3
-59:Pink Floyd/1972 - Obscured By Clouds 2011 Remaster/05. Wot's... Uh The Deal.mp3
+0:Coldplay/2002 - A Rush Of Blood To The Head/10 - A Rush Of Blood To The Head.mp3
+1:Coldplay/2011 - Mylo Xyloto/05. Us against the world.mp3
+2:Coldplay/2002 - A Rush Of Blood To The Head/04 - The Scientist.mp3
+3:Coldplay/2008 - Viva La Vida or Death and All His Friends/05. Lovers In Japan,Reign Of Love.mp3
+4:Coldplay/2008 - Viva La Vida or Death and All His Friends/08. Violet Hill.mp3
+5:Coldplay/2008 - Viva La Vida or Death and All His Friends/04. 42.mp3
+6:Coldplay/2008 - Viva La Vida or Death and All His Friends/06. Yes.mp3
+7:Coldplay/2005 - Cold Play - X&Y/04-Fix You.mp3
+8:Coldplay/2008 - Viva La Vida or Death and All His Friends/03. Lost!.mp3
+9:Pink Floyd/1972 - Obscured By Clouds 2011 Remaster/05. Wot's... Uh The Deal.mp3
 playlist_end

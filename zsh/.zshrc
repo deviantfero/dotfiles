@@ -11,6 +11,10 @@ zstyle ':completion:*' list-colors ''
 zstyle :compinstall filename '/home/fernando/.zshrc'
 export MPD_HOST=/home/USER/.mpd/socket 
 
+alias ls='ls --color=auto'
+alias sf='screenfetch -t'
+alias ytmp3='youtube-dl -x --audio-format mp3'
+
 autoload -Uz compinit
 compinit
 
