@@ -7,7 +7,7 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 
 :root {
-    --font-family: "Droid Sans Mono",monospace; --font-size: 10pt;
+    --font-family: "terminess powerline"; --font-size: 12px;
     --bg-color:    #111113;
     --fg-c-white:  #aaabad;    --fg-cl-white:  #d6d7d9;
     --fg-c-gray:   #222326;    --fg-cl-gray:   #606163;

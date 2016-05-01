@@ -20,6 +20,7 @@
     /* TAB VARIABLES */
     --bg-light: #121212; --bg-dark: #202020;
     --fg-light: #FFFFFF; --fg-dark: #AAABAD;
+    --tab-active: #666b6b; --tab-inactive: #444747;
     --tab-triangle-correction: -1px;
     --tab-height: 25px; --tab-icon-size: 16px; --tab-strip-margin: -12px; --tab-overlap: -5px;
     --tab-fonts: "terminess powerline","Source Sans Pro","Lemon",monospace,"Dejavu Sans"; --tab-font-size: 12px;
@@ -122,7 +123,7 @@
     tab {
         font-family: var(--tab-fonts) !important;
         height: var(--tab-height) !important; min-height: var(--tab-height) !important;
-        background: var(--bg-dark) !important; color: #FFFFFF !important;
+        background: var(--tab-inactive) !important; color: #FFFFFF !important;
         font-size: var(--tab-font-size); text-shadow: none !important; text-align: var(--tab-text-align) !important;
     }
     
@@ -154,7 +155,7 @@
     #tabbrowser-tabs[overflow]:not([positionpinnedtabs]) { -moz-padding-start: 20px !important; }
     
     .tabbrowser-tab[selected="true"] .tab-stack {
-        background: #707070 !important; color: var(--fg-light) !important;
+        background: var(--tab-active) !important; color: var(--fg-light) !important;
         border-radius: 0px !important; position: relative !important;
         /*border-top: 1px solid #dc52a5 !important;/**/
     }
