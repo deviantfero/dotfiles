@@ -26,6 +26,8 @@ set novisualbell "no visual bell aka blinking
 set incsearch "search while typing
 set nohlsearch "don't highlight all search matches
 set mouse=a "Use mouse to navigate the file
+set ttyfast "faster scrolling
+set lazyredraw "less redraws
 
 set shell=/bin/zsh "shell to use
 set t_vb=	"disable all bells

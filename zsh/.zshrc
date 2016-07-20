@@ -10,10 +10,15 @@ SAVEHIST=1000
 zstyle ':completion:*' list-colors ''
 zstyle :compinstall filename '/home/fernando/.zshrc'
 export MPD_HOST=/home/USER/.mpd/socket 
+export EDITOR="vim"
 
 alias ls='ls --color=auto'
 alias sf='screenfetch -t'
 alias ytmp3='youtube-dl -x --audio-format mp3'
+alias grep='grep --color=auto'
+alias onsql='sudo systemctl start postgresql.service'
+alias offsql='sudo systemctl stop postgresql.service'
+alias astral='mpv "http://204.45.73.122:8146/;stream.mp3"'
 
 autoload -Uz compinit
 compinit
@@ -22,7 +27,7 @@ autoload -Uz colors
 colors
 # End of lines added by compinstall
 
-PROMPT="%{$fg_bold[blue]%}%m%{$reset_color%}%{$fg[green]%} %~%{$fg_bold[blue]%} : %{$reset_color%}%"
+PROMPT="%{$fg_bold[blue]%}%m%{$reset_color%}%{$fg_bold[green]%} %~%{$fg_bold[blue]%} : %{$reset_color%}%"
 #PROMPT="[%{$fg_bod[blue]%} %~ %{$reset_color%}] %{$fg_bold[green]%}>>%{$reset_color%} %"
 #RPROMPT="%{$fg_bold[yellow]%} %m %{$reset_color%}"
 

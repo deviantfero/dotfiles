@@ -1,0 +1,13 @@
+#!/bin/bash
+current="$(sed -n '940,941p' $HOME/.config/openbox/rc.xml | grep -oE "(yes|no)" )"
+echo $current
+
+if [ "$current" == "yes" ]; then
+	sed -i 940s:yes:no: $HOME/.config/openbox/rc.xml
+	sed -i -e "43s:colorbamboo:&_nb:" $HOME/.config/openbox/rc.xml
+else
+	sed -i 940s:no:yes: $HOME/.config/openbox/rc.xml
+	sed -i -e "43s:colorbamboo_nb:colorbamboo:" $HOME/.config/openbox/rc.xml
+fi
+
+openbox --restart

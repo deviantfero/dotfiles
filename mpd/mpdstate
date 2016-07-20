@@ -1,9 +1,7 @@
 sw_volume: 1
 audio_device_state:1:MPD
 audio_device_state:1:Visualizer feed
-state: pause
-current: 9
-time: 142.675000
+state: stop
 random: 0
 repeat: 0
 single: 0
@@ -12,14 +10,21 @@ crossfade: 0
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:Coldplay/2002 - A Rush Of Blood To The Head/10 - A Rush Of Blood To The Head.mp3
-1:Coldplay/2011 - Mylo Xyloto/05. Us against the world.mp3
-2:Coldplay/2002 - A Rush Of Blood To The Head/04 - The Scientist.mp3
-3:Coldplay/2008 - Viva La Vida or Death and All His Friends/05. Lovers In Japan,Reign Of Love.mp3
-4:Coldplay/2008 - Viva La Vida or Death and All His Friends/08. Violet Hill.mp3
-5:Coldplay/2008 - Viva La Vida or Death and All His Friends/04. 42.mp3
-6:Coldplay/2008 - Viva La Vida or Death and All His Friends/06. Yes.mp3
-7:Coldplay/2005 - Cold Play - X&Y/04-Fix You.mp3
-8:Coldplay/2008 - Viva La Vida or Death and All His Friends/03. Lost!.mp3
-9:Pink Floyd/1972 - Obscured By Clouds 2011 Remaster/05. Wot's... Uh The Deal.mp3
+0:Nujabes/03 Nujabes - Aruarian Dance.mp3
+1:Nujabes/11 Nujabes - Tsurugi No Mai.mp3
+2:Nujabes/17 Minmi - Shiki No Uta.mp3
+3:Nujabes/23 Minmi - Who's Theme.mp3
+4:Daft Punk/Discovery/09. Something About Us.mp3
+5:Daft Punk/Discovery/03. Digital Love.mp3
+6:Daft Punk/Discovery/04. Harder, Better, Faster, Stronger.mp3
+7:Daft Punk/Discovery/02. Aerodynamic.mp3
+8:Pink Floyd/1979 - The Wall 2011 Remaster/CD1/10. One Of My Turns.mp3
+9:Pink Floyd/1979 - The Wall 2011 Remaster/CD1/11. Don't Leave Now.mp3
+10:Red Hot Chilli Peppers/Red Hot Chilli Peppers - Greatest Hits (2003)/14 Red Hot Chili Peppers - Road Trippin'.mp3
+11:Angra/Aurora Consurgens/02 The Voice Commanding You.mp3
+12:Angra/Aurora Consurgens/03 Ego Painted Grey.mp3
+13:Angra/Aurora Consurgens/05 Salvation Suicide.mp3
+14:Angra/Aurora Consurgens/06 Window To Nowhere.mp3
+15:Coldplay/2000 - Parachutes/10. Everything's Not Lost.mp3
+16:Coldplay/2002 - A Rush Of Blood To The Head/05 - Clocks.mp3
 playlist_end

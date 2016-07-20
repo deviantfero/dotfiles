@@ -211,13 +211,13 @@
         <wrap>no</wrap>
       </action>
     </keybind>
-    <keybind key="S-A-Left">
+    <keybind key="W-Left">
       <action name="SendToDesktop">
         <to>left</to>
         <wrap>no</wrap>
       </action>
     </keybind>
-    <keybind key="S-A-Right">
+    <keybind key="W-Right">
       <action name="SendToDesktop">
         <to>right</to>
         <wrap>no</wrap>
@@ -235,22 +235,22 @@
         <wrap>no</wrap>
       </action>
     </keybind>
-    <keybind key="W-F1">
+    <keybind key="W-1">
       <action name="GoToDesktop">
         <to>1</to>
       </action>
     </keybind>
-    <keybind key="W-F2">
+    <keybind key="W-2">
       <action name="GoToDesktop">
         <to>2</to>
       </action>
     </keybind>
-    <keybind key="W-F3">
+    <keybind key="W-3">
       <action name="GoToDesktop">
         <to>3</to>
       </action>
     </keybind>
-    <keybind key="W-F4">
+    <keybind key="W-4">
       <action name="GoToDesktop">
         <to>4</to>
       </action>
@@ -275,6 +275,11 @@
     <keybind key="Print">
       <action name="Execute">
         <command>scrot</command>
+      </action>
+    </keybind>
+    <keybind key="W-S-X">
+      <action name="Execute">
+        <command>switchless</command>
       </action>
     </keybind>
     <keybind key="W-Print">
@@ -880,7 +885,6 @@
     # each rule element can be left out or set to 'default' to specify to not
     # change that attribute of the window
 
-    <decor>yes</decor>
     # enable or disable window decorations
 
     <shade>no</shade>
