@@ -118,17 +118,13 @@
 
        use obconf if you want to change these without having to log out
        and back in -->
-    <number>2</number>
+    <number>4</number>
     <firstdesk>1</firstdesk>
     <names>
-      <!-- set names up here if you want to, like this:
-      <name>desktop 1</name>
-      <name>desktop 2</name>
-      -->
-      <name>1</name>
-      <name>2</name>
-      <name>3</name>
-      <name>4</name>
+      <name>I</name>
+      <name>II</name>
+      <name>III</name>
+      <name>IV</name>
     </names>
     <popupTime>875</popupTime>
     <!-- The number of milliseconds to show the popup for when switching
@@ -941,7 +937,7 @@
     </application>
     <application name="gmessage">
       <decor>no</decor>
-      <shade>no</shade>
+      <shade>yes</shade>
       <skip_pager>yes</skip_pager>
       <skip_taskbar>yes</skip_taskbar>
       <fullscreen>no</fullscreen>

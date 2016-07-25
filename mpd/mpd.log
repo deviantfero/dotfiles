@@ -14720,3 +14720,501 @@ Jul 19 19:51 : client: [2] opened from 127.0.0.1:35668
 Jul 19 19:51 : client: [2] closed
 Jul 19 19:58 : player: played "Coldplay/2000 - Parachutes/10. Everything's Not Lost.mp3"
 Jul 19 20:03 : player: played "Coldplay/2002 - A Rush Of Blood To The Head/05 - Clocks.mp3"
+Jul 21 20:20 : client: [0] opened from 127.0.0.1:36782
+Jul 21 20:22 : player: played "Nujabes/23 Minmi - Who's Theme.mp3"
+Jul 21 20:22 : player: played "Daft Punk/Discovery/04. Harder, Better, Faster, Stronger.mp3"
+Jul 21 20:23 : player: played "Coldplay/2000 - Parachutes/10. Everything's Not Lost.mp3"
+Jul 21 20:23 : player: played "Coldplay/2002 - A Rush Of Blood To The Head/05 - Clocks.mp3"
+Jul 21 20:25 : client: [0] closed
+Jul 21 20:25 : player: played "Daft Punk/Discovery/02. Aerodynamic.mp3"
+Jul 21 21:12 : client: [0] opened from 127.0.0.1:42438
+Jul 21 21:12 : player: played "Daft Punk/Discovery/02. Aerodynamic.mp3"
+Jul 21 21:12 : player: played "Daft Punk/Discovery/02. Aerodynamic.mp3"
+Jul 21 21:12 : player: played "Angra/Aurora Consurgens/02 The Voice Commanding You.mp3"
+Jul 21 21:13 : player: played "Angra/Aurora Consurgens/03 Ego Painted Grey.mp3"
+Jul 21 21:13 : player: played "David Gilmour/On An Island - 2006/02 - David Gilmour - On an Island.mp3"
+Jul 21 21:14 : client: [0] closed
+Jul 21 21:14 : pulse_output: "MPD" [pulse] failed to play: disconnected
+Jul 21 21:14 : player: played "David Gilmour/On An Island - 2006/04 - David Gilmour - Take a Breath.mp3"
+Jul 21 21:21 : client: [0] opened from 127.0.0.1:34212
+Jul 21 21:21 : player: played "David Gilmour/On An Island - 2006/04 - David Gilmour - Take a Breath.mp3"
+Jul 21 21:28 : player: played "David Gilmour/On An Island - 2006/02 - David Gilmour - On an Island.mp3"
+Jul 21 21:34 : player: played "David Gilmour/On An Island - 2006/04 - David Gilmour - Take a Breath.mp3"
+Jul 21 21:38 : client: [1] opened from 127.0.0.1:34230
+Jul 21 21:42 : player: played "Daft Punk/Discovery/09. Something About Us.mp3"
+Jul 21 21:44 : client: [1] closed
+Jul 21 21:45 : client: [0] closed
+Jul 21 21:47 : player: played "Daft Punk/Discovery/03. Digital Love.mp3"
+Jul 21 21:50 : player: played "Daft Punk/Discovery/04. Harder, Better, Faster, Stronger.mp3"
+Jul 21 21:54 : player: played "Daft Punk/Discovery/02. Aerodynamic.mp3"
+Jul 21 21:58 : player: played "Pink Floyd/1979 - The Wall 2011 Remaster/CD1/10. One Of My Turns.mp3"
+Jul 21 22:02 : player: played "Pink Floyd/1979 - The Wall 2011 Remaster/CD1/11. Don't Leave Now.mp3"
+Jul 21 22:04 : client: [2] opened from 127.0.0.1:34514
+Jul 21 22:04 : player: played "Red Hot Chilli Peppers/Red Hot Chilli Peppers - Greatest Hits (2003)/14 Red Hot Chili Peppers - Road Trippin'.mp3"
+Jul 22 01:42 : player: played "Angra/Aurora Consurgens/03 Ego Painted Grey.mp3"
+Jul 22 01:42 : client: [2] closed
+Jul 22 15:49 : client: [0] opened from 127.0.0.1:56742
+Jul 22 15:51 : player: played "Galneryus/2007- One for All - All for One/12 - The Sun Goes Down.mp3"
+Jul 22 16:09 : client: [1] opened from 127.0.0.1:56746
+Jul 22 16:09 : client: [1] closed
+Jul 22 18:06 : client: [0] closed
+Jul 22 18:20 : client: [2] opened from 127.0.0.1:58628
+Jul 22 18:20 : update: added Mago De Oz - Gaia [Mp3][www.lokotorrents.com]/01 - Obertura MDXX.mp3
+Jul 22 18:20 : update: added Mago De Oz - Gaia [Mp3][www.lokotorrents.com]/02 - Gaia.mp3
+Jul 22 18:20 : update: added Mago De Oz - Gaia [Mp3][www.lokotorrents.com]/03 - La Conquista.mp3
+Jul 22 18:20 : update: added Mago De Oz - Gaia [Mp3][www.lokotorrents.com]/04 - Alma.mp3
+Jul 22 18:20 : update: added Mago De Oz - Gaia [Mp3][www.lokotorrents.com]/05 - La Costa del Silencio.mp3
+Jul 22 18:20 : update: added Mago De Oz - Gaia [Mp3][www.lokotorrents.com]/06 - El Arbol de la Noche Triste.mp3
+Jul 22 18:20 : update: added Mago De Oz - Gaia [Mp3][www.lokotorrents.com]/07 - La Rosa de los Vientos.mp3
+Jul 22 18:20 : update: added Mago De Oz - Gaia [Mp3][www.lokotorrents.com]/08 - La Leyenda de la Llorona.mp3
+Jul 22 18:20 : update: added Mago De Oz - Gaia [Mp3][www.lokotorrents.com]/09 - Van a Rodar Cabezas.mp3
+Jul 22 18:20 : update: added Mago De Oz - Gaia [Mp3][www.lokotorrents.com]/10 - El Atrapasueños.mp3
+Jul 22 18:20 : update: added Mago De Oz - Gaia [Mp3][www.lokotorrents.com]/11 - Si Te Vas.mp3
+Jul 22 18:20 : update: added Mago De Oz - Gaia [Mp3][www.lokotorrents.com]/12 - La Venganza de Gaia.mp3
+Jul 22 18:20 : player: played "Mago De Oz - Gaia [Mp3][www.lokotorrents.com]/01 - Obertura MDXX.mp3"
+Jul 22 18:27 : player: played "Mago De Oz - Gaia [Mp3][www.lokotorrents.com]/02 - Gaia.mp3"
+Jul 22 18:27 : client: [2] closed
+Jul 23 10:10 : client: [0] opened from 127.0.0.1:36072
+Jul 23 10:19 : client: [1] opened from 127.0.0.1:36352
+Jul 23 10:19 : update: removing Mago De Oz - Gaia [Mp3][www.lokotorrents.com]/01 - Obertura MDXX.mp3
+Jul 23 10:19 : update: removing Mago De Oz - Gaia [Mp3][www.lokotorrents.com]/02 - Gaia.mp3
+Jul 23 10:19 : update: removing Mago De Oz - Gaia [Mp3][www.lokotorrents.com]/03 - La Conquista.mp3
+Jul 23 10:19 : update: removing Mago De Oz - Gaia [Mp3][www.lokotorrents.com]/04 - Alma.mp3
+Jul 23 10:19 : update: removing Mago De Oz - Gaia [Mp3][www.lokotorrents.com]/05 - La Costa del Silencio.mp3
+Jul 23 10:19 : update: removing Mago De Oz - Gaia [Mp3][www.lokotorrents.com]/06 - El Arbol de la Noche Triste.mp3
+Jul 23 10:19 : update: removing Mago De Oz - Gaia [Mp3][www.lokotorrents.com]/07 - La Rosa de los Vientos.mp3
+Jul 23 10:19 : update: removing Mago De Oz - Gaia [Mp3][www.lokotorrents.com]/08 - La Leyenda de la Llorona.mp3
+Jul 23 10:19 : update: removing Mago De Oz - Gaia [Mp3][www.lokotorrents.com]/09 - Van a Rodar Cabezas.mp3
+Jul 23 10:19 : update: removing Mago De Oz - Gaia [Mp3][www.lokotorrents.com]/10 - El Atrapasueños.mp3
+Jul 23 10:19 : update: removing Mago De Oz - Gaia [Mp3][www.lokotorrents.com]/11 - Si Te Vas.mp3
+Jul 23 10:19 : update: removing Mago De Oz - Gaia [Mp3][www.lokotorrents.com]/12 - La Venganza de Gaia.mp3
+Jul 23 10:19 : update: added Mägo de Oz/Singles & EPs/Deja De Llorar (Single)/01 - Deja de Llorar.mp3
+Jul 23 10:19 : update: added Mägo de Oz/Singles & EPs/Deja De Llorar (Single)/02 - Catch the Rainbow.mp3
+Jul 23 10:19 : update: added Mägo de Oz/Singles & EPs/Deja De Llorar (Single)/03 - Mersedes Benz.mp3
+Jul 23 10:19 : update: added Mägo de Oz/Singles & EPs/Diabolus in Música (Single)/01-Diabolus in Música.mp3
+Jul 23 10:19 : update: added Mägo de Oz/Singles & EPs/Diabolus in Música (Single)/02-Take On (Cover A-Ha).mp3
+Jul 23 10:19 : update: added Mägo de Oz/Singles & EPs/Diabolus in Música (Single)/03-Diabolus in Música (Demo con Patricia Tapia).mp3
+Jul 23 10:19 : update: added Mägo de Oz/Singles & EPs/Diabolus in Música (Single)/04-El Principe de la Dulce Pena (Part II)-Mago de Oz.mp3
+Jul 23 10:19 : update: added Mägo de Oz/Singles & EPs/El Atrapasuenos (Promo)/01-El Atrapasuenos.mp3
+Jul 23 10:19 : update: added Mägo de Oz/Singles & EPs/El Que Quiera Entender... Que Entienda (Single)/01-El Que Quiera Entender... Que Entienda (Edit Version).mp3
+Jul 23 10:19 : update: added Mägo de Oz/Singles & EPs/El Que Quiera Entender... Que Entienda (Single)/02-Pensando En Ti (Kansas Cover - Dust In The Wind).mp3
+Jul 23 10:19 : update: added Mägo de Oz/Singles & EPs/Feliz Navidad ¡¡Cabrones!! (Single)/01-Molinos de Viento (acustica).mp3
+Jul 23 10:19 : update: added Mägo de Oz/Singles & EPs/Feliz Navidad ¡¡Cabrones!! (Single)/02-Maritormes (acustica).mp3
+Jul 23 10:19 : update: added Mägo de Oz/Singles & EPs/Fiesta Pagana (Single)/01-Fiesta Pagana.mp3
+Jul 23 10:19 : update: added Mägo de Oz/Singles & EPs/Fiesta Pagana (Single)/02-El Señor de los Gramillos.mp3
+Jul 23 10:19 : update: added Mägo de Oz/Singles & EPs/Hoy Toca Ser Feliz (Single)/01-Hoy Toca Ser Feliz.mp3
+Jul 23 10:19 : update: added Mägo de Oz/Singles & EPs/Hoy Toca Ser Feliz (Single)/02-Memoria De Noite (Luar Da Nubre Cover).mp3
+Jul 23 10:19 : update: added Mägo de Oz/Singles & EPs/Hoy Toca Ser Feliz (Single)/03-Suenos Diabolicos (Labanda cover, instrumental).mp3
+Jul 23 10:19 : update: added Mägo de Oz/Singles & EPs/La Bruja (EP)/01-El Lago.mp3
+Jul 23 10:19 : update: added Mägo de Oz/Singles & EPs/La Bruja (EP)/02-T'Essnucaré Conra'l Bidé.mp3
+Jul 23 10:19 : update: added Mägo de Oz/Singles & EPs/La Bruja (EP)/03-El Hijo del Blues.mp3
+Jul 23 10:19 : update: added Mägo de Oz/Singles & EPs/La Bruja (EP)/04-Gerdundula.mp3
+Jul 23 10:19 : update: added Mägo de Oz/Singles & EPs/La Bruja (EP)/05-Mägo De Oz.mp3
+Jul 23 10:19 : update: added Mägo de Oz/Singles & EPs/La Costa del Silencio (Single)/01-La Costa del Silencio.mp3
+Jul 23 10:19 : update: added Mägo de Oz/Singles & EPs/La Danza del Fuego (Single)/01-La Danza del Fuego.mp3
+Jul 23 10:19 : update: added Mägo de Oz/Singles & EPs/La Danza del Fuego (Single)/02-Man On The Silver Mountain (Rainbow).mp3
+Jul 23 10:19 : update: added Mägo de Oz/Singles & EPs/La Posada De Los Muertos (Single)/01-La Posada De Los Muertos.mp3
+Jul 23 10:19 : update: added Mägo de Oz/Singles & EPs/La Posada De Los Muertos (Single)/02-Akelarre.mp3
+Jul 23 10:19 : update: added Mägo de Oz/Singles & EPs/La Posada De Los Muertos (Single)/03-El Callejon Del Infierno (Instrumental).mp3
+Jul 23 10:19 : update: added Mägo de Oz/Singles & EPs/La Rosa de los Vientos (Single)/01-La Rosa de los Vientos.mp3
+Jul 23 10:19 : update: added Mägo de Oz/Singles & EPs/Molinos de Viento (Single)/01-Molinos de Viento (acustica).mp3
+Jul 23 10:19 : update: added Mägo de Oz/Singles & EPs/Molinos de Viento (Single)/02-El Lago.mp3
+Jul 23 10:19 : update: added Mägo de Oz/Singles & EPs/Puedes Contar Conmigo (Single)/01 - Puedes Contar Conmigo.mp3
+Jul 23 10:19 : update: added Mägo de Oz/Singles & EPs/Puedes Contar Conmigo (Single)/02 - Hazme Un Sitio Entre Tu Piel.mp3
+Jul 23 10:19 : update: added Mägo de Oz/Singles & EPs/Puedes Contar Conmigo (Single)/03 - La Rosa De Los Vientos.mp3
+Jul 23 10:19 : update: added Mägo de Oz/Singles & EPs/Puedes Contar Conmigo (Single)/04 - Sueсos Diabolicos.mp3
+Jul 23 10:19 : update: added Mägo de Oz/Singles & EPs/Que el Viento Sople a tu Favor (Single)/01 - Que el Viento Sople a tu favor.mp3
+Jul 23 10:19 : update: added Mägo de Oz/Singles & EPs/Que el Viento Sople a tu Favor (Single)/02 - Gimme!, gimme! , gimme! (Voz- Tony Menguiano).mp3
+Jul 23 10:19 : update: added Mägo de Oz/Singles & EPs/Que el Viento Sople a tu Favor (Single)/03 - Girls Just Want to Have Fun (Voz- Patricia Tapia).mp3
+Jul 23 10:19 : update: added Mägo de Oz/Singles & EPs/Resacosix En Hispania (Single)/01-Resacosix En Hispania.mp3
+Jul 23 10:19 : update: added Mägo de Oz/Singles & EPs/Resacosix En Hispania (Single)/02-Ancha Es Casilla (Version Metal).mp3
+Jul 23 10:19 : update: added Mägo de Oz/Singles & EPs/Vodka'n'roll (Single)/01. Vodka'n'roll .mp3
+Jul 23 10:19 : update: added Mägo de Oz/Singles & EPs/Vodka'n'roll (Single)/02. Vodka'n'roll (Version).mp3
+Jul 23 10:19 : update: added Mägo de Oz/Singles & EPs/Vodka'n'roll (Single)/03. Vodka'n'roll (Demo).mp3
+Jul 23 10:19 : update: added Mägo de Oz/Singles & EPs/Y Ahora Voy A Salir (Ranxeira) (Single)/01 - Y Ahora Voy A Salir (Ranxeira).mp3
+Jul 23 10:19 : update: added Mägo de Oz/Singles & EPs/Y Ahora Voy A Salir (Ranxeira) (Single)/02 - Moonlight Shadow.mp3
+Jul 23 10:19 : update: added Mägo de Oz/Singles & EPs/Y Ahora Voy A Salir (Ranxeira) (Single)/03 - Moonlight Shadow.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[1994] Mago De Oz/01. T'esnucaré Contra'l Bidé.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[1994] Mago De Oz/02. El Lago.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[1994] Mago De Oz/03. Rock Kaki Rock.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[1994] Mago De Oz/04. Gerdundula.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[1994] Mago De Oz/05. Lo que el Viento de Dejó.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[1994] Mago De Oz/06. Yankees Go Home.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[1994] Mago De Oz/07. El Hijo del Blues.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[1994] Mago De Oz/08. Nena.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[1994] Mago De Oz/09. Gimme Some Lovin'.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[1994] Mago De Oz/10. Mägo De Oz.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[1996] Jesús de Chamberí (Opera Rock)/01. Génesis.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[1996] Jesús de Chamberí (Opera Rock)/02. Jesús de Chamberí.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[1996] Jesús de Chamberí (Opera Rock)/03. El Ángel Caído.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[1996] Jesús de Chamberí (Opera Rock)/04. Al-Mejandría.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[1996] Jesús de Chamberí (Opera Rock)/05. El Cuco y la Zíngara.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[1996] Jesús de Chamberí (Opera Rock)/06. Hasta Que Tu Muerte Nos Separe.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[1996] Jesús de Chamberí (Opera Rock)/07. La Canción de Pedro.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[1996] Jesús de Chamberí (Opera Rock)/08. Domingo De Gramos.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[1996] Jesús de Chamberí (Opera Rock)/09. Jiga Irlandesa.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[1996] Jesús de Chamberí (Opera Rock)/10. El Cantral De La Luna Oscura.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[1996] Jesús de Chamberí (Opera Rock)/11. Judas.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[1996] Jesús de Chamberí (Opera Rock)/12. La Última Cena.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[1996] Jesús de Chamberí (Opera Rock)/13. Czardas.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[1996] Jesús de Chamberí (Opera Rock)/14. El Fin Del Camino.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[1998] La Leyenda De La Mancha (Deluxe Edition)/01. En Un Lugar....mp3
+Jul 23 10:19 : update: added Mägo de Oz/[1998] La Leyenda De La Mancha (Deluxe Edition)/02. El Santo Grial.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[1998] La Leyenda De La Mancha (Deluxe Edition)/03. La Leyenda De La Mancha.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[1998] La Leyenda De La Mancha (Deluxe Edition)/04. Noche Toledana.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[1998] La Leyenda De La Mancha (Deluxe Edition)/05. Molinos De Viento.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[1998] La Leyenda De La Mancha (Deluxe Edition)/06. Dime Con Quien Andas.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[1998] La Leyenda De La Mancha (Deluxe Edition)/07. Maritornes.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[1998] La Leyenda De La Mancha (Deluxe Edition)/08. El Balsamo De Fierabras.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[1998] La Leyenda De La Mancha (Deluxe Edition)/09. El Pacto.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[1998] La Leyenda De La Mancha (Deluxe Edition)/10. La Insula De Barataria.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[1998] La Leyenda De La Mancha (Deluxe Edition)/11. El Templo Del Adios.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[1998] La Leyenda De La Mancha (Deluxe Edition)/12. Requiem.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[1998] La Leyenda De La Mancha (Deluxe Edition)/13. Ancha Es Castilla.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[1998] La Leyenda De La Mancha (Deluxe Edition)/14. El Santo Grial.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[1998] La Leyenda De La Mancha (Deluxe Edition)/15. La Leyenda De La Mancha.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[1998] La Leyenda De La Mancha (Deluxe Edition)/16. Noche Toledana , Molinos De Viento.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[1998] La Leyenda De La Mancha (Deluxe Edition)/17. Maritornes.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[1998] La Leyenda De La Mancha (Deluxe Edition)/18. La Insula De Barataria.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2000] Finisterra/01. Prólogo.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2000] Finisterra/02. Satania.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2000] Finisterra/03. La Cruz de Santiago.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2000] Finisterra/04. La Danza del Fuego.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2000] Finisterra/05. Kasta que el Cuepo Aguante.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2000] Finisterra/06. El Señor de los Gramillos.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2000] Finisterra/07. Polla Dura no Cree en Dios.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2000] Finisterra/08. Maite Zaitut.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2000] Finisterra/09. Duerme....mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2000] Finisterra/10. Es Hora de Marchar.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2000] Finisterra/11. Fiesta Pagana.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2000] Finisterra/12. El que Qeira Entender Que Entienda.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2000] Finisterra/13. Los Renglones de Dios.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2000] Finisterra/14. La Dama del Amanecer (Kelpie).mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2000] Finisterra/15. Tres Tristes Tigres.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2000] Finisterra/16. A Costa da Morte.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2000] Finisterra/17. La Santa Compaña.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2000] Finisterra/18. Conxuro.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2000] Finisterra/19. Astaroth.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2000] Finisterra/20. Finisterra.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2002] Folktergeist (Live)/01. Satania.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2002] Folktergeist (Live)/02. Maritornes.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2002] Folktergeist (Live)/03. El Quiera Entender Que Entienda.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2002] Folktergeist (Live)/04. El Santo Grial.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2002] Folktergeist (Live)/05. El Lago.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2002] Folktergeist (Live)/06. Hasta Que El Cuerpo Aguante.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2002] Folktergeist (Live)/07. El Cantar De La Luna Oscura.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2002] Folktergeist (Live)/08. La Leyenda De La Mancha.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2002] Folktergeist (Live)/09. Pensando En Ti.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2002] Folktergeist (Live)/10. Jesús de Chamberí.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2002] Folktergeist (Live)/11. El Pacto.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2002] Folktergeist (Live)/12. Réquiem.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2002] Folktergeist (Live)/13. La Santa Compaña.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2002] Folktergeist (Live)/14. Astaroth.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2002] Folktergeist (Live)/15. La Danza Del Fuego.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2002] Folktergeist (Live)/16. Fiesta Pagana.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2002] Folktergeist (Live)/17. Hasta Que Tu Muerte Nos Separe.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2002] Folktergeist (Live)/18. Molinos De Viento.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2003] Gaia (Deluxe Edition)/01. Obertura MDXX.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2003] Gaia (Deluxe Edition)/02. Gaia.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2003] Gaia (Deluxe Edition)/03. La Conquista.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2003] Gaia (Deluxe Edition)/04. Alma.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2003] Gaia (Deluxe Edition)/05. La Costa del Silencio.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2003] Gaia (Deluxe Edition)/06. El Бrbol de la Noche Triste.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2003] Gaia (Deluxe Edition)/07. La Rosa de los Vientos.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2003] Gaia (Deluxe Edition)/08. La Leyenda de la Llorona.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2003] Gaia (Deluxe Edition)/09. Van a Rodar Cabezas.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2003] Gaia (Deluxe Edition)/10. El Atrapasueсos.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2003] Gaia (Deluxe Edition)/11. Si Te Vas.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2003] Gaia (Deluxe Edition)/12. La Venganza de Gaia.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2003] Gaia (Deluxe Edition)/13. Obertura MDXX.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2003] Gaia (Deluxe Edition)/14. Gaia.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2003] Gaia (Deluxe Edition)/15. La Costa del Silencio.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2003] Gaia (Deluxe Edition)/16. El Arbol De La Noche Triste.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2003] Gaia (Deluxe Edition)/17. La Rosa de los Vientos.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2003] Gaia (Deluxe Edition)/18. La Leyenda de la Llorona.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2003] Gaia (Deluxe Edition)/19. Van a Rodar Cabezas.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2004] A Costa da Morte (Live)/01. Intro Gazza ladra.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2004] A Costa da Morte (Live)/02. El Santo Grial.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2004] A Costa da Morte (Live)/03. Molinos de viento.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2004] A Costa da Morte (Live)/04. El que quiera entender.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2004] A Costa da Morte (Live)/05. Santa Compaсa.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2004] A Costa da Morte (Live)/06. El fin del camino.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2004] A Costa da Morte (Live)/07. Hasta que el cuerpo aguante.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2004] A Costa da Morte (Live)/08. La Insula de Barataria.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2004] A Costa da Morte (Live)/09. Pensando en ti.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2004] A Costa da Morte (Live)/10. Hijo del blues.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2004] A Costa da Morte (Live)/11. La Leyenda De La Mancha.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2004] A Costa da Morte (Live)/12. Maritornes.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2004] A Costa da Morte (Live)/13. Astaroth.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2004] A Costa da Morte (Live)/14. Jesus De Chamberi.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2004] A Costa da Morte (Live)/15. Resacosix En Hispania.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2004] A Costa da Morte (Live)/16. Satania.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2004] A Costa da Morte (Live)/17. Txus Presenta.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2004] A Costa da Morte (Live)/18. La Danza Del Fuego.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2004] A Costa da Morte (Live)/19. Fiesta Pagana.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2004] A Costa da Morte (Live)/20. Despedida (Ancha Es Castilla).mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2004] Belfast/01. Intro - Rish Pub.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2004] Belfast/02. Belfast.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2004] Belfast/03. La Rosa de los Vientos (Metal Version).mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2004] Belfast/04. Dame Tu Amor.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2004] Belfast/05. Mujer Amante.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2004] Belfast/06. Alma (Version Orquestal).mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2004] Belfast/07. Mas Que Una Intencion.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2004] Belfast/08. Dama Negra.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2004] Belfast/09. Todo Irá Bien.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2004] Belfast/10. Se Acabó(Instrumental).mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2004] Belfast/11. Hasta Que Tu Muerte Nos Separe (Version Orquestal).mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2004] Belfast/12. Somewhere Over the Rainbow.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2005] Gaia II - La Voz Dormida/01. Volaverunt Opus 666.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2005] Gaia II - La Voz Dormida/02. La Voz Dormida.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2005] Gaia II - La Voz Dormida/03. Hazme un Sitio Entre tu Piel.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2005] Gaia II - La Voz Dormida/04. El Poema de la lluvia Triste.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2005] Gaia II - La Voz Dormida/05.El Callejón del Infierno.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2005] Gaia II - La Voz Dormida/06. El Paseo de los Tristes.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2005] Gaia II - La Voz Dormida/07. La Posada de los Muertos.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2005] Gaia II - La Voz Dormida/08. Desde Mi Cielo.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2005] Gaia II - La Voz Dormida/09. En Nombre de Dios.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2005] Gaia II - La Voz Dormida/10. Incubos y Sucubos.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2005] Gaia II - La Voz Dormida/11. Diabolus in Música.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2005] Gaia II - La Voz Dormida/12. Mañana Empieza Hoy.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2005] Gaia II - La Voz Dormida/13. El Príncipe de la Dulce Pena.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2005] Gaia II - La Voz Dormida/14. Aquelarre.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2005] Gaia II - La Voz Dormida/15. Hoy Toca Ser Feliz.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2005] Gaia II - La Voz Dormida/16. Creo(La Voz Dormida Parte II).mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2005] Gaia II - La Voz Dormida/17. La Cantata del Diablo.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2005] Madrid Las Ventas (Live)/01. Obertura MDXX.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2005] Madrid Las Ventas (Live)/02. Van A Rodar Cabezas.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2005] Madrid Las Ventas (Live)/03. Ancha Es Castilla.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2005] Madrid Las Ventas (Live)/04. Fiesta Pagana.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2005] Madrid Las Ventas (Live)/05. El Que Quiera Entender....mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2005] Madrid Las Ventas (Live)/06. El Pacto.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2005] Madrid Las Ventas (Live)/07. El Arbol De La Noche Triste.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2005] Madrid Las Ventas (Live)/08. Gaia.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2005] Madrid Las Ventas (Live)/09. El Peso Del Alma (Hammerfall Cover - Glory To The Brave).mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2005] Madrid Las Ventas (Live)/10. La Rosa De Los Vientos.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2005] Madrid Las Ventas (Live)/11. Noche Toledana.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2005] Madrid Las Ventas (Live)/12. Astaroth.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2005] Madrid Las Ventas (Live)/13. La Leyenda De La Llorona.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2005] Madrid Las Ventas (Live)/14. La Danza Del Fuego.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2005] Madrid Las Ventas (Live)/15. La Costa Del Silencio.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2005] Madrid Las Ventas (Live)/16. Molinos De Viento.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2006] Rarezas/01. Resacosix En Hispania.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2006] Rarezas/02. Pijo Comeme la Polla.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2006] Rarezas/03. Pachamama.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2006] Rarezas/04. Pendando en Ti.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2006] Rarezas/05. Donde el Corazon Te Lieve.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2006] Rarezas/06. Gracias a la Sociedad.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2006] Rarezas/07. Quijote y Sancho.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2006] Rarezas/08. Mari Tormes.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2006] Rarezas/09. Molinos de Viento.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2006] Rarezas/10. El Turno de la Rosa.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2006] Rarezas/11. El Que Quiera Entender.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2006] Rarezas/12. Man on The Silver Moon.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2006] Rarezas/13. Strange World.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2006] Rarezas/14. Whole Lotta Love.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2006] Rarezas/15. Ancha es Castilla.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2006] Rarezas/16. Concierto Para Ellos.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2006] Rarezas/17. Molinos de Viento (Live).mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2006] Rarezas/18. Finisterra.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2006] Rarezas/19. El Cantar de la Luna Oscura.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2006] Rarezas/20. Pensando en Ti (Live).mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2006] The Best Oz/CD1 - Singles/01. Molinos De Viento (Version 2006).mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2006] The Best Oz/CD1 - Singles/02. La Costa Del Silencio.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2006] The Best Oz/CD1 - Singles/03. Fiesta Pagana.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2006] The Best Oz/CD1 - Singles/04. La Danza Del Fuego.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2006] The Best Oz/CD1 - Singles/05. El Lago.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2006] The Best Oz/CD1 - Singles/06. El Atrapasueños.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2006] The Best Oz/CD1 - Singles/07. La Rosa De Los Vientos.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2006] The Best Oz/CD1 - Singles/08. El Que Quiera Entender Que Ent.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2006] The Best Oz/CD1 - Singles/09. Hoy Toca Ser Feliz.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2006] The Best Oz/CD1 - Singles/10. La Posada De Los Muertos.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2006] The Best Oz/CD1 - Singles/11. Diábulus in música.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2006] The Best Oz/CD1 - Singles/12. Hasta Que Tu Muerte Nos Separe.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2006] The Best Oz/CD1 - Singles/13. Hasta Que El Cuerpo Aguante.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2006] The Best Oz/CD1 - Singles/14. El Cantar De La Luna Oscura (Version 2006).mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2006] The Best Oz/CD2 - Folkmetal/01. Jesús de Chamberí (Version 2006).mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2006] The Best Oz/CD2 - Folkmetal/02. Van A Rodar Cabezas.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2006] The Best Oz/CD2 - Folkmetal/03. El Santo Grial.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2006] The Best Oz/CD2 - Folkmetal/04. Satania.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2006] The Best Oz/CD2 - Folkmetal/05. La Leyenda De La Mancha.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2006] The Best Oz/CD2 - Folkmetal/06. Gaia.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2006] The Best Oz/CD2 - Folkmetal/07. Maritormes.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2006] The Best Oz/CD2 - Folkmetal/08. El Paseo De Los Tristes.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2006] The Best Oz/CD2 - Folkmetal/09. Astaroth.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2006] The Best Oz/CD2 - Folkmetal/10. Réquiem.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2006] The Best Oz/CD3 - Rarezas Autenticas/01-Noches De Bohemia.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2006] The Best Oz/CD3 - Rarezas Autenticas/02-Para Ella.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2006] The Best Oz/CD3 - Rarezas Autenticas/03-Brisa de Otoño.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2006] The Best Oz/CD3 - Rarezas Autenticas/04-Por Volver A Tenerte.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2006] The Best Oz/CD3 - Rarezas Autenticas/05-El Tango Del Donante.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2006] The Best Oz/CD3 - Rarezas Autenticas/06-Domingo De Gramos.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2006] The Best Oz/CD3 - Rarezas Autenticas/07-Jesús de Chamberí.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2006] The Best Oz/CD3 - Rarezas Autenticas/08-El ángel Caído.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2006] The Best Oz/CD3 - Rarezas Autenticas/09-La Canción de Pedro.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2006] The Best Oz/CD3 - Rarezas Autenticas/10-Al-mejandría.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2006] The Best Oz/CD3 - Rarezas Autenticas/11-Memoria Da Noite.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2006] The Best Oz/CD3 - Rarezas Autenticas/12-Sueños diabólicos.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2006] The Best Oz/CD3 - Rarezas Autenticas/13-La Fina.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2006] The Best Oz/CD3 - Rarezas Autenticas/14-Take On Me.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2006] The Best Oz/CD3 - Rarezas Autenticas/15-Como Un Huracan.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2006] The Best Oz/CD3 - Rarezas Autenticas/16-Adiós Dulcinea.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2007] La Ciudad de los Árboles/01. El Espíritu Del Bosque (Intro).mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2007] La Ciudad de los Árboles/02. La Ciudad De Los Árboles.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2007] La Ciudad de los Árboles/03. Mi Nombre Es Rock'n'Roll.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2007] La Ciudad de los Árboles/04. El Rincón De Los Sentidos.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2007] La Ciudad de los Árboles/05. Deja De Llorar (Y Vuelvete A Lenvantar).mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2007] La Ciudad de los Árboles/06. La Canción De Los Deseos.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2007] La Ciudad de los Árboles/07. Y Ahora Voy A Salir (Ranxeira).mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2007] La Ciudad de los Árboles/08. Runa Llena (Instrumental).mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2007] La Ciudad de los Árboles/09. Resacosix En La Barra.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2007] La Ciudad de los Árboles/10. No Queda Sino Batirnos.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2007] La Ciudad de los Árboles/11. Sin Tí, Sería Silencio (Parte II).mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2007] La Ciudad de los Árboles/12. Si Molesto, Me Quedo.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2007] La Ciudad de los Árboles/13. El Espíritu Del Bosque II (Outro).mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2008] Barakaldo D.F. (Live)/01. La Voz Dormida.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2008] Barakaldo D.F. (Live)/02. El Poema de la Lluvia Triste.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2008] Barakaldo D.F. (Live)/03. Aquelarre.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2008] Barakaldo D.F. (Live)/04. Fiesta Pagana.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2008] Barakaldo D.F. (Live)/05. Desde Mi Cielo.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2008] Barakaldo D.F. (Live)/06. Marcha Turca.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2008] Barakaldo D.F. (Live)/07. La Cantata del Diablo.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2008] Barakaldo D.F. (Live)/08. Diabulus in Musica.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2008] Barakaldo D.F. (Live)/09. La Posada de los Muertos.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2008] Barakaldo D.F. (Live)/10. Molinos de Vientos.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2008] Barakaldo D.F. (Live)/11. Puedes Contar Conmigo (Bonus track).mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2010] Gaia Epilogo/01. Madre Tierra (Intro).mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2010] Gaia Epilogo/02. El Lider.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2010] Gaia Epilogo/03. Para que no Muera de Frno una Cancion, Llenala de Rock'N'Roll.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2010] Gaia Epilogo/04. Y Seras Cancion.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2010] Gaia Epilogo/05. In Memorian.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2010] Gaia Epilogo/06. Las Lagrimas de Gaia.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2010] Gaia Epilogo/07. Puedes Contar Conmigo (Remasterizado).mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2010] Gaia Epilogo/08. Cuanto Cabe en un Adios.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2010] Gaia Epilogo/09. Adios Dulcinea (Remasterizado).mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2010] Gaia Epilogo/10. Epilogo.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2010] Gaia III- Atlantia/01. El Latido de Gaia.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2010] Gaia III- Atlantia/02. Dies Irae.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2010] Gaia III- Atlantia/03. Fur Iimmer.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2010] Gaia III- Atlantia/04. Vodka & Roll.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2010] Gaia III- Atlantia/05. El Principe de la Dulce Pena (Parte IV).mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2010] Gaia III- Atlantia/06. Mi Hogar Eres Tu.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2010] Gaia III- Atlantia/07. Fuerza y Honor (El Dorado).mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2010] Gaia III- Atlantia/08. El Violin del Diablo.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2010] Gaia III- Atlantia/09. Siempre (Adios, Dulcinea - Parte II).mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2010] Gaia III- Atlantia/10. Mis Demonios (Atrevete a Vivir).mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2010] Gaia III- Atlantia/11. Que el Viento Sople a Tu Favor.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2010] Gaia III- Atlantia/12. Suenos Dormidos.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2010] Gaia III- Atlantia/13. Todavia Amanece Gratis.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2010] Gaia III- Atlantia/14. La Soga del Muerto (Ayahuasca).mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2010] Gaia III- Atlantia/15. La ira de Gaia.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2010] Gaia III- Atlantia/16. Atlantia.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2011] Love N’ Oz/01. Te Guardo un Beso (Por Si Lo Quieres).mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2011] Love N’ Oz/02. El Hombre de la Mirada Triste.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2011] Love N’ Oz/03. Sin Ti Seria Silencio, Pt. II).mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2011] Love N’ Oz/04. Desde Mi Cielo (Version 2011).mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2011] Love N’ Oz/05. In Memoriam (15_4_83 - 25_4_10) [Version 2011].mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2011] Love N’ Oz/06. Adios Dulcinea (Version 2011).mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2011] Love N’ Oz/07. Siempre (Adios Dulcinea, Pt. II).mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2011] Love N’ Oz/08. Pensando en ti (Version 2011).mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2011] Love N’ Oz/09. El Peso del Alma.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2011] Love N’ Oz/10. Creo (La Voz Dormida, Pt. II) [Version 2011].mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2011] Love N’ Oz/11. Si Te Vas.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2011] Love N’ Oz/12. Es Hora de Marchar.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2011] Love N’ Oz/13. Cuando Se Apague la Luz.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2011] Love N’ Oz/14. Epilogo (Version 2011).mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2011] Love N’ Oz/15. Aun Amanece Gratis (Version 2011).mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2011] Love N’ Oz/16. La Rosa de los Vientos (Version 2.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2011] Love N’ Oz/17. Noches de Bohemia.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2011] Love N’ Oz/18. Duerme (Cancion de Cuna).mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2011] Love N’ Oz/19. Memoria da Noite (Version 2011).mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2011] Love N’ Oz/20. Tres Tristes Tigres.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2011] Love N’ Oz/21. Ancha Es Castilla (Version 2011).mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2011] Love N’ Oz/22. Somewhere Over the Rainbow (Version 2011).mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2011] Love N’ Oz/23. Dime Con Quien Andas.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2011] Love N’ Oz/24. Siempre (Version Coral).mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2011] Love N’ Oz/25. Mi Viaje.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2012] Hechizos, Pocimas Y Brujeria/01. El Libro de las Sombras.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2012] Hechizos, Pocimas Y Brujeria/02. H2Oz.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2012] Hechizos, Pocimas Y Brujeria/03. Xanandra.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2012] Hechizos, Pocimas Y Brujeria/04. Sácale Brillo a una Pena.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2012] Hechizos, Pocimas Y Brujeria/05. Satanael.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2012] Hechizos, Pocimas Y Brujeria/06. No Pares (De Oir Rock & Roll).mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2012] Hechizos, Pocimas Y Brujeria/07. A Marcha Das Meigas.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2012] Hechizos, Pocimas Y Brujeria/08. Quiero Morirme en Ti.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2012] Hechizos, Pocimas Y Brujeria/09. Sigue la Luz.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2012] Hechizos, Pocimas Y Brujeria/10. El Mercado de las Brujas.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2012] Hechizos, Pocimas Y Brujeria/11. Celtian.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2012] Hechizos, Pocimas Y Brujeria/12. Brujas.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2012] Hechizos, Pocimas Y Brujeria/13. Hechizos, Pócimas y Brujería.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2012] Hechizos, Pocimas Y Brujeria/14. Piratas.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2012] Hechizos, Pocimas Y Brujeria/15. Desde Mi Cielo (Orquestal).mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2012] Hechizos, Pocimas Y Brujeria/16. Obertura Xanandra.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2013] Celtic Land/13.Acércate y bésame.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2013] Celtic Land/01. The Black Book (feat. Ralph Scheepers).mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2013] Celtic Land/02. Celtic Land (feat. Jonne).mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2013] Celtic Land/03. Pagan Party 2.0.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2013] Celtic Land/04. Vodka'n'Roll (feat. Elvenking).mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2013] Celtic Land/05. Find Your Love (feat. Goran Edman).mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2013] Celtic Land/06. Satanael (feat. Paul Shortino).mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2013] Celtic Land/07. I Belive (feat. Darren Warthon).mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2013] Celtic Land/08. Xanandra (feat. Eric Martin).mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2013] Celtic Land/09. Hymn 2.0.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2013] Celtic Land/10. Diabulus in música (feat. Jape).mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2013] Celtic Land/11. Love Never Dies (feat. Danny Vaughn) [Tell Me].mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2013] Celtic Land/12.Fiesta Pagana 2.0.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2013] Celtic Land/14.El líder 2.0.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2013] Celtic Land/15.La costa del silencio 2.0.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2013] Celtic Land/16.Hazme un sitio entre tu piel (feat. Victor García).mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2013] Celtic Land/17.Desde mi cielo (feat. Leo Jiménez).mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2013] Celtic Land/18.La voz dormida (feat. Tete Novoa).mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2013] Celtic Land/19.La luna en ti 2.0.mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2013] Celtic Land/20.Sácale brillo a una pena (feat. Tony Solo).mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2013] Celtic Land/21.Siempre (feat. Patricia Tapia).mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2013] Celtic Land/22.El poema de la lluvia triste (feat. Christian Bertoncelli).mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2013] Celtic Land/23.Sigue la luz (feat. Carlos Escobedo).mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2013] Celtic Land/24.Por qué no bailamos (Trailer Skun DF).mp3
+Jul 23 10:19 : update: added Mägo de Oz/[2013] Celtic Land/25.Desde mi cielo 2.0 (Versión orquestal).mp3
+Jul 23 10:27 : player: played "Mägo de Oz/[1996] Jesús de Chamberí (Opera Rock)/14. El Fin Del Camino.mp3"
+Jul 23 10:33 : player: played "Mägo de Oz/[1996] Jesús de Chamberí (Opera Rock)/07. La Canción de Pedro.mp3"
+Jul 23 10:41 : player: played "Mägo de Oz/[1996] Jesús de Chamberí (Opera Rock)/02. Jesús de Chamberí.mp3"
+Jul 23 10:48 : player: played "Mägo de Oz/[1998] La Leyenda De La Mancha (Deluxe Edition)/04. Noche Toledana.mp3"
+Jul 23 10:52 : player: played "Mägo de Oz/[1998] La Leyenda De La Mancha (Deluxe Edition)/05. Molinos De Viento.mp3"
+Jul 23 10:54 : player: played "Mägo de Oz/[1998] La Leyenda De La Mancha (Deluxe Edition)/12. Requiem.mp3"
+Jul 23 10:57 : player: played "Mägo de Oz/[2002] Folktergeist (Live)/12. Réquiem.mp3"
+Jul 23 11:01 : player: played "Mägo de Oz/[2002] Folktergeist (Live)/10. Jesús de Chamberí.mp3"
+Jul 23 11:03 : player: played "Mägo de Oz/[2005] Gaia II - La Voz Dormida/11. Diabolus in Música.mp3"
+Jul 23 11:04 : player: played "Mägo de Oz/[1994] Mago De Oz/06. Yankees Go Home.mp3"
+Jul 23 11:05 : player: played "Mägo de Oz/[1996] Jesús de Chamberí (Opera Rock)/01. Génesis.mp3"
+Jul 23 11:11 : client: [0] closed
+Jul 23 11:12 : player: played "Mägo de Oz/[2002] Folktergeist (Live)/03. El Quiera Entender Que Entienda.mp3"
+Jul 23 11:13 : player: played "Mägo de Oz/[2002] Folktergeist (Live)/11. El Pacto.mp3"
+Jul 23 11:15 : player: played "Mägo de Oz/[2005] Gaia II - La Voz Dormida/17. La Cantata del Diablo.mp3"
+Jul 23 11:15 : client: [1] closed
+Jul 24 13:14 : client: [2] opened from 127.0.0.1:39642
+Jul 24 13:23 : player: played "Mägo de Oz/[1996] Jesús de Chamberí (Opera Rock)/14. El Fin Del Camino.mp3"
+Jul 24 13:24 : player: played "Mägo de Oz/[1996] Jesús de Chamberí (Opera Rock)/07. La Canción de Pedro.mp3"
+Jul 24 13:34 : player: played "Mägo de Oz/[1996] Jesús de Chamberí (Opera Rock)/02. Jesús de Chamberí.mp3"
+Jul 24 13:35 : player: played "Mägo de Oz/[1998] La Leyenda De La Mancha (Deluxe Edition)/04. Noche Toledana.mp3"
+Jul 24 13:35 : client: [3] opened from 127.0.0.1:40024
+Jul 24 13:35 : client: [3] closed
+Jul 24 13:40 : player: played "Mägo de Oz/[1998] La Leyenda De La Mancha (Deluxe Edition)/05. Molinos De Viento.mp3"
+Jul 24 13:48 : player: played "Mägo de Oz/[1998] La Leyenda De La Mancha (Deluxe Edition)/12. Requiem.mp3"
+Jul 24 13:48 : player: played "Mägo de Oz/[2002] Folktergeist (Live)/12. Réquiem.mp3"
+Jul 24 13:48 : player: played "Mägo de Oz/[2002] Folktergeist (Live)/03. El Quiera Entender Que Entienda.mp3"
+Jul 24 13:48 : player: played "Mägo de Oz/[2002] Folktergeist (Live)/11. El Pacto.mp3"
+Jul 24 13:53 : player: played "Mägo de Oz/[2003] Gaia (Deluxe Edition)/06. El Бrbol de la Noche Triste.mp3"
+Jul 24 20:32 : client: [2] closed
+Jul 24 21:54 : client: [4] opened from 127.0.0.1:41904
+Jul 24 22:03 : player: played "Mägo de Oz/[1996] Jesús de Chamberí (Opera Rock)/14. El Fin Del Camino.mp3"
+Jul 24 22:09 : player: played "Mägo de Oz/[1996] Jesús de Chamberí (Opera Rock)/07. La Canción de Pedro.mp3"
+Jul 24 22:16 : player: played "Mägo de Oz/[1996] Jesús de Chamberí (Opera Rock)/02. Jesús de Chamberí.mp3"
+Jul 24 22:18 : player: played "Mägo de Oz/[1998] La Leyenda De La Mancha (Deluxe Edition)/04. Noche Toledana.mp3"
+Jul 24 22:22 : player: played "Mägo de Oz/[1998] La Leyenda De La Mancha (Deluxe Edition)/05. Molinos De Viento.mp3"
+Jul 24 22:30 : player: played "Mägo de Oz/[1998] La Leyenda De La Mancha (Deluxe Edition)/12. Requiem.mp3"
+Jul 24 22:39 : player: played "Mägo de Oz/[2002] Folktergeist (Live)/12. Réquiem.mp3"
+Jul 24 22:39 : player: played "Mägo de Oz/[2002] Folktergeist (Live)/10. Jesús de Chamberí.mp3"
+Jul 24 22:44 : player: played "Mägo de Oz/[2003] Gaia (Deluxe Edition)/06. El Бrbol de la Noche Triste.mp3"
+Jul 24 22:51 : player: played "Mägo de Oz/[2003] Gaia (Deluxe Edition)/06. El Бrbol de la Noche Triste.mp3"
+Jul 24 22:52 : player: played "Mägo de Oz/[2002] Folktergeist (Live)/11. El Pacto.mp3"
+Jul 24 22:52 : player: played "Mägo de Oz/[1996] Jesús de Chamberí (Opera Rock)/14. El Fin Del Camino.mp3"
+Jul 24 22:52 : client: [4] closed

@@ -5,14 +5,95 @@ execute pathogen#infect()
 """"""""""
 map <C-f> :NERDTreeTabsToggle<CR>
 nnoremap <f2> :call NumberToggle()<cr>
-nmap <F7> <Plug>ColorstepPrev
-nmap <F8> <Plug>ColorstepNext
+nmap <F7> <Plug>ColorstepPrev<CR>
+nmap <F8> <Plug>ColorstepNext<CR>
+nnoremap <F9> :Dispatch<CR>
 "this adds sudo saving support, with the command sudow
 command Sw :execute ':silent w !sudo tee % > /dev/null' | :edit!
+"lets me switch between python2 and python3 syntax checkers
+cnoreabbrev Py2 let g:syntastic_python_checkers=['python2']
+cnoreabbrev Py3 let g:syntastic_python_checkers=['python3']
 
 " ctrlp fuzzy finder "
 """"""""""""""""""""""
 let g:ctrlp_working_path_mode = 'wa'
+
+"  snippets  "
+""""""""""""""""""""""
+let g:UltiSnipsExpandTrigger="<c-e>"
+let g:UltiSnipsJumpForwardTrigger="<c-b>"
+let g:UltiSnipsJumpBackwardTrigger="<c-v>"
+
+" Dispatch "
+""""""""""""""""""""""
+augroup DFOperations
+	autocmd FileType c let b:dispatch = 'gcc %'
+	autocmd FileType cpp let b:dispatch = 'g++ %'
+	autocmd FileType html let b:dispatch = 'firefox %'
+augroup END
+
+" omni-sharp " {{{
+let g:OmniSharp_selector_ui = 'ctrlp'  " Use ctrlp.vim
+set noshowmatch
+augroup omnisharp_commands
+    autocmd!
+
+    "Set autocomplete function to OmniSharp (if not using YouCompleteMe completion plugin)
+    autocmd FileType cs setlocal omnifunc=OmniSharp#Complete
+
+    " Synchronous build (blocks Vim)
+    "autocmd FileType cs nnoremap <F5> :wa!<cr>:OmniSharpBuild<cr>
+    " Builds can also run asynchronously with vim-dispatch installed
+    autocmd FileType cs nnoremap <leader>b :wa!<cr>:OmniSharpBuildAsync<cr>
+    " automatic syntax check on events (TextChanged requires Vim 7.4)
+    autocmd BufEnter,TextChanged,InsertLeave *.cs SyntasticCheck
+
+    " Automatically add new cs files to the nearest project on save
+    autocmd BufWritePost *.cs call OmniSharp#AddToProject()
+
+    "show type information automatically when the cursor stops moving
+    autocmd CursorHold *.cs call OmniSharp#TypeLookupWithoutDocumentation()
+
+    "The following commands are contextual, based on the current cursor position.
+
+    autocmd FileType cs nnoremap gd :OmniSharpGotoDefinition<cr>
+    autocmd FileType cs nnoremap <leader>fi :OmniSharpFindImplementations<cr>
+    autocmd FileType cs nnoremap <leader>ft :OmniSharpFindType<cr>
+    autocmd FileType cs nnoremap <leader>fs :OmniSharpFindSymbol<cr>
+    autocmd FileType cs nnoremap <leader>fu :OmniSharpFindUsages<cr>
+    "finds members in the current buffer
+    autocmd FileType cs nnoremap <leader>fm :OmniSharpFindMembers<cr>
+    " cursor can be anywhere on the line containing an issue
+    autocmd FileType cs nnoremap <leader>x  :OmniSharpFixIssue<cr>
+    autocmd FileType cs nnoremap <leader>fx :OmniSharpFixUsings<cr>
+    autocmd FileType cs nnoremap <leader>tt :OmniSharpTypeLookup<cr>
+    autocmd FileType cs nnoremap <leader>dc :OmniSharpDocumentation<cr>
+    "navigate up by method/property/field
+    autocmd FileType cs nnoremap <C-K> :OmniSharpNavigateUp<cr>
+    "navigate down by method/property/field
+    autocmd FileType cs nnoremap <C-J> :OmniSharpNavigateDown<cr>
+
+augroup END
+"}}}
+
+" syntastic "
+""""""""""""""""""""""
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+let g:syntastic_loc_list_height = 3
+
+let g:syntastic_python_checkers = [ '' ]
+let g:syntastic_c_checkers = [ '' ]
+let g:syntastic_cpp_checkers = [ '' ]
+let g:syntastic_css = [ 'syntax', 'semantic', 'issues' ]
+let g:syntastic_ruby_checkers = [ '' ]
+let g:syntastic_cs_checkers = ['syntax', 'semantic', 'issues']
 
 " random options "
 """"""""""""""""""
@@ -28,6 +109,7 @@ set nohlsearch "don't highlight all search matches
 set mouse=a "Use mouse to navigate the file
 set ttyfast "faster scrolling
 set lazyredraw "less redraws
+set splitbelow "shows info or documentation below code, so code doesn't move
 
 set shell=/bin/zsh "shell to use
 set t_vb=	"disable all bells
@@ -71,7 +153,7 @@ autocmd BufNewFile,BufRead *.rkt set expandtab
 set laststatus=2
 let $PYTHONPATH='/usr/lib/python2/site-packages'
 let g:airline_powerline_fonts = 1
-let g:airline_extensions = ['branch','tabline','ctrlp']
+let g:airline_extensions = ['branch','tabline','ctrlp', 'syntastic']
 let g:tmuxline_powerline_separators = 0
 let g:airline_left_sep = ' '
 let g:airline_right_sep = ' '
@@ -143,9 +225,9 @@ autocmd FileType html,markdown setlocal omnifunc=htmlcomplete#CompleteTags
 autocmd FileType javascript setlocal omnifunc=javascriptcomplete#CompleteJS
 autocmd FileType python setlocal omnifunc=pythoncomplete#Complete
 autocmd FileType xml setlocal omnifunc=xmlcomplete#CompleteTags
+autocmd FileType cs setlocal omnifunc=OmniSharp#Complete
 
 " Enable heavy omni completion.
-
 if !exists('g:neocomplete#sources#omni#input_patterns')
 	let g:neocomplete#sources#omni#input_patterns = {}
 endif
@@ -154,4 +236,5 @@ let g:neocomplete#sources#omni#input_patterns.php = '[^. \t]->\h\w*\|\h\w*::'
 let g:neocomplete#sources#omni#input_patterns.java = '\h\w*\.\w*'
 let g:neocomplete#sources#omni#input_patterns.c = '[^.[:digit:] *\t]\%(\.\|->\)'
 let g:neocomplete#sources#omni#input_patterns.cpp = '[^.[:digit:] *\t]\%(\.\|->\)\|\h\w*::'
+let g:neocomplete#sources#omni#input_patterns.cs = '.*[^=\);]'
 "}}}

@@ -1,9 +1,0 @@
-'b:vcm_tab_complete'	VimCompletesMe.txt	/*'b:vcm_tab_complete'*
-'g:vcm_default_maps'	VimCompletesMe.txt	/*'g:vcm_default_maps'*
-'g:vcm_direction'	VimCompletesMe.txt	/*'g:vcm_direction'*
-'g:vcm_s_tab_behavior'	VimCompletesMe.txt	/*'g:vcm_s_tab_behavior'*
-VimCompletesMe	VimCompletesMe.txt	/*VimCompletesMe*
-VimCompletesMe-configuration	VimCompletesMe.txt	/*VimCompletesMe-configuration*
-VimCompletesMe-faq	VimCompletesMe.txt	/*VimCompletesMe-faq*
-VimCompletesMe-intro	VimCompletesMe.txt	/*VimCompletesMe-intro*
-VimCompletesMe.txt	VimCompletesMe.txt	/*VimCompletesMe.txt*
