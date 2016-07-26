@@ -1,7 +1,7 @@
 "this executes plug to load plugins
 call plug#begin( '~/.vim/plugged' )
 	Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeTabsToggle' } | Plug 'jistr/vim-nerdtree-tabs'
-	Plug 'Shougo/neosnippet.vim' | Plug 'Shougo/neosnippet-snippets'
+	Plug 'SirVer/ultisnips'  | Plug 'honza/vim-snippets'
 	Plug 'Shougo/neocomplete.vim'
 	Plug 'kien/ctrlp.vim'
 	Plug 'tpope/vim-surround'
@@ -31,9 +31,9 @@ let g:ctrlp_working_path_mode = 'wa'
 
 "  snippets  "
 """"""""""""""""""""""
-imap <C-k>     <Plug>(neosnippet_expand_or_jump)
-smap <C-k>     <Plug>(neosnippet_expand_or_jump)
-xmap <C-k>     <Plug>(neosnippet_expand_target)
+let g:UltiSnipsExpandTrigger="<c-k>"
+let g:UltiSnipsJumpForwardTrigger="<c-k>"
+let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 
 " Dispatch "
 """"""""""""""""""""""
