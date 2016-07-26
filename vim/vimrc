@@ -1,5 +1,16 @@
-"this executes pathogen to install plugins
-execute pathogen#infect()
+"this executes plug to load plugins
+call plug#begin( '~/.vim/plugged' )
+	Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeTabsToggle' } | Plug 'jistr/vim-nerdtree-tabs'
+	Plug 'Shougo/neosnippet.vim' | Plug 'Shougo/neosnippet-snippets'
+	Plug 'Shougo/neocomplete.vim'
+	Plug 'kien/ctrlp.vim'
+	Plug 'tpope/vim-surround'
+	Plug 'tpope/vim-fugitive'
+	Plug 'vim-airline/vim-airline' | Plug 'edkolev/tmuxline.vim'
+	Plug 'tpope/vim-dispatch', { 'for': 'cs' }
+	Plug 'scrooloose/syntastic', { 'for': 'cs' }
+	Plug 'OmniSharp/omnisharp-vim', { 'for': 'cs' }
+call plug#end()
 
 " remaps "
 """"""""""
@@ -20,9 +31,9 @@ let g:ctrlp_working_path_mode = 'wa'
 
 "  snippets  "
 """"""""""""""""""""""
-let g:UltiSnipsExpandTrigger="<c-e>"
-let g:UltiSnipsJumpForwardTrigger="<c-b>"
-let g:UltiSnipsJumpBackwardTrigger="<c-v>"
+imap <C-k>     <Plug>(neosnippet_expand_or_jump)
+smap <C-k>     <Plug>(neosnippet_expand_or_jump)
+xmap <C-k>     <Plug>(neosnippet_expand_target)
 
 " Dispatch "
 """"""""""""""""""""""
@@ -153,7 +164,8 @@ autocmd BufNewFile,BufRead *.rkt set expandtab
 set laststatus=2
 let $PYTHONPATH='/usr/lib/python2/site-packages'
 let g:airline_powerline_fonts = 1
-let g:airline_extensions = ['branch','tabline','ctrlp', 'syntastic']
+let g:airline_extensions = ['branch','tabline','ctrlp']
+autocmd FileType cs let g:airline_extensions = ['branch','tabline','ctrlp', 'syntastic']
 let g:tmuxline_powerline_separators = 0
 let g:airline_left_sep = ' '
 let g:airline_right_sep = ' '
