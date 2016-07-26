@@ -34,7 +34,8 @@ if exists("syntax_on")
   syntax reset
 endif
 let g:colors_name = "deviantfero"
-
+hi CursorLine ctermbg=234	cterm=none
+hi CursorLineNr ctermfg=253 ctermbg=233
 " Normal is for the normal (unhighlighted) text and background.
 " NonText is below the last line (~ lines).
 highlight Normal                  guibg=Black      guifg=Green 

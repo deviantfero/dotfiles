@@ -4,6 +4,7 @@ call plug#begin( '~/.vim/plugged' )
 	Plug 'Shougo/neosnippet.vim' | Plug 'Shougo/neosnippet-snippets'
 	Plug 'Shougo/neocomplete.vim'
 	Plug 'kien/ctrlp.vim'
+	Plug 'junegunn/goyo.vim', { 'on': 'Goyo' }
 	Plug 'tpope/vim-surround'
 	Plug 'tpope/vim-fugitive'
 	Plug 'vim-airline/vim-airline' | Plug 'edkolev/tmuxline.vim'
@@ -15,6 +16,7 @@ call plug#end()
 " remaps "
 """"""""""
 map <C-f> :NERDTreeTabsToggle<CR>
+map <F12> :Goyo<CR>
 nnoremap <f2> :call NumberToggle()<cr>
 nmap <F7> <Plug>ColorstepPrev<CR>
 nmap <F8> <Plug>ColorstepNext<CR>
@@ -147,8 +149,6 @@ set t_Co=16
 colorscheme deviantfero
 "this defines the number of the colums
 hi LineNr ctermfg=249 ctermbg=234
-hi CursorLine ctermbg=234	cterm=none
-hi CursorLineNr ctermfg=253 ctermbg=233
 "hi CursorLineNr ctermfg=16 ctermbg=2
 
 
