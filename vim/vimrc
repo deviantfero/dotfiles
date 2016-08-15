@@ -7,7 +7,7 @@ call plug#begin( '~/.vim/plugged' )
 	Plug 'tpope/vim-surround'
 	Plug 'tpope/vim-fugitive'
 	Plug 'vim-airline/vim-airline' | Plug 'edkolev/tmuxline.vim'
-	Plug 'tpope/vim-dispatch', { 'for': 'cs' }
+	Plug 'tpope/vim-dispatch', { 'for': [ 'cs', 'html' ] }
 	Plug 'scrooloose/syntastic', { 'for': 'cs' }
 	Plug 'OmniSharp/omnisharp-vim', { 'for': 'cs' }
 call plug#end()
@@ -38,8 +38,6 @@ let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 " Dispatch "
 """"""""""""""""""""""
 augroup DFOperations
-	autocmd FileType c let b:dispatch = 'gcc %'
-	autocmd FileType cpp let b:dispatch = 'g++ %'
 	autocmd FileType html let b:dispatch = 'firefox %'
 augroup END
 

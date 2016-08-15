@@ -5,7 +5,7 @@
 URxvt*background: #121212
 
 ! Font options
-URxvt*foreground: white 
+URxvt*foreground: #ffffff 
 URxvt*font: xft:terminess powerline:size=9:antialias=true
 URxvt*letterSpace: 0
 URxvt*internalBorder: 8

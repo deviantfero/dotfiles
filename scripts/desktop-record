@@ -3,7 +3,7 @@ videoname="$(date +"%h-%I-%M-%S-%d-%Y")"
 
 function record_mkv {
 	notify-send "Now recording" "Press Win+Alt+INS to stop"
-	ffmpeg -video_size 1920x1200 -framerate 60 -threads 0  -f x11grab -i :0.0  -c:v libx264 -preset ultrafast -crf 5 "$videoname".mkv
+	ffmpeg -video_size 1920x1200 -framerate 60 -threads 4  -f x11grab -i :0.0  -c:v libx264 -preset ultrafast -crf 5 "$videoname".mkv
 }
 
 function convert_webm {
