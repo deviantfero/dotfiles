@@ -4,27 +4,27 @@
 " Normal mode
 "          [ guifg, guibg, ctermfg, ctermbg, opts ]
 let s:N1 = [ '#141413' , '#CAE682' , 16 , 6 ] " mode fg, bg
-let s:N2 = [ '#CAE682' , '#32322F' , 6 , 236 ] " info
-let s:N3 = [ '#CAE682' , '#242424' , 6 , 234 ] " statusline
-let s:N4 = [ '#86CD74' , 7 ]                   " mode modified
+let s:N2 = [ '#CAE682' , '#32322F' , 250 , 234 ] " info
+let s:N3 = [ '#CAE682' , '#242424' , 250 , 235 ] " statusline
+let s:N4 = [ '#86CD74' , 14 ]                   " mode modified
 
 " Insert mode
-let s:I1 = [ '#141413' , '#FDE76E' , 16 , 10 ]
-let s:I2 = [ '#FDE76E' , '#87ffff' , 10 , 236 ]
-let s:I3 = [ '#FDE76E' , '#242424' , 10 , 234 ]
-let s:I4 = [ '#FADE3E' , 9 ]
+let s:I1 = [ '#141413' , '#FDE76E' , 16 , 2 ]
+let s:I2 = [ '#FDE76E' , '#87ffff' , 250 , 234 ]
+let s:I3 = [ '#FDE76E' , '#242424' , 250 , 235 ]
+let s:I4 = [ '#FADE3E' , 10 ]
 
 " Visual mode
-let s:V1 = [ '#141413' , '#B5D3F3' , 232 , 153 ]
-let s:V2 = [ '#B5D3F3' , '#32322F' , 153 , 236 ]
-let s:V3 = [ '#B5D3F3' , '#242424' , 153 , 234 ]
-let s:V4 = [ '#7CB0E6' , 111 ]
+let s:V1 = [ '#141413' , '#B5D3F3' , 232 , 3 ]
+let s:V2 = [ '#B5D3F3' , '#32322F' , 250 , 234 ]
+let s:V3 = [ '#B5D3F3' , '#242424' , 250 , 235 ]
+let s:V4 = [ '#7CB0E6' , 11 ]
 
 " Replace mode
-let s:R1 = [ '#141413' , '#E5786D' , 232 , 173 ]
-let s:R2 = [ '#E5786D' , '#32322F' , 173 , 236 ]
-let s:R3 = [ '#E5786D' , '#242424' , 173 , 234 ]
-let s:R4 = [ '#E55345' , 203 ]
+let s:R1 = [ '#141413' , '#E5786D' , 16 , 7 ]
+let s:R2 = [ '#E5786D' , '#32322F' , 250 , 234 ]
+let s:R3 = [ '#E5786D' , '#242424' , 250 , 235 ]
+let s:R4 = [ '#E55345' , 15 ]
 
 " Paste mode
 let s:PA = [ '#94E42C' , 47 ]

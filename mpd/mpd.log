@@ -15369,3 +15369,818 @@ Aug 14 20:40 : client: [4] opened from 127.0.0.1:38612
 Aug 14 20:41 : client: [4] closed
 Aug 14 20:45 : player: played "Chill/Tasogare - Mai Yamane.mp3"
 Aug 14 20:48 : player: played "Chill/iamnobodi - Bel Air.mp3"
+Aug 16 21:31 : client: [0] opened from 127.0.0.1:40480
+Aug 16 21:37 : player: played "Chill/Tasogare - Mai Yamane.mp3"
+Aug 16 21:39 : client: [1] opened from 127.0.0.1:40526
+Aug 16 21:40 : player: played "Chill/iamnobodi - Bel Air.mp3"
+Aug 16 21:43 : client: [0] closed
+Aug 16 21:43 : client: [2] opened from 127.0.0.1:40548
+Aug 16 21:43 : player: played "Chill/Summer Blue - Bread and Butter.mp3"
+Aug 16 21:43 : client: [2] closed
+Aug 16 22:08 : client: [1] closed
+Aug 18 22:07 : client: [0] opened from 127.0.0.1:46620
+Aug 18 22:07 : client: [0] closed
+Aug 18 22:07 : client: [1] opened from 127.0.0.1:46630
+Aug 18 22:13 : player: played "Chill/Tasogare - Mai Yamane.mp3"
+Aug 18 22:13 : player: played "Chill/iamnobodi - Bel Air.mp3"
+Aug 18 22:16 : player: played "Kiko Lureiro/Kiko Loureiro - 2006 Universo Inverso/11 Hidden Track.mp3"
+Aug 18 22:21 : player: played "Kiko Lureiro/Kiko Loureiro - 2006 Universo Inverso/09 Realidade Paralela.mp3"
+Aug 18 22:22 : client: [1] closed
+Aug 18 22:26 : client: [0] opened from 127.0.0.1:47020
+Aug 18 22:28 : player: played "Kiko Lureiro/Kiko Loureiro - 2006 Universo Inverso/11 Hidden Track.mp3"
+Aug 18 22:34 : client: [0] closed
+Aug 18 22:34 : client: [1] opened from 127.0.0.1:47070
+Aug 18 22:34 : player: played "Kiko Lureiro/Kiko Loureiro - 2006 Universo Inverso/09 Realidade Paralela.mp3"
+Aug 18 22:35 : client: [2] opened from 127.0.0.1:47078
+Aug 18 22:35 : client: [2] closed
+Aug 18 22:35 : client: [3] opened from 127.0.0.1:47082
+Aug 18 22:35 : client: [3] closed
+Aug 18 22:35 : client: [4] opened from 127.0.0.1:47086
+Aug 18 22:35 : client: [4] closed
+Aug 18 22:35 : client: [5] opened from 127.0.0.1:47090
+Aug 18 22:35 : client: [5] closed
+Aug 18 22:36 : client: [6] opened from 127.0.0.1:47094
+Aug 18 22:36 : client: [6] closed
+Aug 18 22:36 : client: [7] opened from 127.0.0.1:47098
+Aug 18 22:36 : client: [7] closed
+Aug 18 22:36 : client: [8] opened from 127.0.0.1:47102
+Aug 18 22:36 : client: [8] closed
+Aug 18 22:37 : client: [9] opened from 127.0.0.1:47106
+Aug 18 22:37 : client: [9] closed
+Aug 18 22:37 : client: [10] opened from 127.0.0.1:47110
+Aug 18 22:37 : client: [10] closed
+Aug 18 22:37 : player: played "Kiko Lureiro/Kiko Loureiro - 2006 Universo Inverso/11 Hidden Track.mp3"
+Aug 18 22:37 : client: [11] opened from 127.0.0.1:47114
+Aug 18 22:37 : client: [11] closed
+Aug 18 22:38 : client: [12] opened from 127.0.0.1:47118
+Aug 18 22:38 : client: [12] closed
+Aug 18 22:38 : client: [13] opened from 127.0.0.1:47122
+Aug 18 22:38 : client: [13] closed
+Aug 18 22:38 : client: [14] opened from 127.0.0.1:47126
+Aug 18 22:38 : client: [14] closed
+Aug 18 22:38 : client: [15] opened from 127.0.0.1:47130
+Aug 18 22:38 : client: [15] closed
+Aug 18 22:38 : client: [16] opened from 127.0.0.1:47134
+Aug 18 22:38 : client: [16] closed
+Aug 18 22:38 : client: [17] opened from 127.0.0.1:47138
+Aug 18 22:38 : client: [17] closed
+Aug 18 22:38 : client: [18] opened from 127.0.0.1:47142
+Aug 18 22:38 : client: [18] closed
+Aug 18 22:38 : client: [19] opened from 127.0.0.1:47146
+Aug 18 22:38 : client: [19] closed
+Aug 18 22:38 : client: [20] opened from 127.0.0.1:47150
+Aug 18 22:38 : client: [20] closed
+Aug 18 22:38 : client: [21] opened from 127.0.0.1:47154
+Aug 18 22:38 : client: [21] closed
+Aug 18 22:39 : client: [1] closed
+Aug 18 22:39 : pulse_output: "MPD" [pulse] failed to play: disconnected
+Aug 18 22:39 : player: played "Kiko Lureiro/Kiko Loureiro - 2006 Universo Inverso/09 Realidade Paralela.mp3"
+Aug 19 10:08 : client: [0] opened from 127.0.0.1:56132
+Aug 19 10:09 : player: played "Kiko Lureiro/Kiko Loureiro - 2006 Universo Inverso/09 Realidade Paralela.mp3"
+Aug 19 10:12 : player: played "Kiko Lureiro/Kiko Loureiro - 2006 Universo Inverso/11 Hidden Track.mp3"
+Aug 19 10:18 : player: played "Kiko Lureiro/Kiko Loureiro - 2006 Universo Inverso/09 Realidade Paralela.mp3"
+Aug 19 10:18 : client: [0] closed
+Aug 19 17:55 : client: [0] opened from 127.0.0.1:53456
+Aug 19 17:59 : player: played "Chill/03 Nujabes - Aruarian Dance.mp3"
+Aug 19 18:26 : client: [1] opened from 127.0.0.1:54492
+Aug 19 18:30 : player: played "Chill/03 Nujabes - Aruarian Dance.mp3"
+Aug 19 20:06 : client: [0] closed
+Aug 19 20:08 : player: played "Kiko Lureiro/Kiko Loureiro - 2006 Universo Inverso/11 Hidden Track.mp3"
+Aug 19 20:16 : player: played "Kiko Lureiro/Kiko Loureiro - 2006 Universo Inverso/09 Realidade Paralela.mp3"
+Aug 19 20:20 : player: played "Chill/03 Nujabes - Aruarian Dance.mp3"
+Aug 19 21:09 : client: [1] closed
+Aug 20 19:40 : client: [0] opened from 127.0.0.1:57724
+Aug 20 19:44 : player: played "Chill/Nujabes - The Space Between Two Worlds.mp3"
+Aug 20 20:34 : client: [0] closed
+Aug 20 20:34 : client: [1] opened from 127.0.0.1:58196
+Aug 20 20:34 : client: [1] closed
+Aug 20 20:38 : player: played "Chill/Nujabes - The Space Between Two Worlds.mp3"
+Aug 21 16:12 : client: [0] opened from 127.0.0.1:33950
+Aug 21 16:19 : player: played "Chill/03 Nujabes - Aruarian Dance.mp3"
+Aug 21 16:19 : client: [0] closed
+Aug 21 16:24 : player: played "Kiko Lureiro/Kiko Loureiro - 2006 Universo Inverso/09 Realidade Paralela.mp3"
+Aug 21 16:27 : client: [1] opened from 127.0.0.1:34038
+Aug 21 16:27 : player: played "Chill/03 Nujabes - Aruarian Dance.mp3"
+Aug 21 16:27 : client: [1] closed
+Aug 21 16:29 : player: played "Kiko Lureiro/Kiko Loureiro - 2006 Universo Inverso/11 Hidden Track.mp3"
+Aug 21 16:35 : player: played "Kiko Lureiro/Kiko Loureiro - 2006 Universo Inverso/09 Realidade Paralela.mp3"
+Aug 21 16:36 : client: [2] opened from 127.0.0.1:34062
+Aug 21 16:36 : player: played "Chill/03 Nujabes - Aruarian Dance.mp3"
+Aug 21 16:36 : client: [2] closed
+Aug 21 19:38 : client: [3] opened from 127.0.0.1:34806
+Aug 21 19:39 : player: played "Pink Floyd/1973 - The Dark Side Of The Moon 2011 Remaster/01. Speak to Me.mp3"
+Aug 21 19:55 : player: played "Pink Floyd/1975 - Wish You Were Here 2011 Remaster/01 Shine On You Crazy Diamond (Parts 1-5).mp3"
+Aug 21 20:13 : player: played "Pink Floyd/1979 - The Wall 2011 Remaster/CD1/10. One Of My Turns.mp3"
+Aug 22 02:45 : player: played "Pink Floyd/1979 - The Wall 2011 Remaster/CD1/11. Don't Leave Now.mp3"
+Aug 23 23:59 : client: [0] opened from 127.0.0.1:54588
+Aug 23 23:59 : player: played "Pink Floyd/1979 - The Wall 2011 Remaster/CD1/11. Don't Leave Now.mp3"
+Aug 23 23:59 : client: [0] closed
+Aug 24 00:05 : player: played "David Gilmour/Rattle That Lock/08 - The Girl In The Yellow Dress - David Gilmour.mp3"
+Aug 24 00:11 : player: played "David Gilmour/Rattle That Lock/05 - Dancing Right In Front of Me - David Gilmour.mp3"
+Aug 25 10:27 : client: [0] opened from 127.0.0.1:51850
+Aug 25 10:31 : player: played "Pink Floyd/1979 - The Wall 2011 Remaster/CD1/10. One Of My Turns.mp3"
+Aug 25 10:35 : player: played "Pink Floyd/1979 - The Wall 2011 Remaster/CD1/11. Don't Leave Now.mp3"
+Aug 25 10:41 : player: played "David Gilmour/Rattle That Lock/08 - The Girl In The Yellow Dress - David Gilmour.mp3"
+Aug 25 10:47 : player: played "David Gilmour/Rattle That Lock/05 - Dancing Right In Front of Me - David Gilmour.mp3"
+Aug 25 14:04 : client: [0] closed
+Aug 25 14:08 : player: played "Chill/03 Nujabes - Aruarian Dance.mp3"
+Aug 25 14:13 : player: played "Chill/Nujabes - The Space Between Two Worlds.mp3"
+Aug 25 14:17 : player: played "Chill/Nujabes - The Space Between Two Worlds.mp3"
+Aug 25 14:19 : player: played "Pink Floyd/1973 - The Dark Side Of The Moon 2011 Remaster/01. Speak to Me.mp3"
+Aug 25 14:32 : player: played "Pink Floyd/1975 - Wish You Were Here 2011 Remaster/01 Shine On You Crazy Diamond (Parts 1-5).mp3"
+Aug 25 14:36 : player: played "Pink Floyd/1979 - The Wall 2011 Remaster/CD1/10. One Of My Turns.mp3"
+Aug 25 14:40 : player: played "Pink Floyd/1979 - The Wall 2011 Remaster/CD1/11. Don't Leave Now.mp3"
+Aug 25 14:45 : client: [1] opened from 127.0.0.1:53540
+Aug 25 14:45 : player: played "David Gilmour/Rattle That Lock/08 - The Girl In The Yellow Dress - David Gilmour.mp3"
+Aug 25 15:46 : player: played "Chill/Tasogare - Mai Yamane.mp3"
+Aug 25 15:50 : player: played "Chill/Summer Blue - Bread and Butter.mp3"
+Aug 25 15:56 : player: played "Chill/Tasogare - Mai Yamane.mp3"
+Aug 25 16:01 : player: played "Chill/iamnobodi - Bel Air.mp3"
+Aug 25 16:06 : player: played "Chill/17 Minmi - Shiki No Uta.mp3"
+Aug 25 16:11 : player: played "Chill/Nujabes - The Space Between Two Worlds.mp3"
+Aug 25 16:15 : player: played "Chill/Nujabes - The Space Between Two Worlds.mp3"
+Aug 25 16:17 : player: played "Pink Floyd/1973 - The Dark Side Of The Moon 2011 Remaster/01. Speak to Me.mp3"
+Aug 25 19:46 : player: played "Pink Floyd/1975 - Wish You Were Here 2011 Remaster/01 Shine On You Crazy Diamond (Parts 1-5).mp3"
+Aug 25 19:50 : player: played "Pink Floyd/1979 - The Wall 2011 Remaster/CD1/10. One Of My Turns.mp3"
+Aug 25 19:54 : player: played "Pink Floyd/1979 - The Wall 2011 Remaster/CD1/11. Don't Leave Now.mp3"
+Aug 25 20:00 : player: played "David Gilmour/Rattle That Lock/08 - The Girl In The Yellow Dress - David Gilmour.mp3"
+Aug 25 20:06 : player: played "David Gilmour/Rattle That Lock/05 - Dancing Right In Front of Me - David Gilmour.mp3"
+Aug 25 20:11 : player: played "Chill/17 Minmi - Shiki No Uta.mp3"
+Aug 25 21:03 : client: [1] closed
+Aug 27 12:59 : client: [0] opened from 127.0.0.1:33764
+Aug 27 12:59 : client: [0] closed
+Aug 27 13:03 : player: played "Chill/Summer Blue - Bread and Butter.mp3"
+Aug 27 13:09 : player: played "Chill/Tasogare - Mai Yamane.mp3"
+Aug 27 13:09 : client: [1] opened from 127.0.0.1:34166
+Aug 27 13:09 : player: played "Chill/iamnobodi - Bel Air.mp3"
+Aug 27 13:09 : client: [1] closed
+Aug 27 13:11 : client: [2] opened from 127.0.0.1:34172
+Aug 27 14:19 : client: [2] closed
+Aug 27 15:17 : player: played "Chill/03 Nujabes - Aruarian Dance.mp3"
+Aug 28 16:16 : client: [0] opened from 127.0.0.1:56244
+Aug 28 16:16 : player: played "Chill/03 Nujabes - Aruarian Dance.mp3"
+Aug 28 16:16 : client: [0] closed
+Aug 28 16:22 : player: played "Chill/Tasogare - Mai Yamane.mp3"
+Aug 28 16:25 : player: played "Chill/iamnobodi - Bel Air.mp3"
+Aug 28 16:28 : player: played "Kiko Lureiro/Kiko Loureiro - 2006 Universo Inverso/11 Hidden Track.mp3"
+Aug 28 16:31 : client: [1] opened from 127.0.0.1:56390
+Aug 28 16:32 : player: played "Kiko Lureiro/Kiko Loureiro - 2006 Universo Inverso/09 Realidade Paralela.mp3"
+Aug 28 16:35 : player: played "Chill/03 Nujabes - Aruarian Dance.mp3"
+Aug 28 16:35 : player: played "Chill/Nujabes - The Space Between Two Worlds.mp3"
+Aug 28 16:38 : player: played "Chill/Nujabes - The Space Between Two Worlds.mp3"
+Aug 28 16:38 : player: played "Pink Floyd/1973 - The Dark Side Of The Moon 2011 Remaster/01. Speak to Me.mp3"
+Aug 28 16:42 : player: played "Pink Floyd/1975 - Wish You Were Here 2011 Remaster/01 Shine On You Crazy Diamond (Parts 1-5).mp3"
+Aug 28 17:03 : player: played "Pink Floyd/1979 - The Wall 2011 Remaster/CD1/10. One Of My Turns.mp3"
+Aug 28 17:10 : player: played "Pink Floyd/1979 - The Wall 2011 Remaster/CD1/11. Don't Leave Now.mp3"
+Aug 28 17:15 : player: played "David Gilmour/Rattle That Lock/08 - The Girl In The Yellow Dress - David Gilmour.mp3"
+Aug 28 17:21 : player: played "David Gilmour/Rattle That Lock/05 - Dancing Right In Front of Me - David Gilmour.mp3"
+Aug 28 17:26 : player: played "Chill/17 Minmi - Shiki No Uta.mp3"
+Aug 28 17:54 : client: [1] closed
+Sep 03 01:38 : client: [0] opened from 127.0.0.1:40942
+Sep 03 01:38 : update: added Ryo Fukui/Mellow Dream/01 Mellow Dream.mp3
+Sep 03 01:38 : update: added Ryo Fukui/Mellow Dream/02 My Foolish Heart.mp3
+Sep 03 01:38 : update: added Ryo Fukui/Mellow Dream/03 Baron Patato Blues.mp3
+Sep 03 01:38 : update: added Ryo Fukui/Mellow Dream/04 What's New.mp3
+Sep 03 01:38 : update: added Ryo Fukui/Mellow Dream/05 Horizon.mp3
+Sep 03 01:38 : update: added Ryo Fukui/Mellow Dream/06 My Funny Valentine.mp3
+Sep 03 01:38 : update: added Ryo Fukui/Mellow Dream/07 Early Summer 2006.mp3
+Sep 03 01:39 : update: updating Ryo Fukui/Mellow Dream/01 Mellow Dream.mp3
+Sep 03 01:39 : update: updating Ryo Fukui/Mellow Dream/02 My Foolish Heart.mp3
+Sep 03 01:39 : update: updating Ryo Fukui/Mellow Dream/04 What's New.mp3
+Sep 03 01:40 : update: updating Ryo Fukui/Mellow Dream/06 My Funny Valentine.mp3
+Sep 03 01:40 : client: [0] closed
+Sep 03 01:48 : player: played "Ryo Fukui/Mellow Dream/01 Mellow Dream.mp3"
+Sep 03 01:55 : player: played "Ryo Fukui/Mellow Dream/02 My Foolish Heart.mp3"
+Sep 03 01:56 : client: [1] opened from 127.0.0.1:41034
+Sep 03 01:56 : player: played "Ryo Fukui/Mellow Dream/03 Baron Patato Blues.mp3"
+Sep 03 02:02 : player: played "Ryo Fukui/Mellow Dream/04 What's New.mp3"
+Sep 03 02:02 : client: [1] closed
+Sep 03 11:17 : client: [2] opened from 127.0.0.1:42056
+Sep 03 11:18 : client: [2] closed
+Sep 03 11:27 : player: played "Ryo Fukui/Mellow Dream/05 Horizon.mp3"
+Sep 03 11:28 : client: [3] opened from 127.0.0.1:42074
+Sep 03 11:28 : client: [3] closed
+Sep 03 11:30 : player: played "Ryo Fukui/Mellow Dream/06 My Funny Valentine.mp3"
+Sep 03 11:39 : player: played "Ryo Fukui/Mellow Dream/07 Early Summer 2006.mp3"
+Sep 03 11:39 : client: [4] opened from 127.0.0.1:42088
+Sep 03 11:39 : client: [4] closed
+Sep 03 11:49 : player: played "Ryo Fukui/Mellow Dream/01 Mellow Dream.mp3"
+Sep 03 11:53 : player: played "Ryo Fukui/Mellow Dream/02 My Foolish Heart.mp3"
+Sep 03 16:10 : client: [0] opened from 127.0.0.1:55956
+Sep 03 16:12 : player: played "Ryo Fukui/Mellow Dream/02 My Foolish Heart.mp3"
+Sep 03 16:13 : client: [0] closed
+Sep 03 16:15 : client: [1] opened from 127.0.0.1:55982
+Sep 03 16:15 : player: played "Ryo Fukui/Mellow Dream/03 Baron Patato Blues.mp3"
+Sep 03 16:15 : client: [1] closed
+Sep 03 17:07 : client: [0] opened from 127.0.0.1:60108
+Sep 03 17:08 : client: [0] closed
+Sep 03 17:11 : player: played "Bob Acri/Bob Acri - Timeless - 2001/09 Lonely Lonely Girl.mp3"
+Sep 04 17:17 : client: [0] opened from 127.0.0.1:48954
+Sep 04 17:24 : player: played "Ryo Fukui/Mellow Dream/02 My Foolish Heart.mp3"
+Sep 04 17:31 : player: played "Ryo Fukui/Mellow Dream/03 Baron Patato Blues.mp3"
+Sep 04 17:37 : player: played "Ryo Fukui/Mellow Dream/04 What's New.mp3"
+Sep 04 17:46 : player: played "Ryo Fukui/Mellow Dream/05 Horizon.mp3"
+Sep 04 17:50 : player: played "Ryo Fukui/Mellow Dream/06 My Funny Valentine.mp3"
+Sep 04 17:58 : player: played "Ryo Fukui/Mellow Dream/07 Early Summer 2006.mp3"
+Sep 04 18:03 : player: played "Bob Acri/Bob Acri - Timeless - 2001/09 Lonely Lonely Girl.mp3"
+Sep 04 18:32 : client: [0] closed
+Sep 04 22:07 : client: [1] opened from 127.0.0.1:51882
+Sep 04 22:13 : player: played "Chill/Tasogare - Mai Yamane.mp3"
+Sep 04 22:30 : player: played "Ryo Fukui/Mellow Dream/01 Mellow Dream.mp3"
+Sep 04 22:34 : player: played "Ryo Fukui/Mellow Dream/02 My Foolish Heart.mp3"
+Sep 04 23:10 : client: [1] closed
+Sep 05 00:11 : player: played "Ryo Fukui/Mellow Dream/03 Baron Patato Blues.mp3"
+Sep 06 20:31 : client: [0] opened from 127.0.0.1:48844
+Sep 06 20:31 : player: played "Ryo Fukui/Mellow Dream/03 Baron Patato Blues.mp3"
+Sep 06 20:31 : client: [0] closed
+Sep 06 20:33 : client: [1] opened from 127.0.0.1:48854
+Sep 06 20:34 : client: [1] closed
+Sep 06 20:38 : player: played "Chill/Tasogare - Mai Yamane.mp3"
+Sep 09 23:42 : client: [0] opened from 127.0.0.1:50078
+Sep 10 01:47 : client: [0] closed
+Sep 10 01:47 : player: played "Ryo Fukui/Mellow Dream/02 My Foolish Heart.mp3"
+Sep 11 16:40 : client: [0] opened from 127.0.0.1:38662
+Sep 11 16:40 : player: played "Ryo Fukui/Mellow Dream/02 My Foolish Heart.mp3"
+Sep 11 16:44 : client: [0] closed
+Sep 11 16:44 : client: [1] opened from 127.0.0.1:38670
+Sep 11 16:44 : player: played "Bob Acri/Bob Acri - Timeless - 2001/09 Lonely Lonely Girl.mp3"
+Sep 11 16:52 : player: played "Stratovarius/1996 - Episode/07 - Season Of Change.mp3"
+Sep 11 17:57 : client: [2] opened from 127.0.0.1:39434
+Sep 11 18:04 : player: played "Stratovarius/2003 - Elements Pt.1/09 - A Drop in The Ocean.mp3"
+Sep 11 18:11 : player: played "Stratovarius/1996 - Episode/07 - Season Of Change.mp3"
+Sep 11 18:45 : client: [1] closed
+Sep 11 18:45 : client: [2] closed
+Sep 11 18:50 : player: played "Stratovarius/2000 - Infinite/06 - A Million Light Years Away.mp3"
+Sep 11 18:53 : player: played "Stratovarius/2000 - Infinite/09 - Celestial Dream.mp3"
+Sep 11 19:02 : player: played "Stratovarius/2003 - Elements Pt.1/04 - Fantasia.mp3"
+Sep 11 19:09 : player: played "Stratovarius/2003 - Elements Pt.1/09 - A Drop in The Ocean.mp3"
+Sep 11 19:16 : player: played "Stratovarius/1996 - Episode/07 - Season Of Change.mp3"
+Sep 13 20:22 : client: [0] opened from 127.0.0.1:44098
+Sep 13 21:36 : player: played "Stratovarius/2000 - Infinite/09 - Celestial Dream.mp3"
+Sep 13 21:46 : player: played "Stratovarius/2003 - Elements Pt.1/04 - Fantasia.mp3"
+Sep 13 21:59 : player: played "Stratovarius/2003 - Elements Pt.1/09 - A Drop in The Ocean.mp3"
+Sep 13 21:59 : player: played "Stratovarius/1996 - Episode/07 - Season Of Change.mp3"
+Sep 13 22:08 : player: played "Stratovarius/1996 - Episode/07 - Season Of Change.mp3"
+Sep 13 22:09 : player: played "Stratovarius/1996 - Episode/07 - Season Of Change.mp3"
+Sep 13 22:16 : player: played "Stratovarius/1996 - Episode/07 - Season Of Change.mp3"
+Sep 13 22:31 : client: [0] closed
+Sep 13 22:31 : client: [1] opened from 127.0.0.1:45604
+Sep 13 22:36 : client: [2] opened from 127.0.0.1:45624
+Sep 13 22:36 : client: [2] closed
+Sep 13 22:46 : player: played "Chill/Tasogare - Mai Yamane.mp3"
+Sep 13 22:47 : player: played "Stratovarius/2000 - Infinite/06 - A Million Light Years Away.mp3"
+Sep 13 22:47 : player: played "Stratovarius/2003 - Elements Pt.1/09 - A Drop in The Ocean.mp3"
+Sep 13 22:49 : player: played "Stratovarius/2000 - Infinite/09 - Celestial Dream.mp3"
+Sep 13 22:49 : player: played "Stratovarius/2003 - Elements Pt.1/04 - Fantasia.mp3"
+Sep 13 22:49 : player: played "Ryo Fukui/Mellow Dream/01 Mellow Dream.mp3"
+Sep 13 22:50 : player: played "Ryo Fukui/Mellow Dream/02 My Foolish Heart.mp3"
+Sep 13 22:53 : player: played "Chill/iamnobodi - Bel Air.mp3"
+Sep 13 22:55 : player: played "Chill/TOKiMONSTA - Gamble.mp3"
+Sep 13 22:56 : player: played "Chill/TOKiMONSTA - Sweet Day.mp3"
+Sep 13 22:56 : player: played "Chill/23 Minmi - Who's Theme.mp3"
+Sep 13 22:56 : player: played "Chill/03 Nujabes - Aruarian Dance.mp3"
+Sep 13 22:56 : player: played "Chill/17 Minmi - Shiki No Uta.mp3"
+Sep 13 22:59 : player: played "Chill/Summer Blue - Bread and Butter.mp3"
+Sep 13 23:01 : player: played "Mother4/OST/Battle Against a Familiar Foe.mp3"
+Sep 13 23:04 : player: played "Mother4/OST/Boom Town Lounge.mp3"
+Sep 13 23:08 : player: played "Mother4/OST/Distant High Life.mp3"
+Sep 13 23:10 : player: played "Mother4/OST/Mom and Cooking and Stuff.mp3"
+Sep 13 23:19 : client: [3] opened from 127.0.0.1:45898
+Sep 13 23:19 : client: [3] closed
+Sep 13 23:20 : player: played "Pink Floyd/1972 - Obscured By Clouds 2011 Remaster/05. Wot's... Uh The Deal.mp3"
+Sep 13 23:38 : client: [1] closed
+Sep 15 10:17 : client: [0] opened from 127.0.0.1:55806
+Sep 15 10:18 : client: [1] opened from 127.0.0.1:55810
+Sep 15 10:18 : client: [1] closed
+Sep 15 10:18 : client: [0] closed
+Sep 15 10:19 : client: [2] opened from 127.0.0.1:55842
+Sep 15 10:19 : client: [2] closed
+Sep 15 10:19 : client: [3] opened from 127.0.0.1:55850
+Sep 15 10:19 : client: [3] closed
+Sep 15 10:20 : client: [4] opened from 127.0.0.1:55862
+Sep 15 10:20 : client: [4] closed
+Sep 15 10:23 : player: played "Pink Floyd/1972 - Obscured By Clouds 2011 Remaster/05. Wot's... Uh The Deal.mp3"
+Sep 15 10:24 : client: [5] opened from 127.0.0.1:56018
+Sep 15 10:24 : client: [5] closed
+Sep 15 10:29 : player: played "Pink Floyd/1972 - Obscured By Clouds 2011 Remaster/05. Wot's... Uh The Deal.mp3"
+Sep 15 10:38 : client: [6] opened from 127.0.0.1:56216
+Sep 15 10:38 : player: played "Mother4/OST/Battle Against a Familiar Foe.mp3"
+Sep 15 10:38 : player: played "Mother4/OST/Boom Town Lounge.mp3"
+Sep 15 10:42 : player: played "Mother4/OST/Distant High Life.mp3"
+Sep 15 10:44 : player: played "Mother4/OST/Mom and Cooking and Stuff.mp3"
+Sep 15 10:49 : player: played "Pink Floyd/1972 - Obscured By Clouds 2011 Remaster/05. Wot's... Uh The Deal.mp3"
+Sep 15 11:33 : client: [7] opened from 127.0.0.1:57238
+Sep 15 11:34 : player: played "Stratovarius/2003 - Elements Pt.1/09 - A Drop in The Ocean.mp3"
+Sep 15 11:40 : player: played "Stratovarius/1996 - Episode/07 - Season Of Change.mp3"
+Sep 15 11:47 : player: played "Stratovarius/2003 - Elements Pt.1/09 - A Drop in The Ocean.mp3"
+Sep 15 11:52 : client: [7] closed
+Sep 15 11:52 : player: played "Stratovarius/1996 - Episode/07 - Season Of Change.mp3"
+Sep 15 19:15 : client: [0] opened from 127.0.0.1:33540
+Sep 15 19:15 : client: [0] closed
+Sep 15 19:15 : player: played "Stratovarius/1996 - Episode/07 - Season Of Change.mp3"
+Sep 22 22:22 : client: [0] opened from 127.0.0.1:43196
+Sep 22 22:22 : player: played "Stratovarius/1996 - Episode/07 - Season Of Change.mp3"
+Sep 22 22:27 : player: played "Pink Floyd/1972 - Obscured By Clouds 2011 Remaster/05. Wot's... Uh The Deal.mp3"
+Sep 22 22:32 : player: played "Pink Floyd/1972 - Obscured By Clouds 2011 Remaster/05. Wot's... Uh The Deal.mp3"
+Sep 22 23:06 : player: played "Stratovarius/1996 - Episode/07 - Season Of Change.mp3"
+Sep 22 23:07 : player: played "Chill/Summer Blue - Bread and Butter.mp3"
+Sep 22 23:12 : player: played "Chill/17 Minmi - Shiki No Uta.mp3"
+Sep 22 23:12 : player: played "Chill/Summer Blue - Bread and Butter.mp3"
+Sep 22 23:13 : client: [0] closed
+Sep 22 23:15 : player: played "Stratovarius/2000 - Infinite/09 - Celestial Dream.mp3"
+Sep 22 23:15 : client: [1] opened from 127.0.0.1:43282
+Sep 22 23:15 : player: played "Stratovarius/2003 - Elements Pt.1/04 - Fantasia.mp3"
+Sep 22 23:15 : client: [1] closed
+Sep 23 11:43 : client: [2] opened from 127.0.0.1:45922
+Sep 23 11:43 : player: played "Ryo Fukui/Mellow Dream/01 Mellow Dream.mp3"
+Sep 23 11:43 : client: [2] closed
+Sep 23 11:50 : player: played "Ryo Fukui/Mellow Dream/02 My Foolish Heart.mp3"
+Sep 23 11:52 : client: [3] opened from 127.0.0.1:45946
+Sep 23 11:59 : player: played "Ryo Fukui/Mellow Dream/03 Baron Patato Blues.mp3"
+Sep 23 11:59 : player: played "Ryo Fukui/Mellow Dream/03 Baron Patato Blues.mp3"
+Sep 23 11:59 : player: played "Ryo Fukui/Mellow Dream/06 My Funny Valentine.mp3"
+Sep 23 12:03 : player: played "Bob Acri/Bob Acri - Timeless - 2001/09 Lonely Lonely Girl.mp3"
+Sep 23 12:10 : player: played "Chill/Tasogare - Mai Yamane.mp3"
+Sep 23 12:15 : player: played "Stratovarius/2000 - Infinite/06 - A Million Light Years Away.mp3"
+Sep 23 12:17 : player: played "Stratovarius/2000 - Infinite/09 - Celestial Dream.mp3"
+Sep 23 12:27 : player: played "Stratovarius/2003 - Elements Pt.1/04 - Fantasia.mp3"
+Sep 23 12:34 : player: played "Stratovarius/2003 - Elements Pt.1/09 - A Drop in The Ocean.mp3"
+Sep 23 12:41 : player: played "Stratovarius/1996 - Episode/07 - Season Of Change.mp3"
+Sep 23 12:44 : player: played "Chill/iamnobodi - Bel Air.mp3"
+Sep 23 12:47 : player: played "Chill/TOKiMONSTA - Gamble.mp3"
+Sep 23 12:50 : player: played "Chill/TOKiMONSTA - Sweet Day.mp3"
+Sep 23 12:55 : player: played "Chill/23 Minmi - Who's Theme.mp3"
+Sep 23 12:59 : player: played "Chill/03 Nujabes - Aruarian Dance.mp3"
+Sep 23 13:04 : player: played "Chill/17 Minmi - Shiki No Uta.mp3"
+Sep 23 13:09 : player: played "Chill/Summer Blue - Bread and Butter.mp3"
+Sep 23 13:11 : player: played "Mother4/OST/Battle Against a Familiar Foe.mp3"
+Sep 23 13:14 : player: played "Mother4/OST/Boom Town Lounge.mp3"
+Sep 23 13:17 : player: played "Mother4/OST/Distant High Life.mp3"
+Sep 23 13:19 : player: played "Mother4/OST/Mom and Cooking and Stuff.mp3"
+Sep 23 13:31 : player: played "Pink Floyd/1972 - Obscured By Clouds 2011 Remaster/05. Wot's... Uh The Deal.mp3"
+Sep 23 13:35 : player: played "Chill/TOKiMONSTA - Sweet Day.mp3"
+Sep 23 13:36 : player: played "Chill/Tsun Dealer - Bedtime Candy.mp3"
+Sep 23 14:08 : player: played "Chill/Tsun Dealer - Bedtime Candy.mp3"
+Sep 23 14:15 : client: [3] closed
+Sep 23 14:17 : player: played "Chill/Tsun Dealer - Bedtime Candy.mp3"
+Sep 24 02:14 : client: [0] opened from 127.0.0.1:49590
+Sep 24 02:14 : client: [0] closed
+Sep 24 02:17 : player: played "Fallout/Civilization (Bingo Bango Bongo).mp3"
+Sep 24 02:20 : player: played "Fallout/I don't want to set the world on fire.mp3"
+Sep 24 02:23 : player: played "Fallout/Way Back Home.mp3"
+Sep 24 02:26 : player: played "Fallout/Blue Moon.mp3"
+Sep 24 02:29 : player: played "Fallout/Jingle Jangle Jingle.mp3"
+Sep 28 21:41 : client: [0] opened from 127.0.0.1:52258
+Sep 28 21:46 : player: played "Pink Floyd/1972 - Obscured By Clouds 2011 Remaster/05. Wot's... Uh The Deal.mp3"
+Sep 28 21:47 : player: played "Chill/TOKiMONSTA - Sweet Day.mp3"
+Sep 28 22:16 : client: [0] closed
+Sep 28 23:38 : client: [1] opened from 127.0.0.1:53002
+Sep 28 23:46 : player: played "Coldplay/2000 - Parachutes/10. Everything's Not Lost.mp3"
+Sep 29 00:10 : client: [1] closed
+Sep 29 11:35 : client: [0] opened from 127.0.0.1:43942
+Sep 29 11:40 : player: played "Coldplay/2000 - Parachutes/06. Trouble.mp3"
+Sep 29 11:40 : player: played "Coldplay/2000 - Parachutes/10. Everything's Not Lost.mp3"
+Sep 29 11:40 : player: played "Coldplay/2000 - Parachutes/05. Yellow.mp3"
+Sep 29 11:40 : player: played "Coldplay/2008 - Viva La Vida or Death and All His Friends/04. 42.mp3"
+Sep 29 11:44 : client: [0] closed
+Sep 30 01:20 : client: [1] opened from 127.0.0.1:48360
+Sep 30 01:20 : player: played "Coldplay/2008 - Viva La Vida or Death and All His Friends/06. Yes.mp3"
+Sep 30 01:20 : client: [2] opened from 127.0.0.1:48364
+Sep 30 01:20 : client: [1] closed
+Sep 30 01:20 : player: played "Coldplay/2008 - Viva La Vida or Death and All His Friends/04. 42.mp3"
+Sep 30 01:20 : client: [2] closed
+Sep 30 01:20 : client: [3] opened from 127.0.0.1:48382
+Sep 30 01:21 : client: [3] closed
+Sep 30 01:26 : client: [4] opened from 127.0.0.1:48500
+Sep 30 01:27 : player: played "Coldplay/2008 - Viva La Vida or Death and All His Friends/06. Yes.mp3"
+Sep 30 01:27 : client: [4] closed
+Sep 30 01:30 : player: played "Daft Punk/Discovery/12. Short Circuit.mp3"
+Oct 04 00:13 : client: [0] opened from 127.0.0.1:34888
+Oct 04 00:13 : update: added Aina/Aina - Disc 1 - Days Of Rising Doom/01. Aina Overture.mp3
+Oct 04 00:13 : update: added Aina/Aina - Disc 1 - Days Of Rising Doom/02. Revelations.mp3
+Oct 04 00:13 : update: added Aina/Aina - Disc 1 - Days Of Rising Doom/03. Silver Maiden.mp3
+Oct 04 00:13 : update: added Aina/Aina - Disc 1 - Days Of Rising Doom/04. Flight Of Torek.mp3
+Oct 04 00:13 : update: added Aina/Aina - Disc 1 - Days Of Rising Doom/05. Naschtok Is Born.mp3
+Oct 04 00:13 : update: added Aina/Aina - Disc 1 - Days Of Rising Doom/06. The Beast Within.mp3
+Oct 04 00:13 : update: added Aina/Aina - Disc 1 - Days Of Rising Doom/07. The Siege Of Aina.mp3
+Oct 04 00:13 : update: added Aina/Aina - Disc 1 - Days Of Rising Doom/08. Talon's Last Hope.mp3
+Oct 04 00:13 : update: added Aina/Aina - Disc 1 - Days Of Rising Doom/09. Rape Of Oria.mp3
+Oct 04 00:13 : update: added Aina/Aina - Disc 1 - Days Of Rising Doom/10. Son Of Sorvahr.mp3
+Oct 04 00:13 : update: added Aina/Aina - Disc 1 - Days Of Rising Doom/11. Serendipity.mp3
+Oct 04 00:13 : update: added Aina/Aina - Disc 1 - Days Of Rising Doom/12. Lalae Amer.mp3
+Oct 04 00:13 : update: added Aina/Aina - Disc 1 - Days Of Rising Doom/13. Rebellion.mp3
+Oct 04 00:13 : update: added Aina/Aina - Disc 1 - Days Of Rising Doom/14. Oriana's Wrath.mp3
+Oct 04 00:13 : update: added Aina/Aina - Disc 1 - Days Of Rising Doom/15. Restoration.mp3
+Oct 04 00:13 : update: added DMC OST/01 Satsugai.mp3
+Oct 04 00:13 : update: added DMC OST/02 Slash Killer.mp3
+Oct 04 00:13 : update: added DMC OST/03 Grotesque.mp3
+Oct 04 00:13 : update: added DMC OST/04 Mesu Buta Koukyoukyoku (Female Pig Symphony).mp3
+Oct 04 00:13 : update: added DMC OST/05 Death Penis.mp3
+Oct 04 00:13 : update: added DMC OST/06 Ano Ko wo Rape (Rape That Girl).mp3
+Oct 04 00:13 : update: added DMC OST/07 Mad Monster.mp3
+Oct 04 00:13 : update: added DMC OST/08 Urami Harasade Okubekika (Should This Revenge Be Taken).mp3
+Oct 04 00:13 : update: added DMC OST/09 Maou (Satan).mp3
+Oct 04 00:13 : update: added DMC OST/10 Fucking Gum Kyuden (Fucking Gum Palace).mp3
+Oct 04 00:13 : update: added helloween/7 Sinners - 2010/01 - Where The Sinners Go.mp3
+Oct 04 00:13 : update: added helloween/7 Sinners - 2010/02 - Are You Metal.mp3
+Oct 04 00:13 : update: added helloween/7 Sinners - 2010/03 - Who is Mr. Madman.mp3
+Oct 04 00:13 : update: added helloween/7 Sinners - 2010/04 - Raise The Noise.mp3
+Oct 04 00:13 : update: added helloween/7 Sinners - 2010/05 - World Of Fantasy.mp3
+Oct 04 00:13 : update: added helloween/7 Sinners - 2010/06 - Long Live The King.mp3
+Oct 04 00:13 : update: added helloween/7 Sinners - 2010/07 - The Smile Of The Sun.mp3
+Oct 04 00:13 : update: added helloween/7 Sinners - 2010/08 - You Stupid Mankind.mp3
+Oct 04 00:13 : update: added helloween/7 Sinners - 2010/09 - If A Mountain Could Talk.mp3
+Oct 04 00:13 : update: added helloween/7 Sinners - 2010/10 - The Sage, The Fool, The Sinner.mp3
+Oct 04 00:13 : update: added helloween/7 Sinners - 2010/11 - My Sacrifice.mp3
+Oct 04 00:13 : update: added helloween/7 Sinners - 2010/12 - Not Yet Today.mp3
+Oct 04 00:13 : update: added helloween/7 Sinners - 2010/13 - Far In The Future.mp3
+Oct 04 00:13 : update: added helloween/Better than Raw/12 Pista 12.wma
+Oct 04 00:13 : update: added helloween/Better than Raw/A handful of Pain.wma
+Oct 04 00:13 : update: added helloween/Better than Raw/Deliberataly Limited Preliminary Prelude Period in Z.wma
+Oct 04 00:13 : update: added helloween/Better than Raw/Don't Spit on My Mind.wma
+Oct 04 00:13 : update: added helloween/Better than Raw/Falling higher.wma
+Oct 04 00:13 : update: added helloween/Better than Raw/Hey Lord.wma
+Oct 04 00:13 : update: added helloween/Better than Raw/I can.wma
+Oct 04 00:14 : update: added helloween/Better than Raw/Lavdate Dominum.wma
+Oct 04 00:14 : update: added helloween/Helloween - Gambling With The Devil (2007)/01 - Helloween - Crack The Riddle (Intro).mp3
+Oct 04 00:14 : update: added helloween/Helloween - Gambling With The Devil (2007)/02 - Helloween - Kill It.mp3
+Oct 04 00:14 : update: added helloween/Helloween - Gambling With The Devil (2007)/03 - Helloween - The Saints.mp3
+Oct 04 00:14 : update: added helloween/Helloween - Gambling With The Devil (2007)/04 - Helloween - As Long As I Fall.mp3
+Oct 04 00:14 : update: added helloween/Helloween - Gambling With The Devil (2007)/05 - Helloween - Paint A New World.mp3
+Oct 04 00:14 : update: added helloween/Helloween - Gambling With The Devil (2007)/06 - Helloween - Final Fortune.mp3
+Oct 04 00:14 : update: added helloween/Helloween - Gambling With The Devil (2007)/07 - Helloween - The Beels Of The Seven Hells.mp3
+Oct 04 00:14 : update: added helloween/Helloween - Gambling With The Devil (2007)/08 - Helloween - Fallen To Pieces.mp3
+Oct 04 00:14 : update: added helloween/Helloween - Gambling With The Devil (2007)/09 - Helloween - I.M.E.mp3
+Oct 04 00:14 : update: added helloween/Helloween - Gambling With The Devil (2007)/10 - Helloween - Can Do It.mp3
+Oct 04 00:14 : update: added helloween/Helloween - Gambling With The Devil (2007)/11 - Helloween - Dreambound.mp3
+Oct 04 00:14 : update: added helloween/Helloween - Gambling With The Devil (2007)/12 - Helloween - Heaven Tells No Lies.mp3
+Oct 04 00:14 : update: added helloween/Helloween en El Salvador 06.wmv
+Oct 04 00:14 : update: added helloween/helloween tresure chest CD2/01 Keeper Of The Seven Keys [Remix].mp3
+Oct 04 00:14 : update: added helloween/helloween tresure chest CD2/02 Dr. Stein [Remix].mp3
+Oct 04 00:14 : update: added helloween/helloween tresure chest CD2/03 The Chance.mp3
+Oct 04 00:14 : update: added helloween/helloween tresure chest CD2/04 Windmill.mp3
+Oct 04 00:14 : update: added helloween/helloween tresure chest CD2/05 Sole Survivor.mp3
+Oct 04 00:14 : update: added helloween/helloween tresure chest CD2/06 Perfect Gentleman.mp3
+Oct 04 00:14 : update: added helloween/helloween tresure chest CD2/07 In The Middle Of A Heartbeat.mp3
+Oct 04 00:14 : update: added helloween/helloween tresure chest CD2/08 Kings Will Be Kings.mp3
+Oct 04 00:14 : update: added helloween/helloween tresure chest CD2/09 The Time Of The Oath.mp3
+Oct 04 00:14 : update: added helloween/helloween tresure chest CD2/10 Forever And One.mp3
+Oct 04 00:14 : update: added helloween/helloween tresure chest CD2/11 Midnight Sun.mp3
+Oct 04 00:14 : update: added helloween/helloween tresure chest CD2/12 Mr. Ego.mp3
+Oct 04 00:14 : update: added helloween/helloween tresure chest CD2/13 Immortal.mp3
+Oct 04 00:14 : update: added helloween/helloween tresure chest CD2/14 Mirror, Mirror.mp3
+Oct 04 00:14 : update: added helloween/Helloween [2000] The Dark Ride (2000)/Helloween - The Dark Ride - 01 - Beyond The Portal.mp3
+Oct 04 00:14 : update: added helloween/Helloween [2000] The Dark Ride (2000)/Helloween - The Dark Ride - 02 - Mr. Torture.mp3
+Oct 04 00:14 : update: added helloween/Helloween [2000] The Dark Ride (2000)/Helloween - The Dark Ride - 03 - All Over The Nations.mp3
+Oct 04 00:14 : update: added helloween/Helloween [2000] The Dark Ride (2000)/Helloween - The Dark Ride - 04 - Escalation 666.mp3
+Oct 04 00:14 : update: added helloween/Helloween [2000] The Dark Ride (2000)/Helloween - The Dark Ride - 05 - Mirror Mirror.mp3
+Oct 04 00:14 : update: added helloween/Helloween [2000] The Dark Ride (2000)/Helloween - The Dark Ride - 06 - If I Could Fly.mp3
+Oct 04 00:14 : update: added helloween/Helloween [2000] The Dark Ride (2000)/Helloween - The Dark Ride - 07 - Salvation.mp3
+Oct 04 00:14 : update: added helloween/Helloween [2000] The Dark Ride (2000)/Helloween - The Dark Ride - 08 - The Departed (Sun is Going Down).mp3
+Oct 04 00:14 : update: added helloween/Helloween [2000] The Dark Ride (2000)/Helloween - The Dark Ride - 09 - I Live For Your Pain.mp3
+Oct 04 00:14 : update: added helloween/Helloween [2000] The Dark Ride (2000)/Helloween - The Dark Ride - 10 - We Damn The Night.mp3
+Oct 04 00:14 : update: added helloween/Helloween [2000] The Dark Ride (2000)/Helloween - The Dark Ride - 11 - Immortal.mp3
+Oct 04 00:14 : update: added helloween/Helloween [2000] The Dark Ride (2000)/Helloween - The Dark Ride - 12 - The Dark Ride.mp3
+Oct 04 00:14 : update: added helloween/Helloween [2000] The Dark Ride (2000)/Helloween - The Dark Ride - 13 - The Madness Of The Crowds.mp3
+Oct 04 00:14 : update: added helloween/Helloween [2005] Keeper Of The Seven Keys Part III - The Legacy (2005)/01 - The King For 1000 Years.mp3
+Oct 04 00:14 : update: added helloween/Helloween [2005] Keeper Of The Seven Keys Part III - The Legacy (2005)/02 - The Invisible Man.mp3
+Oct 04 00:14 : update: added helloween/Helloween [2005] Keeper Of The Seven Keys Part III - The Legacy (2005)/03 - Born On Judgement Day.mp3
+Oct 04 00:14 : update: added helloween/Helloween [2005] Keeper Of The Seven Keys Part III - The Legacy (2005)/04 - Pleasure Drone.mp3
+Oct 04 00:14 : update: added helloween/Helloween [2005] Keeper Of The Seven Keys Part III - The Legacy (2005)/05 - Mrs. God.mp3
+Oct 04 00:14 : update: added helloween/Helloween [2005] Keeper Of The Seven Keys Part III - The Legacy (2005)/06 - Silent Rain.mp3
+Oct 04 00:14 : update: added helloween/Helloween [2005] Keeper Of The Seven Keys Part III - The Legacy (2005)/07 - Occasion Avenue.mp3
+Oct 04 00:14 : update: added helloween/Helloween [2005] Keeper Of The Seven Keys Part III - The Legacy (2005)/08 - Light The Universe.mp3
+Oct 04 00:14 : update: added helloween/Helloween [2005] Keeper Of The Seven Keys Part III - The Legacy (2005)/09 - Do You Know What You're Fighting For.mp3
+Oct 04 00:14 : update: added helloween/Helloween [2005] Keeper Of The Seven Keys Part III - The Legacy (2005)/10 - Come Alive.mp3
+Oct 04 00:14 : update: added helloween/Helloween [2005] Keeper Of The Seven Keys Part III - The Legacy (2005)/11 - The Shade In The Shadow.mp3
+Oct 04 00:14 : update: added helloween/Helloween [2005] Keeper Of The Seven Keys Part III - The Legacy (2005)/12 - Get It Up.mp3
+Oct 04 00:14 : update: added helloween/Helloween [2005] Keeper Of The Seven Keys Part III - The Legacy (2005)/13 - My Life For One More Day.mp3
+Oct 04 00:14 : update: added helloween/Helloween [2006] Keeper Of The Seven Keys Part I [Remastered] (2006)/01_helloween-initiation-amrc.mp3
+Oct 04 00:14 : update: added helloween/Helloween [2006] Keeper Of The Seven Keys Part I [Remastered] (2006)/02_helloween-im_alive-amrc.mp3
+Oct 04 00:14 : update: added helloween/Helloween [2006] Keeper Of The Seven Keys Part I [Remastered] (2006)/03_helloween-a_little_time-amrc.mp3
+Oct 04 00:14 : update: added helloween/Helloween [2006] Keeper Of The Seven Keys Part I [Remastered] (2006)/04_helloween-twilight_of_the_gods-amrc.mp3
+Oct 04 00:14 : update: added helloween/Helloween [2006] Keeper Of The Seven Keys Part I [Remastered] (2006)/05_helloween-a_tale_that_wasnt_right-amrc.mp3
+Oct 04 00:14 : update: added helloween/Helloween [2006] Keeper Of The Seven Keys Part I [Remastered] (2006)/06_helloween-future_world-amrc.mp3
+Oct 04 00:14 : update: added helloween/Helloween [2006] Keeper Of The Seven Keys Part I [Remastered] (2006)/07_helloween-halloween-amrc.mp3
+Oct 04 00:14 : update: added helloween/Helloween [2006] Keeper Of The Seven Keys Part I [Remastered] (2006)/08_helloween-follow_the_sign-amrc.mp3
+Oct 04 00:14 : update: added helloween/Helloween [2006] Keeper Of The Seven Keys Part I [Remastered] (2006)/09_helloween-victim_of_fate_single_b-side-amrc.mp3
+Oct 04 00:14 : update: added helloween/Helloween [2006] Keeper Of The Seven Keys Part I [Remastered] (2006)/10_helloween-starlight_remix-amrc.mp3
+Oct 04 00:14 : update: added helloween/Helloween [2006] Keeper Of The Seven Keys Part I [Remastered] (2006)/11_helloween-a_little_time_alternative_version-amrc.mp3
+Oct 04 00:14 : update: added helloween/Helloween [2006] Keeper Of The Seven Keys Part I [Remastered] (2006)/12_helloween-halloween_video_edit-amrc.mp3
+Oct 04 00:14 : update: added helloween/The Time Of The Oath/01 - helloween - we burn.mp3
+Oct 04 00:14 : update: added helloween/The Time Of The Oath/02 - helloween - steel tormentor.mp3
+Oct 04 00:14 : update: added helloween/The Time Of The Oath/03 - helloween - wake up the mountain.mp3
+Oct 04 00:14 : update: added helloween/The Time Of The Oath/04 - helloween - power.mp3
+Oct 04 00:14 : update: added helloween/The Time Of The Oath/05 - helloween - forever and one neverland.mp3
+Oct 04 00:14 : update: added helloween/The Time Of The Oath/06 - helloween - before the war.mp3
+Oct 04 00:14 : update: added helloween/The Time Of The Oath/07 - helloween - a million to one.mp3
+Oct 04 00:14 : update: added helloween/The Time Of The Oath/08 - helloween - anything my mama dont like.mp3
+Oct 04 00:14 : update: added helloween/The Time Of The Oath/09 - helloween - kings will be kings.mp3
+Oct 04 00:14 : update: added helloween/The Time Of The Oath/10 - helloween - mission motherland.mp3
+Oct 04 00:14 : update: added helloween/The Time Of The Oath/11 - helloween - if i knew.mp3
+Oct 04 00:14 : update: added helloween/The Time Of The Oath/12 - helloween - the time of the oath.mp3
+Oct 04 00:14 : update: added helloween/The Time Of The Oath/13 - helloween - still i dont know.mp3
+Oct 04 00:14 : update: added helloween/The Time Of The Oath/14 - helloween - take it to the limit.mp3
+Oct 04 00:14 : update: added helloween/The Time Of The Oath/15 - helloween - electric eye.mp3
+Oct 04 00:14 : update: added helloween/The Time Of The Oath/16 - helloween - magnetic fields.mp3
+Oct 04 00:14 : update: added helloween/The Time Of The Oath/17 - helloween - rain.mp3
+Oct 04 00:14 : update: added helloween/The Time Of The Oath/18 - helloween - walk your way.mp3
+Oct 04 00:14 : update: added helloween/The Time Of The Oath/19 - helloween - light in the sky.mp3
+Oct 04 00:14 : update: added helloween/The Time Of The Oath/20 - helloween - time goes by.mp3
+Oct 04 00:14 : update: added helloween/Treasure Chest/0 Mr. Torture.mp3
+Oct 04 00:14 : update: added helloween/Treasure Chest/02 I Can.mp3
+Oct 04 00:14 : update: added helloween/Treasure Chest/03 Power.mp3
+Oct 04 00:14 : update: added helloween/Treasure Chest/04 Where The Rain Grows.mp3
+Oct 04 00:14 : update: added helloween/Treasure Chest/05 Eagle Fly Free.mp3
+Oct 04 00:14 : update: added helloween/Treasure Chest/06 Future World.mp3
+Oct 04 00:14 : update: added helloween/Treasure Chest/07 Metal Invaders.mp3
+Oct 04 00:14 : update: added helloween/Treasure Chest/08 Murderer.mp3
+Oct 04 00:14 : update: added helloween/Treasure Chest/09 Starlight.mp3
+Oct 04 00:14 : update: added helloween/Treasure Chest/10 How Many Tears.mp3
+Oct 04 00:14 : update: added helloween/Treasure Chest/11 Ride The Sky Remix.mp3
+Oct 04 00:14 : update: added helloween/Treasure Chest/12 Halloween.mp3
+Oct 04 00:14 : update: added helloween/Treasure Chest/13 A Little Time.mp3
+Oct 04 00:14 : update: added helloween/Treasure Chest/14 A Tale That Wasnt Right.mp3
+Oct 04 00:14 : update: added helloween/Treasure Chest/15 I Want Out.mp3
+Oct 04 00:14 : update: added Phantom of the Opera/01 Overture.mp3
+Oct 04 00:14 : update: added Phantom of the Opera/02 Think of Me.mp3
+Oct 04 00:14 : update: added Phantom of the Opera/03 Angel of Music.mp3
+Oct 04 00:14 : update: added Phantom of the Opera/04 The Mirror (Angel of Music).mp3
+Oct 04 00:14 : update: added Phantom of the Opera/05 The Phantom of the Opera.mp3
+Oct 04 00:14 : update: added Phantom of the Opera/06 The Music of the Night.mp3
+Oct 04 00:14 : update: added Phantom of the Opera/07 Prima Donna.mp3
+Oct 04 00:14 : update: added Phantom of the Opera/08 All I Ask of You.mp3
+Oct 04 00:14 : update: added Phantom of the Opera/09 All I Ask of You (reprise).mp3
+Oct 04 00:14 : update: added Phantom of the Opera/10 Masquerade.mp3
+Oct 04 00:14 : update: added Phantom of the Opera/11 Wishing You Were Somehow Here Again.mp3
+Oct 04 00:14 : update: added Phantom of the Opera/12 The Point of No Return.mp3
+Oct 04 00:14 : update: added Phantom of the Opera/13 Down Once More - Track Down This Murderer.mp3
+Oct 04 00:14 : update: added Phantom of the Opera/14 Learn to Be Lonely.mp3
+Oct 04 00:14 : update: added Rata Blanca/Grandes canciones/01 El sueño de la gitana.mp3
+Oct 04 00:14 : update: added Rata Blanca/Grandes canciones/02 Sólo para amarte.mp3
+Oct 04 00:14 : update: added Rata Blanca/Grandes canciones/03 Días duros.mp3
+Oct 04 00:14 : update: added Rata Blanca/Grandes canciones/04 Porqué es tan difícil amar.mp3
+Oct 04 00:14 : update: added Rata Blanca/Grandes canciones/05 Chico callejero.mp3
+Oct 04 00:14 : update: added Rata Blanca/Grandes canciones/06 Preludio Obsesivo.mp3
+Oct 04 00:14 : update: added Rata Blanca/Grandes canciones/07 Mujer amante.mp3
+Oct 04 00:14 : update: added Rata Blanca/Grandes canciones/08 Guerrero del arco iris.mp3
+Oct 04 00:14 : update: added Rata Blanca/Grandes canciones/09 Noche sin sueños.mp3
+Oct 04 00:14 : update: added Rata Blanca/Grandes canciones/10 Abrazando el rock and roll.mp3
+Oct 04 00:14 : update: added Rata Blanca/Grandes canciones/11 La leyenda del hada y el mago.mp3
+Oct 04 00:14 : update: added Rata Blanca/Grandes canciones/12 Mujer amante (versión acústica).mp3
+Oct 04 00:14 : update: added Rhapsody/Dawn Of Victory/01 - Lux Triumphans.mp3
+Oct 04 00:14 : update: added Rhapsody/Dawn Of Victory/02 - Dawn of Victory.mp3
+Oct 04 00:14 : update: added Rhapsody/Dawn Of Victory/04 - The Village of Darwes.mp3
+Oct 04 00:14 : update: added Rhapsody/Dawn Of Victory/05 - Dargor, Shadowlord of the Black Mountain.mp3
+Oct 04 00:14 : update: added Rhapsody/Dawn Of Victory/06 - The Bloody Rage of the Titans.mp3
+Oct 04 00:14 : update: added Rhapsody/Dawn Of Victory/07 - Holy Thunderforce.mp3
+Oct 04 00:14 : update: added Rhapsody/Dawn Of Victory/08 - Trolls in the Dark.mp3
+Oct 04 00:14 : update: added Rhapsody/Dawn Of Victory/09 - The Last WInged Unicorn.mp3
+Oct 04 00:14 : update: added Rhapsody/Dawn Of Victory/10 - The Mighty Ride of the Firelord.mp3
+Oct 04 00:14 : update: added Rhapsody/Dawn Of Victory/11 - Dargor, Shadowlord of the Black Mountain (extended version).mp3
+Oct 04 00:14 : update: added Rhapsody/Legendary Tales/01. Ira Tenax.mp3
+Oct 04 00:14 : update: added Rhapsody/Legendary Tales/02. Warrior of Ice.mp3
+Oct 04 00:14 : update: added Rhapsody/Legendary Tales/03. Rage of the Winter.mp3
+Oct 04 00:14 : update: added Rhapsody/Legendary Tales/04. Forest of Unicorns.mp3
+Oct 04 00:14 : update: added Rhapsody/Legendary Tales/05. Flames of Revenge.mp3
+Oct 04 00:14 : update: added Rhapsody/Rain Of A Thousand Flames/01 - Rain Of A Thousand Flames.mp3
+Oct 04 00:14 : update: added Rhapsody/Rain Of A Thousand Flames/02 - Deadly Omen.mp3
+Oct 04 00:14 : update: added Rhapsody/Rain Of A Thousand Flames/03 - Queen Of The Dark Horizons.mp3
+Oct 04 00:14 : update: added Rhapsody/Rain Of A Thousand Flames/04 - Tears Of A Dying Angel.mp3
+Oct 04 00:14 : update: added Rhapsody/Rain Of A Thousand Flames/05 - Elnor's Magic Valley.mp3
+Oct 04 00:14 : update: added Rhapsody/Rain Of A Thousand Flames/06 - The Poem's Evil Page.mp3
+Oct 04 00:14 : update: added Rhapsody/Rain Of A Thousand Flames/07 - The Wizard's Last Rhymes.mp3
+Oct 04 00:14 : update: added Rhapsody/RHAPSODY___DAWN_OF_VICTORY_2000/01 - Rhapsody - Lux Triumphans.MP3
+Oct 04 00:14 : update: added Rhapsody/RHAPSODY___DAWN_OF_VICTORY_2000/02 - Rhapsody - Dawn of victory.mp3
+Oct 04 00:14 : update: added Rhapsody/RHAPSODY___DAWN_OF_VICTORY_2000/03 - Rhapsody - Triumph For My Magic Steel.MP3
+Oct 04 00:14 : update: added Rhapsody/RHAPSODY___DAWN_OF_VICTORY_2000/04 - Rhapsody - The Village Of Dwarves.MP3
+Oct 04 00:14 : update: added Rhapsody/RHAPSODY___DAWN_OF_VICTORY_2000/05 - Rhapsody - Dargor, Shadowlord Of The Black Mountain.MP3
+Oct 04 00:14 : update: added Rhapsody/RHAPSODY___DAWN_OF_VICTORY_2000/06 - Rhapsody - The Bloody Rage Of The Titans.MP3
+Oct 04 00:14 : update: added Rhapsody/RHAPSODY___DAWN_OF_VICTORY_2000/07 - Rhapsody - Holy Thunderforce.MP3
+Oct 04 00:14 : update: added Rhapsody/RHAPSODY___DAWN_OF_VICTORY_2000/08 - Rhapsody - Trolls In The Dark.MP3
+Oct 04 00:14 : update: added Rhapsody/RHAPSODY___DAWN_OF_VICTORY_2000/09 - Rhapsody - The Last Winged Unicorn.MP3
+Oct 04 00:14 : update: added Rhapsody/RHAPSODY___DAWN_OF_VICTORY_2000/10 - Rhapsody - The Mighty Ride Of The Firelord.mp3
+Oct 04 00:14 : update: added Rhapsody/Symphony Of Enchanted Lands/01 - Rhapsody - Epicus Furor.mp3
+Oct 04 00:14 : update: added Rhapsody/Symphony Of Enchanted Lands/02 - Rhapsody - Emeral Sword.mp3
+Oct 04 00:14 : update: added Rhapsody/Symphony Of Enchanted Lands/03 - Rhapsody - The Wisdom Of The Kings.mp3
+Oct 04 00:14 : update: added Rhapsody/Symphony Of Enchanted Lands/04 - Rhapsody - Heroes Of The Lost Valley.mp3
+Oct 04 00:14 : update: added Rhapsody/Symphony Of Enchanted Lands/05 - Rhapsody - Eternal Glory.mp3
+Oct 04 00:14 : update: added Rhapsody/Symphony Of Enchanted Lands/06 - Rhapsody - Beyond The Gates Of Infinites.mp3
+Oct 04 00:14 : update: added Rhapsody/Symphony Of Enchanted Lands/07 - Rhapsody - Wings Of Destiny.mp3
+Oct 04 00:14 : update: added Rhapsody/Symphony Of Enchanted Lands/08 - Rhapsody - The Dark Tower Of Abyss.mp3
+Oct 04 00:14 : update: added Rhapsody/Symphony Of Enchanted Lands/10 - Rhapsody - Symphony Of Enchanted Lands.mp3
+Oct 04 00:14 : update: added Rhapsody/Symphony of Enchanted Lands II - The Dark Secret/01 - The Dark Secret.mp3
+Oct 04 00:14 : update: added Rhapsody/Symphony of Enchanted Lands II - The Dark Secret/02 - Unholy Warcry.mp3
+Oct 04 00:14 : update: added Rhapsody/Symphony of Enchanted Lands II - The Dark Secret/03 - Never Forgotten Heroes.mp3
+Oct 04 00:14 : update: added Rhapsody/Symphony of Enchanted Lands II - The Dark Secret/04 - Elgard's Green Valleys.mp3
+Oct 04 00:14 : update: added Rhapsody/Symphony of Enchanted Lands II - The Dark Secret/05 - The Magic Of The Wizard's Dream.mp3
+Oct 04 00:14 : update: added Rhapsody/Symphony of Enchanted Lands II - The Dark Secret/06 - Erian's Mystical Rhymes.mp3
+Oct 04 00:14 : update: added Rhapsody/Symphony of Enchanted Lands II - The Dark Secret/07 - The Last Angel's Call.mp3
+Oct 04 00:14 : update: added Rhapsody/Symphony of Enchanted Lands II - The Dark Secret/08 - Dragonland's River.mp3
+Oct 04 00:14 : update: added Rhapsody/Symphony of Enchanted Lands II - The Dark Secret/09 - Sacred Power Of Raging Winds.mp3
+Oct 04 00:14 : update: added Rhapsody/Symphony of Enchanted Lands II - The Dark Secret/10 - Guardiani.mp3
+Oct 04 00:14 : update: added Rhapsody/Symphony of Enchanted Lands II - The Dark Secret/11 - Shadows Of Death.mp3
+Oct 04 00:14 : update: added Rhapsody/Symphony of Enchanted Lands II - The Dark Secret/12 - Nightfall On The Grey Mountains.mp3
+Oct 04 00:14 : update: added Rhapsody/Symphony of the enchanted lands II/Rhapsody-Dragonland's Rivers.wma
+Oct 04 00:14 : update: added Rhapsody/Symphony of the enchanted lands II/Rhapsody-Elgard's Green Valleys.wma
+Oct 04 00:14 : update: added Rhapsody/Symphony of the enchanted lands II/Rhapsody-Erian's Mystical Rhymes.wma
+Oct 04 00:14 : update: added Rhapsody/Symphony of the enchanted lands II/Rhapsody-Guardiani Del Destino.wma
+Oct 04 00:14 : update: added Rhapsody/Symphony of the enchanted lands II/Rhapsody-Never Forgotten Heroes.wma
+Oct 04 00:14 : update: added Rhapsody/Symphony of the enchanted lands II/Rhapsody-Nightfall Of The Grey Mountains.wma
+Oct 04 00:14 : update: added Rhapsody/Symphony of the enchanted lands II/Rhapsody-Sacred Power Of Raging Winds.wma
+Oct 04 00:14 : update: added Rhapsody/Symphony of the enchanted lands II/Rhapsody-Shadows Of Death.wma
+Oct 04 00:14 : update: added Rhapsody/Symphony of the enchanted lands II/Rhapsody-The Dark Secret.wma
+Oct 04 00:14 : update: added Rhapsody/Symphony of the enchanted lands II/Rhapsody-The Last Angels' Call.wma
+Oct 04 00:14 : update: added Rhapsody/Symphony of the enchanted lands II/Rhapsody-The Magic Of The Wizard's Dream.wma
+Oct 04 00:14 : update: added Rhapsody/Symphony of the enchanted lands II/Rhapsody-Unholy Warcry.wma
+Oct 04 00:14 : update: added Rhapsody/The Power Of The Dragonflame/01 - Rhapsody - In Tenebris.mp3
+Oct 04 00:14 : update: added Rhapsody/The Power Of The Dragonflame/02 - Rhapsody - Knightrider Of Doom.mp3
+Oct 04 00:14 : update: added Rhapsody/The Power Of The Dragonflame/03 - Rhapsody - Power Of The Dragonflame.mp3
+Oct 04 00:14 : update: added Rhapsody/The Power Of The Dragonflame/04 - Rhapsody - The March Of The Swordmaster.mp3
+Oct 04 00:14 : update: added Rhapsody/The Power Of The Dragonflame/05 - Rhapsody - When Demons Awake.mp3
+Oct 04 00:14 : update: added Rhapsody/The Power Of The Dragonflame/06 - Rhapsody - Agony Is My Name.mp3
+Oct 04 00:14 : update: added Rhapsody/The Power Of The Dragonflame/07 - Rhapsody - Lamento Eroico.mp3
+Oct 04 00:14 : update: added Rhapsody/The Power Of The Dragonflame/08 - Rhapsody - Steelgods Of The Last Apocalypse.mp3
+Oct 04 00:14 : update: added Rhapsody/The Power Of The Dragonflame/09 - Rhapsody - The Pride Of The Tyrant.mp3
+Oct 04 00:14 : update: added Rhapsody/The Power Of The Dragonflame/10 - Rhapsody - Gargoyles, Angels Of Darkness.mp3
+Oct 04 00:14 : update: added Rhapsody Of Fire/2010 - The Cold Embrace Of Fear/01.- ACT I - The Pass Of Nair-Kaan.mp3
+Oct 04 00:14 : update: added Rhapsody Of Fire/2010 - The Cold Embrace Of Fear/02.- ACT II - Dark Mystic Vision.mp3
+Oct 04 00:14 : update: added Rhapsody Of Fire/2010 - The Cold Embrace Of Fear/03.- ACT III - The Ancient Fires Of Har-Kuun.mp3
+Oct 04 00:14 : update: added Rhapsody Of Fire/2010 - The Cold Embrace Of Fear/04.- ACT IV - The Betrayal.mp3
+Oct 04 00:14 : update: added Rhapsody Of Fire/2010 - The Cold Embrace Of Fear/05.- ACT V - Neve Rosso Sangue.mp3
+Oct 04 00:14 : update: added Rhapsody Of Fire/2010 - The Cold Embrace Of Fear/06.- ACT VI - Erian's Lost Secrets.mp3
+Oct 04 00:14 : update: added Rhapsody Of Fire/2010 - The Cold Embrace Of Fear/07.- ACT VII - The Angels' Dark Revelation.mp3
+Oct 04 00:14 : update: added Rhapsody Of Fire/Rhapsody of Fire - 2011 - From Chaos to Eternity/01 - Ad Infinitum.mp3
+Oct 04 00:14 : update: added Rhapsody Of Fire/Rhapsody of Fire - 2011 - From Chaos to Eternity/02 - From Chaos To Eternity.mp3
+Oct 04 00:14 : update: added Rhapsody Of Fire/Rhapsody of Fire - 2011 - From Chaos to Eternity/03 - Tempesta Di Fuoco.mp3
+Oct 04 00:14 : update: added Rhapsody Of Fire/Rhapsody of Fire - 2011 - From Chaos to Eternity/04 - Ghosts Of Forgotten Worlds.mp3
+Oct 04 00:14 : update: added Rhapsody Of Fire/Rhapsody of Fire - 2011 - From Chaos to Eternity/05 - Anima Perduta.mp3
+Oct 04 00:14 : update: added Rhapsody Of Fire/Rhapsody of Fire - 2011 - From Chaos to Eternity/06 - Aeons Of Raging Darkness.mp3
+Oct 04 00:14 : update: added Rhapsody Of Fire/Rhapsody of Fire - 2011 - From Chaos to Eternity/07 - I Belong To The Stars.mp3
+Oct 04 00:14 : update: added Rhapsody Of Fire/Rhapsody of Fire - 2011 - From Chaos to Eternity/08 - Tornado.mp3
+Oct 04 00:14 : update: added Rhapsody Of Fire/Rhapsody of Fire - 2011 - From Chaos to Eternity/09 - Heroes Of The Waterfalls' Kingdom.mp3
+Oct 04 00:14 : update: added Rhapsody Of Fire/Rhapsody of Fire - The Frozen Tears of Angels (2010)/01. Dark Frozen World.mp3
+Oct 04 00:14 : update: added Rhapsody Of Fire/Rhapsody of Fire - The Frozen Tears of Angels (2010)/02. Sea Of Fate.mp3
+Oct 04 00:14 : update: added Rhapsody Of Fire/Rhapsody of Fire - The Frozen Tears of Angels (2010)/03. Crystal Moonlight.mp3
+Oct 04 00:14 : update: added Rhapsody Of Fire/Rhapsody of Fire - The Frozen Tears of Angels (2010)/04. Reign Of Terror.mp3
+Oct 04 00:14 : update: added Rhapsody Of Fire/Rhapsody of Fire - The Frozen Tears of Angels (2010)/05. Danza Di Fuoco E Ghiaccio.mp3
+Oct 04 00:14 : update: added Rhapsody Of Fire/Rhapsody of Fire - The Frozen Tears of Angels (2010)/06. Raging Starfire.mp3
+Oct 04 00:14 : update: added Rhapsody Of Fire/Rhapsody of Fire - The Frozen Tears of Angels (2010)/07. Lost In Cold Dreams.mp3
+Oct 04 00:14 : update: added Rhapsody Of Fire/Rhapsody of Fire - The Frozen Tears of Angels (2010)/08. On The Way To Ainor.mp3
+Oct 04 00:14 : update: added Rhapsody Of Fire/Rhapsody of Fire - The Frozen Tears of Angels (2010)/09. The Frozen Tears Of Angels.mp3
+Oct 04 00:14 : update: added Rhapsody Of Fire/Rhapsody of Fire - The Frozen Tears of Angels (2010)/10. Labyrinth Of Madness [Bonus Track].mp3
+Oct 04 00:14 : update: added Rhapsody Of Fire/Rhapsody of Fire - The Frozen Tears of Angels (2010)/11. Sea Of Fate (Orchestral Version) [Bonus Track].mp3
+Oct 04 00:14 : update: added Rhapsody Of Fire/Triumph Or Agony/01 Dar-kunor.mp3
+Oct 04 00:14 : update: added Rhapsody Of Fire/Triumph Or Agony/02 Triumph Or Agony.mp3
+Oct 04 00:14 : update: added Rhapsody Of Fire/Triumph Or Agony/03 Heart Of The Darklands.mp3
+Oct 04 00:14 : update: added Rhapsody Of Fire/Triumph Or Agony/04 Old Age Of Wonders.mp3
+Oct 04 00:14 : update: added Rhapsody Of Fire/Triumph Or Agony/05 The Myth Of The Holy Sword.mp3
+Oct 04 00:14 : update: added Rhapsody Of Fire/Triumph Or Agony/06 Il Canto del Vento.mp3
+Oct 04 00:14 : update: added Rhapsody Of Fire/Triumph Or Agony/07 Silent Dream.mp3
+Oct 04 00:14 : update: added Rhapsody Of Fire/Triumph Or Agony/08 Bloody Red Dungeons.mp3
+Oct 04 00:14 : update: added Rhapsody Of Fire/Triumph Or Agony/09 Son of Pain.mp3
+Oct 04 00:14 : update: added Rhapsody Of Fire/Triumph Or Agony/10 The Mystic Prophecy Of The Demonk.mp3
+Oct 04 00:14 : update: added Rhapsody Of Fire/Triumph Or Agony/11 Dark Reing Of Fire.mp3
+Oct 04 00:14 : update: added Rhapsody Of Fire/Triumph Or Agony/12 Defenders Of Gaia.mp3
+Oct 04 00:14 : update: added Rhapsody Of Fire/Triumph Or Agony/13 A New Saga Begins (Single Edit).mp3
+Oct 04 00:18 : player: played "Rhapsody Of Fire/Triumph Or Agony/06 Il Canto del Vento.mp3"
+Oct 04 00:18 : client: [0] closed
+Oct 04 00:22 : player: played "Rhapsody Of Fire/Triumph Or Agony/07 Silent Dream.mp3"
+Oct 04 00:26 : client: [1] opened from 127.0.0.1:34952
+Oct 04 00:26 : player: played "Aina/Aina - Disc 1 - Days Of Rising Doom/11. Serendipity.mp3"
+Oct 04 00:27 : client: [1] closed
+Oct 04 00:33 : client: [2] opened from 127.0.0.1:35060
+Oct 04 00:33 : player: played "Rata Blanca/Grandes canciones/12 Mujer amante (versión acústica).mp3"
+Oct 04 00:37 : player: played "DMC OST/01 Satsugai.mp3"
+Oct 04 00:39 : player: played "DMC OST/07 Mad Monster.mp3"
+Oct 04 00:40 : client: [3] opened from 127.0.0.1:35128
+Oct 04 00:40 : ffmpeg/asf: asf_read_pts failed
+Oct 04 00:40 : ffmpeg/asf: asf_read_pts failed
+Oct 04 00:40 : ffmpeg/asf: asf_read_pts failed
+Oct 04 00:40 : ffmpeg/asf: asf_read_pts failed
+Oct 04 00:40 : player: played "Rhapsody/Symphony of the enchanted lands II/Rhapsody-Elgard's Green Valleys.wma"
+Oct 04 00:40 : ffmpeg/asf: asf_read_pts failed
+Oct 04 00:40 : ffmpeg/asf: asf_read_pts failed
+Oct 04 00:40 : ffmpeg/asf: asf_read_pts failed
+Oct 04 00:40 : ffmpeg/asf: asf_read_pts failed
+Oct 04 00:42 : client: [3] closed
+Oct 04 00:44 : player: played "Rhapsody/Symphony of the enchanted lands II/Rhapsody-The Magic Of The Wizard's Dream.wma"
+Oct 04 21:45 : client: [0] opened from 127.0.0.1:60992
+Oct 04 21:46 : client: [0] closed
+Oct 04 21:49 : player: played "Daft Punk/Discovery/12. Short Circuit.mp3"
+Oct 04 21:49 : client: [1] opened from 127.0.0.1:32774
+Oct 04 21:49 : client: [1] closed
+Oct 04 21:51 : client: [2] opened from 127.0.0.1:32782
+Oct 04 21:51 : client: [2] closed
+Oct 04 21:52 : player: played "Rhapsody Of Fire/Triumph Or Agony/06 Il Canto del Vento.mp3"
+Oct 04 21:56 : player: played "Rhapsody Of Fire/Triumph Or Agony/07 Silent Dream.mp3"
+Oct 04 22:00 : player: played "Aina/Aina - Disc 1 - Days Of Rising Doom/11. Serendipity.mp3"
+Oct 04 22:01 : client: [3] opened from 127.0.0.1:32806
+Oct 04 22:01 : client: [3] closed
+Oct 04 22:01 : client: [4] opened from 127.0.0.1:32810
+Oct 04 22:01 : client: [4] closed
+Oct 04 22:07 : player: played "Rata Blanca/Grandes canciones/12 Mujer amante (versión acústica).mp3"
+Oct 04 22:07 : client: [5] opened from 127.0.0.1:32826
+Oct 04 22:08 : client: [5] closed
+Oct 04 22:08 : client: [6] opened from 127.0.0.1:32830
+Oct 04 22:08 : player: played "DMC OST/01 Satsugai.mp3"
+Oct 04 22:11 : client: [6] closed
+Oct 04 22:11 : client: [7] opened from 127.0.0.1:32842
+Oct 04 22:14 : player: played "Daft Punk/Discovery/12. Short Circuit.mp3"
+Oct 04 22:15 : client: [7] closed
+Oct 04 22:18 : player: played "Daft Punk/Discovery/12. Short Circuit.mp3"
+Oct 05 14:22 : client: [0] opened from 127.0.0.1:57212
+Oct 05 14:22 : client: [0] closed
+Oct 05 14:26 : player: played "Daft Punk/Discovery/12. Short Circuit.mp3"
+Oct 05 14:27 : client: [1] opened from 127.0.0.1:57224
+Oct 05 14:30 : player: played "Daft Punk/Discovery/12. Short Circuit.mp3"
+Oct 05 14:35 : player: played "helloween/Helloween [2005] Keeper Of The Seven Keys Part III - The Legacy (2005)/08 - Light The Universe.mp3"
+Oct 05 14:40 : player: played "helloween/Helloween [2006] Keeper Of The Seven Keys Part I [Remastered] (2006)/05_helloween-a_tale_that_wasnt_right-amrc.mp3"
+Oct 05 14:44 : player: played "helloween/helloween tresure chest CD2/10 Forever And One.mp3"
+Oct 05 14:48 : player: played "helloween/Treasure Chest/04 Where The Rain Grows.mp3"
+Oct 05 15:00 : client: [2] opened from 127.0.0.1:57394
+Oct 05 15:00 : client: [2] closed
+Oct 05 15:00 : client: [3] opened from 127.0.0.1:57398
+Oct 05 15:04 : client: [3] closed
+Oct 05 15:04 : client: [4] opened from 127.0.0.1:57416
+Oct 05 15:04 : client: [4] closed
+Oct 05 15:05 : player: played "helloween/Helloween [2005] Keeper Of The Seven Keys Part III - The Legacy (2005)/08 - Light The Universe.mp3"
+Oct 05 15:09 : player: played "helloween/Helloween [2006] Keeper Of The Seven Keys Part I [Remastered] (2006)/05_helloween-a_tale_that_wasnt_right-amrc.mp3"
+Oct 05 15:13 : player: played "helloween/helloween tresure chest CD2/10 Forever And One.mp3"
+Oct 05 15:18 : player: played "helloween/Treasure Chest/04 Where The Rain Grows.mp3"
+Oct 05 16:01 : client: [5] opened from 127.0.0.1:57830
+Oct 05 16:01 : client: [5] closed
+Oct 05 16:04 : player: played "Phantom of the Opera/09 All I Ask of You (reprise).mp3"
+Oct 05 16:11 : player: played "Phantom of the Opera/12 The Point of No Return.mp3"
+Oct 06 09:51 : client: [1] closed
+Oct 06 09:56 : player: played "helloween/Helloween [2005] Keeper Of The Seven Keys Part III - The Legacy (2005)/08 - Light The Universe.mp3"
+Oct 06 10:00 : player: played "helloween/Helloween [2006] Keeper Of The Seven Keys Part I [Remastered] (2006)/05_helloween-a_tale_that_wasnt_right-amrc.mp3"
+Oct 06 10:04 : player: played "helloween/helloween tresure chest CD2/10 Forever And One.mp3"
+Oct 06 10:09 : player: played "helloween/Treasure Chest/04 Where The Rain Grows.mp3"
+Oct 06 10:12 : player: played "Phantom of the Opera/09 All I Ask of You (reprise).mp3"
+Oct 06 10:18 : client: [6] opened from 127.0.0.1:60932
+Oct 06 10:18 : player: played "Phantom of the Opera/12 The Point of No Return.mp3"
+Oct 06 10:18 : client: [6] closed
+Oct 06 10:21 : player: played "Daft Punk/Discovery/12. Short Circuit.mp3"
+Oct 06 10:31 : client: [7] opened from 127.0.0.1:60974
+Oct 06 10:31 : client: [7] closed
+Oct 06 10:34 : player: played "Daft Punk/Discovery/12. Short Circuit.mp3"
+Oct 07 19:59 : client: [0] opened from 127.0.0.1:52794
+Oct 07 20:03 : player: played "Daft Punk/Discovery/12. Short Circuit.mp3"
+Oct 07 20:08 : player: played "Daft Punk/Discovery/12. Short Circuit.mp3"
+Oct 07 20:59 : player: played "helloween/Helloween [2005] Keeper Of The Seven Keys Part III - The Legacy (2005)/01 - The King For 1000 Years.mp3"
+Oct 07 21:15 : client: [0] closed
+Oct 07 23:23 : client: [1] opened from 127.0.0.1:53876
+Oct 07 23:24 : client: [1] closed
+Oct 07 23:24 : client: [2] opened from 127.0.0.1:53880
+Oct 07 23:24 : player: played "helloween/Helloween [2005] Keeper Of The Seven Keys Part III - The Legacy (2005)/01 - The King For 1000 Years.mp3"
+Oct 07 23:24 : player: played "Rata Blanca/Grandes canciones/03 Días duros.mp3"
+Oct 07 23:40 : client: [2] closed
+Oct 08 01:33 : client: [3] opened from 127.0.0.1:54766
+Oct 08 01:38 : player: played "Rata Blanca/Grandes canciones/04 Porqué es tan difícil amar.mp3"
+Oct 08 01:38 : player: played "Rata Blanca/Grandes canciones/05 Chico callejero.mp3"
+Oct 08 01:42 : player: played "Rata Blanca/Grandes canciones/06 Preludio Obsesivo.mp3"
+Oct 08 01:47 : player: played "Rata Blanca/Grandes canciones/04 Porqué es tan difícil amar.mp3"
+Oct 08 01:52 : player: played "Rata Blanca/Grandes canciones/05 Chico callejero.mp3"
+Oct 08 01:56 : player: played "Rata Blanca/Grandes canciones/06 Preludio Obsesivo.mp3"
+Oct 08 01:56 : player: played "Rata Blanca/Grandes canciones/07 Mujer amante.mp3"
+Oct 08 01:56 : player: played "Rata Blanca/Grandes canciones/08 Guerrero del arco iris.mp3"
+Oct 08 01:58 : player: played "Rata Blanca/Grandes canciones/09 Noche sin sueños.mp3"
+Oct 08 02:07 : player: played "Rata Blanca/Grandes canciones/09 Noche sin sueños.mp3"
+Oct 08 02:14 : player: played "Rata Blanca/Grandes canciones/12 Mujer amante (versión acústica).mp3"
+Oct 08 02:22 : player: played "Rata Blanca/Grandes canciones/12 Mujer amante (versión acústica).mp3"
+Oct 08 02:40 : player: played "Rata Blanca/Grandes canciones/04 Porqué es tan difícil amar.mp3"
+Oct 08 02:45 : player: played "Rata Blanca/Grandes canciones/05 Chico callejero.mp3"
+Oct 08 02:49 : player: played "Rata Blanca/Grandes canciones/06 Preludio Obsesivo.mp3"
+Oct 08 02:55 : player: played "Rata Blanca/Grandes canciones/07 Mujer amante.mp3"
+Oct 08 03:00 : player: played "Rata Blanca/Grandes canciones/08 Guerrero del arco iris.mp3"
+Oct 08 03:09 : player: played "Rata Blanca/Grandes canciones/09 Noche sin sueños.mp3"
+Oct 08 03:13 : player: played "Daft Punk/Discovery/12. Short Circuit.mp3"
+Oct 08 03:22 : player: played "helloween/Helloween [2005] Keeper Of The Seven Keys Part III - The Legacy (2005)/01 - The King For 1000 Years.mp3"
+Oct 08 03:26 : player: played "Fallout/ Anything Goes.mp3"
+Oct 08 03:29 : player: played "Fallout/Civilization (Bingo Bango Bongo).mp3"
+Oct 08 03:32 : player: played "Fallout/I don't want to set the world on fire.mp3"
+Oct 08 03:35 : player: played "Fallout/Way Back Home.mp3"
+Oct 08 03:37 : player: played "Fallout/Blue Moon.mp3"
+Oct 08 03:41 : player: played "Fallout/Jingle Jangle Jingle.mp3"
+Oct 08 03:44 : player: played "Fallout/Civilization (Bingo Bango Bongo).mp3"
+Oct 08 03:48 : player: played "Fallout/I don't want to set the world on fire.mp3"
+Oct 08 03:50 : player: played "Fallout/Way Back Home.mp3"
+Oct 08 03:53 : player: played "Fallout/Blue Moon.mp3"
+Oct 08 03:56 : player: played "Fallout/Jingle Jangle Jingle.mp3"
+Oct 08 04:16 : client: [3] closed
+Oct 08 04:23 : player: played "Rata Blanca/Grandes canciones/12 Mujer amante (versión acústica).mp3"
+Oct 08 04:26 : player: played "Fallout/ Anything Goes.mp3"
+Oct 08 04:29 : client: [4] opened from 127.0.0.1:57168
+Oct 08 04:29 : player: played "Fallout/Civilization (Bingo Bango Bongo).mp3"
+Oct 08 04:29 : client: [4] closed
+Oct 08 20:14 : client: [0] opened from 127.0.0.1:38496
+Oct 08 20:14 : client: [1] opened from 127.0.0.1:38500
+Oct 08 20:14 : player: played "Fallout/ Anything Goes.mp3"
+Oct 08 20:14 : client: [0] closed
+Oct 08 20:14 : client: [1] closed
+Oct 08 20:15 : client: [2] opened from 127.0.0.1:38508
+Oct 08 20:15 : player: played "Rata Blanca/Grandes canciones/09 Noche sin sueños.mp3"
+Oct 08 20:15 : client: [2] closed
+Oct 08 20:18 : client: [3] opened from 127.0.0.1:38514
+Oct 08 20:18 : client: [3] closed

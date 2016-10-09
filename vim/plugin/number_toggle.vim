@@ -5,3 +5,11 @@ function! NumberToggle()
     set relativenumber
   endif
 endfunc
+
+function! HlToggle()
+  if(&hlsearch == 1)
+    set nohlsearch
+  else
+    set hlsearch
+  endif
+endfunc

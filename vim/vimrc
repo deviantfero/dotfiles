@@ -10,12 +10,17 @@ call plug#begin( '~/.vim/plugged' )
 	Plug 'tpope/vim-dispatch', { 'for': [ 'cs', 'html' ] }
 	Plug 'scrooloose/syntastic', { 'for': 'cs' }
 	Plug 'OmniSharp/omnisharp-vim', { 'for': 'cs' }
+	Plug 'hail2u/vim-css3-syntax', { 'for': ['css', 'html'] }
+	Plug 'elixir-lang/vim-elixir', { 'for': 'elixir' }
+	Plug 'ap/vim-css-color'
+	Plug 'jelera/vim-javascript-syntax'
 call plug#end()
 
 " remaps "
 """"""""""
 map <C-f> :NERDTreeTabsToggle<CR>
 nnoremap <f2> :call NumberToggle()<cr>
+nnoremap <f3> :call HlToggle()<cr>
 nmap <F7> <Plug>ColorstepPrev<CR>
 nmap <F8> <Plug>ColorstepNext<CR>
 nnoremap <F9> :Dispatch<CR>
@@ -114,9 +119,9 @@ set cursorline "highlight the current line
 set noerrorbells "no audio bell aka beeping
 set novisualbell "no visual bell aka blinking
 set incsearch "search while typing
-set nohlsearch "don't highlight all search matches
 set mouse=a "Use mouse to navigate the file
 set ttyfast "faster scrolling
+set ttimeoutlen=50
 set lazyredraw "less redraws
 set splitbelow "shows info or documentation below code, so code doesn't move
 
@@ -145,7 +150,7 @@ set t_Co=16
 colorscheme deviantfero
 "this defines the number of the colums
 hi LineNr ctermfg=249 ctermbg=234
-"hi CursorLineNr ctermfg=16 ctermbg=2
+"hi CursorLineNr ctermfg=16 ctermbg=8
 
 
 " racket preferences for vim            "
@@ -159,17 +164,17 @@ autocmd BufNewFile,BufRead *.rkt set expandtab
 """""""""""""""""
 set laststatus=2
 let $PYTHONPATH='/usr/lib/python2/site-packages'
-let g:airline_powerline_fonts = 1
+let g:airline_powerline_fonts = 0
 let g:airline_extensions = ['branch','tabline','ctrlp']
 autocmd FileType cs let g:airline_extensions = ['branch','tabline','ctrlp', 'syntastic']
 let g:tmuxline_powerline_separators = 0
 let g:airline_left_sep = ' '
 let g:airline_right_sep = ' '
-let g:airline_section_y = '%{getcwd()}'
+"let g:airline_section_y = '%{getcwd()}'
 let g:airline_theme = 'wombat'
 "updates tmuxline
 if strlen($TMUX) > 0
-	autocmd VimEnter * Tmuxline airline_insert minimal
+	autocmd VimEnter * Tmuxline airline_insert crosshair
 	autocmd VimEnter * TmuxlineSnapshot! ~/.tmuxline
 endif
 

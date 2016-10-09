@@ -451,6 +451,26 @@
       <action name="Maximize">
       </action>
     </keybind>
+    <keybind key="W-A-Up">
+      <action name="ResizeRelative">
+        <bottom>-30</bottom>
+      </action>
+    </keybind>
+    <keybind key="W-A-Down">
+      <action name="ResizeRelative">
+        <bottom>30</bottom>
+      </action>
+    </keybind>
+    <keybind key="W-A-Right">
+      <action name="ResizeRelative">
+        <right>30</right>
+      </action>
+    </keybind>
+    <keybind key="W-A-Left">
+      <action name="ResizeRelative">
+        <right>-30</right>
+      </action>
+    </keybind>
     <keybind key="W-Down">
       <action name="UnmaximizeFull">
       </action>
@@ -458,7 +478,7 @@
     <keybind key="W-a">
       <!-- Begin the keychains to manage windows -->
       <!-- semi-tiling mode -->
-      <keybind key="KP_6">
+      <keybind key="Right">
         <action name="UnmaximizeFull"/>
         <action name="MoveResizeTo">
           <x>960</x>
@@ -467,7 +487,7 @@
           <height>1122</height>
         </action>
       </keybind>
-      <keybind key="KP_4">
+      <keybind key="Left">
         <action name="UnmaximizeFull"/>
         <action name="MoveResizeTo">
           <x>20</x>
@@ -476,7 +496,7 @@
           <height>1122</height>
         </action>
       </keybind>
-      <keybind key="KP_8">
+      <keybind key="Up">
         <action name="UnmaximizeFull"/>
         <action name="MoveResizeTo">
           <x>20</x>
@@ -485,7 +505,7 @@
           <height>459</height>
         </action>
       </keybind>
-      <keybind key="KP_2">
+      <keybind key="Down">
         <action name="UnmaximizeFull"/>
         <action name="MoveResizeTo">
           <x>20</x>
@@ -494,7 +514,7 @@
           <height>459</height>
         </action>
       </keybind>
-      <keybind key="KP_9">
+      <keybind key="Prior">
         <action name="UnmaximizeFull"/>
         <action name="MoveResizeTo">
           <x>985</x>
@@ -503,7 +523,7 @@
           <height>477</height>
         </action>
       </keybind>
-      <keybind key="KP_3">
+      <keybind key="Next">
         <action name="UnmaximizeFull"/>
         <action name="MoveResizeTo">
           <x>985</x>
@@ -512,7 +532,7 @@
           <height>477</height>
         </action>
       </keybind>
-      <keybind key="KP_1">
+      <keybind key="Delete">
         <action name="UnmaximizeFull"/>
         <action name="MoveResizeTo">
           <x>20</x>
@@ -521,7 +541,7 @@
           <height>477</height>
         </action>
       </keybind>
-      <keybind key="KP_7">
+      <keybind key="Insert">
         <action name="UnmaximizeFull"/>
         <action name="MoveResizeTo">
           <x>20</x>
@@ -530,7 +550,7 @@
           <height>477</height>
         </action>
       </keybind>
-      <keybind key="KP_5">
+      <keybind key="End">
         <action name="UnmaximizeFull"/>
         <action name="MoveResizeTo">
           <x>580</x>

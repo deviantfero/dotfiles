@@ -1,2 +1,2 @@
 #!/bin/bash
-dmenu_run -f -q -x 700 -y 500 -w 500 -h 20 -dim 0.8 -fn "terminess powerline-9" -sb "#366283" -nb "#223d51" -sf "#ffffff" -p "hqarch ~ :"
+dmenu_run -f -q -x 700 -y 500 -w 500 -h 20 -dim 0.8 -fn "terminess powerline-9" -sb "#9b5237" -nb "#592f1f" -sf "#ffffff" -p "λ ~ >>"

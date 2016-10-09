@@ -1,7 +1,8 @@
-sw_volume: 1
+sw_volume: 100
 audio_device_state:1:MPD
 audio_device_state:1:Visualizer feed
 state: stop
+current: 10
 random: 0
 repeat: 0
 single: 0
@@ -10,7 +11,24 @@ crossfade: 0
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:Chill/Summer Blue - Bread and Butter.mp3
-1:Chill/Tasogare - Mai Yamane.mp3
-2:Chill/iamnobodi - Bel Air.mp3
+0:Daft Punk/Discovery/12. Short Circuit.mp3
+1:helloween/Helloween [2005] Keeper Of The Seven Keys Part III - The Legacy (2005)/01 - The King For 1000 Years.mp3
+2:Rata Blanca/Grandes canciones/01 El sueño de la gitana.mp3
+3:Rata Blanca/Grandes canciones/02 Sólo para amarte.mp3
+4:Rata Blanca/Grandes canciones/03 Días duros.mp3
+5:Rata Blanca/Grandes canciones/04 Porqué es tan difícil amar.mp3
+6:Rata Blanca/Grandes canciones/05 Chico callejero.mp3
+7:Rata Blanca/Grandes canciones/06 Preludio Obsesivo.mp3
+8:Rata Blanca/Grandes canciones/07 Mujer amante.mp3
+9:Rata Blanca/Grandes canciones/08 Guerrero del arco iris.mp3
+10:Rata Blanca/Grandes canciones/09 Noche sin sueños.mp3
+11:Rata Blanca/Grandes canciones/10 Abrazando el rock and roll.mp3
+12:Rata Blanca/Grandes canciones/11 La leyenda del hada y el mago.mp3
+13:Rata Blanca/Grandes canciones/12 Mujer amante (versión acústica).mp3
+14:Fallout/ Anything Goes.mp3
+15:Fallout/Civilization (Bingo Bango Bongo).mp3
+16:Fallout/I don't want to set the world on fire.mp3
+17:Fallout/Way Back Home.mp3
+18:Fallout/Blue Moon.mp3
+19:Fallout/Jingle Jangle Jingle.mp3
 playlist_end

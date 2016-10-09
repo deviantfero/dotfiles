@@ -1,0 +1,3 @@
+#!/usr/bin/bash
+
+wine ~/.wine/drive_c/Program\ Files/Hewlett-Packard/HP\ Prime\ Virtual\ Calculator/HPPrime.exe

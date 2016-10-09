@@ -6,13 +6,12 @@ URxvt*background: #121212
 
 ! Font options
 URxvt*foreground: #ffffff 
-URxvt*font: xft:terminess powerline:size=9:antialias=true
+URxvt*font: xft:terminess powerline:size=9:antialias=true:hinting=true
 URxvt*letterSpace: 0
 URxvt*internalBorder: 8
-!URxvt.boldFont:
+URxvt.boldFont:
 
 ! Other options
 URxvt*loginShell: true
 URxvt.scrollBar: false
-URxvt*perl-ext:
-!URxvt*perl-ext-common:
+URxvt*perl-ext-common: default

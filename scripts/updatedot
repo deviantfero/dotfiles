@@ -15,8 +15,7 @@ function up_openbox {
 function up_vim {
 	echo "VIM::BACKUP"
 	cp -r ~/.vim/* $backupdir/vim/
-	cd $backupdir/vim/bundle/
-	rm -rf ./*/.git*
+	rm -rf $backupdir/vim/plugged
 	cd ~
 }
 

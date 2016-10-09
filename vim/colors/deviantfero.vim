@@ -34,8 +34,8 @@ if exists("syntax_on")
   syntax reset
 endif
 let g:colors_name = "deviantfero"
-hi CursorLine ctermbg=234	cterm=none
-hi CursorLineNr ctermfg=253 ctermbg=233
+hi CursorLine ctermbg=235	cterm=none
+hi CursorLineNr ctermfg=252 ctermbg=234
 " Normal is for the normal (unhighlighted) text and background.
 " NonText is below the last line (~ lines).
 highlight Normal                  guibg=Black      guifg=Green 
@@ -50,7 +50,7 @@ highlight Statement  term=bold      ctermfg=Yellow           gui=bold  guifg=#ff
 highlight PreProc    term=underline ctermfg=Blue                       guifg=#ff4500
 highlight Type       term=underline ctermfg=10         gui=bold  guifg=#7d96ff
 highlight Special    term=bold      ctermfg=Magenta                    guifg=Orange
-highlight Ignore                    ctermfg=black                      guifg=bg
+highlight Ignore                    ctermfg=Black                      guifg=bg
 highlight Error                     ctermfg=15      ctermbg=2     guifg=White    guibg=Red
 highlight Todo                      ctermfg=15       ctermbg=2  guifg=Blue     guibg=Yellow
 
