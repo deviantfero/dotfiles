@@ -14,4 +14,4 @@ URxvt.boldFont:
 ! Other options
 URxvt*loginShell: true
 URxvt.scrollBar: false
-URxvt*perl-ext-common: default
+URxvt*perl-ext-common: default, matcher

@@ -12,8 +12,10 @@ call plug#begin( '~/.vim/plugged' )
 	Plug 'OmniSharp/omnisharp-vim', { 'for': 'cs' }
 	Plug 'hail2u/vim-css3-syntax', { 'for': ['css', 'html'] }
 	Plug 'elixir-lang/vim-elixir', { 'for': 'elixir' }
+	Plug 'mattreduce/vim-mix', { 'for': 'elixir' }
+	Plug 'slashmili/alchemist.vim', { 'for': 'elixir' }
 	Plug 'ap/vim-css-color'
-	Plug 'jelera/vim-javascript-syntax'
+	Plug 'jelera/vim-javascript-syntax', {'for': 'javascript'}
 call plug#end()
 
 " remaps "
@@ -174,7 +176,7 @@ let g:airline_right_sep = ' '
 let g:airline_theme = 'wombat'
 "updates tmuxline
 if strlen($TMUX) > 0
-	autocmd VimEnter * Tmuxline airline_insert crosshair
+	autocmd VimEnter * Tmuxline airline crosshair
 	autocmd VimEnter * TmuxlineSnapshot! ~/.tmuxline
 endif
 
@@ -190,7 +192,7 @@ endif
 "important for java completion
 silent! let g:EclimCompletionMethod = 'omnifunc'
 autocmd CompleteDone * pclose
-let g:acp_enableAtStartup = 0 " Disable AutoComplPop
+"let g:acp_enableAtStartup = 0 " Disable AutoComplPop
 let g:neocomplete#enable_at_startup = 1
 let g:neocomplete#enable_smart_case = 1
 let g:neocomplete#sources#syntax#min_keyword_length = 3
@@ -250,4 +252,6 @@ let g:neocomplete#sources#omni#input_patterns.java = '\h\w*\.\w*'
 let g:neocomplete#sources#omni#input_patterns.c = '[^.[:digit:] *\t]\%(\.\|->\)'
 let g:neocomplete#sources#omni#input_patterns.cpp = '[^.[:digit:] *\t]\%(\.\|->\)\|\h\w*::'
 let g:neocomplete#sources#omni#input_patterns.cs = '.*[^=\);]'
+let g:neocomplete#sources#omni#input_patterns.cs = '.*[^=\);]'
+let g:neocomplete#sources#omni#input_patterns.elixir = '[^.[:digit:] *\t]\.'
 "}}}
