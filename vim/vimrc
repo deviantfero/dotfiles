@@ -1,21 +1,26 @@
 "this executes plug to load plugins
 call plug#begin( '~/.vim/plugged' )
+	"Essential
 	Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeTabsToggle' } | Plug 'jistr/vim-nerdtree-tabs'
 	Plug 'SirVer/ultisnips'  | Plug 'honza/vim-snippets'
 	Plug 'Shougo/neocomplete.vim'
 	Plug 'kien/ctrlp.vim'
 	Plug 'tpope/vim-surround'
 	Plug 'tpope/vim-fugitive'
-	Plug 'vim-airline/vim-airline' | Plug 'edkolev/tmuxline.vim'
-	Plug 'tpope/vim-dispatch', { 'for': [ 'cs', 'html' ] }
+	Plug 'vim-airline/vim-airline'
+	"MONO
+	Plug 'tpope/vim-dispatch', { 'for': 'cs' }
 	Plug 'scrooloose/syntastic', { 'for': 'cs' }
 	Plug 'OmniSharp/omnisharp-vim', { 'for': 'cs' }
-	Plug 'hail2u/vim-css3-syntax', { 'for': ['css', 'html'] }
+	"Elixir
 	Plug 'elixir-lang/vim-elixir', { 'for': 'elixir' }
 	Plug 'mattreduce/vim-mix', { 'for': 'elixir' }
-	Plug 'slashmili/alchemist.vim', { 'for': 'elixir' }
+	"Webdev
 	Plug 'ap/vim-css-color'
 	Plug 'jelera/vim-javascript-syntax', {'for': 'javascript'}
+	Plug 'hail2u/vim-css3-syntax', { 'for': ['css', 'html'] }
+	"Autocomplete additions
+	Plug 'slashmili/alchemist.vim', { 'for': 'elixir' }
 call plug#end()
 
 " remaps "
@@ -148,10 +153,10 @@ set shiftwidth=4	"set autoindent to one tab
 
 " color options "
 """""""""""""""""
-set t_Co=16
-colorscheme deviantfero
+set t_Co=256
+colorscheme deviantferoc
 "this defines the number of the colums
-hi LineNr ctermfg=249 ctermbg=234
+"hi LineNr ctermfg=249 ctermbg=234
 "hi CursorLineNr ctermfg=16 ctermbg=8
 
 
@@ -170,16 +175,14 @@ let g:airline_powerline_fonts = 0
 let g:airline_extensions = ['branch','tabline','ctrlp']
 autocmd FileType cs let g:airline_extensions = ['branch','tabline','ctrlp', 'syntastic']
 let g:tmuxline_powerline_separators = 0
-let g:airline_left_sep = ' '
-let g:airline_right_sep = ' '
+let g:airline_right_sep = '░▒▓'
+let g:airline_left_sep = '▓▒░'
+let g:airline_left_alt_sep = '░▒▓█'
+let g:airline_right_alt_sep = '█▓▒░'
+"let g:airline_left_alt_sep = '|'
+"let g:airline_right_alt_sep = '|'
 "let g:airline_section_y = '%{getcwd()}'
-let g:airline_theme = 'wombat'
-"updates tmuxline
-if strlen($TMUX) > 0
-	autocmd VimEnter * Tmuxline airline crosshair
-	autocmd VimEnter * TmuxlineSnapshot! ~/.tmuxline
-endif
-
+let g:airline_theme = 'wombatc'
 " TTY only "
 """"""""""""
 if &term=~"linux"
@@ -249,6 +252,8 @@ endif
 
 let g:neocomplete#sources#omni#input_patterns.php = '[^. \t]->\h\w*\|\h\w*::'
 let g:neocomplete#sources#omni#input_patterns.java = '\h\w*\.\w*'
+let g:neocomplete#sources#omni#input_patterns.python3 = '\h\w*\.\w*'
+let g:neocomplete#sources#omni#input_patterns.python = '\h\w*\.\w*'
 let g:neocomplete#sources#omni#input_patterns.c = '[^.[:digit:] *\t]\%(\.\|->\)'
 let g:neocomplete#sources#omni#input_patterns.cpp = '[^.[:digit:] *\t]\%(\.\|->\)\|\h\w*::'
 let g:neocomplete#sources#omni#input_patterns.cs = '.*[^=\);]'

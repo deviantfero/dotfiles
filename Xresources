@@ -2,7 +2,8 @@
 !--many explanations of Xresources options for urxvt were found here--!
 
 ! Color options
-URxvt*background: #121212
+!URxvt*background: #121212	
+URxvt*background: 0
 
 ! Font options
 URxvt*foreground: #ffffff 

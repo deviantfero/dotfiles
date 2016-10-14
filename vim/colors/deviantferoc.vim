@@ -33,24 +33,23 @@ set background=dark
 if exists("syntax_on")
   syntax reset
 endif
-let g:colors_name = "deviantfero"
-hi Normal ctermbg=233
+let g:colors_name = "deviantferoc"
+"hi Normal ctermbg=233
 "Set colors
-hi CursorLine ctermbg=235	cterm=none
-hi CursorLineNr ctermfg=252 ctermbg=234
-hi LineNr ctermfg=249 ctermbg=8
-"hi LineNr ctermfg=249 ctermbg=234
+"hi CursorLine ctermbg=235	cterm=none
+"hi CursorLineNr ctermfg=252 ctermbg=234
 "Console colors
-"hi CursorLine ctermbg=8	ctermfg=253 cterm=none
-"hi CursorLineNr ctermfg=253 ctermbg=234
-"hi LineNr ctermfg=250 ctermbg=8
+hi CursorLine ctermbg=8 cterm=none
+hi Visual ctermbg=237 ctermfg=250 cterm=none
+hi CursorLineNr ctermfg=255 ctermbg=0
+hi LineNr ctermfg=249 ctermbg=8
 " Normal is for the normal (unhighlighted) text and background.
 " NonText is below the last line (~ lines).
 highlight Normal                  guibg=Black      guifg=Green 
 highlight Cursor                  guibg=Grey70     guifg=White
 highlight NonText                 guibg=Grey80
 
-highlight Comment    term=bold      ctermfg=DarkGrey                  guifg=#d1ddff
+highlight Comment    term=none      ctermfg=darkGrey                  guifg=#d1ddff
 highlight Constant   term=bold      ctermfg=Yellow                      guifg=#ffa0a0
 "highlight Number   	 term=underline ctermfg=DarkGrey                     guifg=Yellow
 highlight Identifier term=underline ctermfg=Cyan                       guifg=#40ffff
@@ -63,10 +62,9 @@ highlight Error                     ctermfg=15      ctermbg=2     guifg=White   
 highlight Todo                      ctermfg=15       ctermbg=2  guifg=Blue     guibg=Yellow
 
 " Change the highlight of search matches (for use with :set hls).
-highlight Search                    ctermfg=Black      ctermbg=Yellow  guifg=Black    guibg=Yellow  
+highlight Search                    ctermfg=255      ctermbg=8  guifg=Black    guibg=Yellow  
 
 " Change the highlight of visual highlight.
-highlight Visual      cterm=NONE    ctermfg=Black      ctermbg=LightGrey  gui=NONE    guifg=Black guibg=Grey70
 
 highlight Float                     ctermfg=Blue                       guifg=#88AAEE
 highlight Exception                 ctermfg=2          ctermbg=234   guifg=Red      guibg=White

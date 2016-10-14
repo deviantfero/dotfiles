@@ -1,7 +1,9 @@
 sw_volume: 100
 audio_device_state:1:MPD
 audio_device_state:1:Visualizer feed
-state: stop
+state: pause
+current: 4
+time: 332.231000
 random: 0
 repeat: 0
 single: 0
