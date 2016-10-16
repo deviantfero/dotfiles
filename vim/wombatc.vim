@@ -5,25 +5,25 @@
 "          [ guifg, guibg, ctermfg, ctermbg, opts ]
 let s:N1 = [ '#141413' , '#CAE682' , 16 , 6 ] " mode fg, bg
 let s:N2 = [ '#CAE682' , '#32322F' , 6 , 0 ] " info
-let s:N3 = [ '#CAE682' , '#242424' , 14 , 8 ] " statusline
+let s:N3 = [ '#CAE682' , '#242424' , 251 , 8 ] " statusline
 let s:N4 = [ '#86CD74' , 14 ]                   " mode modified
 
 " Insert mode
 let s:I1 = [ '#141413' , '#FDE76E' , 16 , 2 ]
 let s:I2 = [ '#FDE76E' , '#87ffff' , 2 , 0 ]
-let s:I3 = [ '#FDE76E' , '#242424' , 10 , 8 ]
+let s:I3 = [ '#FDE76E' , '#242424' , 252 , 8 ]
 let s:I4 = [ '#FADE3E' , 10 ]
 
 " Visual mode
 let s:V1 = [ '#141413' , '#B5D3F3' , 232 , 3 ]
-let s:V2 = [ '#B5D3F3' , '#32322F' , 255 , 0 ]
-let s:V3 = [ '#B5D3F3' , '#242424' , 3 , 8 ]
+let s:V2 = [ '#B5D3F3' , '#32322F' , 3 , 0 ]
+let s:V3 = [ '#B5D3F3' , '#242424' , 251 , 8 ]
 let s:V4 = [ '#7CB0E6' , 11 ]
 
 " Replace mode
 let s:R1 = [ '#141413' , '#E5786D' , 16 , 7 ]
-let s:R2 = [ '#E5786D' , '#32322F' , 255 , 0 ]
-let s:R3 = [ '#E5786D' , '#242424' , 15 , 8 ]
+let s:R2 = [ '#E5786D' , '#32322F' , 7 , 0 ]
+let s:R3 = [ '#E5786D' , '#242424' , 251 , 8 ]
 let s:R4 = [ '#E55345' , 15 ]
 
 " Paste mode
@@ -33,7 +33,9 @@ let s:PA = [ '#94E42C' , 47 ]
 let s:IM = [ '#40403C' , 8 ]
 
 " Inactive mode
-let s:IA = [ '#767676' , s:N3[1] , 243 , s:N3[3] , '' ]
+let s:IA1= [ '#767676' , s:N3[1] , 0 , s:N1[3] , '' ]
+let s:IA2= [ '#767676' , s:N3[1] , s:N1[3] , 0 , '' ]
+let s:IA3= [ '#767676' , s:N3[1] , 8 , 0 , '' ]
 
 let g:airline#themes#wombatc#palette = {}
 
@@ -75,9 +77,10 @@ let g:airline#themes#wombatc#palette.insert_paste = {
     \ 'airline_c': [ s:PA[0] , s:N3[1] , s:PA[1] , s:N3[3] , ''     ] }
 
 
-let g:airline#themes#wombatc#palette.inactive = airline#themes#generate_color_map(s:IA, s:IA, s:IA)
+let g:airline#themes#wombatc#palette.inactive = airline#themes#generate_color_map(s:IA1, s:IA2, s:IA3)
 let g:airline#themes#wombatc#palette.inactive_modified = {
-    \ 'airline_c': [ s:N4[0] , ''      , s:N4[1] , ''      , ''     ] }
+    \ 'airline_b': [ s:N4[0] , ''      , '' , ''      , ''     ] ,
+    \ 'airline_c': [ s:N4[0] , ''      , '' , s:N4[1]      , ''     ] }
 
 
 if !get(g:, 'loaded_ctrlp', 0)

@@ -167,6 +167,14 @@ autocmd BufNewFile,BufRead *.rkt set ts=2
 autocmd BufNewFile,BufRead *.rkt set sw=2
 autocmd BufNewFile,BufRead *.rkt set expandtab
 
+" hpppl preferences for vim            "
+"""""""""""""""""""""""""""""""""""""""""
+autocmd BufNewFile,BufRead *.hpppl set noautoindent
+autocmd BufNewFile,BufRead *.hpppl set ts=2
+autocmd BufNewFile,BufRead *.hpppl set sw=2
+autocmd BufNewFile,BufRead *.hpppl set expandtab
+autocmd BufNewFile,BufRead *.hpppl set syntax=c
+
 " vim powerline "
 """""""""""""""""
 set laststatus=2

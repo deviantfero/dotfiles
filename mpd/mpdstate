@@ -2,7 +2,6 @@ sw_volume: 100
 audio_device_state:1:MPD
 audio_device_state:1:Visualizer feed
 state: stop
-current: 11
 random: 0
 repeat: 0
 single: 0
@@ -11,17 +10,9 @@ crossfade: 0
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:Daft Punk/Discovery/12. Short Circuit.mp3
-1:Rata Blanca/Grandes canciones/01 El sueño de la gitana.mp3
-2:Rata Blanca/Grandes canciones/02 Sólo para amarte.mp3
-3:Rata Blanca/Grandes canciones/03 Días duros.mp3
-4:Rata Blanca/Grandes canciones/04 Porqué es tan difícil amar.mp3
-5:Rata Blanca/Grandes canciones/05 Chico callejero.mp3
-6:Rata Blanca/Grandes canciones/06 Preludio Obsesivo.mp3
-7:Rata Blanca/Grandes canciones/07 Mujer amante.mp3
-8:Rata Blanca/Grandes canciones/08 Guerrero del arco iris.mp3
-9:Rata Blanca/Grandes canciones/09 Noche sin sueños.mp3
-10:Rata Blanca/Grandes canciones/10 Abrazando el rock and roll.mp3
-11:Rata Blanca/Grandes canciones/11 La leyenda del hada y el mago.mp3
-12:Rata Blanca/Grandes canciones/12 Mujer amante (versión acústica).mp3
+0:David Gilmour/On An Island - 2006/02 - David Gilmour - On an Island.mp3
+1:David Gilmour/On An Island - 2006/05 - David Gilmour - Red Sky at Night.mp3
+2:David Gilmour/On An Island - 2006/08 - David Gilmour - Smile.mp3
+3:David Gilmour/On An Island - 2006/09 - David Gilmour - A Pocketful of Stones.mp3
+4:David Gilmour/On An Island - 2006/10 - David Gilmour - Where We Start.mp3
 playlist_end
