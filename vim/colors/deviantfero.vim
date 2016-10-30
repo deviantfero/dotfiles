@@ -38,7 +38,7 @@ hi Normal ctermbg=233
 "Set colors
 hi CursorLine ctermbg=235	cterm=none
 hi CursorLineNr ctermfg=252 ctermbg=234
-hi LineNr ctermfg=249 ctermbg=8
+hi LineNr ctermfg=249 ctermbg=235
 "hi LineNr ctermfg=249 ctermbg=234
 "Console colors
 "hi CursorLine ctermbg=8	ctermfg=253 cterm=none

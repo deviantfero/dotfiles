@@ -29,7 +29,7 @@ autoload -Uz colors
 colors
 # End of lines added by compinstall
 
-PROMPT="%{$fg_bold[magenta]%}λ %{$reset_color%}%{$fg_bold[green]%}%~%{$fg_bold[magenta]%} >>%{$reset_color%} %"
+PROMPT="%{$fg_bold[magenta]%}λ %{$reset_color%}%{$fg_bold[green]%}%~%{$fg_bold[magenta]%} %%%{$reset_color%} %"
 #PROMPT="%{$bg[magenta]%}%{$fg_bold[0]%} λ %{$reset_color%}%{$bg[green]%}%{$fg_bold[0]%} %~ %{$fg[0]%}%{$bg[magenta]%} >> %{$reset_color%b%} %"
 #PROMPT="[%{$fg_bod[blue]%} %~ %{$reset_color%}] %{$fg_bold[green]%}>>%{$reset_color%} %"
 RPROMPT=""

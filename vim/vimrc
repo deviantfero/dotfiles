@@ -15,6 +15,7 @@ call plug#begin( '~/.vim/plugged' )
 	"Elixir
 	Plug 'elixir-lang/vim-elixir', { 'for': 'elixir' }
 	Plug 'mattreduce/vim-mix', { 'for': 'elixir' }
+	"Python
 	"Webdev
 	Plug 'ap/vim-css-color'
 	Plug 'jelera/vim-javascript-syntax', {'for': 'javascript'}
@@ -46,6 +47,7 @@ let g:ctrlp_working_path_mode = 'wa'
 let g:UltiSnipsExpandTrigger="<c-k>"
 let g:UltiSnipsJumpForwardTrigger="<c-k>"
 let g:UltiSnipsJumpBackwardTrigger="<c-z>"
+let python_highlight_all = 1
 
 " Dispatch "
 """"""""""""""""""""""
@@ -183,12 +185,14 @@ let g:airline_powerline_fonts = 0
 let g:airline_extensions = ['branch','tabline','ctrlp']
 autocmd FileType cs let g:airline_extensions = ['branch','tabline','ctrlp', 'syntastic']
 let g:tmuxline_powerline_separators = 0
-let g:airline_right_sep = '░▒▓'
-let g:airline_left_sep = '▓▒░'
-let g:airline_left_alt_sep = '░▒▓█'
-let g:airline_right_alt_sep = '█▓▒░'
-"let g:airline_left_alt_sep = '|'
-"let g:airline_right_alt_sep = '|'
+"let g:airline_right_sep = '░▒▓'
+let g:airline_right_sep = ''
+let g:airline_left_sep = ''
+"let g:airline_left_sep = '▓▒░'
+"let g:airline_left_alt_sep = '░▒▓█'
+"let g:airline_right_alt_sep = '█▓▒░'
+let g:airline_left_alt_sep = '|'
+let g:airline_right_alt_sep = '|'
 "let g:airline_section_y = '%{getcwd()}'
 let g:airline_theme = 'wombatc'
 " TTY only "

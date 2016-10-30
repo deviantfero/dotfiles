@@ -41,8 +41,8 @@ let g:colors_name = "deviantferoc"
 "Console colors
 hi CursorLine ctermbg=8 cterm=none
 hi Visual ctermbg=237 ctermfg=250 cterm=none
-hi CursorLineNr ctermfg=255 ctermbg=0
-hi LineNr ctermfg=249 ctermbg=8
+hi CursorLineNr ctermfg=9 ctermbg=0
+hi LineNr ctermfg=247 ctermbg=8
 " Normal is for the normal (unhighlighted) text and background.
 " NonText is below the last line (~ lines).
 highlight Normal                  guibg=Black      guifg=Green 

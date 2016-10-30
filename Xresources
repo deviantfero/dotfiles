@@ -9,10 +9,11 @@ URxvt*background: 0
 URxvt*foreground: #ffffff 
 URxvt*font: xft:terminess powerline:size=9:antialias=true:hinting=true
 URxvt*letterSpace: 0
-URxvt*internalBorder: 8
+URxvt*internalBorder: 10
 URxvt.boldFont:
 
 ! Other options
 URxvt*loginShell: true
 URxvt.scrollBar: false
-URxvt*perl-ext-common: default, matcher
+URxvt*perl-ext-common: default,matcher
+URxvt*cursorBlink: 1

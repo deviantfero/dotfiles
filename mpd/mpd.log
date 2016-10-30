@@ -16266,3 +16266,87 @@ Oct 15 19:21 : player: played "David Gilmour/On An Island - 2006/05 - David Gilm
 Oct 15 19:26 : player: played "David Gilmour/On An Island - 2006/08 - David Gilmour - Smile.mp3"
 Oct 15 19:32 : player: played "David Gilmour/On An Island - 2006/09 - David Gilmour - A Pocketful of Stones.mp3"
 Oct 15 19:39 : player: played "David Gilmour/On An Island - 2006/10 - David Gilmour - Where We Start.mp3"
+Oct 16 00:32 : client: [0] closed
+Oct 16 12:29 : client: [0] opened from 127.0.0.1:39912
+Oct 16 12:29 : client: [0] closed
+Oct 16 12:33 : player: played "David Gilmour/On An Island - 2006/08 - David Gilmour - Smile.mp3"
+Oct 16 12:34 : client: [1] opened from 127.0.0.1:39954
+Oct 16 12:35 : client: [1] closed
+Oct 16 12:36 : client: [2] opened from 127.0.0.1:39968
+Oct 16 13:09 : client: [2] closed
+Oct 16 13:13 : player: played "David Gilmour/On An Island - 2006/09 - David Gilmour - A Pocketful of Stones.mp3"
+Oct 16 13:13 : client: [3] opened from 127.0.0.1:40172
+Oct 16 13:13 : player: played "David Gilmour/On An Island - 2006/10 - David Gilmour - Where We Start.mp3"
+Oct 16 13:13 : client: [3] closed
+Oct 16 17:51 : client: [0] opened from 127.0.0.1:35472
+Oct 16 17:55 : player: played "David Gilmour/On An Island - 2006/08 - David Gilmour - Smile.mp3"
+Oct 16 18:00 : client: [0] closed
+Oct 16 18:01 : player: played "David Gilmour/On An Island - 2006/09 - David Gilmour - A Pocketful of Stones.mp3"
+Oct 16 18:08 : player: played "David Gilmour/On An Island - 2006/10 - David Gilmour - Where We Start.mp3"
+Oct 16 21:32 : client: [1] opened from 127.0.0.1:39130
+Oct 16 21:37 : player: played "helloween/Better than Raw/I can.wma"
+Oct 16 23:07 : player: played "David Gilmour/On An Island - 2006/09 - David Gilmour - A Pocketful of Stones.mp3"
+Oct 16 23:18 : player: played "David Gilmour/On An Island - 2006/10 - David Gilmour - Where We Start.mp3"
+Oct 16 23:19 : client: [1] closed
+Oct 16 23:19 : client: [2] opened from 127.0.0.1:40182
+Oct 16 23:20 : client: [2] closed
+Oct 16 23:23 : player: played "helloween/Better than Raw/I can.wma"
+Oct 20 21:44 : client: [0] opened from 127.0.0.1:45066
+Oct 20 21:44 : client: [0] closed
+Oct 23 13:02 : client: [0] opened from 127.0.0.1:59902
+Oct 23 13:09 : player: played "David Gilmour/On An Island - 2006/10 - David Gilmour - Where We Start.mp3"
+Oct 23 13:09 : player: played "David Gilmour/On An Island - 2006/09 - David Gilmour - A Pocketful of Stones.mp3"
+Oct 23 13:13 : player: played "David Gilmour/On An Island - 2006/08 - David Gilmour - Smile.mp3"
+Oct 23 13:19 : player: played "David Gilmour/On An Island - 2006/09 - David Gilmour - A Pocketful of Stones.mp3"
+Oct 23 13:26 : player: played "David Gilmour/On An Island - 2006/10 - David Gilmour - Where We Start.mp3"
+Oct 23 13:31 : player: played "helloween/Better than Raw/I can.wma"
+Oct 23 14:15 : client: [0] closed
+Oct 23 17:31 : client: [1] opened from 127.0.0.1:33428
+Oct 23 17:31 : client: [1] closed
+Oct 23 17:36 : player: played "David Gilmour/On An Island - 2006/09 - David Gilmour - A Pocketful of Stones.mp3"
+Oct 23 17:37 : client: [2] opened from 127.0.0.1:33448
+Oct 23 17:37 : client: [2] closed
+Oct 23 17:41 : client: [3] opened from 127.0.0.1:33592
+Oct 23 17:41 : player: played "David Gilmour/On An Island - 2006/10 - David Gilmour - Where We Start.mp3"
+Oct 23 17:41 : client: [3] closed
+Oct 23 17:45 : player: played "David Gilmour/On An Island - 2006/08 - David Gilmour - Smile.mp3"
+Oct 23 17:51 : player: played "David Gilmour/On An Island - 2006/09 - David Gilmour - A Pocketful of Stones.mp3"
+Oct 23 17:58 : player: played "David Gilmour/On An Island - 2006/10 - David Gilmour - Where We Start.mp3"
+Oct 23 18:02 : client: [4] opened from 127.0.0.1:33922
+Oct 23 18:19 : client: [4] closed
+Oct 24 01:26 : player: played "helloween/Better than Raw/I can.wma"
+Oct 24 20:59 : ffmpeg/asf: asf_read_pts failed
+Oct 24 20:59 : ffmpeg/asf: asf_read_pts failed
+Oct 24 20:59 : ffmpeg/asf: asf_read_pts failed
+Oct 24 20:59 : ffmpeg/asf: asf_read_pts failed
+Oct 24 20:59 : ffmpeg/asf: asf_read_pts failed
+Oct 24 20:59 : client: [0] opened from 127.0.0.1:53582
+Oct 24 20:59 : player: played "helloween/Better than Raw/I can.wma"
+Oct 24 20:59 : player: played "David Gilmour/On An Island - 2006/02 - David Gilmour - On an Island.mp3"
+Oct 24 21:04 : player: played "David Gilmour/On An Island - 2006/08 - David Gilmour - Smile.mp3"
+Oct 24 21:10 : client: [0] closed
+Oct 24 23:33 : player: played "David Gilmour/On An Island - 2006/09 - David Gilmour - A Pocketful of Stones.mp3"
+Oct 27 10:12 : client: [0] opened from 127.0.0.1:39608
+Oct 27 10:12 : player: played "David Gilmour/On An Island - 2006/09 - David Gilmour - A Pocketful of Stones.mp3"
+Oct 27 10:12 : client: [0] closed
+Oct 27 10:18 : player: played "David Gilmour/On An Island - 2006/09 - David Gilmour - A Pocketful of Stones.mp3"
+Oct 27 10:25 : player: played "David Gilmour/On An Island - 2006/10 - David Gilmour - Where We Start.mp3"
+Oct 27 10:30 : player: played "helloween/Better than Raw/I can.wma"
+Oct 27 13:46 : client: [1] opened from 127.0.0.1:40848
+Oct 27 13:47 : client: [1] closed
+Oct 27 13:47 : client: [2] opened from 127.0.0.1:40852
+Oct 27 13:47 : client: [2] closed
+Oct 27 13:52 : player: played "Coldplay/2005 - Cold Play - X&Y/02-What If.mp3"
+Oct 28 21:09 : client: [0] opened from 127.0.0.1:46536
+Oct 28 21:09 : client: [0] closed
+Oct 28 21:12 : client: [1] opened from 127.0.0.1:46586
+Oct 28 21:12 : player: played "Coldplay/2005 - Cold Play - X&Y/02-What If.mp3"
+Oct 28 21:12 : client: [1] closed
+Oct 29 21:34 : client: [0] opened from 127.0.0.1:48980
+Oct 29 21:35 : player: played "Coldplay/2005 - Cold Play - X&Y/02-What If.mp3"
+Oct 29 22:43 : client: [0] closed
+Oct 30 10:30 : client: [1] opened from 127.0.0.1:50950
+Oct 30 10:30 : client: [1] closed
+Oct 30 10:37 : player: played "Coldplay/2008 - Viva La Vida or Death and All His Friends/06. Yes.mp3"
+Oct 30 10:41 : player: played "Coldplay/2008 - Viva La Vida or Death and All His Friends/04. 42.mp3"
+Oct 30 10:46 : player: played "Coldplay/2005 - Cold Play - X&Y/02-What If.mp3"
