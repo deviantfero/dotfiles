@@ -1,7 +1,9 @@
 sw_volume: 100
 audio_device_state:1:MPD
 audio_device_state:1:Visualizer feed
-state: stop
+state: pause
+current: 19
+time: 190.624000
 random: 0
 repeat: 0
 single: 0
@@ -20,4 +22,16 @@ playlist_begin
 7:Coldplay/2008 - Viva La Vida or Death and All His Friends/06. Yes.mp3
 8:Coldplay/2008 - Viva La Vida or Death and All His Friends/04. 42.mp3
 9:Coldplay/2005 - Cold Play - X&Y/02-What If.mp3
+10:Led Zeppelin/Led Zeppelin - Greatest Hits 2CD (2008)/Disc 1/06. Babe I'm Gonna Leave You.mp3
+11:Led Zeppelin/Led Zeppelin - Greatest Hits 2CD (2008)/Disc 1/15. Stairway To Heaven.mp3
+12:Mägo de Oz/[1998] La Leyenda De La Mancha (Deluxe Edition)/13. Ancha Es Castilla.mp3
+13:helloween/Helloween [2000] The Dark Ride (2000)/Helloween - The Dark Ride - 11 - Immortal.mp3
+14:Phantom of the Opera/13 Down Once More - Track Down This Murderer.mp3
+15:Phantom of the Opera/12 The Point of No Return.mp3
+16:Chill/03 Nujabes - Aruarian Dance.mp3
+17:Chill/17 Minmi - Shiki No Uta.mp3
+18:Chill/23 Minmi - Who's Theme.mp3
+19:Chill/Nujabes - The Space Between Two Worlds.mp3
+20:Chill/Tasogare - Mai Yamane.mp3
+21:Chill/TOKiMONSTA - Sweet Day.mp3
 playlist_end

@@ -16350,3 +16350,170 @@ Oct 30 10:30 : client: [1] closed
 Oct 30 10:37 : player: played "Coldplay/2008 - Viva La Vida or Death and All His Friends/06. Yes.mp3"
 Oct 30 10:41 : player: played "Coldplay/2008 - Viva La Vida or Death and All His Friends/04. 42.mp3"
 Oct 30 10:46 : player: played "Coldplay/2005 - Cold Play - X&Y/02-What If.mp3"
+Oct 30 16:12 : client: [2] opened from 127.0.0.1:54120
+Oct 30 16:12 : client: [2] closed
+Oct 30 16:17 : player: played "Coldplay/2005 - Cold Play - X&Y/02-What If.mp3"
+Oct 30 16:18 : client: [3] opened from 127.0.0.1:54170
+Oct 30 16:18 : player: played "Coldplay/2008 - Viva La Vida or Death and All His Friends/04. 42.mp3"
+Oct 30 16:18 : client: [3] closed
+Oct 30 16:22 : client: [4] opened from 127.0.0.1:54210
+Oct 30 16:22 : player: played "Coldplay/2008 - Viva La Vida or Death and All His Friends/06. Yes.mp3"
+Oct 30 16:22 : client: [4] closed
+Oct 30 20:47 : client: [5] opened from 127.0.0.1:55868
+Oct 30 20:47 : client: [5] closed
+Oct 30 20:50 : client: [6] opened from 127.0.0.1:55942
+Oct 30 20:50 : player: played "David Gilmour/On An Island - 2006/02 - David Gilmour - On an Island.mp3"
+Oct 30 20:51 : client: [6] closed
+Oct 30 21:47 : client: [7] opened from 127.0.0.1:56378
+Oct 30 21:47 : client: [7] closed
+Oct 30 21:47 : client: [8] opened from 127.0.0.1:56380
+Oct 30 21:47 : client: [8] closed
+Oct 30 21:47 : client: [9] opened from 127.0.0.1:56382
+Oct 30 21:47 : client: [10] opened from 127.0.0.1:56384
+Oct 30 21:47 : client: [9] closed
+Oct 30 21:47 : client: [10] closed
+Nov 01 21:27 : client: [0] opened from 127.0.0.1:47130
+Nov 01 21:27 : client: [0] closed
+Nov 01 21:32 : player: played "Coldplay/2005 - Cold Play - X&Y/02-What If.mp3"
+Nov 02 10:44 : client: [0] opened from 127.0.0.1:57728
+Nov 02 10:44 : client: [0] closed
+Nov 02 10:51 : player: played "David Gilmour/On An Island - 2006/10 - David Gilmour - Where We Start.mp3"
+Nov 02 10:55 : player: played "helloween/Better than Raw/I can.wma"
+Nov 02 11:00 : player: played "Coldplay/2000 - Parachutes/05. Yellow.mp3"
+Nov 02 11:04 : client: [1] opened from 127.0.0.1:57756
+Nov 02 11:04 : player: played "Coldplay/2008 - Viva La Vida or Death and All His Friends/06. Yes.mp3"
+Nov 02 11:04 : client: [1] closed
+Nov 02 11:08 : player: played "Coldplay/2008 - Viva La Vida or Death and All His Friends/04. 42.mp3"
+Nov 02 11:13 : player: played "Coldplay/2005 - Cold Play - X&Y/02-What If.mp3"
+Nov 02 11:20 : client: [2] opened from 127.0.0.1:57992
+Nov 02 11:21 : client: [2] closed
+Nov 02 11:27 : player: played "Led Zeppelin/Led Zeppelin - Greatest Hits 2CD (2008)/Disc 1/06. Babe I'm Gonna Leave You.mp3"
+Nov 02 11:35 : player: played "Led Zeppelin/Led Zeppelin - Greatest Hits 2CD (2008)/Disc 1/15. Stairway To Heaven.mp3"
+Nov 02 11:36 : client: [3] opened from 127.0.0.1:58112
+Nov 02 11:37 : client: [3] closed
+Nov 02 11:41 : player: played "Mägo de Oz/[1998] La Leyenda De La Mancha (Deluxe Edition)/13. Ancha Es Castilla.mp3"
+Nov 04 20:55 : client: [0] opened from 127.0.0.1:46444
+Nov 04 20:56 : client: [0] closed
+Nov 04 20:56 : client: [1] opened from 127.0.0.1:46450
+Nov 04 20:56 : client: [1] closed
+Nov 04 21:02 : player: played "David Gilmour/On An Island - 2006/09 - David Gilmour - A Pocketful of Stones.mp3"
+Nov 04 21:08 : player: played "David Gilmour/On An Island - 2006/10 - David Gilmour - Where We Start.mp3"
+Nov 04 21:09 : client: [2] opened from 127.0.0.1:46538
+Nov 04 21:09 : player: played "helloween/Better than Raw/I can.wma"
+Nov 04 21:09 : client: [2] closed
+Nov 05 11:11 : client: [0] opened from 127.0.0.1:58842
+Nov 05 11:15 : player: played "Coldplay/2008 - Viva La Vida or Death and All His Friends/04. 42.mp3"
+Nov 05 11:20 : player: played "Coldplay/2005 - Cold Play - X&Y/02-What If.mp3"
+Nov 05 11:23 : client: [1] opened from 127.0.0.1:58916
+Nov 05 11:23 : client: [1] closed
+Nov 05 11:27 : player: played "Led Zeppelin/Led Zeppelin - Greatest Hits 2CD (2008)/Disc 1/06. Babe I'm Gonna Leave You.mp3"
+Nov 05 11:35 : player: played "Led Zeppelin/Led Zeppelin - Greatest Hits 2CD (2008)/Disc 1/15. Stairway To Heaven.mp3"
+Nov 05 11:39 : player: played "Mägo de Oz/[1998] La Leyenda De La Mancha (Deluxe Edition)/13. Ancha Es Castilla.mp3"
+Nov 05 12:05 : client: [0] closed
+Nov 05 12:05 : client: [2] opened from 127.0.0.1:59176
+Nov 05 12:05 : client: [2] closed
+Nov 05 13:37 : client: [3] opened from 127.0.0.1:59550
+Nov 05 13:37 : client: [3] closed
+Nov 05 13:37 : client: [4] opened from 127.0.0.1:59554
+Nov 05 13:38 : client: [4] closed
+Nov 05 13:38 : client: [5] opened from 127.0.0.1:59560
+Nov 05 13:38 : player: played "helloween/Helloween [2000] The Dark Ride (2000)/Helloween - The Dark Ride - 11 - Immortal.mp3"
+Nov 05 13:52 : client: [5] closed
+Nov 05 13:52 : player: played "helloween/Helloween [2000] The Dark Ride (2000)/Helloween - The Dark Ride - 11 - Immortal.mp3"
+Nov 05 19:52 : client: [0] opened from 127.0.0.1:55806
+Nov 05 19:52 : player: played "helloween/Helloween [2000] The Dark Ride (2000)/Helloween - The Dark Ride - 11 - Immortal.mp3"
+Nov 05 19:52 : player: played "helloween/Helloween [2000] The Dark Ride (2000)/Helloween - The Dark Ride - 11 - Immortal.mp3"
+Nov 05 19:56 : player: played "Mägo de Oz/[1998] La Leyenda De La Mancha (Deluxe Edition)/13. Ancha Es Castilla.mp3"
+Nov 05 20:00 : player: played "helloween/Helloween [2000] The Dark Ride (2000)/Helloween - The Dark Ride - 11 - Immortal.mp3"
+Nov 06 10:51 : client: [0] opened from 127.0.0.1:60628
+Nov 06 10:56 : player: played "Coldplay/2005 - Cold Play - X&Y/02-What If.mp3"
+Nov 06 11:03 : player: played "Led Zeppelin/Led Zeppelin - Greatest Hits 2CD (2008)/Disc 1/06. Babe I'm Gonna Leave You.mp3"
+Nov 06 11:03 : player: played "Led Zeppelin/Led Zeppelin - Greatest Hits 2CD (2008)/Disc 1/15. Stairway To Heaven.mp3"
+Nov 06 12:39 : player: played "David Gilmour/On An Island - 2006/10 - David Gilmour - Where We Start.mp3"
+Nov 06 12:39 : player: played "David Gilmour/On An Island - 2006/09 - David Gilmour - A Pocketful of Stones.mp3"
+Nov 06 12:39 : client: [0] closed
+Nov 06 12:43 : player: played "David Gilmour/On An Island - 2006/08 - David Gilmour - Smile.mp3"
+Nov 06 12:43 : client: [1] opened from 127.0.0.1:33216
+Nov 06 12:43 : player: played "David Gilmour/On An Island - 2006/09 - David Gilmour - A Pocketful of Stones.mp3"
+Nov 06 12:43 : client: [1] closed
+Nov 06 12:47 : player: played "David Gilmour/On An Island - 2006/08 - David Gilmour - Smile.mp3"
+Nov 06 12:53 : player: played "David Gilmour/On An Island - 2006/09 - David Gilmour - A Pocketful of Stones.mp3"
+Nov 06 13:00 : player: played "David Gilmour/On An Island - 2006/10 - David Gilmour - Where We Start.mp3"
+Nov 06 13:05 : player: played "helloween/Better than Raw/I can.wma"
+Nov 06 13:09 : player: played "Coldplay/2000 - Parachutes/05. Yellow.mp3"
+Nov 06 13:16 : player: played "Coldplay/2008 - Viva La Vida or Death and All His Friends/06. Yes.mp3"
+Nov 06 13:20 : player: played "Coldplay/2008 - Viva La Vida or Death and All His Friends/04. 42.mp3"
+Nov 06 13:25 : player: played "Coldplay/2005 - Cold Play - X&Y/02-What If.mp3"
+Nov 06 13:32 : player: played "Led Zeppelin/Led Zeppelin - Greatest Hits 2CD (2008)/Disc 1/06. Babe I'm Gonna Leave You.mp3"
+Nov 06 13:40 : player: played "Led Zeppelin/Led Zeppelin - Greatest Hits 2CD (2008)/Disc 1/15. Stairway To Heaven.mp3"
+Nov 06 13:44 : player: played "Mägo de Oz/[1998] La Leyenda De La Mancha (Deluxe Edition)/13. Ancha Es Castilla.mp3"
+Nov 06 13:48 : player: played "helloween/Helloween [2000] The Dark Ride (2000)/Helloween - The Dark Ride - 11 - Immortal.mp3"
+Nov 12 21:06 : client: [0] opened from 127.0.0.1:43976
+Nov 12 21:06 : player: played "David Gilmour/On An Island - 2006/05 - David Gilmour - Red Sky at Night.mp3"
+Nov 12 21:11 : player: played "David Gilmour/On An Island - 2006/02 - David Gilmour - On an Island.mp3"
+Nov 12 21:12 : client: [0] closed
+Nov 13 15:37 : client: [0] opened from 127.0.0.1:51884
+Nov 13 15:37 : client: [0] closed
+Nov 13 15:46 : client: [1] opened from 127.0.0.1:51900
+Nov 13 15:47 : player: played "Phantom of the Opera/13 Down Once More - Track Down This Murderer.mp3"
+Nov 13 15:54 : player: played "Phantom of the Opera/12 The Point of No Return.mp3"
+Nov 13 15:54 : client: [2] opened from 127.0.0.1:51918
+Nov 13 15:54 : client: [2] closed
+Nov 13 16:00 : player: played "Led Zeppelin/Led Zeppelin - Greatest Hits 2CD (2008)/Disc 1/06. Babe I'm Gonna Leave You.mp3"
+Nov 13 16:08 : player: played "Led Zeppelin/Led Zeppelin - Greatest Hits 2CD (2008)/Disc 1/15. Stairway To Heaven.mp3"
+Nov 13 16:12 : player: played "Mägo de Oz/[1998] La Leyenda De La Mancha (Deluxe Edition)/13. Ancha Es Castilla.mp3"
+Nov 13 16:16 : player: played "helloween/Helloween [2000] The Dark Ride (2000)/Helloween - The Dark Ride - 11 - Immortal.mp3"
+Nov 13 16:17 : client: [1] closed
+Nov 13 16:17 : client: [3] opened from 127.0.0.1:51984
+Nov 13 16:17 : player: played "Phantom of the Opera/13 Down Once More - Track Down This Murderer.mp3"
+Nov 13 16:17 : client: [3] closed
+Nov 13 16:23 : player: played "David Gilmour/On An Island - 2006/10 - David Gilmour - Where We Start.mp3"
+Nov 13 16:28 : player: played "helloween/Better than Raw/I can.wma"
+Nov 13 16:32 : player: played "Coldplay/2000 - Parachutes/05. Yellow.mp3"
+Nov 13 16:40 : player: played "Coldplay/2008 - Viva La Vida or Death and All His Friends/06. Yes.mp3"
+Nov 13 16:44 : player: played "Coldplay/2008 - Viva La Vida or Death and All His Friends/04. 42.mp3"
+Nov 13 16:49 : player: played "Coldplay/2005 - Cold Play - X&Y/02-What If.mp3"
+Nov 13 16:55 : player: played "Led Zeppelin/Led Zeppelin - Greatest Hits 2CD (2008)/Disc 1/06. Babe I'm Gonna Leave You.mp3"
+Nov 13 17:03 : player: played "Led Zeppelin/Led Zeppelin - Greatest Hits 2CD (2008)/Disc 1/15. Stairway To Heaven.mp3"
+Nov 13 17:07 : player: played "Mägo de Oz/[1998] La Leyenda De La Mancha (Deluxe Edition)/13. Ancha Es Castilla.mp3"
+Nov 13 17:11 : player: played "helloween/Helloween [2000] The Dark Ride (2000)/Helloween - The Dark Ride - 11 - Immortal.mp3"
+Nov 13 17:26 : player: played "Phantom of the Opera/13 Down Once More - Track Down This Murderer.mp3"
+Nov 13 17:32 : player: played "Phantom of the Opera/12 The Point of No Return.mp3"
+Nov 14 21:42 : client: [0] opened from 127.0.0.1:33064
+Nov 14 21:45 : player: played "Phantom of the Opera/13 Down Once More - Track Down This Murderer.mp3"
+Nov 14 21:50 : player: played "Phantom of the Opera/12 The Point of No Return.mp3"
+Nov 14 21:50 : client: [0] closed
+Nov 16 21:22 : client: [0] opened from 127.0.0.1:48778
+Nov 16 21:24 : player: played "Phantom of the Opera/13 Down Once More - Track Down This Murderer.mp3"
+Nov 16 21:25 : player: played "Phantom of the Opera/12 The Point of No Return.mp3"
+Nov 16 21:29 : player: played "Mägo de Oz/[1998] La Leyenda De La Mancha (Deluxe Edition)/13. Ancha Es Castilla.mp3"
+Nov 16 21:29 : client: [0] closed
+Nov 16 22:52 : client: [1] opened from 127.0.0.1:50260
+Nov 16 22:53 : player: played "helloween/Helloween [2000] The Dark Ride (2000)/Helloween - The Dark Ride - 11 - Immortal.mp3"
+Nov 16 22:55 : player: played "Chill/03 Nujabes - Aruarian Dance.mp3"
+Nov 16 23:00 : player: played "Chill/17 Minmi - Shiki No Uta.mp3"
+Nov 16 23:05 : player: played "Chill/23 Minmi - Who's Theme.mp3"
+Nov 16 23:07 : player: played "Chill/Nujabes - The Space Between Two Worlds.mp3"
+Nov 16 23:10 : client: [1] closed
+Nov 17 02:42 : player: played "Chill/Tasogare - Mai Yamane.mp3"
+Nov 17 16:15 : client: [0] opened from 127.0.0.1:40218
+Nov 17 16:15 : player: played "Chill/Tasogare - Mai Yamane.mp3"
+Nov 17 16:19 : player: played "Coldplay/2008 - Viva La Vida or Death and All His Friends/04. 42.mp3"
+Nov 17 16:24 : player: played "Coldplay/2005 - Cold Play - X&Y/02-What If.mp3"
+Nov 17 16:31 : player: played "Led Zeppelin/Led Zeppelin - Greatest Hits 2CD (2008)/Disc 1/06. Babe I'm Gonna Leave You.mp3"
+Nov 17 16:39 : player: played "Led Zeppelin/Led Zeppelin - Greatest Hits 2CD (2008)/Disc 1/15. Stairway To Heaven.mp3"
+Nov 17 16:39 : player: played "Mägo de Oz/[1998] La Leyenda De La Mancha (Deluxe Edition)/13. Ancha Es Castilla.mp3"
+Nov 17 16:39 : client: [0] closed
+Nov 18 22:24 : client: [0] opened from 127.0.0.1:34628
+Nov 18 22:24 : client: [0] closed
+Nov 18 23:04 : client: [1] opened from 127.0.0.1:34798
+Nov 18 23:04 : player: played "David Gilmour/On An Island - 2006/09 - David Gilmour - A Pocketful of Stones.mp3"
+Nov 18 23:07 : player: played "David Gilmour/On An Island - 2006/10 - David Gilmour - Where We Start.mp3"
+Nov 18 23:07 : player: played "Chill/17 Minmi - Shiki No Uta.mp3"
+Nov 18 23:10 : player: played "Chill/03 Nujabes - Aruarian Dance.mp3"
+Nov 18 23:15 : player: played "Chill/17 Minmi - Shiki No Uta.mp3"
+Nov 18 23:20 : player: played "Chill/23 Minmi - Who's Theme.mp3"
+Nov 19 00:02 : client: [1] closed
+Nov 19 00:02 : client: [2] opened from 127.0.0.1:35164
+Nov 19 00:02 : client: [2] closed
+Nov 19 00:04 : player: played "Chill/Nujabes - The Space Between Two Worlds.mp3"

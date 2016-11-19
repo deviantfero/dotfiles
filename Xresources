@@ -7,8 +7,10 @@ URxvt*background: 0
 
 ! Font options
 URxvt*foreground: #ffffff 
-URxvt*font: xft:terminess powerline:size=9:antialias=true:hinting=true
-URxvt*letterSpace: 0
+URxvt*font: xft:Droid sans mono:size=8:antialias=false:hinting=false
+!URxvt*font: xft:terminess powerline:size=9:antialias=true:hinting=true
+URxvt*letterSpace: -1
+!URxvt*letterSpace: 0
 URxvt*internalBorder: 10
 URxvt.boldFont:
 

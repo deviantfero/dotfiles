@@ -134,7 +134,7 @@ set ttimeoutlen=50
 set lazyredraw "less redraws
 set splitbelow "shows info or documentation below code, so code doesn't move
 
-set shell=/bin/zsh "shell to use
+set shell=/bin/bash "shell to use
 set t_vb=	"disable all bells
 set undolevels=1000	"undo levels
 set foldmethod=marker "allow marking folds
