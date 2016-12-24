@@ -18,7 +18,7 @@
     <focusDelay>200</focusDelay>
     <!-- when followMouse is enabled, the mouse must be inside the window for
        this many milliseconds (1000 = 1 sec) before moving focus to it -->
-    <raiseOnFocus>no</raiseOnFocus>
+    <raiseOnFocus>yes</raiseOnFocus>
     <!-- when followMouse is enabled, and a window is given focus by moving the
        mouse into it, also raise the window -->
   </focus>
@@ -28,7 +28,7 @@
     <center>yes</center>
     <!-- whether to place windows in the center of the free area found or
        the top left corner -->
-    <monitor>Any</monitor>
+    <monitor>Mouse</monitor>
     <!-- with Smart placement on a multi-monitor system, try to place new windows
          on: 'Any' - any monitor, 'Mouse' - where the mouse is, 'Active' - where
          the active window is, 'Primary' - only on the primary monitor -->
@@ -273,11 +273,6 @@
         <command>scrot</command>
       </action>
     </keybind>
-    <keybind key="W-S-X">
-      <action name="Execute">
-        <command>switchless</command>
-      </action>
-    </keybind>
     <keybind key="W-Print">
       <action name="Execute">
         <command>desktop-record</command>
@@ -293,14 +288,10 @@
         <command>scrot -s</command>
       </action>
     </keybind>
-    <keybind key="A-Print">
-      <action name="Execute">
-        <command>scrot '%Y-%m-%d--%s_$wx$h_scrot.png' -e 'mv $f ~/images/ &amp; viewnior ~/images/$f'</command>
-      </action>
-    </keybind>
     <!-- Keybindings for window switching -->
     <keybind key="A-Tab">
       <action name="NextWindow">
+        <raise>yes</raise>
         <finalactions>
           <action name="Focus"/>
           <action name="Raise"/>
@@ -310,6 +301,7 @@
     </keybind>
     <keybind key="A-S-Tab">
       <action name="PreviousWindow">
+        <raise>yes</raise>
         <finalactions>
           <action name="Focus"/>
           <action name="Raise"/>
@@ -319,6 +311,7 @@
     </keybind>
     <keybind key="C-A-Tab">
       <action name="NextWindow">
+        <raise>yes</raise>
         <panels>yes</panels>
         <desktop>yes</desktop>
         <finalactions>
@@ -395,13 +388,13 @@
         <command>cb-lock</command>
       </action>
     </keybind>
-    <keybind key="W-e">
+    <keybind key="W-s">
       <action name="Execute">
         <startupnotify>
           <enabled>true</enabled>
           <name>Editor</name>
         </startupnotify>
-        <command>subl3</command>
+		<command>bash -c 'notify-send "$(cat ~/.ssh/config)"'</command>
       </action>
     </keybind>
     <keybind key="W-m">
@@ -591,7 +584,7 @@
         <action name="Move"/>
       </mousebind>
       <mousebind button="Left" action="DoubleClick">
-        <action name="ToggleMaximize"/>
+        <action name="ToggleMaximizeFull"/>
       </mousebind>
       <mousebind button="Middle" action="Press">
         <action name="Lower"/>

@@ -1,51 +1,85 @@
-# Created by newuser for 5.0.7
+# If you come from bash you might have to change your $PATH.
+# export PATH=$HOME/bin:/usr/local/bin:$PATH
 
-# Lines configured by zsh-newuser-install
-HISTFILE=~/.histfile
-HISTSIZE=1000
-SAVEHIST=1000
-# End of lines configured by zsh-newuser-install
-# The following lines were added by compinstall
+# Path to your oh-my-zsh installation.
+  export ZSH=/home/fernando/.oh-my-zsh
 
-zstyle ':completion:*' list-colors ''
-zstyle :compinstall filename '/home/fernando/.zshrc'
-export MPD_HOST=/home/USER/.mpd/socket 
-export KEYTIMEOUT=1
+# Set name of the theme to load. Optionally, if you set this to "random"
+# it'll load a random theme each time that oh-my-zsh is loaded.
+# See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
+ZSH_THEME="deviantfero"
 
-alias ls='ls --color=auto'
-alias sf='screenfetch -t'
-alias ytmp3='youtube-dl -x --audio-format mp3'
-alias grep='grep --color=auto'
-alias onsql='sudo systemctl start postgresql.service'
-alias offsql='sudo systemctl stop postgresql.service'
-alias astral='mpv "http://usa8-vn.mixstream.net:8146/;stream.mp3"'
+# Uncomment the following line to use case-sensitive completion.
+# CASE_SENSITIVE="true"
 
-bindkey '^R' history-incremental-search-backward
+# Uncomment the following line to use hyphen-insensitive completion. Case
+# sensitive completion must be off. _ and - will be interchangeable.
+# HYPHEN_INSENSITIVE="true"
 
-autoload -Uz compinit
-compinit
+# Uncomment the following line to disable bi-weekly auto-update checks.
+# DISABLE_AUTO_UPDATE="true"
 
-autoload -Uz colors
-colors
-# End of lines added by compinstall
+# Uncomment the following line to change how often to auto-update (in days).
+# export UPDATE_ZSH_DAYS=13
 
-PROMPT="%{$fg_bold[magenta]%}λ %{$reset_color%}%{$fg_bold[green]%}%~%{$fg_bold[magenta]%} %%%{$reset_color%} %"
-#PROMPT="%{$bg[magenta]%}%{$fg_bold[0]%} λ %{$reset_color%}%{$bg[green]%}%{$fg_bold[0]%} %~ %{$fg[0]%}%{$bg[magenta]%} >> %{$reset_color%b%} %"
-#PROMPT="[%{$fg_bod[blue]%} %~ %{$reset_color%}] %{$fg_bold[green]%}>>%{$reset_color%} %"
-RPROMPT=""
+# Uncomment the following line to disable colors in ls.
+# DISABLE_LS_COLORS="true"
 
-function precmd() {
-	print -Pn "\e]2;%M %~\a"
-}
-function chpwd() {
-	print -Pn "\e]2;%M %~\a"
-}
+# Uncomment the following line to disable auto-setting terminal title.
+# DISABLE_AUTO_TITLE="true"
 
-function zle-line-init zle-keymap-select {
-    VIM_PROMPT="%{$fg_bold[red]%}[% NORMAL]% %{$reset_color%}"
-    RPROMPT="${${KEYMAP/vicmd/$VIM_PROMPT}/(main|viins)/}"
-    zle reset-prompt
-}
+# Uncomment the following line to enable command auto-correction.
+#ENABLE_CORRECTION="true"
 
-zle -N zle-line-init
-zle -N zle-keymap-select
+# Uncomment the following line to display red dots whilst waiting for completion.
+#COMPLETION_WAITING_DOTS="true"
+
+# Uncomment the following line if you want to disable marking untracked files
+# under VCS as dirty. This makes repository status check for large repositories
+# much, much faster.
+#DISABLE_UNTRACKED_FILES_DIRTY="true"
+
+# Uncomment the following line if you want to change the command execution time
+# stamp shown in the history command output.
+# The optional three formats: "mm/dd/yyyy"|"dd.mm.yyyy"|"yyyy-mm-dd"
+# HIST_STAMPS="mm/dd/yyyy"
+
+# Would you like to use another custom folder than $ZSH/custom?
+# ZSH_CUSTOM=/path/to/new-custom-folder
+
+# Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
+# Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
+# Example format: plugins=(rails git textmate ruby lighthouse)
+# Add wisely, as too many plugins slow down shell startup.
+plugins=(git)
+
+source $ZSH/oh-my-zsh.sh
+
+# User configuration
+
+# export MANPATH="/usr/local/man:$MANPATH"
+
+# You may need to manually set your language environment
+# export LANG=en_US.UTF-8
+
+# Preferred editor for local and remote sessions
+# if [[ -n $SSH_CONNECTION ]]; then
+#   export EDITOR='vim'
+# else
+#   export EDITOR='mvim'
+# fi
+
+# Compilation flags
+# export ARCHFLAGS="-arch x86_64"
+
+# ssh
+# export SSH_KEY_PATH="~/.ssh/rsa_id"
+
+# Set personal aliases, overriding those provided by oh-my-zsh libs,
+# plugins, and themes. Aliases can be placed here, though oh-my-zsh
+# users are encouraged to define aliases within the ZSH_CUSTOM folder.
+# For a full list of active aliases, run `alias`.
+#
+# Example aliases
+# alias zshconfig="mate ~/.zshrc"
+# alias ohmyzsh="mate ~/.oh-my-zsh"

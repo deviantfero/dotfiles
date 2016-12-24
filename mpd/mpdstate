@@ -1,10 +1,10 @@
-sw_volume: 100
+sw_volume: 98
 audio_device_state:1:MPD
 audio_device_state:1:Visualizer feed
 state: pause
-current: 19
-time: 190.624000
-random: 0
+current: 13
+time: 132.017000
+random: 1
 repeat: 0
 single: 0
 consume: 0
@@ -12,26 +12,77 @@ crossfade: 0
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:David Gilmour/On An Island - 2006/02 - David Gilmour - On an Island.mp3
-1:David Gilmour/On An Island - 2006/05 - David Gilmour - Red Sky at Night.mp3
-2:David Gilmour/On An Island - 2006/08 - David Gilmour - Smile.mp3
-3:David Gilmour/On An Island - 2006/09 - David Gilmour - A Pocketful of Stones.mp3
-4:David Gilmour/On An Island - 2006/10 - David Gilmour - Where We Start.mp3
-5:helloween/Better than Raw/I can.wma
-6:Coldplay/2000 - Parachutes/05. Yellow.mp3
-7:Coldplay/2008 - Viva La Vida or Death and All His Friends/06. Yes.mp3
-8:Coldplay/2008 - Viva La Vida or Death and All His Friends/04. 42.mp3
-9:Coldplay/2005 - Cold Play - X&Y/02-What If.mp3
-10:Led Zeppelin/Led Zeppelin - Greatest Hits 2CD (2008)/Disc 1/06. Babe I'm Gonna Leave You.mp3
-11:Led Zeppelin/Led Zeppelin - Greatest Hits 2CD (2008)/Disc 1/15. Stairway To Heaven.mp3
-12:Mägo de Oz/[1998] La Leyenda De La Mancha (Deluxe Edition)/13. Ancha Es Castilla.mp3
-13:helloween/Helloween [2000] The Dark Ride (2000)/Helloween - The Dark Ride - 11 - Immortal.mp3
-14:Phantom of the Opera/13 Down Once More - Track Down This Murderer.mp3
-15:Phantom of the Opera/12 The Point of No Return.mp3
-16:Chill/03 Nujabes - Aruarian Dance.mp3
-17:Chill/17 Minmi - Shiki No Uta.mp3
-18:Chill/23 Minmi - Who's Theme.mp3
-19:Chill/Nujabes - The Space Between Two Worlds.mp3
-20:Chill/Tasogare - Mai Yamane.mp3
-21:Chill/TOKiMONSTA - Sweet Day.mp3
+0:Pink Floyd/1975 - Wish You Were Here 2011 Remaster/01 Shine On You Crazy Diamond (Parts 1-5).mp3
+1:Pink Floyd/1975 - Wish You Were Here 2011 Remaster/02 Welcome To The Machine.mp3
+2:Pink Floyd/1975 - Wish You Were Here 2011 Remaster/04 Wish You Were Here.mp3
+3:Led Zeppelin/Led Zeppelin - Greatest Hits 2CD (2008)/Disc 1/06. Babe I'm Gonna Leave You.mp3
+4:The Beatles/ Yellow Submarine/01 - Yellow Submarine.mp3
+5:The Beatles/ Yellow Submarine/02 - Only A Northern Song.mp3
+6:The Beatles/ Yellow Submarine/03 - All Together Now.mp3
+7:The Beatles/ Yellow Submarine/04 - Hey Bulldog.mp3
+8:The Beatles/ Yellow Submarine/05 - It's All Too Much.mp3
+9:The Beatles/ Yellow Submarine/06 - All You Need Is Love.mp3
+10:The Beatles/ Yellow Submarine/07 - Pepperland.mp3
+11:The Beatles/ Yellow Submarine/08 - Sea Of Time.mp3
+12:The Beatles/ Yellow Submarine/09 - Sea Of Holes.mp3
+13:The Beatles/ Yellow Submarine/10 - Sea Of Monsters.mp3
+14:The Beatles/ Yellow Submarine/11 - March Of The Meanies.mp3
+15:The Beatles/ Yellow Submarine/12 - Pepperland Laid Waste.mp3
+16:The Beatles/ Yellow Submarine/13 - Yellow Submarine In Pepperland.mp3
+17:The Beatles/Let It Be/01-Two of Us.mp3
+18:The Beatles/Let It Be/02-Dig a Pony.mp3
+19:The Beatles/Let It Be/03-Across the Universe.mp3
+20:The Beatles/Let It Be/04-I Me Mine.mp3
+21:The Beatles/Let It Be/05-Dig It.mp3
+22:The Beatles/Let It Be/06-Let It Be.mp3
+23:The Beatles/Let It Be/07-Maggie Mae.mp3
+24:The Beatles/Let It Be/08-I've Got A Feeling.mp3
+25:The Beatles/Let It Be/09-One After 909.mp3
+26:The Beatles/Let It Be/10-The Long and Winding.mp3
+27:The Beatles/Let It Be/11-For You Blue.mp3
+28:The Beatles/Let It Be/12-Get Back.mp3
+29:The Beatles/Rubber Soul/01 - Drive My Car.mp3
+30:The Beatles/Rubber Soul/02 - Norwegian Wood (This Bird Has Flown).mp3
+31:The Beatles/Rubber Soul/03 - You Won't See Me.mp3
+32:The Beatles/Rubber Soul/04 - Nowhere Man.mp3
+33:The Beatles/Rubber Soul/05 - Think For Yourself.mp3
+34:The Beatles/Rubber Soul/06 - The Word.mp3
+35:The Beatles/Rubber Soul/07 - Michelle.mp3
+36:The Beatles/Rubber Soul/08 - What Goes On.mp3
+37:The Beatles/Rubber Soul/09 - Girl.mp3
+38:The Beatles/Rubber Soul/10 - I'm Looking Through You.mp3
+39:The Beatles/Rubber Soul/11 - In My Life.mp3
+40:The Beatles/Rubber Soul/12 - Wait.mp3
+41:The Beatles/Rubber Soul/13 - If I Needed Someone.mp3
+42:The Beatles/Rubber Soul/14 - Run For Your Life.mp3
+43:The Beatles/White Album 1/01 - Back In The U.S.S.R..mp3
+44:The Beatles/White Album 1/02 - Dear Prudence.mp3
+45:The Beatles/White Album 1/03 - Glass Onion.mp3
+46:The Beatles/White Album 1/04 - Ob-La-Di, Ob-La-Da.mp3
+47:The Beatles/White Album 1/05 - Wild Honey Pie.mp3
+48:The Beatles/White Album 1/06 - The Continuing Story Of Bungalow Bill.mp3
+49:The Beatles/White Album 1/07 - While My Guitar Gently Weeps.mp3
+50:The Beatles/White Album 1/08 - Happiness Is A Warm Gun.mp3
+51:The Beatles/White Album 1/09 - Martha My Dear.mp3
+52:The Beatles/White Album 1/10 - I'm So Tired.mp3
+53:The Beatles/White Album 1/11 - Blackbird.mp3
+54:The Beatles/White Album 1/12 - Piggies.mp3
+55:The Beatles/White Album 1/13 - Rocky Racoon.mp3
+56:The Beatles/White Album 1/14 - Don't Pass Me By.mp3
+57:The Beatles/White Album 1/15 - Why Don't We Do It In The Road.mp3
+58:The Beatles/White Album 1/16 - I Will.mp3
+59:The Beatles/White Album 1/17 - Julia.mp3
+60:The Beatles/White Album 2/01 - Birthday.mp3
+61:The Beatles/White Album 2/02 - Yer Blues.mp3
+62:The Beatles/White Album 2/03 - Mother Nature's Son.mp3
+63:The Beatles/White Album 2/04 - Everybody's Got Something To Hide (Except Me And My Monkey).mp3
+64:The Beatles/White Album 2/05 - Sexy Sadie.mp3
+65:The Beatles/White Album 2/06 - Helter Skelter.mp3
+66:The Beatles/White Album 2/07 - Long Long Long.mp3
+67:The Beatles/White Album 2/08 - Revolution 1.mp3
+68:The Beatles/White Album 2/09 - Honey Pie.mp3
+69:The Beatles/White Album 2/10 - Savoy Truffle.mp3
+70:The Beatles/White Album 2/11 - Cry Baby Cry.mp3
+71:The Beatles/White Album 2/12 - Revolution 9.mp3
+72:The Beatles/White Album 2/13 - Good Night.mp3
 playlist_end

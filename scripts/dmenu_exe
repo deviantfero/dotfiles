@@ -1,2 +1,2 @@
 #!/bin/bash
-dmenu_run -f -q -x 700 -y 500 -w 500 -h 20 -dim 0.8 -fn "terminess powerline-9" -sb "#487685" -nb "#2f4e58" -sf "#ffffff" -p "λ ~ %"
+dmenu_run -f -q -x 700 -y 500 -w 500 -h 20 -dim 0.8 -fn "droid sans mono-8" -sb "#aa8f4a" -nb "#5d4e29" -sf "#ffffff" -p "λ ~ %"

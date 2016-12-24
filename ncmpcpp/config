@@ -47,7 +47,7 @@ playlist_disable_highlight_delay = "5"
 message_delay_time = "4"
 
 # Playlist
-now_playing_prefix = "$5>>$b"
+now_playing_prefix = "$5 ::$b"
 playlist_display_mode = "classic" (classic/columns)
 autocenter_mode = "yes"
 centered_cursor = "yes"

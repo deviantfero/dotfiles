@@ -16517,3 +16517,579 @@ Nov 19 00:02 : client: [1] closed
 Nov 19 00:02 : client: [2] opened from 127.0.0.1:35164
 Nov 19 00:02 : client: [2] closed
 Nov 19 00:04 : player: played "Chill/Nujabes - The Space Between Two Worlds.mp3"
+Nov 19 00:09 : client: [3] opened from 127.0.0.1:35220
+Nov 19 00:09 : player: played "Chill/Tasogare - Mai Yamane.mp3"
+Nov 19 00:09 : client: [3] closed
+Nov 19 09:58 : client: [4] opened from 127.0.0.1:36226
+Nov 19 10:09 : player: played "Stratovarius/2009 - Polaris/05 - Winter Skies.mp3"
+Nov 19 10:15 : player: played "Stratovarius/2009 - Polaris/08 - Somehow Precious.mp3"
+Nov 19 10:20 : client: [4] closed
+Nov 19 10:25 : player: played "Stratovarius/1998 - Destiny/08 - Venus In The Morning.mp3"
+Nov 19 10:28 : player: played "Stratovarius/2000 - Infinite/09 - Celestial Dream.mp3"
+Nov 19 10:55 : client: [5] opened from 127.0.0.1:36530
+Nov 19 10:55 : client: [5] closed
+Nov 19 11:06 : client: [6] opened from 127.0.0.1:36668
+Nov 19 11:06 : client: [6] closed
+Nov 19 11:11 : player: played "Coldplay/2005 - Cold Play - X&Y/02-What If.mp3"
+Nov 19 11:11 : client: [7] opened from 127.0.0.1:36718
+Nov 19 11:11 : player: played "Led Zeppelin/Led Zeppelin - Greatest Hits 2CD (2008)/Disc 1/06. Babe I'm Gonna Leave You.mp3"
+Nov 19 11:11 : client: [7] closed
+Nov 19 11:15 : player: played "Chill/03 Nujabes - Aruarian Dance.mp3"
+Nov 19 11:18 : client: [8] opened from 127.0.0.1:36856
+Nov 19 11:18 : player: played "Chill/Nujabes - The Space Between Two Worlds.mp3"
+Nov 19 11:18 : client: [8] closed
+Nov 19 14:50 : client: [0] opened from 127.0.0.1:50028
+Nov 19 14:54 : player: played "Chill/03 Nujabes - Aruarian Dance.mp3"
+Nov 19 15:40 : client: [0] closed
+Nov 19 23:32 : player: played "Chill/Nujabes - The Space Between Two Worlds.mp3"
+Nov 23 02:09 : client: [0] opened from 127.0.0.1:51240
+Nov 23 02:09 : player: played "Chill/Nujabes - The Space Between Two Worlds.mp3"
+Nov 23 02:09 : player: played "Chill/Nujabes - The Space Between Two Worlds.mp3"
+Nov 23 02:09 : client: [0] closed
+Nov 23 13:59 : client: [0] opened from 127.0.0.1:47214
+Nov 23 13:59 : client: [0] closed
+Nov 23 16:26 : client: [0] opened from 127.0.0.1:45242
+Nov 23 16:30 : player: played "Chill/03 Nujabes - Aruarian Dance.mp3"
+Nov 23 16:33 : client: [0] closed
+Nov 23 16:56 : client: [1] opened from 127.0.0.1:45816
+Nov 23 16:57 : player: played "Chill/Nujabes - The Space Between Two Worlds.mp3"
+Nov 23 16:58 : pulse_output: "MPD" [pulse] failed to play: disconnected
+Nov 23 16:58 : client: [2] opened from 127.0.0.1:45828
+Nov 23 16:58 : player: played "Chill/03 Nujabes - Aruarian Dance.mp3"
+Nov 23 17:12 : client: [0] opened from 127.0.0.1:45678
+Nov 23 17:12 : player: played "Chill/03 Nujabes - Aruarian Dance.mp3"
+Nov 23 17:12 : client: [0] closed
+Nov 23 17:12 : client: [1] opened from 127.0.0.1:45682
+Nov 23 17:14 : player: played "Chill/03 Nujabes - Aruarian Dance.mp3"
+Nov 23 17:14 : client: [1] closed
+Nov 23 17:17 : client: [2] opened from 127.0.0.1:45776
+Nov 23 17:17 : player: played "David Gilmour/On An Island - 2006/08 - David Gilmour - Smile.mp3"
+Nov 23 17:17 : client: [2] closed
+Nov 23 17:50 : client: [3] opened from 127.0.0.1:46066
+Nov 23 17:51 : player: played "The Beatles/The  Capitol Albums Volume 2/110-The_Beatles-A_Taste_of_Honey.mp3"
+Nov 23 17:51 : player: played "Pink Floyd/1969 - Music From The Film More 2011 Remaster/04. Up The Khyber.mp3"
+Nov 23 17:52 : update: added Gamma Ray/(1990) Heading For Tomorrow/Gamma Ray - 01 Welcome.mp3
+Nov 23 17:52 : update: added Gamma Ray/(1990) Heading For Tomorrow/Gamma Ray - 02 Lust For Life.mp3
+Nov 23 17:52 : update: added Gamma Ray/(1990) Heading For Tomorrow/Gamma Ray - 03 Heaven Can Wait.mp3
+Nov 23 17:52 : update: added Gamma Ray/(1990) Heading For Tomorrow/Gamma Ray - 04 Space Eater.mp3
+Nov 23 17:52 : update: added Gamma Ray/(1990) Heading For Tomorrow/Gamma Ray - 05 Money.mp3
+Nov 23 17:52 : update: added Gamma Ray/(1990) Heading For Tomorrow/Gamma Ray - 06 The Silence.mp3
+Nov 23 17:52 : update: added Gamma Ray/(1990) Heading For Tomorrow/Gamma Ray - 07 Hold Your Ground.mp3
+Nov 23 17:52 : update: added Gamma Ray/(1990) Heading For Tomorrow/Gamma Ray - 08 Free Time.mp3
+Nov 23 17:52 : update: added Gamma Ray/(1990) Heading For Tomorrow/Gamma Ray - 09 Heading For Tomorrow.mp3
+Nov 23 17:52 : update: added Gamma Ray/(1990) Heading For Tomorrow/Gamma Ray - 10 Look at Yourself.mp3
+Nov 23 17:52 : update: added Gamma Ray/(1991) Sigh No More/Gamma Ray - 01 Changes.mp3
+Nov 23 17:52 : update: added Gamma Ray/(1991) Sigh No More/Gamma Ray - 02 Rich & Famous.mp3
+Nov 23 17:52 : update: added Gamma Ray/(1991) Sigh No More/Gamma Ray - 03 As Time Goes By.mp3
+Nov 23 17:52 : update: added Gamma Ray/(1991) Sigh No More/Gamma Ray - 04 (We Won't) Stop the War.mp3
+Nov 23 17:52 : update: added Gamma Ray/(1991) Sigh No More/Gamma Ray - 05 Father and Son.mp3
+Nov 23 17:52 : update: added Gamma Ray/(1991) Sigh No More/Gamma Ray - 06 One With the World.mp3
+Nov 23 17:52 : update: added Gamma Ray/(1991) Sigh No More/Gamma Ray - 07 Start Running.mp3
+Nov 23 17:52 : update: added Gamma Ray/(1991) Sigh No More/Gamma Ray - 09 Dream Healer.mp3
+Nov 23 17:52 : update: added Gamma Ray/(1991) Sigh No More/Gamma Ray - 10 The Spirit.mp3
+Nov 23 17:52 : update: added Gamma Ray/(1993) Insanity and Genius/Gamma Ray - 01 Tribute to the Past.mp3
+Nov 23 17:52 : update: added Gamma Ray/(1993) Insanity and Genius/Gamma Ray - 02 No Return.mp3
+Nov 23 17:52 : update: added Gamma Ray/(1993) Insanity and Genius/Gamma Ray - 03 Last Before the Storm.mp3
+Nov 23 17:52 : update: added Gamma Ray/(1993) Insanity and Genius/Gamma Ray - 04 The Cave Principle.mp3
+Nov 23 17:52 : update: added Gamma Ray/(1993) Insanity and Genius/Gamma Ray - 05 Future Madhouse.mp3
+Nov 23 17:52 : update: added Gamma Ray/(1993) Insanity and Genius/Gamma Ray - 06 Gamma Ray.mp3
+Nov 23 17:52 : update: added Gamma Ray/(1993) Insanity and Genius/Gamma Ray - 07 Insanity & Genius.mp3
+Nov 23 17:52 : update: added Gamma Ray/(1993) Insanity and Genius/Gamma Ray - 08 18 Years.mp3
+Nov 23 17:52 : update: added Gamma Ray/(1993) Insanity and Genius/Gamma Ray - 09 Your Torn Is Over.mp3
+Nov 23 17:52 : update: added Gamma Ray/(1993) Insanity and Genius/Gamma Ray - 10 Heal Me.mp3
+Nov 23 17:52 : update: added Gamma Ray/(1993) Insanity and Genius/Gamma Ray - 11 Brothers.mp3
+Nov 23 17:52 : update: added Gamma Ray/(1995) Land of the Free/Gamma Ray - 01 Rebellion in Dreamland.mp3
+Nov 23 17:52 : update: added Gamma Ray/(1995) Land of the Free/Gamma Ray - 02 Man On a Mission.mp3
+Nov 23 17:52 : update: added Gamma Ray/(1995) Land of the Free/Gamma Ray - 03 Fairytale.mp3
+Nov 23 17:52 : update: added Gamma Ray/(1995) Land of the Free/Gamma Ray - 04 All of the Damned.mp3
+Nov 23 17:52 : update: added Gamma Ray/(1995) Land of the Free/Gamma Ray - 05 Rising of the Damned.mp3
+Nov 23 17:52 : update: added Gamma Ray/(1995) Land of the Free/Gamma Ray - 06 Gods of Deliverance.mp3
+Nov 23 17:52 : update: added Gamma Ray/(1995) Land of the Free/Gamma Ray - 07 Farewell.mp3
+Nov 23 17:52 : update: added Gamma Ray/(1995) Land of the Free/Gamma Ray - 08 Salvation's Calling.mp3
+Nov 23 17:52 : update: added Gamma Ray/(1995) Land of the Free/Gamma Ray - 09 Land of the Free.mp3
+Nov 23 17:52 : update: added Gamma Ray/(1995) Land of the Free/Gamma Ray - 10 The Saviour.mp3
+Nov 23 17:52 : update: added Gamma Ray/(1995) Land of the Free/Gamma Ray - 11 Abyss of the Void.mp3
+Nov 23 17:52 : update: added Gamma Ray/(1995) Land of the Free/Gamma Ray - 12 Time to Break Free.mp3
+Nov 23 17:52 : update: added Gamma Ray/(1995) Land of the Free/Gamma Ray - 13 Afterlife.mp3
+Nov 23 17:52 : update: added Gamma Ray/(1997) Somewhere Out in Space/Gamma Ray - 01 Beyond the Black Hole.mp3
+Nov 23 17:52 : update: added Gamma Ray/(1997) Somewhere Out in Space/Gamma Ray - 02 Men, Martians and Machines.mp3
+Nov 23 17:52 : update: added Gamma Ray/(1997) Somewhere Out in Space/Gamma Ray - 03 No Stranger (Another Day in Life).mp3
+Nov 23 17:52 : update: added Gamma Ray/(1997) Somewhere Out in Space/Gamma Ray - 04 Somewhere Out in Space.mp3
+Nov 23 17:52 : update: added Gamma Ray/(1997) Somewhere Out in Space/Gamma Ray - 05 The Guardians of Mankind.mp3
+Nov 23 17:52 : update: added Gamma Ray/(1997) Somewhere Out in Space/Gamma Ray - 06 The Landing.mp3
+Nov 23 17:52 : update: added Gamma Ray/(1997) Somewhere Out in Space/Gamma Ray - 07 Valley of the Kings.mp3
+Nov 23 17:52 : update: added Gamma Ray/(1997) Somewhere Out in Space/Gamma Ray - 08 Pray.mp3
+Nov 23 17:52 : update: added Gamma Ray/(1997) Somewhere Out in Space/Gamma Ray - 09 The Winged Horse.mp3
+Nov 23 17:52 : update: added Gamma Ray/(1997) Somewhere Out in Space/Gamma Ray - 10 Cosmic Chaos.mp3
+Nov 23 17:52 : update: added Gamma Ray/(1997) Somewhere Out in Space/Gamma Ray - 11 Lost in the Future.mp3
+Nov 23 17:52 : update: added Gamma Ray/(1997) Somewhere Out in Space/Gamma Ray - 12 Watcher in the Sky.mp3
+Nov 23 17:52 : update: added Gamma Ray/(1997) Somewhere Out in Space/Gamma Ray - 13 Rising Star.mp3
+Nov 23 17:52 : update: added Gamma Ray/(1997) Somewhere Out in Space/Gamma Ray - 14 Shine On.mp3
+Nov 23 17:52 : update: added Gamma Ray/(1999) Powerplant/Gamma Ray - 01 Anywhere in the Galaxy.mp3
+Nov 23 17:52 : update: added Gamma Ray/(1999) Powerplant/Gamma Ray - 02 Razorblade Sigh.mp3
+Nov 23 17:52 : update: added Gamma Ray/(1999) Powerplant/Gamma Ray - 03 Send Me a Sign.mp3
+Nov 23 17:52 : update: added Gamma Ray/(1999) Powerplant/Gamma Ray - 04 Strangers in the Night.mp3
+Nov 23 17:52 : update: added Gamma Ray/(1999) Powerplant/Gamma Ray - 05 Gardens of the Sinner.mp3
+Nov 23 17:52 : update: added Gamma Ray/(1999) Powerplant/Gamma Ray - 06 Short As Hell.mp3
+Nov 23 17:52 : update: added Gamma Ray/(1999) Powerplant/Gamma Ray - 07 It's a Sin.mp3
+Nov 23 17:52 : update: added Gamma Ray/(1999) Powerplant/Gamma Ray - 08 Heavy Metal Universe.mp3
+Nov 23 17:52 : update: added Gamma Ray/(1999) Powerplant/Gamma Ray - 09 Wings of Destiny.mp3
+Nov 23 17:52 : update: added Gamma Ray/(1999) Powerplant/Gamma Ray - 10 Hand of Fate.mp3
+Nov 23 17:52 : update: added Gamma Ray/(1999) Powerplant/Gamma Ray - 11 Armageddon.mp3
+Nov 23 17:52 : update: added Gamma Ray/(2001) No World Order/Gamma Ray - 01 Induction.mp3
+Nov 23 17:52 : update: added Gamma Ray/(2001) No World Order/Gamma Ray - 02 Dethrone Tyranny.mp3
+Nov 23 17:52 : update: added Gamma Ray/(2001) No World Order/Gamma Ray - 03 The Heart of the Unicorn.mp3
+Nov 23 17:52 : update: added Gamma Ray/(2001) No World Order/Gamma Ray - 04 Heaven or Hell.mp3
+Nov 23 17:52 : update: added Gamma Ray/(2001) No World Order/Gamma Ray - 05 New World Order.mp3
+Nov 23 17:52 : update: added Gamma Ray/(2001) No World Order/Gamma Ray - 06 Damn the Machine.mp3
+Nov 23 17:52 : update: added Gamma Ray/(2001) No World Order/Gamma Ray - 07 Solid.mp3
+Nov 23 17:52 : update: added Gamma Ray/(2001) No World Order/Gamma Ray - 08 Fire Below.mp3
+Nov 23 17:52 : update: added Gamma Ray/(2001) No World Order/Gamma Ray - 09 Follow Me.mp3
+Nov 23 17:52 : update: added Gamma Ray/(2001) No World Order/Gamma Ray - 10 Eagle.mp3
+Nov 23 17:52 : update: added Gamma Ray/(2001) No World Order/Gamma Ray - 11 Lake of Tears.mp3
+Nov 23 17:52 : update: added Gamma Ray/(2005) Majestic/Gamma Ray - 01 My Temple.mp3
+Nov 23 17:52 : update: added Gamma Ray/(2005) Majestic/Gamma Ray - 02 Fight.mp3
+Nov 23 17:52 : update: added Gamma Ray/(2005) Majestic/Gamma Ray - 03 Strange World.mp3
+Nov 23 17:52 : update: added Gamma Ray/(2005) Majestic/Gamma Ray - 04 Hell Is Thy Home.mp3
+Nov 23 17:52 : update: added Gamma Ray/(2005) Majestic/Gamma Ray - 05 Blood Religion.mp3
+Nov 23 17:52 : update: added Gamma Ray/(2005) Majestic/Gamma Ray - 06 Condemned to Hell.mp3
+Nov 23 17:52 : update: added Gamma Ray/(2005) Majestic/Gamma Ray - 07 Spiritual Dictator.mp3
+Nov 23 17:52 : update: added Gamma Ray/(2005) Majestic/Gamma Ray - 08 Majesty.mp3
+Nov 23 17:52 : update: added Gamma Ray/(2005) Majestic/Gamma Ray - 09 How Long.mp3
+Nov 23 17:52 : update: added Gamma Ray/(2005) Majestic/Gamma Ray - 10 Revelation.mp3
+Nov 23 17:52 : update: added Gamma Ray/Gamma_Ray-Land_Of_The_Free_II-Promo-2007-QTXMp3/01-into_the_storm-qtxmp3.mp3
+Nov 23 17:52 : update: added Gamma Ray/Gamma_Ray-Land_Of_The_Free_II-Promo-2007-QTXMp3/02-from_the_ashes-qtxmp3.mp3
+Nov 23 17:52 : update: added Gamma Ray/Gamma_Ray-Land_Of_The_Free_II-Promo-2007-QTXMp3/03-rising_again-qtxmp3.mp3
+Nov 23 17:52 : update: added Gamma Ray/Gamma_Ray-Land_Of_The_Free_II-Promo-2007-QTXMp3/04-to_mother_earth-qtxmp3.mp3
+Nov 23 17:52 : update: added Gamma Ray/Gamma_Ray-Land_Of_The_Free_II-Promo-2007-QTXMp3/05-rain-qtxmp3.mp3
+Nov 23 17:52 : update: added Gamma Ray/Gamma_Ray-Land_Of_The_Free_II-Promo-2007-QTXMp3/06-leaving_hell-qtxmp3.mp3
+Nov 23 17:52 : update: added Gamma Ray/Gamma_Ray-Land_Of_The_Free_II-Promo-2007-QTXMp3/07-empress-qtxmp3.mp3
+Nov 23 17:52 : update: added Gamma Ray/Gamma_Ray-Land_Of_The_Free_II-Promo-2007-QTXMp3/08-when_the_world-qtxmp3.mp3
+Nov 23 17:52 : update: added Gamma Ray/Gamma_Ray-Land_Of_The_Free_II-Promo-2007-QTXMp3/09-opportunity-qtxmp3.mp3
+Nov 23 17:52 : update: added Gamma Ray/Gamma_Ray-Land_Of_The_Free_II-Promo-2007-QTXMp3/10-real_world-qtxmp3.mp3
+Nov 23 17:52 : update: added Gamma Ray/Gamma_Ray-Land_Of_The_Free_II-Promo-2007-QTXMp3/11-hear_me_calling-qtxmp3.mp3
+Nov 23 17:52 : update: added Gamma Ray/Gamma_Ray-Land_Of_The_Free_II-Promo-2007-QTXMp3/12-insurrection-qtxmp3.mp3
+Nov 23 17:52 : update: updating The Beatles/1962-1966/Beatles - 1962-1966 (Red Box) Disk 2/01 - Help.mp3
+Nov 23 17:52 : update: updating The Beatles/1962-1966/Beatles - 1962-1966 (Red Box) Disk 2/02 - You've Got to Hide Your Love Away.mp3
+Nov 23 17:52 : update: updating The Beatles/1962-1966/Beatles - 1962-1966 (Red Box) Disk 2/03 - We Can Work it Out.mp3
+Nov 23 17:52 : update: updating The Beatles/1962-1966/Beatles - 1962-1966 (Red Box) Disk 2/04 - Day Tripper.mp3
+Nov 23 17:52 : update: updating The Beatles/1962-1966/Beatles - 1962-1966 (Red Box) Disk 2/05 - Drive My Car.mp3
+Nov 23 17:52 : update: updating The Beatles/1962-1966/Beatles - 1962-1966 (Red Box) Disk 2/06 - Norwegian Wood (This Bird Has Flown).mp3
+Nov 23 17:52 : update: updating The Beatles/1962-1966/Beatles - 1962-1966 (Red Box) Disk 2/07 - Nowhere Man.mp3
+Nov 23 17:52 : update: updating The Beatles/1962-1966/Beatles - 1962-1966 (Red Box) Disk 2/08 - Michelle.mp3
+Nov 23 17:52 : update: updating The Beatles/1962-1966/Beatles - 1962-1966 (Red Box) Disk 2/09 - In My Life.mp3
+Nov 23 17:52 : update: updating The Beatles/1962-1966/Beatles - 1962-1966 (Red Box) Disk 2/10 - Girl.mp3
+Nov 23 17:52 : update: updating The Beatles/1962-1966/Beatles - 1962-1966 (Red Box) Disk 2/11 - Paperback Writer.mp3
+Nov 23 17:52 : update: updating The Beatles/1962-1966/Beatles - 1962-1966 (Red Box) Disk 2/12 - Eleanor Rigby.mp3
+Nov 23 17:52 : update: updating The Beatles/1962-1966/Beatles - 1962-1966 (Red Box) Disk 2/13 - Yellow Submarine.mp3
+Nov 23 17:52 : update: updating The Beatles/1967 - 1970 (BLUE)/Beatles - 1967-1970 (Blue Box) Disk 1/01 - Strawberry Fields.mp3
+Nov 23 17:52 : update: updating The Beatles/1967 - 1970 (BLUE)/Beatles - 1967-1970 (Blue Box) Disk 1/02 - Penny Lane.mp3
+Nov 23 17:52 : update: updating The Beatles/1967 - 1970 (BLUE)/Beatles - 1967-1970 (Blue Box) Disk 1/03 - Sgt Pepper's Lonely Hearts Club Band.mp3
+Nov 23 17:52 : update: updating The Beatles/1967 - 1970 (BLUE)/Beatles - 1967-1970 (Blue Box) Disk 1/04 - Help From My Friends.mp3
+Nov 23 17:52 : update: updating The Beatles/1967 - 1970 (BLUE)/Beatles - 1967-1970 (Blue Box) Disk 1/05 - Lucy in the Sky With Diamonds.mp3
+Nov 23 17:52 : update: updating The Beatles/1967 - 1970 (BLUE)/Beatles - 1967-1970 (Blue Box) Disk 1/06 - A Day in the Life.mp3
+Nov 23 17:52 : update: updating The Beatles/1967 - 1970 (BLUE)/Beatles - 1967-1970 (Blue Box) Disk 1/07 - All You Need is Love.mp3
+Nov 23 17:52 : update: updating The Beatles/1967 - 1970 (BLUE)/Beatles - 1967-1970 (Blue Box) Disk 1/08 - I Am the Walrus.mp3
+Nov 23 17:52 : update: updating The Beatles/1967 - 1970 (BLUE)/Beatles - 1967-1970 (Blue Box) Disk 1/09 - Hello Goodbye.mp3
+Nov 23 17:52 : update: updating The Beatles/1967 - 1970 (BLUE)/Beatles - 1967-1970 (Blue Box) Disk 1/10 - The Fool On the Hill.mp3
+Nov 23 17:52 : update: updating The Beatles/1967 - 1970 (BLUE)/Beatles - 1967-1970 (Blue Box) Disk 1/11 - Magical Mystery Tour.mp3
+Nov 23 17:52 : update: updating The Beatles/1967 - 1970 (BLUE)/Beatles - 1967-1970 (Blue Box) Disk 1/12 - Lady Madonna.mp3
+Nov 23 17:52 : update: updating The Beatles/1967 - 1970 (BLUE)/Beatles - 1967-1970 (Blue Box) Disk 1/13 - Hey Jude.mp3
+Nov 23 17:52 : update: updating The Beatles/1967 - 1970 (BLUE)/Beatles - 1967-1970 (Blue Box) Disk 1/14 - Revolution.mp3
+Nov 23 17:52 : update: updating The Beatles/1967 - 1970 (BLUE)/Beatles - 1967-1970 (Blue Box) Disk 2/01 - Back in the U.S.S.R..mp3
+Nov 23 17:52 : update: updating The Beatles/1967 - 1970 (BLUE)/Beatles - 1967-1970 (Blue Box) Disk 2/02 - While My Guitar Gently Weeps.mp3
+Nov 23 17:52 : update: updating The Beatles/1967 - 1970 (BLUE)/Beatles - 1967-1970 (Blue Box) Disk 2/03 - Ob-La-Di, Ob-La-Da.mp3
+Nov 23 17:52 : update: updating The Beatles/1967 - 1970 (BLUE)/Beatles - 1967-1970 (Blue Box) Disk 2/04 - Get Back.mp3
+Nov 23 17:52 : update: updating The Beatles/1967 - 1970 (BLUE)/Beatles - 1967-1970 (Blue Box) Disk 2/05 - Don't Let Me Down.mp3
+Nov 23 17:52 : update: updating The Beatles/1967 - 1970 (BLUE)/Beatles - 1967-1970 (Blue Box) Disk 2/06 - The Ballad of John and Yoko.mp3
+Nov 23 17:52 : update: updating The Beatles/1967 - 1970 (BLUE)/Beatles - 1967-1970 (Blue Box) Disk 2/07 - Old Brown Shoe.mp3
+Nov 23 17:52 : update: updating The Beatles/1967 - 1970 (BLUE)/Beatles - 1967-1970 (Blue Box) Disk 2/08 - Here Comes the Sun.mp3
+Nov 23 17:52 : update: updating The Beatles/1967 - 1970 (BLUE)/Beatles - 1967-1970 (Blue Box) Disk 2/09 - Come Together.mp3
+Nov 23 17:52 : update: updating The Beatles/1967 - 1970 (BLUE)/Beatles - 1967-1970 (Blue Box) Disk 2/10 - Something.mp3
+Nov 23 17:52 : update: updating The Beatles/1967 - 1970 (BLUE)/Beatles - 1967-1970 (Blue Box) Disk 2/11 - Octopus Garden.mp3
+Nov 23 17:52 : update: updating The Beatles/1967 - 1970 (BLUE)/Beatles - 1967-1970 (Blue Box) Disk 2/12 - Let it Be.mp3
+Nov 23 17:52 : update: updating The Beatles/1967 - 1970 (BLUE)/Beatles - 1967-1970 (Blue Box) Disk 2/13 - Across the Universe.MP3
+Nov 23 17:52 : update: updating The Beatles/1967 - 1970 (BLUE)/Beatles - 1967-1970 (Blue Box) Disk 2/14 - The Long And Winding Road.mp3
+Nov 23 17:52 : update: updating The Beatles/White Album 2/01 - Birthday.mp3
+Nov 23 17:52 : update: updating The Beatles/White Album 2/02 - Yer Blues.mp3
+Nov 23 17:52 : update: updating The Beatles/White Album 2/03 - Mother Nature's Son.mp3
+Nov 23 17:52 : update: updating The Beatles/White Album 2/04 - Everybody's Got Something To Hide (Except Me And My Monkey).mp3
+Nov 23 17:52 : update: updating The Beatles/White Album 2/05 - Sexy Sadie.mp3
+Nov 23 17:52 : update: updating The Beatles/White Album 2/06 - Helter Skelter.mp3
+Nov 23 17:52 : update: updating The Beatles/White Album 2/07 - Long Long Long.mp3
+Nov 23 17:52 : update: updating The Beatles/White Album 2/08 - Revolution 1.mp3
+Nov 23 17:52 : update: updating The Beatles/White Album 2/09 - Honey Pie.mp3
+Nov 23 17:52 : update: updating The Beatles/White Album 2/10 - Savoy Truffle.mp3
+Nov 23 17:52 : update: updating The Beatles/White Album 2/11 - Cry Baby Cry.mp3
+Nov 23 17:52 : update: updating The Beatles/White Album 2/12 - Revolution 9.mp3
+Nov 23 17:52 : update: updating The Beatles/White Album 2/13 - Good Night.mp3
+Nov 23 17:52 : player: played "The Beatles/1962-1966/Beatles - 1962-1966 (Red Box) Disk 2/08 - Michelle.mp3"
+Nov 23 17:53 : player: played "Phantom of the Opera/05 The Phantom of the Opera.mp3"
+Nov 23 17:53 : player: played "Led Zeppelin/Led Zeppelin - Greatest Hits 2CD (2008)/Disc 2/02. Whole Lotta Love.mp3"
+Nov 23 17:53 : player: played "Angra/Holy Land/08 Z.I.T.O..mp3"
+Nov 23 17:53 : player: played "helloween/The Time Of The Oath/18 - helloween - walk your way.mp3"
+Nov 23 17:53 : client: [3] closed
+Nov 23 18:00 : player: played "Mägo de Oz/[1996] Jesús de Chamberí (Opera Rock)/02. Jesús de Chamberí.mp3"
+Nov 23 18:01 : client: [4] opened from 127.0.0.1:46086
+Nov 23 18:01 : player: played "Mägo de Oz/[1994] Mago De Oz/09. Gimme Some Lovin'.mp3"
+Nov 23 18:01 : player: played "Mägo de Oz/[2013] Celtic Land/11. Love Never Dies (feat. Danny Vaughn) [Tell Me].mp3"
+Nov 23 18:07 : player: played "Stratovarius/1998 - Destiny/04 - 4000 Rainy Nights.mp3"
+Nov 23 18:09 : player: played "The Beatles/White Album 2/04 - Everybody's Got Something To Hide (Except Me And My Monkey).mp3"
+Nov 23 18:10 : player: played "Mägo de Oz/[2006] Rarezas/20. Pensando en Ti (Live).mp3"
+Nov 23 18:10 : player: played "Mägo de Oz/[2003] Gaia (Deluxe Edition)/08. La Leyenda de la Llorona.mp3"
+Nov 23 18:14 : player: played "Daft Punk/Discovery/09. Something About Us.mp3"
+Nov 23 18:22 : player: played "Metallica/S&M - Metallica And The San Francisco Symphony /Disc 2/12 One.mp3"
+Nov 23 18:23 : player: played "Phantom of the Opera/11 Wishing You Were Somehow Here Again.mp3"
+Nov 23 18:23 : player: played "The Beatles/1/20_The Beatles_Lady Madonna.mp3"
+Nov 23 18:23 : player: played "Galneryus/2005- Advance to the Fall/04 - Fate Of The Sadness.mp3"
+Nov 23 18:23 : player: played "Mägo de Oz/[2013] Celtic Land/09. Hymn 2.0.mp3"
+Nov 23 18:23 : player: played "Mägo de Oz/[2004] A Costa da Morte (Live)/16. Satania.mp3"
+Nov 23 18:28 : player: played "Coldplay/2002 - A Rush Of Blood To The Head/04 - The Scientist.mp3"
+Nov 23 18:32 : player: played "Mägo de Oz/[2003] Gaia (Deluxe Edition)/07. La Rosa de los Vientos.mp3"
+Nov 23 18:36 : player: played "Red Hot Chilli Peppers/Red Hot Chilli Peppers - Greatest Hits (2003)/06 Red Hot Chili Peppers - Otherside.mp3"
+Nov 23 19:04 : player: played "Mägo de Oz/[2002] Folktergeist (Live)/17. Hasta Que Tu Muerte Nos Separe.mp3"
+Nov 23 19:05 : player: played "The Beatles/Let It Be/12-Get Back.mp3"
+Nov 23 19:05 : player: played "Angra/Aqua/07 Hollow.mp3"
+Nov 23 19:08 : player: played "The Beatles/1967 - 1970 (BLUE)/Beatles - 1967-1970 (Blue Box) Disk 1/10 - The Fool On the Hill.mp3"
+Nov 23 19:10 : player: played "The Beatles/White Album 1/10 - I'm So Tired.mp3"
+Nov 23 19:10 : player: played "System of a Down/Best Of-System Of A Down/CD 2/22. DDevil.mp3"
+Nov 23 19:10 : player: played "The Beatles/The  Capitol Albums Volume 2/221-The_Beatles-Tell_Me_What_You_See_(Mono).mp3"
+Nov 23 19:10 : player: played "Mägo de Oz/[2013] Celtic Land/23.Sigue la luz (feat. Carlos Escobedo).mp3"
+Nov 23 19:10 : player: played "Rhapsody Of Fire/Rhapsody of Fire - 2011 - From Chaos to Eternity/05 - Anima Perduta.mp3"
+Nov 23 19:10 : player: played "Stratovarius/2000 - Infinite/05 - Glory of the World.mp3"
+Nov 23 19:10 : player: played "Gamma Ray/(1997) Somewhere Out in Space/Gamma Ray - 05 The Guardians of Mankind.mp3"
+Nov 23 19:13 : player: played "The Beatles/1962-1966/Beatles - 1962-1966 (Red Box) Disk 2/12 - Eleanor Rigby.mp3"
+Nov 23 19:13 : player: played "Aina/Aina - Disc 1 - Days Of Rising Doom/13. Rebellion.mp3"
+Nov 23 19:13 : player: played "Mägo de Oz/Singles & EPs/Diabolus in Música (Single)/02-Take On (Cover A-Ha).mp3"
+Nov 23 19:13 : player: played "Rata Blanca/Grandes canciones/06 Preludio Obsesivo.mp3"
+Nov 23 19:14 : player: played "Mägo de Oz/Singles & EPs/Diabolus in Música (Single)/02-Take On (Cover A-Ha).mp3"
+Nov 23 19:17 : player: played "Rata Blanca/Grandes canciones/06 Preludio Obsesivo.mp3"
+Nov 23 19:17 : player: played "System of a Down/Best Of-System Of A Down/CD 1/08. B.Y.O.B..mp3"
+Nov 23 19:17 : client: [4] closed
+Nov 24 19:17 : client: [0] opened from 127.0.0.1:34336
+Nov 24 19:18 : player: played "The Beatles/CD Singles Collection/1967 - The Beatles - Hello Goodbye/01. Hello, Goodbye.mp3"
+Nov 24 19:21 : player: played "The Beatles/Past Masters 2/13 - Across The Universe.mp3"
+Nov 24 19:22 : player: played "Coldplay/2003 - Live/09 - Yellow.mp3"
+Nov 24 19:27 : player: played "Sean Lennon/Friendly Fire/04-Friendly Fire.mp3"
+Nov 24 19:27 : player: played "Gamma Ray/(2001) No World Order/Gamma Ray - 06 Damn the Machine.mp3"
+Nov 24 19:27 : client: [0] closed
+Nov 24 19:27 : client: [1] opened from 127.0.0.1:34450
+Nov 24 19:29 : player: played "Stratovarius/2000 - Infinite/09 - Celestial Dream.mp3"
+Nov 24 19:32 : player: played "The Beatles/The  Capitol Albums Volume 2/102-The_Beatles-Twist_And_Shout.mp3"
+Nov 24 19:37 : player: played "Stratovarius/2000 - Infinite/07 - Freedom.mp3"
+Nov 24 19:42 : player: played "Aina/Aina - Disc 1 - Days Of Rising Doom/03. Silver Maiden.mp3"
+Nov 24 19:48 : player: played "David Gilmour/Rattle That Lock/05 - Dancing Right In Front of Me - David Gilmour.mp3"
+Nov 24 19:51 : player: played "Stratovarius/2005 - Stratovarius/07 - The Land of Ice and Snow.mp3"
+Nov 24 19:57 : player: played "Gamma Ray/Gamma_Ray-Land_Of_The_Free_II-Promo-2007-QTXMp3/05-rain-qtxmp3.mp3"
+Nov 24 19:57 : player: played "Metallica/S&M - Metallica And The San Francisco Symphony /Disc 2/11 Sad But True.mp3"
+Nov 24 20:34 : player: played "Metallica/S&M - Metallica And The San Francisco Symphony /Disc 2/11 Sad But True.mp3"
+Nov 24 20:34 : player: played "Gamma Ray/Gamma_Ray-Land_Of_The_Free_II-Promo-2007-QTXMp3/05-rain-qtxmp3.mp3"
+Nov 24 20:40 : player: played "Metallica/S&M - Metallica And The San Francisco Symphony /Disc 2/11 Sad But True.mp3"
+Nov 24 20:44 : player: played "Stratovarius/2011 - Elysium/01 - Darkest Hours.mp3"
+Nov 24 20:46 : player: played "Mägo de Oz/[2011] Love N’ Oz/23. Dime Con Quien Andas.mp3"
+Nov 24 20:46 : player: played "Gamma Ray/(1990) Heading For Tomorrow/Gamma Ray - 07 Hold Your Ground.mp3"
+Nov 24 20:51 : player: played "Coldplay/2000 - Parachutes/05. Yellow.mp3"
+Nov 24 20:56 : player: played "Pink Floyd/1982 - The Final Cut 2011 Remaster/06. The Gunner's Dream.mp3"
+Nov 24 20:59 : player: played "The Beatles/The  Capitol Albums Volume 2/116-The_Beatles-Boys_(Mono).mp3"
+Nov 24 21:02 : player: played "The Beatles/ With The Beatles/10 - You Really Got A Hold On Me.mp3"
+Nov 24 21:05 : player: played "DMC OST/01 Satsugai.mp3"
+Nov 24 21:08 : player: played "The Beatles/The  Capitol Albums Volume 2/104-The_Beatles-Chains.mp3"
+Nov 24 21:13 : player: played "Angra/Secret Garden/04. Storm of Emotions.mp3"
+Nov 24 21:14 : player: played "The Beatles/The  Capitol Albums Volume 2/102-The_Beatles-Twist_And_Shout.mp3"
+Nov 24 22:25 : player: played "Daft Punk/Random Access Memories/11. Fragments Of Time (Feat. Todd Edwards).mp3"
+Nov 24 22:25 : player: played "Mägo de Oz/[2005] Madrid Las Ventas (Live)/14. La Danza Del Fuego.mp3"
+Nov 24 22:28 : player: played "Fallout/Jingle Jangle Jingle.mp3"
+Nov 24 22:29 : player: played "helloween/Helloween - Gambling With The Devil (2007)/07 - Helloween - The Beels Of The Seven Hells.mp3"
+Nov 24 22:29 : player: played "Stratovarius/2003 - Elements Pt.1/07 - Stratofortress.mp3"
+Nov 24 22:29 : player: played "Gamma Ray/(1995) Land of the Free/Gamma Ray - 03 Fairytale.mp3"
+Nov 24 22:33 : player: played "The Beatles/1967 - 1970 (BLUE)/Beatles - 1967-1970 (Blue Box) Disk 1/08 - I Am the Walrus.mp3"
+Nov 26 23:37 : client: [0] opened from 127.0.0.1:51320
+Nov 26 23:51 : client: [0] closed
+Nov 26 23:57 : client: [1] opened from 127.0.0.1:52026
+Nov 26 23:57 : player: played "David Gilmour/On An Island - 2006/02 - David Gilmour - On an Island.mp3"
+Nov 26 23:57 : client: [1] closed
+Nov 27 00:03 : client: [2] opened from 127.0.0.1:52160
+Nov 27 00:03 : player: played "David Gilmour/Rattle That Lock/08 - The Girl In The Yellow Dress - David Gilmour.mp3"
+Nov 27 00:03 : client: [2] closed
+Nov 27 00:08 : player: played "David Gilmour/Rattle That Lock/08 - The Girl In The Yellow Dress - David Gilmour.mp3"
+Nov 27 21:57 : client: [0] opened from 127.0.0.1:47182
+Nov 27 22:02 : player: played "Pink Floyd/1975 - Wish You Were Here 2011 Remaster/04 Wish You Were Here.mp3"
+Nov 27 22:09 : client: [1] opened from 127.0.0.1:47204
+Nov 27 22:09 : client: [1] closed
+Nov 27 22:10 : client: [2] opened from 127.0.0.1:47242
+Nov 27 22:15 : player: played "Pink Floyd/1975 - Wish You Were Here 2011 Remaster/04 Wish You Were Here.mp3"
+Nov 27 22:18 : client: [2] closed
+Nov 27 22:21 : client: [0] closed
+Nov 27 22:39 : client: [3] opened from 127.0.0.1:47424
+Nov 27 22:40 : player: played "DMC OST/01 Satsugai.mp3"
+Nov 27 22:42 : player: played "Mägo de Oz/[2003] Gaia (Deluxe Edition)/11. Si Te Vas.mp3"
+Nov 27 22:44 : client: [0] opened from 127.0.0.1:58552
+Nov 27 22:44 : player: played "Mägo de Oz/[2003] Gaia (Deluxe Edition)/11. Si Te Vas.mp3"
+Nov 27 23:46 : player: played "Fallout/Jingle Jangle Jingle.mp3"
+Nov 27 23:51 : player: played "helloween/Helloween - Gambling With The Devil (2007)/07 - Helloween - The Beels Of The Seven Hells.mp3"
+Nov 27 23:55 : player: played "Stratovarius/2003 - Elements Pt.1/07 - Stratofortress.mp3"
+Nov 27 23:55 : player: played "Gamma Ray/(1995) Land of the Free/Gamma Ray - 03 Fairytale.mp3"
+Nov 27 23:55 : client: [0] closed
+Nov 27 23:58 : client: [1] opened from 127.0.0.1:59288
+Nov 27 23:58 : client: [1] closed
+Nov 27 23:59 : client: [2] opened from 127.0.0.1:59292
+Nov 27 23:59 : client: [2] closed
+Nov 28 00:02 : player: played "helloween/helloween tresure chest CD2/10 Forever And One.mp3"
+Nov 28 20:51 : client: [0] opened from 127.0.0.1:36480
+Nov 28 20:51 : client: [0] closed
+Nov 28 20:55 : player: played "helloween/helloween tresure chest CD2/10 Forever And One.mp3"
+Nov 28 20:55 : client: [1] opened from 127.0.0.1:36492
+Nov 28 20:55 : client: [1] closed
+Nov 28 20:59 : player: played "Chill/03 Nujabes - Aruarian Dance.mp3"
+Nov 28 21:00 : client: [2] opened from 127.0.0.1:36516
+Nov 28 21:01 : client: [2] closed
+Nov 28 21:04 : player: played "Red Hot Chilli Peppers/Red Hot Chilli Peppers - Greatest Hits (2003)/04 Red Hot Chili Peppers - Scar Tissue.mp3"
+Nov 28 21:08 : player: played "Red Hot Chilli Peppers/Red Hot Chilli Peppers - Greatest Hits (2003)/08 Red Hot Chili Peppers - By the Way.mp3"
+Nov 28 21:11 : player: played "Red Hot Chilli Peppers/Red Hot Chilli Peppers - Greatest Hits (2003)/14 Red Hot Chili Peppers - Road Trippin'.mp3"
+Nov 28 21:23 : client: [3] opened from 127.0.0.1:36860
+Nov 28 21:24 : client: [3] closed
+Nov 28 21:27 : player: played "Red Hot Chilli Peppers/Red Hot Chilli Peppers - Greatest Hits (2003)/04 Red Hot Chili Peppers - Scar Tissue.mp3"
+Nov 28 21:31 : player: played "Red Hot Chilli Peppers/Red Hot Chilli Peppers - Greatest Hits (2003)/08 Red Hot Chili Peppers - By the Way.mp3"
+Nov 28 21:34 : player: played "Red Hot Chilli Peppers/Red Hot Chilli Peppers - Greatest Hits (2003)/14 Red Hot Chili Peppers - Road Trippin'.mp3"
+Nov 28 21:34 : client: [4] opened from 127.0.0.1:36920
+Nov 28 21:38 : player: played "Red Hot Chilli Peppers/Red Hot Chilli Peppers - Greatest Hits (2003)/14 Red Hot Chili Peppers - Road Trippin'.mp3"
+Nov 28 21:41 : player: played "Red Hot Chilli Peppers/Red Hot Chilli Peppers - Greatest Hits (2003)/14 Red Hot Chili Peppers - Road Trippin'.mp3"
+Nov 28 21:46 : player: played "Red Hot Chilli Peppers/Red Hot Chilli Peppers - Greatest Hits (2003)/04 Red Hot Chili Peppers - Scar Tissue.mp3"
+Nov 28 21:46 : client: [4] closed
+Nov 28 21:50 : player: played "Chill/03 Nujabes - Aruarian Dance.mp3"
+Nov 28 21:53 : player: played "Red Hot Chilli Peppers/Red Hot Chilli Peppers - Greatest Hits (2003)/04 Red Hot Chili Peppers - Scar Tissue.mp3"
+Nov 28 21:57 : player: played "Red Hot Chilli Peppers/Red Hot Chilli Peppers - Greatest Hits (2003)/08 Red Hot Chili Peppers - By the Way.mp3"
+Nov 28 21:58 : client: [5] opened from 127.0.0.1:37068
+Nov 28 22:02 : player: played "Red Hot Chilli Peppers/Red Hot Chilli Peppers - Greatest Hits (2003)/14 Red Hot Chili Peppers - Road Trippin'.mp3"
+Nov 29 17:46 : client: [6] opened from 127.0.0.1:39920
+Nov 29 17:49 : player: played "Red Hot Chilli Peppers/Red Hot Chilli Peppers - Greatest Hits (2003)/14 Red Hot Chili Peppers - Road Trippin'.mp3"
+Nov 29 21:17 : player: played "Chill/03 Nujabes - Aruarian Dance.mp3"
+Nov 29 21:21 : player: played "helloween/helloween tresure chest CD2/10 Forever And One.mp3"
+Nov 29 21:25 : player: played "Chill/03 Nujabes - Aruarian Dance.mp3"
+Nov 29 21:28 : player: played "Red Hot Chilli Peppers/Red Hot Chilli Peppers - Greatest Hits (2003)/04 Red Hot Chili Peppers - Scar Tissue.mp3"
+Nov 29 21:32 : player: played "Red Hot Chilli Peppers/Red Hot Chilli Peppers - Greatest Hits (2003)/04 Red Hot Chili Peppers - Scar Tissue.mp3"
+Nov 29 21:36 : player: played "Red Hot Chilli Peppers/Red Hot Chilli Peppers - Greatest Hits (2003)/08 Red Hot Chili Peppers - By the Way.mp3"
+Nov 29 21:39 : player: played "Red Hot Chilli Peppers/Red Hot Chilli Peppers - Greatest Hits (2003)/14 Red Hot Chili Peppers - Road Trippin'.mp3"
+Nov 29 21:51 : client: [5] closed
+Nov 29 21:54 : player: played "Red Hot Chilli Peppers/Red Hot Chilli Peppers - Greatest Hits (2003)/04 Red Hot Chili Peppers - Scar Tissue.mp3"
+Nov 29 21:55 : client: [7] opened from 127.0.0.1:42030
+Nov 29 21:55 : client: [7] closed
+Nov 29 21:59 : client: [8] opened from 127.0.0.1:42040
+Nov 29 22:00 : player: played "Sean Lennon/Friendly Fire/01-Dead Meat.mp3"
+Nov 29 22:00 : player: played "Sean Lennon/Friendly Fire/06-Tomorrow.mp3"
+Nov 29 22:00 : player: played "Sean Lennon/Friendly Fire/07-On Again Off Again.mp3"
+Nov 29 22:01 : client: [8] closed
+Nov 29 22:05 : client: [9] opened from 127.0.0.1:42058
+Nov 29 22:05 : player: played "Sean Lennon/Friendly Fire/05-Spectacle.mp3"
+Nov 29 22:07 : player: played "Sean Lennon/Friendly Fire/06-Tomorrow.mp3"
+Nov 29 22:10 : player: played "Sean Lennon/Friendly Fire/07-On Again Off Again.mp3"
+Nov 29 22:10 : player: played "Sean Lennon/Friendly Fire/08-Headlights.mp3"
+Nov 29 22:10 : client: [9] closed
+Nov 29 22:12 : client: [10] opened from 127.0.0.1:42074
+Nov 29 22:12 : player: played "Sean Lennon/Friendly Fire/09-Would I Be The One.mp3"
+Nov 29 22:12 : player: played "Sean Lennon/Friendly Fire/08-Headlights.mp3"
+Nov 29 22:12 : player: played "Sean Lennon/Friendly Fire/09-Would I Be The One.mp3"
+Nov 29 22:12 : client: [10] closed
+Nov 29 22:16 : player: played "Sean Lennon/Friendly Fire/10-Falling Out Of Love.mp3"
+Nov 30 08:26 : client: [11] opened from 127.0.0.1:43958
+Nov 30 08:27 : client: [11] closed
+Nov 30 08:31 : player: played "Pink Floyd/1975 - Wish You Were Here 2011 Remaster/04 Wish You Were Here.mp3"
+Nov 30 11:48 : avahi: Service 'Music Player' successfully established.
+Nov 30 11:49 : client: [0] opened from 127.0.0.1:37890
+Nov 30 11:52 : player: played "Sean Lennon/Friendly Fire/07-On Again Off Again.mp3"
+Nov 30 11:52 : player: played "Sean Lennon/Friendly Fire/08-Headlights.mp3"
+Nov 30 11:52 : player: played "Sean Lennon/Friendly Fire/09-Would I Be The One.mp3"
+Nov 30 11:56 : player: played "Sean Lennon/Friendly Fire/10-Falling Out Of Love.mp3"
+Nov 30 11:56 : client: [0] closed
+Dec 02 22:06 : client: [0] opened from 127.0.0.1:34228
+Dec 02 22:06 : player: played "Pink Floyd/1975 - Wish You Were Here 2011 Remaster/04 Wish You Were Here.mp3"
+Dec 02 22:06 : player: played "Sean Lennon/Friendly Fire/09-Would I Be The One.mp3"
+Dec 02 22:06 : client: [0] closed
+Dec 02 22:10 : player: played "Sean Lennon/Friendly Fire/07-On Again Off Again.mp3"
+Dec 02 22:13 : player: played "Sean Lennon/Friendly Fire/08-Headlights.mp3"
+Dec 02 22:13 : client: [1] opened from 127.0.0.1:34362
+Dec 02 22:13 : client: [1] closed
+Dec 02 22:13 : client: [2] opened from 127.0.0.1:34372
+Dec 02 22:13 : player: played "Sean Lennon/Friendly Fire/09-Would I Be The One.mp3"
+Dec 02 22:13 : client: [2] closed
+Dec 11 17:22 : client: [0] opened from 127.0.0.1:47272
+Dec 11 17:27 : player: played "Pink Floyd/1975 - Wish You Were Here 2011 Remaster/04 Wish You Were Here.mp3"
+Dec 11 17:28 : client: [0] closed
+Dec 11 17:28 : client: [1] opened from 127.0.0.1:47398
+Dec 11 17:28 : client: [1] closed
+Dec 11 17:28 : client: [2] opened from 127.0.0.1:47402
+Dec 11 17:29 : client: [2] closed
+Dec 11 17:29 : client: [3] opened from 127.0.0.1:47406
+Dec 11 17:29 : client: [3] closed
+Dec 11 17:29 : client: [4] opened from 127.0.0.1:47410
+Dec 11 17:29 : client: [4] closed
+Dec 11 17:29 : client: [5] opened from 127.0.0.1:47414
+Dec 11 17:29 : client: [5] closed
+Dec 11 17:29 : client: [6] opened from 127.0.0.1:47418
+Dec 11 17:30 : client: [6] closed
+Dec 11 17:30 : client: [7] opened from 127.0.0.1:47422
+Dec 11 17:31 : client: [7] closed
+Dec 11 17:31 : client: [8] opened from 127.0.0.1:47426
+Dec 11 17:31 : client: [8] closed
+Dec 11 17:31 : client: [9] opened from 127.0.0.1:47430
+Dec 11 17:31 : client: [10] opened from 127.0.0.1:47434
+Dec 11 17:31 : client: [10] closed
+Dec 11 17:31 : client: [9] closed
+Dec 11 17:33 : player: played "Sean Lennon/Friendly Fire/04-Friendly Fire.mp3"
+Dec 11 17:34 : client: [11] opened from 127.0.0.1:47438
+Dec 11 17:34 : player: played "Sean Lennon/Friendly Fire/05-Spectacle.mp3"
+Dec 11 17:37 : client: [11] closed
+Dec 13 08:55 : client: [0] opened from 127.0.0.1:57120
+Dec 13 08:55 : client: [0] closed
+Dec 13 09:25 : client: [1] opened from 127.0.0.1:57786
+Dec 13 09:30 : player: played "Pink Floyd/1975 - Wish You Were Here 2011 Remaster/04 Wish You Were Here.mp3"
+Dec 13 09:34 : client: [2] opened from 127.0.0.1:58028
+Dec 13 09:36 : client: [2] closed
+Dec 13 09:37 : client: [3] opened from 127.0.0.1:58034
+Dec 13 09:37 : player: played "Red Hot Chilli Peppers/Red Hot Chilli Peppers - Greatest Hits (2003)/04 Red Hot Chili Peppers - Scar Tissue.mp3"
+Dec 13 09:37 : player: played "Ryo Fukui/Mellow Dream/01 Mellow Dream.mp3"
+Dec 13 09:37 : player: played "Ryo Fukui/Mellow Dream/03 Baron Patato Blues.mp3"
+Dec 13 09:37 : player: played "Ryo Fukui/Mellow Dream/02 My Foolish Heart.mp3"
+Dec 13 09:38 : player: played "Ryo Fukui/Mellow Dream/01 Mellow Dream.mp3"
+Dec 13 09:38 : client: [1] closed
+Dec 13 10:33 : client: [4] opened from 127.0.0.1:58534
+Dec 13 10:33 : update: updating The Beatles/Let It Be/01-Two of Us.mp3
+Dec 13 10:33 : update: updating The Beatles/Let It Be/02-Dig a Pony.mp3
+Dec 13 10:33 : update: updating The Beatles/Let It Be/03-Across the Universe.mp3
+Dec 13 10:34 : update: updating The Beatles/Let It Be/04-I Me Mine.mp3
+Dec 13 10:34 : update: updating The Beatles/Let It Be/05-Dig It.mp3
+Dec 13 10:34 : update: updating The Beatles/Let It Be/06-Let It Be.mp3
+Dec 13 10:34 : update: updating The Beatles/Let It Be/07-Maggie Mae.mp3
+Dec 13 10:34 : update: updating The Beatles/Let It Be/08-I've Got A Feeling.mp3
+Dec 13 10:35 : update: updating The Beatles/Let It Be/09-One After 909.mp3
+Dec 13 10:35 : update: updating The Beatles/Let It Be/10-The Long and Winding.mp3
+Dec 13 10:35 : update: updating The Beatles/Let It Be/11-For You Blue.mp3
+Dec 13 10:35 : update: updating The Beatles/Let It Be/12-Get Back.mp3
+Dec 13 10:35 : client: [4] closed
+Dec 14 19:25 : client: [0] opened from 127.0.0.1:51818
+Dec 14 19:29 : player: played "Chill/03 Nujabes - Aruarian Dance.mp3"
+Dec 15 20:39 : client: [0] opened from 127.0.0.1:60652
+Dec 15 20:39 : client: [0] closed
+Dec 15 20:44 : client: [1] opened from 127.0.0.1:60684
+Dec 15 20:45 : client: [1] closed
+Dec 15 20:45 : client: [2] opened from 127.0.0.1:60690
+Dec 15 20:45 : client: [2] closed
+Dec 16 05:37 : player: played "Pink Floyd/1975 - Wish You Were Here 2011 Remaster/01 Shine On You Crazy Diamond (Parts 1-5).mp3"
+Dec 19 09:00 : client: [0] opened from 127.0.0.1:51684
+Dec 19 09:00 : player: played "Pink Floyd/1975 - Wish You Were Here 2011 Remaster/01 Shine On You Crazy Diamond (Parts 1-5).mp3"
+Dec 19 09:01 : client: [0] closed
+Dec 19 09:05 : client: [1] opened from 127.0.0.1:51924
+Dec 19 09:06 : player: played "Pink Floyd/1975 - Wish You Were Here 2011 Remaster/01 Shine On You Crazy Diamond (Parts 1-5).mp3"
+Dec 19 09:13 : player: played "Pink Floyd/1975 - Wish You Were Here 2011 Remaster/02 Welcome To The Machine.mp3"
+Dec 19 09:17 : player: played "Pink Floyd/1975 - Wish You Were Here 2011 Remaster/04 Wish You Were Here.mp3"
+Dec 19 09:25 : player: played "Led Zeppelin/Led Zeppelin - Greatest Hits 2CD (2008)/Disc 1/06. Babe I'm Gonna Leave You.mp3"
+Dec 19 09:53 : client: [1] closed
+Dec 20 01:58 : client: [2] opened from 127.0.0.1:57480
+Dec 20 02:04 : player: played "Pink Floyd/1975 - Wish You Were Here 2011 Remaster/02 Welcome To The Machine.mp3"
+Dec 20 02:04 : client: [2] closed
+Dec 22 12:16 : client: [0] opened from 127.0.0.1:47972
+Dec 22 12:16 : client: [0] closed
+Dec 23 14:05 : client: [0] opened from 127.0.0.1:42422
+Dec 23 14:05 : update: removing Aina/Aina - Disc 1 - Days Of Rising Doom/01. Aina Overture.mp3
+Dec 23 14:05 : update: removing Aina/Aina - Disc 1 - Days Of Rising Doom/02. Revelations.mp3
+Dec 23 14:05 : update: removing Aina/Aina - Disc 1 - Days Of Rising Doom/03. Silver Maiden.mp3
+Dec 23 14:05 : update: removing Aina/Aina - Disc 1 - Days Of Rising Doom/04. Flight Of Torek.mp3
+Dec 23 14:05 : update: removing Aina/Aina - Disc 1 - Days Of Rising Doom/05. Naschtok Is Born.mp3
+Dec 23 14:05 : update: removing Aina/Aina - Disc 1 - Days Of Rising Doom/06. The Beast Within.mp3
+Dec 23 14:05 : update: removing Aina/Aina - Disc 1 - Days Of Rising Doom/07. The Siege Of Aina.mp3
+Dec 23 14:05 : update: removing Aina/Aina - Disc 1 - Days Of Rising Doom/08. Talon's Last Hope.mp3
+Dec 23 14:05 : update: removing Aina/Aina - Disc 1 - Days Of Rising Doom/09. Rape Of Oria.mp3
+Dec 23 14:05 : update: removing Aina/Aina - Disc 1 - Days Of Rising Doom/10. Son Of Sorvahr.mp3
+Dec 23 14:05 : update: removing Aina/Aina - Disc 1 - Days Of Rising Doom/11. Serendipity.mp3
+Dec 23 14:05 : update: removing Aina/Aina - Disc 1 - Days Of Rising Doom/12. Lalae Amer.mp3
+Dec 23 14:05 : update: removing Aina/Aina - Disc 1 - Days Of Rising Doom/13. Rebellion.mp3
+Dec 23 14:05 : update: removing Aina/Aina - Disc 1 - Days Of Rising Doom/14. Oriana's Wrath.mp3
+Dec 23 14:05 : update: removing Aina/Aina - Disc 1 - Days Of Rising Doom/15. Restoration.mp3
+Dec 23 14:05 : update: added Ainaa/Aina - Disc 1 - Days Of Rising Doom/01. Aina Overture.mp3
+Dec 23 14:05 : update: added Ainaa/Aina - Disc 1 - Days Of Rising Doom/02. Revelations.mp3
+Dec 23 14:05 : update: added Ainaa/Aina - Disc 1 - Days Of Rising Doom/03. Silver Maiden.mp3
+Dec 23 14:05 : update: added Ainaa/Aina - Disc 1 - Days Of Rising Doom/04. Flight Of Torek.mp3
+Dec 23 14:05 : update: added Ainaa/Aina - Disc 1 - Days Of Rising Doom/05. Naschtok Is Born.mp3
+Dec 23 14:05 : update: added Ainaa/Aina - Disc 1 - Days Of Rising Doom/06. The Beast Within.mp3
+Dec 23 14:05 : update: added Ainaa/Aina - Disc 1 - Days Of Rising Doom/07. The Siege Of Aina.mp3
+Dec 23 14:05 : update: added Ainaa/Aina - Disc 1 - Days Of Rising Doom/08. Talon's Last Hope.mp3
+Dec 23 14:05 : update: added Ainaa/Aina - Disc 1 - Days Of Rising Doom/09. Rape Of Oria.mp3
+Dec 23 14:05 : update: added Ainaa/Aina - Disc 1 - Days Of Rising Doom/10. Son Of Sorvahr.mp3
+Dec 23 14:05 : update: added Ainaa/Aina - Disc 1 - Days Of Rising Doom/11. Serendipity.mp3
+Dec 23 14:05 : update: added Ainaa/Aina - Disc 1 - Days Of Rising Doom/12. Lalae Amer.mp3
+Dec 23 14:05 : update: added Ainaa/Aina - Disc 1 - Days Of Rising Doom/13. Rebellion.mp3
+Dec 23 14:05 : update: added Ainaa/Aina - Disc 1 - Days Of Rising Doom/14. Oriana's Wrath.mp3
+Dec 23 14:05 : update: added Ainaa/Aina - Disc 1 - Days Of Rising Doom/15. Restoration.mp3
+Dec 23 14:05 : player: played "Pink Floyd/1975 - Wish You Were Here 2011 Remaster/02 Welcome To The Machine.mp3"
+Dec 23 14:05 : player: played "Pink Floyd/1975 - Wish You Were Here 2011 Remaster/04 Wish You Were Here.mp3"
+Dec 23 14:05 : player: played "Led Zeppelin/Led Zeppelin - Greatest Hits 2CD (2008)/Disc 1/06. Babe I'm Gonna Leave You.mp3"
+Dec 23 14:08 : player: played "The Beatles/White Album 1/11 - Blackbird.mp3"
+Dec 23 14:08 : player: played "The Beatles/Rubber Soul/08 - What Goes On.mp3"
+Dec 23 14:11 : player: played "The Beatles/ Yellow Submarine/04 - Hey Bulldog.mp3"
+Dec 23 14:15 : player: played "The Beatles/White Album 1/13 - Rocky Racoon.mp3"
+Dec 23 14:17 : player: played "The Beatles/White Album 1/10 - I'm So Tired.mp3"
+Dec 23 14:17 : player: played "The Beatles/Rubber Soul/13 - If I Needed Someone.mp3"
+Dec 23 14:17 : player: played "The Beatles/White Album 1/12 - Piggies.mp3"
+Dec 23 14:17 : player: played "The Beatles/White Album 2/01 - Birthday.mp3"
+Dec 23 14:17 : player: played "The Beatles/ Yellow Submarine/03 - All Together Now.mp3"
+Dec 23 14:20 : player: played "The Beatles/Let It Be/10-The Long and Winding.mp3"
+Dec 23 14:24 : player: played "The Beatles/Let It Be/03-Across the Universe.mp3"
+Dec 23 14:25 : player: played "The Beatles/White Album 2/07 - Long Long Long.mp3"
+Dec 23 14:30 : player: played "The Beatles/White Album 2/08 - Revolution 1.mp3"
+Dec 23 14:33 : player: played "The Beatles/White Album 1/04 - Ob-La-Di, Ob-La-Da.mp3"
+Dec 23 14:33 : player: played "The Beatles/White Album 2/11 - Cry Baby Cry.mp3"
+Dec 23 14:35 : player: played "The Beatles/White Album 1/09 - Martha My Dear.mp3"
+Dec 23 14:42 : player: played "Pink Floyd/1975 - Wish You Were Here 2011 Remaster/02 Welcome To The Machine.mp3"
+Dec 23 14:42 : player: played "The Beatles/White Album 1/16 - I Will.mp3"
+Dec 23 14:42 : player: played "The Beatles/White Album 2/03 - Mother Nature's Son.mp3"
+Dec 23 14:42 : player: played "The Beatles/White Album 1/16 - I Will.mp3"
+Dec 23 14:45 : player: played "The Beatles/White Album 1/17 - Julia.mp3"
+Dec 23 14:45 : player: played "The Beatles/White Album 2/03 - Mother Nature's Son.mp3"
+Dec 23 14:45 : player: played "The Beatles/Rubber Soul/14 - Run For Your Life.mp3"
+Dec 23 14:45 : player: played "The Beatles/ Yellow Submarine/11 - March Of The Meanies.mp3"
+Dec 23 14:45 : player: played "The Beatles/Rubber Soul/05 - Think For Yourself.mp3"
+Dec 23 14:45 : player: played "The Beatles/White Album 2/12 - Revolution 9.mp3"
+Dec 23 14:45 : player: played "The Beatles/White Album 1/05 - Wild Honey Pie.mp3"
+Dec 23 14:45 : player: played "The Beatles/Let It Be/07-Maggie Mae.mp3"
+Dec 23 14:45 : player: played "The Beatles/White Album 1/06 - The Continuing Story Of Bungalow Bill.mp3"
+Dec 23 14:45 : player: played "The Beatles/Let It Be/06-Let It Be.mp3"
+Dec 23 14:48 : player: played "The Beatles/Rubber Soul/11 - In My Life.mp3"
+Dec 23 14:48 : player: played "The Beatles/White Album 1/16 - I Will.mp3"
+Dec 23 14:48 : player: played "The Beatles/Let It Be/02-Dig a Pony.mp3"
+Dec 23 14:48 : player: played "The Beatles/Rubber Soul/06 - The Word.mp3"
+Dec 23 14:48 : player: played "The Beatles/Rubber Soul/03 - You Won't See Me.mp3"
+Dec 23 14:48 : player: played "The Beatles/ Yellow Submarine/06 - All You Need Is Love.mp3"
+Dec 23 14:48 : player: played "The Beatles/White Album 2/09 - Honey Pie.mp3"
+Dec 23 14:48 : player: played "The Beatles/ Yellow Submarine/06 - All You Need Is Love.mp3"
+Dec 23 14:51 : player: played "The Beatles/White Album 2/09 - Honey Pie.mp3"
+Dec 23 14:54 : player: played "The Beatles/ Yellow Submarine/02 - Only A Northern Song.mp3"
+Dec 23 14:57 : player: played "The Beatles/ Yellow Submarine/09 - Sea Of Holes.mp3"
+Dec 23 15:00 : player: played "The Beatles/Let It Be/12-Get Back.mp3"
+Dec 23 15:03 : player: played "The Beatles/White Album 2/05 - Sexy Sadie.mp3"
+Dec 23 15:05 : player: played "The Beatles/ Yellow Submarine/13 - Yellow Submarine In Pepperland.mp3"
+Dec 23 15:10 : player: played "The Beatles/White Album 2/06 - Helter Skelter.mp3"
+Dec 23 15:12 : player: played "The Beatles/Rubber Soul/09 - Girl.mp3"
+Dec 23 15:15 : player: played "The Beatles/Rubber Soul/01 - Drive My Car.mp3"
+Dec 23 15:18 : player: played "The Beatles/White Album 2/10 - Savoy Truffle.mp3"
+Dec 23 15:20 : player: played "The Beatles/White Album 1/03 - Glass Onion.mp3"
+Dec 23 15:21 : player: played "The Beatles/Rubber Soul/02 - Norwegian Wood (This Bird Has Flown).mp3"
+Dec 23 15:21 : player: played "The Beatles/ Yellow Submarine/12 - Pepperland Laid Waste.mp3"
+Dec 23 15:21 : player: played "The Beatles/Let It Be/01-Two of Us.mp3"
+Dec 23 15:21 : player: played "The Beatles/White Album 1/15 - Why Don't We Do It In The Road.mp3"
+Dec 23 15:21 : player: played "The Beatles/Let It Be/09-One After 909.mp3"
+Dec 23 15:21 : player: played "The Beatles/Rubber Soul/10 - I'm Looking Through You.mp3"
+Dec 23 15:21 : player: played "The Beatles/ Yellow Submarine/07 - Pepperland.mp3"
+Dec 23 15:21 : player: played "The Beatles/Let It Be/05-Dig It.mp3"
+Dec 23 15:21 : player: played "The Beatles/Let It Be/11-For You Blue.mp3"
+Dec 23 15:21 : player: played "The Beatles/Let It Be/05-Dig It.mp3"
+Dec 23 15:21 : player: played "The Beatles/Let It Be/11-For You Blue.mp3"
+Dec 23 15:24 : player: played "The Beatles/White Album 1/08 - Happiness Is A Warm Gun.mp3"
+Dec 23 15:26 : player: played "The Beatles/Rubber Soul/07 - Michelle.mp3"
+Dec 23 15:29 : player: played "The Beatles/ Yellow Submarine/01 - Yellow Submarine.mp3"
+Dec 23 15:31 : player: played "The Beatles/Rubber Soul/12 - Wait.mp3"
+Dec 23 15:34 : player: played "The Beatles/ Yellow Submarine/08 - Sea Of Time.mp3"
+Dec 23 15:35 : player: played "The Beatles/White Album 2/04 - Everybody's Got Something To Hide (Except Me And My Monkey).mp3"
+Dec 23 15:35 : player: played "The Beatles/White Album 2/02 - Yer Blues.mp3"
+Dec 23 15:35 : player: played "The Beatles/ Yellow Submarine/05 - It's All Too Much.mp3"
+Dec 23 15:35 : player: played "The Beatles/ Yellow Submarine/10 - Sea Of Monsters.mp3"
+Dec 23 15:42 : player: played "The Beatles/ Yellow Submarine/05 - It's All Too Much.mp3"

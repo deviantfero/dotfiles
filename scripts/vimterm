@@ -1,0 +1,3 @@
+#!/usr/bin/bash
+
+urxvt -e 'vim' $1
