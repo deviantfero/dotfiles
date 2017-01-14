@@ -310,7 +310,7 @@
       </action>
     </keybind>
     <keybind key="C-A-Tab">
-      <action name="NextWindow">
+      <action name="Execute">
         <raise>yes</raise>
         <panels>yes</panels>
         <desktop>yes</desktop>
@@ -347,9 +347,9 @@
       <action name="Execute">
         <startupnotify>
           <enabled>true</enabled>
-          <name>dmenu</name>
+          <name>rofi</name>
         </startupnotify>
-        <command>dmenu_exe</command>
+        <command>lrofi run</command>
       </action>
     </keybind>
     <keybind key="W-f">
@@ -394,7 +394,7 @@
           <enabled>true</enabled>
           <name>Editor</name>
         </startupnotify>
-		<command>bash -c 'notify-send "$(cat ~/.ssh/config)"'</command>
+        <command>bash -c 'notify-send "$(cat ~/.ssh/config)"'</command>
       </action>
     </keybind>
     <keybind key="W-m">
@@ -425,8 +425,8 @@
       </action>
     </keybind>
     <keybind key="W-Tab">
-      <action name="ShowMenu">
-        <menu>client-list-combined-menu</menu>
+      <action name="Execute">
+		<command>lrofi window</command>
       </action>
     </keybind>
     <keybind key="W-space">

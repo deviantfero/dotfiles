@@ -1,0 +1,10 @@
+#!/bin/bash
+rofi -color-window "#152126, #152126, #152126" \
+	-color-normal "#152126, white, #152126, #62586c, white" \
+	-color-active "#152126, #62586c, #152126, #c4615d, white" \
+	-tokenize \
+	-hide-scrollbar \
+	-lines 10 \
+	-width 600 \
+	-font "Droid sans mono 8" \
+	-show $1

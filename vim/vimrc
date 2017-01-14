@@ -8,6 +8,10 @@ call plug#begin( '~/.vim/plugged' )
 	Plug 'tpope/vim-surround'
 	Plug 'tpope/vim-fugitive'
 	Plug 'vim-airline/vim-airline'
+	Plug 'vim-scripts/tComment'
+	Plug 'junegunn/vim-easy-align'
+	Plug 'Yggdroot/indentLine'
+	Plug 'wincent/terminus'
 	"MONO
 	Plug 'tpope/vim-dispatch', { 'for': 'cs' }
 	Plug 'scrooloose/syntastic', { 'for': 'cs' }
@@ -20,8 +24,10 @@ call plug#begin( '~/.vim/plugged' )
 	Plug 'ap/vim-css-color'
 	Plug 'jelera/vim-javascript-syntax', {'for': 'javascript'}
 	Plug 'hail2u/vim-css3-syntax', { 'for': ['css', 'html'] }
+	Plug '1995eaton/vim-better-javascript-completion', {'for': 'javascript'}
 	"Autocomplete additions
 	Plug 'slashmili/alchemist.vim', { 'for': 'elixir' }
+
 call plug#end()
 
 " remaps "
@@ -32,6 +38,10 @@ nnoremap <f3> :call HlToggle()<cr>
 nmap <F7> <Plug>ColorstepPrev<CR>
 nmap <F8> <Plug>ColorstepNext<CR>
 nnoremap <F9> :Dispatch<CR>
+"for easy-align plugin.
+xmap ea :LiveEasyAlign<cr>
+nmap ea :LiveEasyAlign<cr>
+
 "this adds sudo saving support, with the command sudow
 command Sw :execute ':silent w !sudo tee % > /dev/null' | :edit!
 "lets me switch between python2 and python3 syntax checkers
@@ -42,8 +52,9 @@ cnoreabbrev Py3 let g:syntastic_python_checkers=['python3']
 """"""""""""""""""""""
 let g:ctrlp_working_path_mode = 'wa'
 
+
 "  snippets  "
-""""""""""""""""""""""
+""""""""""""""
 let g:UltiSnipsExpandTrigger="<c-k>"
 let g:UltiSnipsJumpForwardTrigger="<c-k>"
 let g:UltiSnipsJumpBackwardTrigger="<c-z>"
@@ -133,6 +144,15 @@ set ttyfast "faster scrolling
 set ttimeoutlen=50
 set lazyredraw "less redraws
 set splitbelow "shows info or documentation below code, so code doesn't move
+set list lcs=tab:\¦\  "highlights tabs
+let g:indentLine_color_term = 8 "indent highlighting for space
+let g:indentLine_char = '¦'
+let g:indentLine_conceallevel = 1
+let g:indetLine_enabled = 1
+" none X terminal
+let g:indentLine_color_tty_light = 7 " (default: 4)
+let g:indentLine_color_dark = 2 " (default: 2)
+let NERDTreeMinimalUI=1
 
 set shell=/bin/bash "shell to use
 set t_vb=	"disable all bells
@@ -185,16 +205,14 @@ let g:airline_powerline_fonts = 0
 let g:airline_extensions = ['branch','tabline','ctrlp']
 autocmd FileType cs let g:airline_extensions = ['branch','tabline','ctrlp', 'syntastic']
 let g:tmuxline_powerline_separators = 0
-"let g:airline_right_sep = '░▒▓'
 let g:airline_right_sep = ''
 let g:airline_left_sep = ''
-"let g:airline_left_sep = '▓▒░'
-"let g:airline_left_alt_sep = '░▒▓█'
-"let g:airline_right_alt_sep = '█▓▒░'
 let g:airline_left_alt_sep = '|'
 let g:airline_right_alt_sep = '|'
-"let g:airline_section_y = '%{getcwd()}'
 let g:airline_theme = 'wombatc'
+set noshowmode "let powerline tell me my current status
+
+
 " TTY only "
 """"""""""""
 if &term=~"linux"
