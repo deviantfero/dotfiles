@@ -1,7 +1,7 @@
 #!/bin/bash
-rofi -color-window "#152126, #152126, #152126" \
-	-color-normal "#152126, white, #152126, #62586c, white" \
-	-color-active "#152126, #62586c, #152126, #c4615d, white" \
+rofi -color-window "#221b1b, #221b1b, #221b1b" \
+	-color-normal "#221b1b, white, #221b1b, #6a4d28, white" \
+	-color-active "#221b1b, #6a4d28, #221b1b, #768565, white" \
 	-tokenize \
 	-hide-scrollbar \
 	-lines 10 \

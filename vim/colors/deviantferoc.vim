@@ -36,6 +36,8 @@ endif
 let g:colors_name = "deviantferoc"
 "hi Normal ctermbg=233
 "Set colors
+"hi Normal ctermbg=233
+"Set colors
 "hi CursorLine ctermbg=235	cterm=none
 "hi CursorLineNr ctermfg=252 ctermbg=234
 "Console colors
@@ -45,48 +47,43 @@ hi CursorLineNr ctermfg=254   ctermbg=6
 hi LineNr       ctermfg=247 ctermbg=8
 hi VertSplit    ctermfg=8   ctermbg=0 cterm=none
 hi Specialkey   ctermfg=8   ctermbg=0
-" Normal is for the normal (unhighlighted) text and background.
-" NonText is below the last line (~ lines).
-highlight Normal                  guibg=Black      guifg=Green 
-highlight Cursor                  guibg=Grey70     guifg=White
-highlight NonText                 guibg=Grey80
 
 highlight Comment    cterm=none      ctermfg=DarkGrey guifg=#d1ddff
 highlight Constant   cterm=bold      ctermfg=Yellow   guifg=#ffa0a0
 "highlight Number   	 term=underline ctermfg=DarkGrey                     guifg=Yellow
-highlight Identifier ctermfg=Cyan    guifg=#40ffff
-highlight Statement  ctermfg=Yellow  gui=bold         guifg=#ffff60
-highlight PreProc    ctermfg=Blue    guifg=#ff4500
-highlight Type       ctermfg=10      gui=bold         guifg=#7d96ff
-highlight Special    ctermfg=Magenta guifg=Orange
-highlight Ignore     ctermfg=Black   guifg=bg
-highlight Error      ctermfg=15      ctermbg=8        guifg=White guibg=Red
-highlight Todo       ctermfg=15      ctermbg=8        guifg=Blue  guibg=Yellow
+highlight Identifier ctermfg=12       cterm=bold guifg=#40ffff
+highlight Statement  ctermfg=10  gui=bold  guifg=#ffff60
+highlight Keyword    ctermfg=14
+highlight Conditional ctermfg=9
+highlight Number     ctermfg=13
+highlight PreProc    ctermfg=12      guifg=#ff4500
+highlight Type       ctermfg=9       cterm=italic gui=bold  guifg=#7d96ff
+highlight Ignore     ctermfg=0   guifg=bg
+highlight Error      ctermfg=15      ctermbg=8 guifg=White guibg=Red
+highlight Todo       ctermfg=15      ctermbg=8 guifg=Blue  guibg=Yellow
 
 " Change the highlight of search matches (for use with :set hls).
 highlight Search                    ctermfg=255      ctermbg=239  guifg=Black    guibg=Yellow  
 
 " Change the highlight of visual highlight.
 
-highlight Float          ctermfg=Blue  guifg=#88AAEE
-highlight Exception      ctermfg=2     ctermbg=234   guifg=Red      guibg=White
-highlight Typedef        ctermfg=Blue  ctermbg=234   gui=bold       guifg=White guibg=Blue
-highlight SpecialChar    ctermfg=3     ctermbg=234   guifg=Black    guibg=White
-highlight Delimiter      ctermfg=White ctermbg=Black guifg=White    guibg=Black
-highlight SpecialComment ctermfg=8    ctermbg=3     guifg=Black    guibg=Green
+highlight Float          ctermfg=9  guifg=#88AAEE
+highlight Exception      ctermfg=10     ctermbg=234   guifg=Red      guibg=White
+highlight Function       ctermfg=14
+highlight Typedef        ctermfg=9  ctermbg=8   gui=italic       guifg=White guibg=Blue
+highlight SpecialChar    ctermfg=12 ctermbg=8   guifg=Black    guibg=White
+highlight Delimiter      ctermfg=15 ctermbg=8 guifg=White    guibg=Black
+highlight SpecialComment ctermfg=11    ctermbg=8     guifg=Black    guibg=Green
 
 " Common groups that link to default highlighting.
 " You can specify other highlighting easily.
+highlight link Special      Type
 highlight link String       Constant
 highlight link Character    Constant
-highlight link Number       Constant
 highlight link Boolean      Statement
-highlight link Function     Identifier
-highlight link Conditional  Type
-highlight link Repeat       Type
+highlight link Repeat       Conditional
 highlight link Label        Type
 highlight link Operator     Type
-highlight link Keyword      Type
 highlight link Include      PreProc
 highlight link Define       PreProc
 highlight link Macro        PreProc
@@ -101,4 +98,3 @@ highlight link Typedef         Type
 "highlight link Delimiter       Special
 "highlight link SpecialComment  Special
 "highlight link Exception       Type
-"highlight link Float           Number
