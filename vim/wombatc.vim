@@ -35,7 +35,7 @@ let s:IM = [ '#40403C' , 8 ]
 " Inactive mode
 let s:IA1= [ '#767676' , s:N3[1] , 0 , s:N1[3] , '' ]
 let s:IA2= [ '#767676' , s:N3[1] , s:N1[3] , 0 , '' ]
-let s:IA3= [ '#767676' , s:N3[1] , 8 , 0 , '' ]
+let s:IA3= [ '#767676' , s:N3[1] , 245 , 8 , '' ]
 
 let g:airline#themes#wombatc#palette = {}
 
@@ -80,7 +80,7 @@ let g:airline#themes#wombatc#palette.insert_paste = {
 let g:airline#themes#wombatc#palette.inactive = airline#themes#generate_color_map(s:IA1, s:IA2, s:IA3)
 let g:airline#themes#wombatc#palette.inactive_modified = {
     \ 'airline_b': [ s:N4[0] , ''      , '' , ''      , ''     ] ,
-    \ 'airline_c': [ s:N4[0] , ''      , '' , s:N4[1]      , ''     ] }
+    \ 'airline_c': [ s:N4[0] , ''      , s:N2[3] , s:N4[1]      , ''     ] }
 
 
 if !get(g:, 'loaded_ctrlp', 0)

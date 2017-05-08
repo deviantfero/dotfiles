@@ -376,7 +376,7 @@
           <enabled>true</enabled>
           <name>Web Browser</name>
         </startupnotify>
-        <command>vivaldi-stable</command>
+        <command>chromium</command>
       </action>
     </keybind>
     <keybind key="W-l">
@@ -443,6 +443,8 @@
     <keybind key="W-Up">
       <action name="Maximize">
       </action>
+      <action name="Undecorate">
+      </action>
     </keybind>
     <keybind key="W-A-Up">
       <action name="ResizeRelative">
@@ -466,6 +468,8 @@
     </keybind>
     <keybind key="W-Down">
       <action name="UnmaximizeFull">
+      </action>
+      <action name="Decorate">
       </action>
     </keybind>
     <keybind key="W-a">

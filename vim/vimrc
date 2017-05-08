@@ -13,21 +13,14 @@ call plug#begin( '~/.vim/plugged' )
 	Plug 'junegunn/fzf.vim'
 	Plug 'Yggdroot/indentLine'
 	Plug 'wincent/terminus'
-	"MONO
-	" Plug 'tpope/vim-dispatch', { 'for': 'cs' }
-	" Plug 'scrooloose/syntastic', { 'for': 'cs' }
 	"Elixir
 	Plug 'elixir-lang/vim-elixir', { 'for': 'elixir' }
 	Plug 'mattreduce/vim-mix', { 'for': 'elixir' }
-	"Python
 	"Webdev
 	Plug 'ap/vim-css-color'
-	Plug 'jelera/vim-javascript-syntax', {'for': 'javascript'}
 	Plug 'hail2u/vim-css3-syntax', { 'for': ['css', 'html'] }
-	Plug '1995eaton/vim-better-javascript-completion', {'for': 'javascript'}
 	"Autocomplete additions
 	Plug 'slashmili/alchemist.vim', { 'for': 'elixir' }
-	" Plug 'OmniSharp/omnisharp-vim', { 'for': 'cs' }
 
 call plug#end()
 
@@ -60,76 +53,6 @@ let g:UltiSnipsJumpForwardTrigger="<c-k>"
 let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 let python_highlight_all = 1
 
-" Dispatch "
-""""""""""""""""""""""
-augroup DFOperations
-	autocmd FileType html let b:dispatch = 'firefox %'
-augroup END
-
-" omni-sharp " {{{
-let g:OmniSharp_selector_ui = 'ctrlp'  " Use ctrlp.vim
-set noshowmatch
-augroup omnisharp_commands
-    autocmd!
-
-    "Set autocomplete function to OmniSharp (if not using YouCompleteMe completion plugin)
-    autocmd FileType cs setlocal omnifunc=OmniSharp#Complete
-
-    " Synchronous build (blocks Vim)
-    "autocmd FileType cs nnoremap <F5> :wa!<cr>:OmniSharpBuild<cr>
-    " Builds can also run asynchronously with vim-dispatch installed
-    autocmd FileType cs nnoremap <leader>b :wa!<cr>:OmniSharpBuildAsync<cr>
-    " automatic syntax check on events (TextChanged requires Vim 7.4)
-    autocmd BufEnter,TextChanged,InsertLeave *.cs SyntasticCheck
-
-    " Automatically add new cs files to the nearest project on save
-    autocmd BufWritePost *.cs call OmniSharp#AddToProject()
-
-    "show type information automatically when the cursor stops moving
-    autocmd CursorHold *.cs call OmniSharp#TypeLookupWithoutDocumentation()
-
-    "The following commands are contextual, based on the current cursor position.
-
-    autocmd FileType cs nnoremap gd :OmniSharpGotoDefinition<cr>
-    autocmd FileType cs nnoremap <leader>fi :OmniSharpFindImplementations<cr>
-    autocmd FileType cs nnoremap <leader>ft :OmniSharpFindType<cr>
-    autocmd FileType cs nnoremap <leader>fs :OmniSharpFindSymbol<cr>
-    autocmd FileType cs nnoremap <leader>fu :OmniSharpFindUsages<cr>
-    "finds members in the current buffer
-    autocmd FileType cs nnoremap <leader>fm :OmniSharpFindMembers<cr>
-    " cursor can be anywhere on the line containing an issue
-    autocmd FileType cs nnoremap <leader>x  :OmniSharpFixIssue<cr>
-    autocmd FileType cs nnoremap <leader>fx :OmniSharpFixUsings<cr>
-    autocmd FileType cs nnoremap <leader>tt :OmniSharpTypeLookup<cr>
-    autocmd FileType cs nnoremap <leader>dc :OmniSharpDocumentation<cr>
-    "navigate up by method/property/field
-    autocmd FileType cs nnoremap <C-K> :OmniSharpNavigateUp<cr>
-    "navigate down by method/property/field
-    autocmd FileType cs nnoremap <C-J> :OmniSharpNavigateDown<cr>
-
-augroup END
-"}}}
-
-" syntastic "
-""""""""""""""""""""""
-set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
-set statusline+=%*
-
-let g:syntastic_always_populate_loc_list = 1
-let g:syntastic_auto_loc_list = 1
-let g:syntastic_check_on_open = 1
-let g:syntastic_check_on_wq = 0
-let g:syntastic_loc_list_height = 3
-
-let g:syntastic_python_checkers = [ '' ]
-let g:syntastic_c_checkers = [ '' ]
-let g:syntastic_cpp_checkers = [ '' ]
-let g:syntastic_css = [ 'syntax', 'semantic', 'issues' ]
-let g:syntastic_ruby_checkers = [ '' ]
-let g:syntastic_cs_checkers = ['syntax', 'semantic', 'issues']
-
-
 " random options "
 """"""""""""""""""
 set number	"line numbers on the left
@@ -142,9 +65,10 @@ set novisualbell "no visual bell aka blinking
 set incsearch "search while typing
 set mouse=a "Use mouse to navigate the file
 set ttyfast "faster scrolling
-set ttimeoutlen=50
+set ttimeoutlen=20
 set lazyredraw "less redraws
 set splitbelow "shows info or documentation below code, so code doesn't move
+" set list lcs=tab:\|\  "highlights tabs
 set list lcs=tab:\¦\  "highlights tabs
 let g:indentLine_color_term = 8 "indent highlighting for space
 let g:indentLine_char = '¦'
@@ -161,8 +85,6 @@ set foldmethod=marker "allow marking folds
 filetype plugin indent on
 syntax on	"color syntax highlighting
 filetype plugin on	"load the filetype specific config
-set omnifunc=syntaxcomplete#Complete "Omnicomplete ON
-au BufNewFile,BufRead,BufEnter *.c,*.h set omnifunc=ccomplete#Complete
 
 " indent options "
 """"""""""""""""""

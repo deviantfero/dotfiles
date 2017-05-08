@@ -3,7 +3,7 @@ audio_device_state:1:MPD
 audio_device_state:1:My HTTP Stream
 audio_device_state:1:Visualizer feed
 state: stop
-current: 4
+current: 2
 random: 0
 repeat: 0
 single: 0
@@ -12,19 +12,19 @@ crossfade: 0
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:helloween/Helloween [2006] Keeper Of The Seven Keys Part I [Remastered] (2006)/03_helloween-a_little_time-amrc.mp3
-1:Mägo de Oz/Singles & EPs/Diabolus in Música (Single)/01-Diabolus in Música.mp3
-2:The Beatles/ Abbey Road (1969)/11 - Mean Mr. Mustard.mp3
-3:Gamma Ray/Gamma_Ray-Land_Of_The_Free_II-Promo-2007-QTXMp3/05-rain-qtxmp3.mp3
-4:Stratovarius/2005 - Stratovarius/08 - Leave the Tribe.mp3
-5:Pink Floyd/1971 - Meddle 2011 Remaster/03. Fearless.mp3
-6:The Beatles/1967 - 1970 (BLUE)/Beatles - 1967-1970 (Blue Box) Disk 2/13 - Across the Universe.MP3
-7:The Beatles/Beatles for Sale/04 - Rock And Roll Music.mp3
-8:The Beatles/ A Hard Days Night/09 - I'll Cry Instead.mp3
-9:The Beatles/Let It Be/02-Dig a Pony.mp3
-10:The Beatles/1962-1966/Beatles - 1962-1966 (Red Box) Disk 2/02 - You've Got to Hide Your Love Away.mp3
-11:Angra/Temple Of Shadows/01 Deus le Volt!.mp3
-12:Chill/17 Minmi - Shiki No Uta.mp3
-13:The Beatles/ Abbey Road (1969)/17 - Her Majesty.mp3
-14:helloween/Better than Raw/12 Pista 12.wma
+0:Mägo de Oz/Singles & EPs/Que el Viento Sople a tu Favor (Single)/01 - Que el Viento Sople a tu favor.mp3
+1:Mägo de Oz/[2004] Belfast/03. La Rosa de los Vientos (Metal Version).mp3
+2:The Beatles/1967 - 1970 (BLUE)/Beatles - 1967-1970 (Blue Box) Disk 1/10 - The Fool On the Hill.mp3
+3:System of a Down/Best Of-System Of A Down/CD 2/11. Streamline.mp3
+4:The Beatles/Let it Be Naked/The Beatles - Let It Be... Naked - 07 - One After 909.mp3
+5:The Beatles/Past Masters 2/08 - Revolution.mp3
+6:Mägo de Oz/Singles & EPs/La Bruja (EP)/04-Gerdundula.mp3
+7:Mägo de Oz/[2003] Gaia (Deluxe Edition)/12. La Venganza de Gaia.mp3
+8:Mägo de Oz/[2011] Love N’ Oz/14. Epilogo (Version 2011).mp3
+9:The Beatles/Past Masters 1/03 - Thank You Girl.mp3
+10:Gamma Ray/(1995) Land of the Free/Gamma Ray - 11 Abyss of the Void.mp3
+11:Ryo Fukui/Mellow Dream/07 Early Summer 2006.mp3
+12:Daft Punk/TRON Legacy/CD 2/04. Castor.mp3
+13:Pink Floyd/1969 - Ummagumma 2011 Remaster/Live Album/04. A Saucerful Of Secrets.mp3
+14:The Beatles/White Album/The White Album (Disc1)/13 - Rocky Raccoon.mp3
 playlist_end

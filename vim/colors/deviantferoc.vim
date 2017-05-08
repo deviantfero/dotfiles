@@ -45,7 +45,7 @@ hi CursorLine   ctermbg=0   cterm=none
 hi Visual       ctermbg=237 ctermfg=250 cterm=none
 hi CursorLineNr ctermfg=254   ctermbg=6
 hi LineNr       ctermfg=247 ctermbg=8
-hi VertSplit    ctermfg=8   ctermbg=0 cterm=none
+hi VertSplit    ctermfg=0   ctermbg=8 cterm=none
 hi Specialkey   ctermfg=8   ctermbg=0
 
 highlight Comment    cterm=none      ctermfg=DarkGrey guifg=#d1ddff

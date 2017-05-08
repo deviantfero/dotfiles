@@ -3030,3 +3030,38 @@ Apr 24 16:17 : client: [0] closed
 Apr 24 16:18 : client: [1] opened from [::1]:42788
 Apr 24 16:18 : player: played "Stratovarius/2005 - Stratovarius/08 - Leave the Tribe.mp3"
 Apr 24 16:18 : client: [1] closed
+Apr 28 11:48 : exception: bind to '0.0.0.0:1234' failed (continuing anyway, because binding to '[::]:1234' succeeded): Failed to bind socket: Address already in use
+Apr 28 11:48 : client: [0] opened from [::1]:38412
+Apr 28 11:52 : player: played "The Beatles/1967 - 1970 (BLUE)/Beatles - 1967-1970 (Blue Box) Disk 2/13 - Across the Universe.MP3"
+Apr 28 11:53 : player: played "helloween/Better than Raw/12 Pista 12.wma"
+Apr 28 11:57 : player: played "The Beatles/CD Singles Collection/1969 - The Beatles - Get Back/02. Don't Let Me Down.mp3"
+Apr 28 11:57 : player: played "Pink Floyd/1971 - Meddle 2011 Remaster/02. A Pillow of Winds.mp3"
+Apr 28 12:00 : player: played "System of a Down/Best Of-System Of A Down/CD 2/14. Ego Brain.mp3"
+May 03 13:01 : exception: bind to '0.0.0.0:1234' failed (continuing anyway, because binding to '[::]:1234' succeeded): Failed to bind socket: Address already in use
+May 03 13:01 : client: [0] opened from [::1]:35392
+May 03 13:02 : player: played "Coldplay/2000 - Parachutes/07. Parachutes.mp3"
+May 03 13:06 : player: played "Taeko Ohnuki (大贯妙子)/1981.05.21 - Aventure/09. ブリーカー.ストリートの青春.mp3"
+May 03 13:15 : player: played "Mägo de Oz/[2000] Finisterra/02. Satania.mp3"
+May 03 13:21 : player: played "Stratovarius/1996 - Episode/06 - Uncertainty.mp3"
+May 03 13:24 : player: played "The Beatles/White Album/The White Album (Disc1)/08 - Happiness Is A Warm Gun.mp3"
+May 03 13:27 : player: played "Led Zeppelin/Led Zeppelin - Greatest Hits 2CD (2008)/Disc 2/13. Tangerine.mp3"
+May 03 13:31 : player: played "Stratovarius/2011 - Elysium/04 - Fairness Justified.mp3"
+May 03 13:32 : player: played "Coldplay/2000 - Parachutes/07. Parachutes.mp3"
+May 03 13:36 : player: played "Taeko Ohnuki (大贯妙子)/1980.07.21 - Romantique/02. ディケイド.ナイト.mp3"
+May 03 13:39 : player: played "Taeko Ohnuki (大贯妙子)/1981.05.21 - Aventure/09. ブリーカー.ストリートの青春.mp3"
+May 03 14:26 : exception: bind to '0.0.0.0:1234' failed (continuing anyway, because binding to '[::]:1234' succeeded): Failed to bind socket: Address already in use
+May 03 14:26 : client: [0] opened from [::1]:55848
+May 03 14:26 : client: [0] closed
+May 03 14:30 : player: played "Taeko Ohnuki (大贯妙子)/1981.05.21 - Aventure/09. ブリーカー.ストリートの青春.mp3"
+May 03 14:30 : client: [1] opened from [::1]:37624
+May 03 14:30 : player: played "Mägo de Oz/[2000] Finisterra/02. Satania.mp3"
+May 03 14:30 : player: played "Daft Punk/TRON Legacy/CD 1/09. Outlands.mp3"
+May 03 14:36 : player: played "Stratovarius/1997 - Visions (Japanese Edition)/02 - Black Diamond.mp3"
+May 03 14:39 : player: played "The Beatles/1962-1966/Beatles - 1962-1966 (Red Box) Disk 2/08 - Michelle.mp3"
+May 03 14:44 : client: [1] closed
+May 03 14:44 : client: [2] opened from [::1]:44088
+May 03 14:44 : player: played "The Beatles/CD Singles Collection/1969 - The Beatles - Ballad Of John And Yoko/02. Old Brown Shoe.mp3"
+May 03 14:44 : client: [2] closed
+May 03 14:46 : client: [3] opened from [::1]:51130
+May 03 14:46 : player: played "The Beatles/1967 - 1970 (BLUE)/Beatles - 1967-1970 (Blue Box) Disk 1/10 - The Fool On the Hill.mp3"
+May 03 14:46 : client: [3] closed
