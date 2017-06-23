@@ -41,12 +41,21 @@ let g:colors_name = "deviantferoc"
 "hi CursorLine ctermbg=235	cterm=none
 "hi CursorLineNr ctermfg=252 ctermbg=234
 "Console colors
+hi Title        cterm=none  ctermfg=14
+hi TabLineFill  cterm=none  ctermbg=8   ctermfg=255
+hi TabLine      cterm=none  ctermbg=8   ctermfg=245
+hi TabLineSel   cterm=none  ctermbg=14  ctermfg=0
+hi StatusLine   cterm=bold  ctermbg=8   ctermfg=254
+hi StatusLineNC cterm=none  ctermbg=8   ctermfg=240
 hi CursorLine   ctermbg=0   cterm=none
 hi Visual       ctermbg=237 ctermfg=250 cterm=none
-hi CursorLineNr ctermfg=254   ctermbg=6
+hi CursorLineNr ctermfg=250 ctermbg=6
 hi LineNr       ctermfg=247 ctermbg=8
-hi VertSplit    ctermfg=0   ctermbg=8 cterm=none
-hi Specialkey   ctermfg=8   ctermbg=0
+hi VertSplit    ctermfg=0   ctermbg=8   cterm=none
+hi Specialkey   ctermfg=13   ctermbg=0
+hi ErrorMsg     ctermfg=0   ctermbg=12
+hi Pmenu        ctermbg=8   ctermfg=255
+hi PmenuSel     ctermbg=14  ctermfg=0
 
 highlight Comment    cterm=none      ctermfg=DarkGrey guifg=#d1ddff
 highlight Constant   cterm=bold      ctermfg=Yellow   guifg=#ffa0a0
@@ -98,3 +107,4 @@ highlight link Typedef         Type
 "highlight link Delimiter       Special
 "highlight link SpecialComment  Special
 "highlight link Exception       Type
+
