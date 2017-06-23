@@ -2,23 +2,24 @@
 call plug#begin( '~/.vim/plugged' )
 	"Essential
 	Plug 'SirVer/ultisnips'  | Plug 'honza/vim-snippets'
-	Plug 'Valloric/YouCompleteMe', { 'do': './install.py' }
+	Plug 'Valloric/YouCompleteMe', { 'do': './install.py --tern-completer' }
 	Plug 'tpope/vim-surround'
+	Plug 'alvan/vim-closetag'
 	Plug 'tpope/vim-vinegar'
 	Plug 'tpope/vim-fugitive'
-	Plug 'vim-airline/vim-airline'
+	Plug 'tpope/vim-sleuth'
+	Plug 'tpope/vim-repeat'
 	Plug 'vim-scripts/tComment'
 	Plug 'junegunn/vim-easy-align'
 	Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --bin' }
 	Plug 'junegunn/fzf.vim'
-	Plug 'Yggdroot/indentLine'
-	Plug 'wincent/terminus'
+	Plug 'Shougo/vimshell.vim' | Plug 'Shougo/vimproc.vim', {'do' : 'make'}
 	"Elixir
 	Plug 'elixir-lang/vim-elixir', { 'for': 'elixir' }
 	Plug 'mattreduce/vim-mix', { 'for': 'elixir' }
 	"Webdev
-	Plug 'ap/vim-css-color'
-	Plug 'hail2u/vim-css3-syntax', { 'for': ['css', 'html'] }
+	" Plug 'ap/vim-css-color'
+	Plug 'mattn/emmet-vim', { 'for': ['html'] }
 	"Autocomplete additions
 	Plug 'slashmili/alchemist.vim', { 'for': 'elixir' }
 
@@ -26,13 +27,10 @@ call plug#end()
 
 " remaps "
 """"""""""
-"For fzf"
-"""""""""
-map <C-f> :GitFiles<cr>
-map <C-p> :Files<cr>
-nnoremap <f2> :call NumberToggle()<cr>
+nmap <C-f> :GitFiles<cr>
+nmap <C-p> :Files<cr>
+nnoremap <f4> :call NumberToggle()<cr>
 nnoremap <f3> :call HlToggle()<cr>
-nnoremap <F9> :Dispatch<CR>
 "for easy-align plugin.
 xmap ea :LiveEasyAlign<cr>
 nmap ea :LiveEasyAlign<cr>
@@ -41,9 +39,6 @@ set luadll=liblua.so
 
 "this adds sudo saving support, with the command sudow
 command Sw :execute ':silent w !sudo tee % > /dev/null' | :edit!
-"lets me switch between python2 and python3 syntax checkers
-cnoreabbrev Py2 let g:syntastic_python_checkers=['python2']
-cnoreabbrev Py3 let g:syntastic_python_checkers=['python3']
 
 
 "  snippets  "
@@ -55,28 +50,22 @@ let python_highlight_all = 1
 
 " random options "
 """"""""""""""""""
+set nowrap
+set sj=-50 "set scrolling to emacs like
+set regexpengine=1
 set number	"line numbers on the left
 set norelativenumber "normal numbers as default
 set nocompatible	"no vi compatibility
 set noexrc	"don't use ~/.exrc config
-set cursorline "highlight the current line
+set nocursorline "faster drawing
 set noerrorbells "no audio bell aka beeping
 set novisualbell "no visual bell aka blinking
 set incsearch "search while typing
 set mouse=a "Use mouse to navigate the file
 set ttyfast "faster scrolling
-set ttimeoutlen=20
+set ttimeoutlen=10
 set lazyredraw "less redraws
 set splitbelow "shows info or documentation below code, so code doesn't move
-" set list lcs=tab:\|\  "highlights tabs
-set list lcs=tab:\¦\  "highlights tabs
-let g:indentLine_color_term = 8 "indent highlighting for space
-let g:indentLine_char = '¦'
-let g:indentLine_conceallevel = 1
-let g:indetLine_enabled = 1
-" none X terminal
-let g:indentLine_color_tty_light = 7 " (default: 4)
-let g:indentLine_color_dark = 2 " (default: 2)
 
 set shell=/bin/bash "shell to use
 set t_vb=	"disable all bells
@@ -85,14 +74,17 @@ set foldmethod=marker "allow marking folds
 filetype plugin indent on
 syntax on	"color syntax highlighting
 filetype plugin on	"load the filetype specific config
+let g:closetag_filenames = "*.html,*.xml,*.js" "autoclose tags in these files
+let g:closetag_emptyTags_caseSensitive = 1
 
 " indent options "
 """"""""""""""""""
 set autoindent	"set indenting
 set ts=4	"set tab space
-set sw=2	"set soft tab
+set sw=4        "set soft tab
 set noexpandtab	"do not expand a tab to spaces
 set shiftwidth=4	"set autoindent to one tab
+packadd! matchit
 
 
 " color options "
@@ -103,37 +95,42 @@ colorscheme deviantferoc
 
 " hpppl preferences for vim            "
 """""""""""""""""""""""""""""""""""""""""
-autocmd BufNewFile,BufRead *.hpppl set noautoindent
-autocmd BufNewFile,BufRead *.hpppl set ts=2
-autocmd BufNewFile,BufRead *.hpppl set sw=2
-autocmd BufNewFile,BufRead *.hpppl set expandtab
-autocmd BufNewFile,BufRead *.hpppl set syntax=c
+autocmd BufNewFile,BufRead *.hpppl set syntax=hpppl
+function! Relpath(filename)
+    let cwd = getcwd()
+    let s = substitute(a:filename, l:cwd . "/" , "", "")
+    return s
+endfunction
 
 " vim powerline "
 """""""""""""""""
 set laststatus=2
 let $PYTHONPATH='/usr/lib/python2/site-packages'
-let g:airline_powerline_fonts = 0
-let g:airline_extensions = ['branch','tabline']
-autocmd FileType cs let g:airline_extensions = ['branch','tabline', 'syntastic']
-let g:tmuxline_powerline_separators = 0
-let g:airline_right_sep = ''
-let g:airline_left_sep = ''
-let g:airline_left_alt_sep = '|'
-let g:airline_right_alt_sep = '|'
-let g:airline_theme = 'wombatc'
-set noshowmode "let powerline tell me my current status
+if has('statusline')
+  " Broken down into easily includeable segments
+  set statusline=\ \ %<%t\    " Filename
+  set statusline+=%w%h%m%r " Options
+  set statusline+=%{fugitive#statusline()} "  Git Hotness
+  set statusline+=%=%4.40{Relpath(expand(\"%:p\"))}          " current dir
+  set statusline+=%#warningmsg#
+  set statusline+=%*
+  set statusline+=\ %=[%{&ff}]            " format
+  set statusline+=%y            " filetype
+  set statusline+=%=\ \ %-8.(%l,%c%V%)\ %p%%\ \  "Right aligned file nav info
+endif
 
 
 " TTY only "
 """"""""""""
-if &term=~"linux"
-	colorscheme peachpuff
-	let g:airline_theme = 'behelit'
-	let g:TerminusCursorShape=0
+if has("gui_running")
+	let g:airline_theme = 'dark'
+	set background=light
+	colorscheme PaperColor
+	set gfn=roboto\ mono\ 8
 endif
 
 "auto complete"
 """""""""""""""
 silent! let g:EclimCompletionMethod = 'omnifunc'
 let g:ycm_autoclose_preview_window_after_completion=1
+
