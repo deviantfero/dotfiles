@@ -7,8 +7,8 @@ URxvt*foreground: white
 URxvt*background: 0
 
 !Font options
-URxvt*font: xft:droid sans mono dotted for powerline:size=8:antialias=true:hinting=true
-!URxvt*font: xft:droid sans mono:size=8:antialias=true:hinting=true
+URxvt*font: xft:roboto mono for powerline:size=8:antialias=true:hinting=true
+! URxvt*font: xft:droid sans mono:size=8:antialias=true:hinting=true
 !URxvt*font: xft:source code pro for powerline:size=8:antialias=true:hinting=true
 URxvt*letterSpace: -1
 !URxvt*letterSpace: 0

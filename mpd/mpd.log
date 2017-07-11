@@ -3065,3 +3065,264 @@ May 03 14:44 : client: [2] closed
 May 03 14:46 : client: [3] opened from [::1]:51130
 May 03 14:46 : player: played "The Beatles/1967 - 1970 (BLUE)/Beatles - 1967-1970 (Blue Box) Disk 1/10 - The Fool On the Hill.mp3"
 May 03 14:46 : client: [3] closed
+May 08 16:29 : exception: bind to '0.0.0.0:1234' failed (continuing anyway, because binding to '[::]:1234' succeeded): Failed to bind socket: Address already in use
+May 08 16:29 : client: [0] opened from [::1]:48310
+May 08 16:33 : player: played "Taeko Ohnuki (大贯妙子)/1978.09.21 - Mignonne/01. じゃじゃ馬娘.mp3"
+May 08 16:46 : player: played "Taeko Ohnuki (大贯妙子)/1978.09.21 - Mignonne/08. 突然の贈りもの.mp3"
+May 08 17:01 : player: played "Taeko Ohnuki (大贯妙子)/1981.05.21 - Aventure/09. ブリーカー.ストリートの青春.mp3"
+May 08 17:01 : client: [0] closed
+May 08 17:05 : player: played "Taeko Ohnuki (大贯妙子)/1981.05.21 - Aventure/09. ブリーカー.ストリートの青春.mp3"
+May 17 11:40 : exception: bind to '0.0.0.0:1234' failed (continuing anyway, because binding to '[::]:1234' succeeded): Failed to bind socket: Address already in use
+May 17 11:40 : client: [0] opened from [::1]:47718
+May 17 11:44 : player: played "Taeko Ohnuki (大贯妙子)/1981.05.21 - Aventure/09. ブリーカー.ストリートの青春.mp3"
+May 17 12:08 : player: played "Queen/Queen - Absolute Greatest (2009)/03 Radio Ga Ga.mp3"
+May 25 18:26 : exception: bind to '0.0.0.0:1234' failed (continuing anyway, because binding to '[::]:1234' succeeded): Failed to bind socket: Address already in use
+May 25 18:26 : client: [0] opened from [::1]:34996
+May 25 18:28 : player: played "Mägo de Oz/Singles & EPs/El Atrapasuenos (Promo)/01-El Atrapasuenos.mp3"
+May 25 18:29 : client: [0] closed
+May 25 18:29 : client: [1] opened from [::1]:35108
+May 25 18:29 : client: [1] closed
+May 27 17:29 : exception: bind to '0.0.0.0:1234' failed (continuing anyway, because binding to '[::]:1234' succeeded): Failed to bind socket: Address already in use
+May 27 17:29 : client: [0] opened from [::1]:52450
+May 27 17:29 : update: added Cowboy Bebop/Cowboy Bebop OST 1 - Cowboy Bebop/01 - Tank!.mp3
+May 27 17:29 : update: added Cowboy Bebop/Cowboy Bebop OST 1 - Cowboy Bebop/02 - Rush.mp3
+May 27 17:29 : update: added Cowboy Bebop/Cowboy Bebop OST 1 - Cowboy Bebop/03 - Spokey Dokey.mp3
+May 27 17:29 : update: added Cowboy Bebop/Cowboy Bebop OST 1 - Cowboy Bebop/04 - Bad Dog No Biscuits.mp3
+May 27 17:29 : update: added Cowboy Bebop/Cowboy Bebop OST 1 - Cowboy Bebop/05 - Cat Blues.mp3
+May 27 17:29 : update: added Cowboy Bebop/Cowboy Bebop OST 1 - Cowboy Bebop/06 - Cosmos.mp3
+May 27 17:29 : update: added Cowboy Bebop/Cowboy Bebop OST 1 - Cowboy Bebop/07 - Space Lion.mp3
+May 27 17:29 : update: added Cowboy Bebop/Cowboy Bebop OST 1 - Cowboy Bebop/08 - Waltz for Zizi.mp3
+May 27 17:29 : update: added Cowboy Bebop/Cowboy Bebop OST 1 - Cowboy Bebop/09 - Piano Black.mp3
+May 27 17:29 : update: added Cowboy Bebop/Cowboy Bebop OST 1 - Cowboy Bebop/10 - Pot City.mp3
+May 27 17:29 : update: added Cowboy Bebop/Cowboy Bebop OST 1 - Cowboy Bebop/11 - Too Good Too Bad.mp3
+May 27 17:29 : update: added Cowboy Bebop/Cowboy Bebop OST 1 - Cowboy Bebop/12 - Car24.mp3
+May 27 17:29 : update: added Cowboy Bebop/Cowboy Bebop OST 1 - Cowboy Bebop/13 - The Egg and I.mp3
+May 27 17:29 : update: added Cowboy Bebop/Cowboy Bebop OST 1 - Cowboy Bebop/14 - Felt Tip Pen.mp3
+May 27 17:29 : update: added Cowboy Bebop/Cowboy Bebop OST 1 - Cowboy Bebop/15 - Rain.mp3
+May 27 17:29 : update: added Cowboy Bebop/Cowboy Bebop OST 1 - Cowboy Bebop/16 - Digging My Potato.mp3
+May 27 17:29 : update: added Cowboy Bebop/Cowboy Bebop OST 1 - Cowboy Bebop/17 - Memory.mp3
+May 27 17:29 : update: added Cowboy Bebop/Cowboy Bebop OST 2 - Vitamineless/01 - The Real Folk Blues.mp3
+May 27 17:29 : update: added Cowboy Bebop/Cowboy Bebop OST 2 - Vitamineless/02 - Odd Ones.mp3
+May 27 17:29 : update: added Cowboy Bebop/Cowboy Bebop OST 2 - Vitamineless/03 - Doggy Dog.mp3
+May 27 17:29 : update: added Cowboy Bebop/Cowboy Bebop OST 2 - Vitamineless/04 - Cats on Mars.mp3
+May 27 17:29 : update: added Cowboy Bebop/Cowboy Bebop OST 2 - Vitamineless/05 - Spy.mp3
+May 27 17:29 : update: added Cowboy Bebop/Cowboy Bebop OST 2 - Vitamineless/06 - Fantaisie Sign.mp3
+May 27 17:29 : update: added Cowboy Bebop/Cowboy Bebop OST 2 - Vitamineless/07 - Piano Bar.mp3
+May 27 17:29 : update: added Cowboy Bebop/Cowboy Bebop OST 2 - Vitamineless/08 - Bonus Track.mp3
+May 27 17:29 : update: added Cowboy Bebop/Cowboy Bebop OST 3 - No Disc/01 - American Money.mp3
+May 27 17:29 : update: added Cowboy Bebop/Cowboy Bebop OST 3 - No Disc/02 - Fantaisie Sign.mp3
+May 27 17:29 : update: added Cowboy Bebop/Cowboy Bebop OST 3 - No Disc/03 - Don't Bother None.mp3
+May 27 17:29 : update: added Cowboy Bebop/Cowboy Bebop OST 3 - No Disc/04 - Vitamin A.mp3
+May 27 17:29 : update: added Cowboy Bebop/Cowboy Bebop OST 3 - No Disc/05 - Live In Baghdad.mp3
+May 27 17:29 : update: added Cowboy Bebop/Cowboy Bebop OST 3 - No Disc/06 - Cats On Mars.mp3
+May 27 17:29 : update: added Cowboy Bebop/Cowboy Bebop OST 3 - No Disc/07 - Want It All Back.mp3
+May 27 17:29 : update: added Cowboy Bebop/Cowboy Bebop OST 3 - No Disc/08 - Bindy.mp3
+May 27 17:29 : update: added Cowboy Bebop/Cowboy Bebop OST 3 - No Disc/09 - You Make Me Cool.mp3
+May 27 17:29 : update: added Cowboy Bebop/Cowboy Bebop OST 3 - No Disc/10 - Vitamin B.mp3
+May 27 17:29 : update: added Cowboy Bebop/Cowboy Bebop OST 3 - No Disc/11 - Green Bird.mp3
+May 27 17:29 : update: added Cowboy Bebop/Cowboy Bebop OST 3 - No Disc/12 - Elm.mp3
+May 27 17:29 : update: added Cowboy Bebop/Cowboy Bebop OST 3 - No Disc/13 - Vitamin C.mp3
+May 27 17:29 : update: added Cowboy Bebop/Cowboy Bebop OST 3 - No Disc/14 - Gateway.mp3
+May 27 17:29 : update: added Cowboy Bebop/Cowboy Bebop OST 3 - No Disc/15 - The Singing Sea.mp3
+May 27 17:29 : update: added Cowboy Bebop/Cowboy Bebop OST 3 - No Disc/16 - The Egg And You.mp3
+May 27 17:29 : update: added Cowboy Bebop/Cowboy Bebop OST 3 - No Disc/17 - Forever Broke.mp3
+May 27 17:29 : update: added Cowboy Bebop/Cowboy Bebop OST 3 - No Disc/18 - Power Of Kung Food Remix.mp3
+May 27 17:29 : update: added Cowboy Bebop/Cowboy Bebop OST 4 - Blue/01 - Blue.mp3
+May 27 17:29 : update: added Cowboy Bebop/Cowboy Bebop OST 4 - Blue/02 - Words That We Couldn't Say.mp3
+May 27 17:29 : update: added Cowboy Bebop/Cowboy Bebop OST 4 - Blue/03 - Autumn in Ganymede.mp3
+May 27 17:29 : update: added Cowboy Bebop/Cowboy Bebop OST 4 - Blue/04 - Mushroom Hunting.mp3
+May 27 17:29 : update: added Cowboy Bebop/Cowboy Bebop OST 4 - Blue/05 - Go Go Cactus Man.mp3
+May 27 17:29 : update: added Cowboy Bebop/Cowboy Bebop OST 4 - Blue/06 - Chicken Bone.mp3
+May 27 17:29 : update: added Cowboy Bebop/Cowboy Bebop OST 4 - Blue/07 - The Real Man.mp3
+May 27 17:29 : update: added Cowboy Bebop/Cowboy Bebop OST 4 - Blue/08 - N.Y. Rush.mp3
+May 27 17:29 : update: added Cowboy Bebop/Cowboy Bebop OST 4 - Blue/09 - Adieu.mp3
+May 27 17:29 : update: added Cowboy Bebop/Cowboy Bebop OST 4 - Blue/10 - Call Me Call Me.mp3
+May 27 17:29 : update: added Cowboy Bebop/Cowboy Bebop OST 4 - Blue/11 - Ave Maria.mp3
+May 27 17:29 : update: added Cowboy Bebop/Cowboy Bebop OST 4 - Blue/12 - Stella by Moor.mp3
+May 27 17:29 : update: added Cowboy Bebop/Cowboy Bebop OST 4 - Blue/13 - Flying Teapot.mp3
+May 27 17:29 : update: added Cowboy Bebop/Cowboy Bebop OST 4 - Blue/14 - Wo Qui Non Coin.mp3
+May 27 17:29 : update: added Cowboy Bebop/Cowboy Bebop OST 4 - Blue/15 - Road to the West.mp3
+May 27 17:29 : update: added Cowboy Bebop/Cowboy Bebop OST 4 - Blue/16 - Farewell Blues.mp3
+May 27 17:29 : update: added Cowboy Bebop/Cowboy Bebop OST 4 - Blue/17 - See You Space Cowboy.mp3
+May 27 17:29 : update: added Cowboy Bebop/Cowboy Bebop OST 5 - Future Blues/01 - 24hours OPEN.mp3
+May 27 17:29 : update: added Cowboy Bebop/Cowboy Bebop OST 5 - Future Blues/02 - Pushing the sky.mp3
+May 27 17:29 : update: added Cowboy Bebop/Cowboy Bebop OST 5 - Future Blues/03 - Time to know ~ Be waltz.mp3
+May 27 17:29 : update: added Cowboy Bebop/Cowboy Bebop OST 5 - Future Blues/04 - Clutch.mp3
+May 27 17:29 : update: added Cowboy Bebop/Cowboy Bebop OST 5 - Future Blues/05 - MUSAWE.mp3
+May 27 17:29 : update: added Cowboy Bebop/Cowboy Bebop OST 5 - Future Blues/06 - Yo pumpkin head.mp3
+May 27 17:29 : update: added Cowboy Bebop/Cowboy Bebop OST 5 - Future Blues/07 - Diggin'.mp3
+May 27 17:29 : update: added Cowboy Bebop/Cowboy Bebop OST 5 - Future Blues/08 - 3.14.mp3
+May 27 17:29 : update: added Cowboy Bebop/Cowboy Bebop OST 5 - Future Blues/09 - What planet is this!.mp3
+May 27 17:29 : update: added Cowboy Bebop/Cowboy Bebop OST 5 - Future Blues/10 - 7minutes.mp3
+May 27 17:29 : update: added Cowboy Bebop/Cowboy Bebop OST 5 - Future Blues/11 - Fingers.mp3
+May 27 17:29 : update: added Cowboy Bebop/Cowboy Bebop OST 5 - Future Blues/12 - Powder.mp3
+May 27 17:29 : update: added Cowboy Bebop/Cowboy Bebop OST 5 - Future Blues/13 - Butterfly.mp3
+May 27 17:29 : update: added Cowboy Bebop/Cowboy Bebop OST 5 - Future Blues/14 - No reply.mp3
+May 27 17:29 : update: added Cowboy Bebop/Cowboy Bebop OST 5 - Future Blues/15 - Dijurido.mp3
+May 27 17:29 : update: added Cowboy Bebop/Cowboy Bebop OST 5 - Future Blues/16 - Gotta knock a little harder.mp3
+May 27 17:29 : update: added Cowboy Bebop/Cowboy Bebop OST 5 - Future Blues/17 - No money.mp3
+May 27 17:29 : update: added Cowboy Bebop/Cowboy Bebop OST 5 - Future Blues/18 - RAIN.mp3
+May 27 17:29 : update: added Cowboy Bebop/Cowboy Bebop OST 6 - Ask DNA/01 - WHAT PLANET IS THIS.mp3
+May 27 17:29 : update: added Cowboy Bebop/Cowboy Bebop OST 6 - Ask DNA/02 - AsK DNA.mp3
+May 27 17:29 : update: added Cowboy Bebop/Cowboy Bebop OST 6 - Ask DNA/03 - COSMIC DARE(PRETTY WITH A PISTOL).mp3
+May 27 17:29 : update: added Cowboy Bebop/Cowboy Bebop OST 6 - Ask DNA/04 - Hamduche.mp3
+May 27 17:29 : update: added Cowboy Bebop/Cowboy Bebop OST 6 - Ask DNA/05 - Is it real.mp3
+May 27 17:29 : update: added Cowboy Bebop/Cowboy Bebop OST 7 - Cowgirl Ed/01 - Goodnight Julia.mp3
+May 27 17:29 : update: added Cowboy Bebop/Cowboy Bebop OST 7 - Cowgirl Ed/02 - PAPA Plastic.mp3
+May 27 17:29 : update: added Cowboy Bebop/Cowboy Bebop OST 7 - Cowgirl Ed/03 - Telephone Shopping.mp3
+May 27 17:29 : update: added Cowboy Bebop/Cowboy Bebop OST 7 - Cowgirl Ed/04 - kabutogani kodainosakana.mp3
+May 27 17:29 : update: added Cowboy Bebop/Cowboy Bebop OST 7 - Cowgirl Ed/05 - Slipper Sleaze.mp3
+May 27 17:29 : update: added Cowboy Bebop/Cowboy Bebop OST 7 - Cowgirl Ed/06 - 23 hanasi.mp3
+May 27 17:35 : player: played "Cowboy Bebop/Cowboy Bebop OST 4 - Blue/02 - Words That We Couldn't Say.mp3"
+May 27 17:43 : player: played "Cowboy Bebop/Cowboy Bebop OST 4 - Blue/09 - Adieu.mp3"
+May 27 17:44 : client: [0] closed
+May 27 17:45 : client: [1] opened from [::1]:52566
+May 27 17:45 : client: [1] closed
+May 27 17:49 : player: played "Cowboy Bebop/Cowboy Bebop OST 4 - Blue/11 - Ave Maria.mp3"
+May 27 17:49 : client: [2] opened from [::1]:52632
+May 27 18:01 : player: played "Cowboy Bebop/Cowboy Bebop OST 4 - Blue/10 - Call Me Call Me.mp3"
+May 27 18:04 : player: played "Cowboy Bebop/Cowboy Bebop OST 4 - Blue/02 - Words That We Couldn't Say.mp3"
+May 27 19:40 : player: played "David Gilmour/Rattle That Lock/05 - Dancing Right In Front of Me - David Gilmour.mp3"
+May 27 19:47 : player: played "David Gilmour/Rattle That Lock/08 - The Girl In The Yellow Dress - David Gilmour.mp3"
+May 27 19:52 : player: played "David Gilmour/Rattle That Lock/09 - Today - David Gilmour.mp3"
+May 27 19:54 : player: played "Pink Floyd/1973 - The Dark Side Of The Moon 2011 Remaster/01. Speak to Me.mp3"
+May 27 19:57 : player: played "Pink Floyd/1973 - The Dark Side Of The Moon 2011 Remaster/02. Breathe.mp3"
+May 27 20:00 : player: played "Pink Floyd/1973 - The Dark Side Of The Moon 2011 Remaster/03. On the Run.mp3"
+May 27 20:12 : player: played "Pink Floyd/1973 - The Dark Side Of The Moon 2011 Remaster/04. Time.mp3"
+May 27 20:17 : player: played "Pink Floyd/1973 - The Dark Side Of The Moon 2011 Remaster/05. The Great Gig in the Sky.mp3"
+May 27 20:23 : player: played "Pink Floyd/1973 - The Dark Side Of The Moon 2011 Remaster/06. Money.mp3"
+May 27 21:26 : client: [2] closed
+May 27 22:30 : client: [3] opened from [::1]:36548
+May 27 22:36 : player: played "Pink Floyd/1973 - The Dark Side Of The Moon 2011 Remaster/07. Us and Them.mp3"
+May 27 22:40 : player: played "Pink Floyd/1973 - The Dark Side Of The Moon 2011 Remaster/08. Any Colour You Like.mp3"
+May 27 22:44 : player: played "Pink Floyd/1973 - The Dark Side Of The Moon 2011 Remaster/09. Brain Damage.mp3"
+May 27 22:46 : player: played "Pink Floyd/1973 - The Dark Side Of The Moon 2011 Remaster/10. Eclipse.mp3"
+May 28 00:19 : client: [3] closed
+May 31 08:44 : exception: bind to '0.0.0.0:1234' failed (continuing anyway, because binding to '[::]:1234' succeeded): Failed to bind socket: Address already in use
+May 31 08:44 : client: [0] opened from [::1]:50492
+May 31 08:49 : player: played "Cowboy Bebop/Cowboy Bebop OST 4 - Blue/10 - Call Me Call Me.mp3"
+May 31 08:51 : client: [0] closed
+May 31 08:55 : player: played "Pink Floyd/1975 - Wish You Were Here 2011 Remaster/04 Wish You Were Here.mp3"
+May 31 09:00 : client: [1] opened from [::1]:55750
+May 31 09:18 : player: played "Cowboy Bebop/Cowboy Bebop OST 4 - Blue/02 - Words That We Couldn't Say.mp3"
+May 31 09:20 : player: played "Pink Floyd/1973 - The Dark Side Of The Moon 2011 Remaster/10. Eclipse.mp3"
+May 31 09:32 : player: played "Pink Floyd/1975 - Wish You Were Here 2011 Remaster/02 Welcome To The Machine.mp3"
+May 31 09:37 : player: played "Cowboy Bebop/Cowboy Bebop OST 4 - Blue/09 - Adieu.mp3"
+May 31 09:42 : player: played "Pink Floyd/1973 - The Dark Side Of The Moon 2011 Remaster/05. The Great Gig in the Sky.mp3"
+May 31 09:43 : client: [1] closed
+May 31 09:46 : player: played "Pink Floyd/1973 - The Dark Side Of The Moon 2011 Remaster/08. Any Colour You Like.mp3"
+May 31 09:49 : player: played "Pink Floyd/1973 - The Dark Side Of The Moon 2011 Remaster/02. Breathe.mp3"
+May 31 09:55 : player: played "Cowboy Bebop/Cowboy Bebop OST 4 - Blue/11 - Ave Maria.mp3"
+May 31 09:58 : client: [2] opened from [::1]:57514
+May 31 09:59 : player: played "Cowboy Bebop/Cowboy Bebop OST 4 - Blue/07 - The Real Man.mp3"
+May 31 09:59 : client: [2] closed
+May 31 10:02 : player: played "helloween/Helloween [2005] Keeper Of The Seven Keys Part III - The Legacy (2005)/05 - Mrs. God.mp3"
+May 31 10:02 : client: [3] opened from [::1]:57578
+May 31 10:05 : player: played "The Beatles/White Album 1/08 - Happiness Is A Warm Gun.mp3"
+May 31 10:07 : player: played "The Beatles/Sgt Peppers Lonety Hearts/09 - When I'm Sixty-Four.mp3"
+May 31 10:09 : player: played "Daft Punk/TRON Legacy/CD 1/03. The Son Of Flynn.mp3"
+May 31 10:14 : player: played "helloween/Helloween [2006] Keeper Of The Seven Keys Part I [Remastered] (2006)/12_helloween-halloween_video_edit-amrc.mp3"
+May 31 10:19 : player: played "Mägo de Oz/[2000] Finisterra/04. La Danza del Fuego.mp3"
+May 31 10:22 : player: played "Fallout/Way Back Home.mp3"
+May 31 10:24 : player: played "The Beatles/ Revolver/10 - For No One.mp3"
+May 31 10:30 : player: played "Metallica/S&M - Metallica And The San Francisco Symphony /Disc 1/No Leaf Clover.mp3"
+May 31 10:32 : player: played "Mother4/OST/Mom and Cooking and Stuff.mp3"
+May 31 10:35 : player: played "The Beatles/White Album 2/02 - Yer Blues.mp3"
+May 31 10:35 : exception: Not playing
+May 31 10:38 : player: played "The Beatles/Magical Mistery Tour/02 - The Fool On The Hill.mp3"
+May 31 10:45 : player: played "Stratovarius/2003 - Elements Pt.2/04 - Season of Faith's Perfection.mp3"
+May 31 10:49 : player: played "The Beatles/Past Masters 1/07 - This Boy.mp3"
+May 31 10:49 : client: [3] closed
+May 31 10:52 : player: played "Taeko Ohnuki (大贯妙子)/1981.05.21 - Aventure/10. 最後の日付.mp3"
+May 31 10:54 : client: [4] opened from [::1]:58188
+May 31 10:59 : player: played "Angra/Aqua/08 A Monster In Her Eyes.mp3"
+May 31 11:04 : player: played "helloween/helloween tresure chest CD2/07 In The Middle Of A Heartbeat.mp3"
+May 31 11:13 : player: played "Taeko Ohnuki (大贯妙子)/1978.09.21 - Mignonne/03. 黄昏れ.mp3"
+May 31 11:19 : player: played "Rhapsody/Symphony of Enchanted Lands II - The Dark Secret/05 - The Magic Of The Wizard's Dream.mp3"
+May 31 11:22 : player: played "The Beatles/CD Singles Collection/1964 - The Beatles - I Feel Fine/02. She's A Woman.mp3"
+May 31 11:23 : client: [4] closed
+May 31 11:23 : client: [5] opened from [::1]:58678
+May 31 11:23 : player: played "Mägo de Oz/[2011] Love N’ Oz/14. Epilogo (Version 2011).mp3"
+May 31 11:28 : player: played "Galneryus/2005- Advance to the Fall/03 - Ancient Rage.mp3"
+May 31 11:29 : player: played "Pink Floyd/1977 - Animals 2011 Remaster/01 Pigs On The Wing 1.mp3"
+May 31 11:32 : player: played "Fallout/ Anything Goes.mp3"
+May 31 11:35 : player: played "The Beatles/1/14_The Beatles_Paperback Writer.mp3"
+May 31 11:42 : player: played "The Beatles/Past Masters 2/07 - Hey Jude.mp3"
+May 31 11:43 : player: played "Kiko Lureiro/Kiko Loureiro - 2005 No Gravity/13 - Kiko Loureiro - Choro De Criança.mp3"
+May 31 11:47 : player: played "Mägo de Oz/[1996] Jesús de Chamberí (Opera Rock)/12. La Última Cena.mp3"
+May 31 11:49 : player: played "The Beatles/ Please Please Me/13 - There's A Place.mp3"
+May 31 11:55 : player: played "Mägo de Oz/[1996] Jesús de Chamberí (Opera Rock)/13. Czardas.mp3"
+May 31 11:59 : player: played "Mägo de Oz/Singles & EPs/Que el Viento Sople a tu Favor (Single)/02 - Gimme!, gimme! , gimme! (Voz- Tony Menguiano).mp3"
+May 31 12:04 : player: played "The Beatles/Magical Mistery Tour/06 - I Am The Walrus.mp3"
+May 31 12:07 : player: played "Mägo de Oz/[1996] Jesús de Chamberí (Opera Rock)/04. Al-Mejandría.mp3"
+May 31 12:09 : player: played "Pink Floyd/2011 - A Foot In The Door - The Best Of Pink Floyd/03. The Happiest Days Of Our Lives.mp3"
+May 31 13:22 : player: played "helloween/Helloween - Gambling With The Devil (2007)/06 - Helloween - Final Fortune.mp3"
+May 31 13:42 : client: [5] closed
+Jun 01 12:10 : exception: bind to '0.0.0.0:1234' failed (continuing anyway, because binding to '[::]:1234' succeeded): Failed to bind socket: Address already in use
+Jun 01 12:10 : client: [0] opened from [::1]:53308
+Jun 01 12:11 : client: [0] closed
+Jun 01 12:17 : player: played "Cowboy Bebop/Cowboy Bebop OST 2 - Vitamineless/01 - The Real Folk Blues.mp3"
+Jun 01 12:20 : client: [1] opened from [::1]:53468
+Jun 01 12:20 : player: played "helloween/Helloween - Gambling With The Devil (2007)/06 - Helloween - Final Fortune.mp3"
+Jun 01 14:01 : client: [1] closed
+Jun 01 23:15 : exception: bind to '0.0.0.0:1234' failed (continuing anyway, because binding to '[::]:1234' succeeded): Failed to bind socket: Address already in use
+Jun 01 23:15 : client: [0] opened from [::1]:54304
+Jun 01 23:16 : client: [0] closed
+Jun 01 23:16 : client: [1] opened from [::1]:54660
+Jun 01 23:16 : player: played "Fallout/ Anything Goes.mp3"
+Jun 01 23:16 : client: [1] closed
+Jun 12 18:26 : exception: bind to '0.0.0.0:1234' failed (continuing anyway, because binding to '[::]:1234' succeeded): Failed to bind socket: Address already in use
+Jun 12 18:26 : client: [0] opened from [::1]:48192
+Jun 12 18:26 : client: [0] closed
+Jun 12 18:27 : player: played "Pink Floyd/1977 - Animals 2011 Remaster/01 Pigs On The Wing 1.mp3"
+Jun 12 18:28 : client: [1] opened from [::1]:48238
+Jun 12 18:29 : client: [1] closed
+Jun 12 18:34 : player: played "Cowboy Bebop/Cowboy Bebop OST 2 - Vitamineless/01 - The Real Folk Blues.mp3"
+Jun 12 18:34 : client: [2] opened from [::1]:48346
+Jun 12 18:40 : player: played "Kiko Lureiro/Kiko Loureiro - 2006 Universo Inverso/09 Realidade Paralela.mp3"
+Jun 12 18:43 : player: played "The Beatles/1/14_The Beatles_Paperback Writer.mp3"
+Jun 12 18:44 : player: played "Pink Floyd/2011 - A Foot In The Door - The Best Of Pink Floyd/03. The Happiest Days Of Our Lives.mp3"
+Jun 12 22:54 : player: played "Galneryus/2005- Advance to the Fall/03 - Ancient Rage.mp3"
+Jun 12 23:02 : player: played "The Beatles/Past Masters 2/07 - Hey Jude.mp3"
+Jun 12 23:06 : player: played "helloween/Helloween - Gambling With The Devil (2007)/06 - Helloween - Final Fortune.mp3"
+Jun 12 23:10 : player: played "Coldplay/2008 - Viva La Vida or Death and All His Friends/07. Viva La Vida.mp3"
+Jun 12 23:15 : player: played "Mägo de Oz/[1996] Jesús de Chamberí (Opera Rock)/13. Czardas.mp3"
+Jun 12 23:19 : player: played "Angra/Secret Garden/10. Silent Call.mp3"
+Jun 12 23:24 : player: played "Rhapsody/Symphony of the enchanted lands II/Rhapsody-Never Forgotten Heroes.wma"
+Jun 14 00:24 : client: [2] closed
+Jul 02 20:33 : exception: bind to '0.0.0.0:1234' failed (continuing anyway, because binding to '[::]:1234' succeeded): Failed to bind socket: Address already in use
+Jul 02 20:33 : client: [0] opened from [::1]:46122
+Jul 02 20:34 : client: [0] closed
+Jul 02 20:40 : player: played "Cowboy Bebop/Cowboy Bebop OST 2 - Vitamineless/01 - The Real Folk Blues.mp3"
+Jul 02 20:40 : client: [1] opened from [::1]:46170
+Jul 02 20:40 : player: played "The Beatles/1967 - 1970 (BLUE)/Beatles - 1967-1970 (Blue Box) Disk 2/04 - Get Back.mp3"
+Jul 02 21:52 : client: [1] closed
+Jul 02 21:52 : client: [2] opened from [::1]:46746
+Jul 02 21:57 : player: played "Stratovarius/2011 - Elysium/03 - Infernal Maze.mp3"
+Jul 02 22:12 : player: played "helloween/Helloween [2005] Keeper Of The Seven Keys Part III - The Legacy (2005)/01 - The King For 1000 Years.mp3"
+Jul 02 22:17 : player: played "The Beatles/White Album/The White Album (Disc1)/07 - While My Guitar Gently Weeps.mp3"
+Jul 02 22:20 : player: played "The Beatles/1/09_The Beatles_Ticket To Ride.mp3"
+Jul 02 22:22 : player: played "Mägo de Oz/[2012] Hechizos, Pocimas Y Brujeria/04. Sácale Brillo a una Pena.mp3"
+Jul 02 22:30 : client: [2] closed
+Jul 02 22:30 : player: played "Mägo de Oz/[1998] La Leyenda De La Mancha (Deluxe Edition)/12. Requiem.mp3"
+Jul 02 22:31 : client: [3] opened from [::1]:34938
+Jul 02 22:35 : player: played "The Beatles/1/16_The Beatles_Eleanor Rigby.mp3"
+Jul 02 22:42 : player: played "Daft Punk/Random Access Memories/01. Give Life Back To Music.mp3"
+Jul 02 22:45 : player: played "Daft Punk/TRON Legacy/CD 2/02. ENCOM, Part II.mp3"
+Jul 02 22:46 : player: played "Pink Floyd/1987 - A Momentary Lapse Of Reason 2011 Remaster/10. A New Machine Pt.2.mp3"
+Jul 02 22:49 : player: played "Daft Punk/Discovery/06. Nightvision.mp3"
+Jul 02 22:49 : client: [3] closed
+Jul 02 22:54 : player: played "Rhapsody Of Fire/Triumph Or Agony/05 The Myth Of The Holy Sword.mp3"
+Jul 02 22:57 : player: played "The Beatles/1967 - 1970 (BLUE)/Beatles - 1967-1970 (Blue Box) Disk 1/14 - Revolution.mp3"
+Jul 02 23:17 : player: played "Rhapsody Of Fire/Rhapsody of Fire - 2011 - From Chaos to Eternity/09 - Heroes Of The Waterfalls' Kingdom.mp3"
+Jul 02 23:18 : client: [4] opened from [::1]:59134
+Jul 02 23:18 : player: played "Stratovarius/2011 - Elysium/05 - The Game Never Ends.mp3"
+Jul 02 23:18 : client: [4] closed
+Jul 04 21:24 : exception: bind to '0.0.0.0:1234' failed (continuing anyway, because binding to '[::]:1234' succeeded): Failed to bind socket: Address already in use
+Jul 04 21:24 : client: [0] opened from [::1]:58856
+Jul 04 21:25 : player: played "The Beatles/The  Capitol Albums Volume 2/405-The_Beatles-The_Word.mp3"
+Jul 04 21:25 : client: [0] closed
+Jul 04 21:25 : client: [1] opened from [::1]:58862
+Jul 04 21:26 : update: updating The Beatles/White Album/The White Album (Disc 2)/12 - Revolution 9.mp3
+Jul 04 21:31 : player: played "Stratovarius/1996 - Episode/07 - Season Of Change.mp3"
+Jul 04 21:31 : client: [1] closed

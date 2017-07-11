@@ -33,8 +33,8 @@ let s:PA = [ '#94E42C' , 47 ]
 let s:IM = [ '#40403C' , 8 ]
 
 " Inactive mode
-let s:IA1= [ '#767676' , s:N3[1] , 0 , s:N1[3] , '' ]
-let s:IA2= [ '#767676' , s:N3[1] , s:N1[3] , 0 , '' ]
+let s:IA1= [ '#767676' , s:N3[1] , 245 , 8, '' ]
+let s:IA2= [ '#767676' , s:N3[1] , s:N1[3] , 8 , '' ]
 let s:IA3= [ '#767676' , s:N3[1] , 245 , 8 , '' ]
 
 let g:airline#themes#wombatc#palette = {}
