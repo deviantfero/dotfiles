@@ -1,40 +1,43 @@
 "this executes plug to load plugins
 call plug#begin( '~/.vim/plugged' )
-	"Essential
-	Plug 'SirVer/ultisnips'  | Plug 'honza/vim-snippets'
-	Plug 'Valloric/YouCompleteMe', { 'do': './install.py --tern-completer' }
+	"Editing
+	Plug 'cohama/lexima.vim'
 	Plug 'tpope/vim-surround'
-	Plug 'alvan/vim-closetag'
-	Plug 'tpope/vim-vinegar'
-	Plug 'tpope/vim-fugitive'
 	Plug 'tpope/vim-sleuth'
 	Plug 'tpope/vim-repeat'
 	Plug 'vim-scripts/tComment'
-	Plug 'vim-scripts/ZoomWin'
-	Plug 'majutsushi/tagbar'
+	"Navigation
 	Plug 'junegunn/vim-easy-align'
 	Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --bin' }
 	Plug 'junegunn/fzf.vim'
-	Plug 'Shougo/vimshell.vim' | Plug 'Shougo/vimproc.vim', {'do' : 'make'}
-	"Elixir
-	Plug 'elixir-lang/vim-elixir', { 'for': 'elixir' }
-	Plug 'mattreduce/vim-mix', { 'for': 'elixir' }
-	"Webdev
-	" Plug 'ap/vim-css-color'
-	Plug 'mattn/emmet-vim', { 'for': ['html'] }
+	Plug 'tpope/vim-vinegar'
+	Plug 'majutsushi/tagbar'
+	"Syntax
+	Plug 'elixir-lang/vim-elixir'
+	Plug 'mattreduce/vim-mix'
+	Plug 'mattn/emmet-vim', { 'for': ['html', 'php', 'jsp', 'javascript'] }
 	Plug 'vim-ruby/vim-ruby'
 	"Autocomplete additions
+	Plug 'SirVer/ultisnips'  | Plug 'honza/vim-snippets'
+	Plug 'alvan/vim-closetag'
+	Plug 'Valloric/YouCompleteMe', { 'do': './install.py --tern-completer' }
 	Plug 'slashmili/alchemist.vim', { 'for': 'elixir' }
-
+	Plug 'w0rp/ale'
+	"LaTeX
+	Plug 'lervag/vimtex'
+	"Git
+	Plug 'tpope/vim-fugitive'
 call plug#end()
 
 " remaps "
 """"""""""
 nmap <C-f> :GitFiles<cr>
 nmap <C-p> :Files<cr>
+nmap <C-o> :Buffers<cr>
 nnoremap <f4> :call NumberToggle()<cr>
 nnoremap <f3> :call HlToggle()<cr>
 nmap <f8> :TagbarToggle<cr>
+nmap <F9> :Gstatus<cr>
 
 "Move more easily between splits
 nnoremap <C-j> <C-w>j
@@ -47,7 +50,9 @@ nmap ea :LiveEasyAlign<cr>
 
 
 "this adds sudo saving support, with the command sudow
-command Sw :execute ':silent w !sudo tee % > /dev/null' | :edit!
+if !exists(':Sw')
+  command Sw :execute ':silent w !sudo tee % > /dev/null' | :edit!
+endif
 
 
 "  snippets  "
@@ -77,6 +82,7 @@ set ttyfast "faster scrolling
 set ttimeoutlen=10
 set lazyredraw "less redraws
 set splitbelow "shows info or documentation below code, so code doesn't move
+set wildmenu "emacs like command autocompletion
 
 set shell=/bin/bash "shell to use
 set t_vb=	"disable all bells
@@ -93,7 +99,7 @@ let g:closetag_emptyTags_caseSensitive = 1
 set autoindent	"set indenting
 set ts=4	"set tab space
 set sw=4        "set soft tab
-set noexpandtab	"do not expand a tab to spaces
+" set noexpandtab	"do not expand a tab to spaces
 set shiftwidth=4	"set autoindent to one tab
 packadd! matchit
 
@@ -134,13 +140,27 @@ endif
 " TTY only "
 """"""""""""
 if has("gui_running")
-	let g:airline_theme = 'dark'
-	set background=light
-	colorscheme PaperColor
-	set gfn=roboto\ mono\ 8
+  set background=light
+  colorscheme PaperColor
+  set gfn=roboto\ mono\ 8
 endif
 
 "auto complete"
 """""""""""""""
 silent! let g:EclimCompletionMethod = 'omnifunc'
 let g:ycm_autoclose_preview_window_after_completion=1
+
+"linters"
+"""""""""
+let g:ale_linters = {
+  \'python':['flake8'],
+  \'php':['php -l'],
+  \'c++':['gcc'],
+  \'tex':[],
+\}
+let g:ale_lint_on_text_changed = 'never'
+let g:ale_lint_on_enter = 0
+
+"latex"
+"""""""
+let g:vimtex_view_method = 'mupdf'

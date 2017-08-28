@@ -1,3 +1,0 @@
-#!/usr/bin/bash
-
-cd ~/.wine/drive_c/Program\ Files/HPUserEdit\ 5/ && wine UserEdit.exe

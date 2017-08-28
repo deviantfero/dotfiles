@@ -47,14 +47,14 @@ playlist_disable_highlight_delay = "5"
 message_delay_time = "4"
 
 # Playlist
-now_playing_prefix = "$5 ::$b"
+now_playing_prefix = " $5$b>>"
 playlist_display_mode = "classic" (classic/columns)
 autocenter_mode = "yes"
 centered_cursor = "yes"
 cyclic_scrolling = "yes"
 mouse_list_scroll_whole_page = "no"
 #song_list_format = "{$2%t} $R $3 %b {$9- %a}"
-song_list_format = " $4%n $1• $7%t $R$5%a "
+song_list_format = "$1 $7%t $R$5%a "
 song_columns_list_format = "(3)[]{}(92)[white]{t} (4)[red]{l}"
 
 # # Bars
