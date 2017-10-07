@@ -121,10 +121,10 @@
     <number>4</number>
     <firstdesk>1</firstdesk>
     <names>
-      <name>I</name>
-      <name>II</name>
-      <name>III</name>
-      <name>IV</name>
+      <name>web</name>
+      <name>dev</name>
+      <name>doc</name>
+      <name>other</name>
     </names>
     <popupTime>875</popupTime>
     <!-- The number of milliseconds to show the popup for when switching
@@ -377,6 +377,15 @@
         <command>urxvt</command>
       </action>
     </keybind>
+    <keybind key="W-A-t">
+      <action name="Execute">
+        <startupnotify>
+          <enabled>true</enabled>
+          <name>Terminal</name>
+        </startupnotify>
+        <command>bash -c 'wpg -m; notify-send "current theme: $(wpg -c)"'</command>
+      </action>
+    </keybind>
     <keybind key="W-w">
       <action name="Execute">
         <startupnotify>
@@ -474,85 +483,19 @@
     <keybind key="W-a">
       <!-- Begin the keychains to manage windows -->
       <!-- semi-tiling mode -->
-      <keybind key="Right">
-        <action name="UnmaximizeFull"/>
-        <action name="MoveResizeTo">
-          <x>960</x>
-          <y>20</y>
-          <width>940</width>
-          <height>1122</height>
+      <keybind key="d">
+        <action name="Execute">
+          <command>dock-dual</command>
         </action>
       </keybind>
-      <keybind key="Left">
-        <action name="UnmaximizeFull"/>
-        <action name="MoveResizeTo">
-          <x>20</x>
-          <y>20</y>
-          <width>920</width>
-          <height>1122</height>
+      <keybind key="s">
+        <action name="Execute">
+          <command>dock-single</command>
         </action>
       </keybind>
-      <keybind key="Up">
-        <action name="UnmaximizeFull"/>
-        <action name="MoveResizeTo">
-          <x>20</x>
-          <y>12</y>
-          <width>1879</width>
-          <height>459</height>
-        </action>
-      </keybind>
-      <keybind key="Down">
-        <action name="UnmaximizeFull"/>
-        <action name="MoveResizeTo">
-          <x>20</x>
-          <y>523</y>
-          <width>1879</width>
-          <height>459</height>
-        </action>
-      </keybind>
-      <keybind key="Prior">
-        <action name="UnmaximizeFull"/>
-        <action name="MoveResizeTo">
-          <x>985</x>
-          <y>20</y>
-          <width>912</width>
-          <height>477</height>
-        </action>
-      </keybind>
-      <keybind key="Next">
-        <action name="UnmaximizeFull"/>
-        <action name="MoveResizeTo">
-          <x>985</x>
-          <y>548</y>
-          <width>912</width>
-          <height>477</height>
-        </action>
-      </keybind>
-      <keybind key="Delete">
-        <action name="UnmaximizeFull"/>
-        <action name="MoveResizeTo">
-          <x>20</x>
-          <y>548</y>
-          <width>912</width>
-          <height>477</height>
-        </action>
-      </keybind>
-      <keybind key="Insert">
-        <action name="UnmaximizeFull"/>
-        <action name="MoveResizeTo">
-          <x>20</x>
-          <y>20</y>
-          <width>912</width>
-          <height>477</height>
-        </action>
-      </keybind>
-      <keybind key="End">
-        <action name="UnmaximizeFull"/>
-        <action name="MoveResizeTo">
-          <x>580</x>
-          <y>200</y>
-          <width>988</width>
-          <height>525</height>
+      <keybind key="t">
+        <action name="Execute">
+          <command>thinkpad</command>
         </action>
       </keybind>
       <!-- other keychains to manage windows -->

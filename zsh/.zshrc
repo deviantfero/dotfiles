@@ -1,8 +1,10 @@
 # If you come from bash you might have to change your $PATH.
-export PATH=$HOME/.gem/ruby/2.4.0/bin:$PATH
+# export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
 export ZSH=/home/fernando/.oh-my-zsh
+export GOPATH=/home/fernando/Code/go
+export GOBIN=$GOPATH/bin
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -29,10 +31,10 @@ ZSH_THEME="deviantfero"
 # DISABLE_AUTO_TITLE="true"
 
 # Uncomment the following line to enable command auto-correction.
-#ENABLE_CORRECTION="true"
+# ENABLE_CORRECTION="true"
 
 # Uncomment the following line to display red dots whilst waiting for completion.
-#COMPLETION_WAITING_DOTS="true"
+COMPLETION_WAITING_DOTS="true"
 
 # Uncomment the following line if you want to disable marking untracked files
 # under VCS as dirty. This makes repository status check for large repositories
@@ -54,7 +56,6 @@ ZSH_THEME="deviantfero"
 plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
-source /usr/share/autoenv/activate.sh
 
 # User configuration
 
@@ -64,17 +65,13 @@ source /usr/share/autoenv/activate.sh
 # export LANG=en_US.UTF-8
 
 # Preferred editor for local and remote sessions
-# if [[ -n $SSH_CONNECTION ]]; then
-#   export EDITOR='vim'
-# else
-#   export EDITOR='mvim'
-# fi
+export EDITOR='vim'
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
 # ssh
-# export SSH_KEY_PATH="~/.ssh/rsa_id"
+export SSH_KEY_PATH="~/.ssh/rsa_id"
 
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
@@ -84,3 +81,8 @@ source /usr/share/autoenv/activate.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias wine32="WINEPREFIX=$HOME/.wine32 wine"
+alias lightsoff="xbacklight -set 0"
+alias docker-start="systemctl start docker"
+alias vimf='vim $(fzf)' 
+alias ytmp3='youtube-dl -x --audio-format mp3'

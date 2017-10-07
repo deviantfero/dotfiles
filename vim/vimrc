@@ -1,15 +1,17 @@
 "this executes plug to load plugins
 call plug#begin( '~/.vim/plugged' )
 	"Editing
-	Plug 'cohama/lexima.vim'
 	Plug 'tpope/vim-surround'
 	Plug 'tpope/vim-sleuth'
 	Plug 'tpope/vim-repeat'
+	Plug 'tpope/vim-endwise'
 	Plug 'vim-scripts/tComment'
+	Plug 'vim-scripts/auto-pairs-gentle'
 	"Navigation
 	Plug 'junegunn/vim-easy-align'
 	Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --bin' }
 	Plug 'junegunn/fzf.vim'
+	Plug 'junegunn/seoul256.vim'
 	Plug 'tpope/vim-vinegar'
 	Plug 'majutsushi/tagbar'
 	"Syntax
@@ -20,7 +22,7 @@ call plug#begin( '~/.vim/plugged' )
 	"Autocomplete additions
 	Plug 'SirVer/ultisnips'  | Plug 'honza/vim-snippets'
 	Plug 'alvan/vim-closetag'
-	Plug 'Valloric/YouCompleteMe', { 'do': './install.py --tern-completer' }
+	Plug 'Valloric/YouCompleteMe', { 'do': './install.py --tern-completer --gocode-completer' }
 	Plug 'slashmili/alchemist.vim', { 'for': 'elixir' }
 	Plug 'w0rp/ale'
 	"LaTeX
@@ -31,11 +33,12 @@ call plug#end()
 
 " remaps "
 """"""""""
-nmap <C-f> :GitFiles<cr>
-nmap <C-p> :Files<cr>
+nmap <C-g> :GitFiles<cr>
+nmap <C-f> :Files<cr>
 nmap <C-o> :Buffers<cr>
-nnoremap <f4> :call NumberToggle()<cr>
-nnoremap <f3> :call HlToggle()<cr>
+nmap <S-k> :Ag <Down>
+nnoremap <f3> :call HlToggle()<cr> 
+nnoremap <f4> :Lexplore<cr>
 nmap <f8> :TagbarToggle<cr>
 nmap <F9> :Gstatus<cr>
 
@@ -62,7 +65,7 @@ let g:UltiSnipsJumpForwardTrigger="<c-k>"
 let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 let python_highlight_all = 1
 
-" random options "
+" editing options "
 """"""""""""""""""
 set wmh=0 "set window minmal height
 set wmw=0 "set window minmal width
@@ -83,6 +86,14 @@ set ttimeoutlen=10
 set lazyredraw "less redraws
 set splitbelow "shows info or documentation below code, so code doesn't move
 set wildmenu "emacs like command autocompletion
+set scrolloff=1
+set sidescrolloff=5
+set autoread "auto read changes in a file, u to undo
+let g:AutoPairsUseInsertedCount = 1 "gentle-auto-close
+
+
+" others "
+""""""""""
 
 set shell=/bin/bash "shell to use
 set t_vb=	"disable all bells
@@ -93,6 +104,12 @@ syntax on	"color syntax highlighting
 filetype plugin on	"load the filetype specific config
 let g:closetag_filenames = "*.html,*.xml,*.js" "autoclose tags in these files
 let g:closetag_emptyTags_caseSensitive = 1
+
+" netrw options "
+""""""""""""""""""
+let g:netrw_winsize = -30
+let g:netrw_liststyle = 3
+let g:netrw_browse_split = 4
 
 " indent options "
 """"""""""""""""""
@@ -107,34 +124,30 @@ packadd! matchit
 " color options "
 """""""""""""""""
 set t_Co=256
-colorscheme deviantferoc
+colorscheme wpgtk
 
 
 " hpppl preferences for vim            "
 """""""""""""""""""""""""""""""""""""""""
 autocmd BufNewFile,BufRead *.hpppl set syntax=hpppl
-function! Relpath(filename)
-    let cwd = getcwd()
-    let s = substitute(a:filename, l:cwd . "/" , "", "")
-    return s
-endfunction
+autocmd BufNewFile,BufRead *.tex set wrap
 
 " vim airline "
 """""""""""""""""
 set laststatus=2
 let $PYTHONPATH='/usr/lib/python2/site-packages'
-if has('statusline')
-  " Broken down into easily includeable segments
-  set statusline=\ \ %<%t\    " Filename
-  set statusline+=%w%h%m%r " Options
-  set statusline+=%{fugitive#statusline()} "  Git Hotness
-  set statusline+=%=%4.40{Relpath(expand(\"%:p\"))}          " current dir
-  set statusline+=%#warningmsg#
-  set statusline+=%*
-  set statusline+=\ %=[%{&ff}]            " format
-  set statusline+=%y            " filetype
-  set statusline+=%=\ \ %-8.(%l,%c%V%)\ %p%%\ \  "Right aligned file nav info
-endif
+function! s:statusline_expr()
+  let mod = "%{&modified ? '[+]' : !&modifiable ? '[x] ' : ''}"
+  let ro  = "%{&readonly ? '[RO]' : ''}"
+  let ft  = "%{len(&filetype) ? '['.&filetype.']' : ''}"
+  let fug = "%{exists('g:loaded_fugitive') ? fugitive#statusline() : ''}"
+  let sep = ' %= '
+  let pos = ' %-12(%l : %c%V%) '
+  let pct = ' %P '
+
+  return '[%n] %F %<'.mod.ro.ft.fug.sep.pos.pct
+endfunction
+let &statusline = s:statusline_expr()
 
 
 " TTY only "
@@ -156,7 +169,10 @@ let g:ale_linters = {
   \'python':['flake8'],
   \'php':['php -l'],
   \'c++':['gcc'],
+  \'c':[],
+  \'go':['gofmt'],
   \'tex':[],
+  \'ruby':[],
 \}
 let g:ale_lint_on_text_changed = 'never'
 let g:ale_lint_on_enter = 0

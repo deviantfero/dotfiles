@@ -1,5 +1,5 @@
 "s Vim colorscheme file
-" Maintainer:   Adrian Nagle <vim@naglenet.org>
+" Maintainer:   Fernando Vásquez <fmorataya.04@gmail.com>
 " Last Change:  2001-09-25 07:48:15 Mountain Daylight Time
 " URL:          http://www.naglenet.org/vim/syntax/adrian.vim
 " MAIN URL:     http://www.naglenet.org/vim
@@ -33,32 +33,30 @@ set background=dark
 if exists("syntax_on") 
 	syntax reset
 endif
-let g:colors_name = "deviantferoc"
-"hi Normal ctermbg=233
-"Set colors
-"hi Normal ctermbg=233
-"Set colors
-"hi CursorLine ctermbg=235	cterm=none
-"hi CursorLineNr ctermfg=252 ctermbg=234
-"Console colors
-hi Title        cterm=none  ctermfg=14
-hi TabLineFill  cterm=none  ctermbg=8   ctermfg=255
-hi TabLine      cterm=none  ctermbg=8   ctermfg=245
-hi TabLineSel   cterm=none  ctermbg=14  ctermfg=0
-hi StatusLine   cterm=bold  ctermbg=8   ctermfg=254
-hi StatusLineNC cterm=none  ctermbg=8   ctermfg=240
-hi CursorLine   ctermbg=0   cterm=none
-hi Visual       ctermbg=237 ctermfg=250 cterm=none
-hi CursorLineNr ctermfg=250 ctermbg=6
-hi LineNr       ctermfg=247 ctermbg=8
-hi VertSplit    ctermfg=0   ctermbg=8   cterm=none
-hi Specialkey   ctermfg=13   ctermbg=0
-hi ErrorMsg     ctermfg=0   ctermbg=12
-hi Pmenu        ctermbg=8   ctermfg=255
-hi PmenuSel     ctermbg=14  ctermfg=0
+let g:colors_name = "wpgtk"
 
-highlight Comment    cterm=none      ctermfg=DarkGrey guifg=#d1ddff
-highlight Constant   cterm=bold      ctermfg=Yellow   guifg=#ffa0a0
+
+hi User1 		cterm=none  ctermbg=6	 ctermfg=15 
+hi User2		cterm=none  ctermbg=8	 ctermfg=15
+hi Title        cterm=none  ctermbg=none ctermfg=DarkGrey
+hi TabLineFill  cterm=none  ctermbg=8    ctermfg=15
+hi TabLine      cterm=none  ctermbg=8    ctermfg=15
+hi TabLineSel   cterm=none  ctermbg=14   ctermfg=0
+hi StatusLine   cterm=none  ctermbg=14   ctermfg=0
+hi StatusLineNC cterm=none  ctermbg=8    ctermfg=240
+hi CursorLine   ctermbg=0   cterm=none
+hi Visual       ctermbg=14  ctermfg=0  cterm=none
+hi CursorLineNr ctermfg=250 ctermbg=6
+hi LineNr       ctermfg=15  ctermbg=8
+hi VertSplit    ctermfg=0   ctermbg=8    cterm=none
+hi Specialkey   ctermfg=13  ctermbg=0
+hi ErrorMsg     ctermfg=0   ctermbg=12
+hi Pmenu        ctermbg=8   ctermfg=15
+hi PmenuSel     ctermbg=14  ctermfg=0
+hi SpellBad     ctermfg=8   ctermbg=9
+hi Comment      ctermfg=4   ctermbg=0 cterm=italic
+
+highlight Constant   cterm=bold      ctermfg=11   guifg=#ffa0a0
 "highlight Number   	 term=underline ctermfg=DarkGrey                     guifg=Yellow
 highlight Identifier ctermfg=12       cterm=bold guifg=#40ffff
 highlight Statement  ctermfg=10  gui=bold  guifg=#ffff60
@@ -72,17 +70,17 @@ highlight Error      ctermfg=15      ctermbg=8 guifg=White guibg=Red
 highlight Todo       ctermfg=15      ctermbg=8 guifg=Blue  guibg=Yellow
 
 " Change the highlight of search matches (for use with :set hls).
-highlight Search                    ctermfg=255      ctermbg=239  guifg=Black    guibg=Yellow  
+highlight Search                    ctermfg=0      ctermbg=12  guifg=Black    guibg=Yellow  
 
 " Change the highlight of visual highlight.
 
 highlight Float          ctermfg=9  guifg=#88AAEE
-highlight Exception      ctermfg=10     ctermbg=234   guifg=Red      guibg=White
+highlight Exception      ctermfg=10 ctermbg=234 guifg=Red   guibg=White
 highlight Function       ctermfg=14
-highlight Typedef        ctermfg=9  ctermbg=8   gui=italic       guifg=White guibg=Blue
-highlight SpecialChar    ctermfg=12 ctermbg=8   guifg=Black    guibg=White
-highlight Delimiter      ctermfg=15 ctermbg=8 guifg=White    guibg=Black
-highlight SpecialComment ctermfg=11    ctermbg=8     guifg=Black    guibg=Green
+highlight Typedef        ctermfg=9  ctermbg=8   gui=italic  guifg=White guibg=Blue
+highlight SpecialChar    ctermfg=12 ctermbg=8   guifg=Black guibg=White
+highlight Delimiter      ctermfg=15 ctermbg=8   guifg=White guibg=Black
+highlight SpecialComment ctermfg=11 ctermbg=8   guifg=Black guibg=Green
 
 " Common groups that link to default highlighting.
 " You can specify other highlighting easily.
