@@ -84,5 +84,6 @@ export SSH_KEY_PATH="~/.ssh/rsa_id"
 alias wine32="WINEPREFIX=$HOME/.wine32 wine"
 alias lightsoff="xbacklight -set 0"
 alias docker-start="systemctl start docker"
-alias vimf='vim $(fzf)' 
+alias vf='vim $(fzf)' 
+alias v='vim'
 alias ytmp3='youtube-dl -x --audio-format mp3'

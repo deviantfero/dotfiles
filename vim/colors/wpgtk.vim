@@ -36,36 +36,45 @@ endif
 let g:colors_name = "wpgtk"
 
 
-hi User1 		cterm=none  ctermbg=6	 ctermfg=15 
-hi User2		cterm=none  ctermbg=8	 ctermfg=15
-hi Title        cterm=none  ctermbg=none ctermfg=DarkGrey
-hi TabLineFill  cterm=none  ctermbg=8    ctermfg=15
-hi TabLine      cterm=none  ctermbg=8    ctermfg=15
-hi TabLineSel   cterm=none  ctermbg=14   ctermfg=0
-hi StatusLine   cterm=none  ctermbg=14   ctermfg=0
-hi StatusLineNC cterm=none  ctermbg=8    ctermfg=240
-hi CursorLine   ctermbg=0   cterm=none
-hi Visual       ctermbg=14  ctermfg=0  cterm=none
-hi CursorLineNr ctermfg=250 ctermbg=6
-hi LineNr       ctermfg=15  ctermbg=8
-hi VertSplit    ctermfg=0   ctermbg=8    cterm=none
-hi Specialkey   ctermfg=13  ctermbg=0
-hi ErrorMsg     ctermfg=0   ctermbg=12
-hi Pmenu        ctermbg=8   ctermfg=15
-hi PmenuSel     ctermbg=14  ctermfg=0
-hi SpellBad     ctermfg=8   ctermbg=9
-hi Comment      ctermfg=4   ctermbg=0 cterm=italic
+hi Normal                 ctermfg=15  ctermbg=0
+hi User1                  cterm=none  ctermbg=6    ctermfg=15
+hi User2				  cterm=none  ctermbg=8    ctermfg=15
+hi Title                  cterm=none  ctermbg=none ctermfg=DarkGrey
+hi TabLineFill            cterm=none  ctermbg=8    ctermfg=15
+hi TabLine                cterm=none  ctermbg=8    ctermfg=15
+hi TabLineSel             cterm=none  ctermbg=14   ctermfg=0
+hi StatusLine             cterm=none  ctermbg=14   ctermfg=0
+hi StatusLineNC           cterm=none  ctermbg=8    ctermfg=240
+hi StatusLineTerm         cterm=none  ctermfg=12   ctermfg=0
+hi StatusLineTermNC       cterm=none  ctermbg=8    ctermfg=240
+hi CursorLine             ctermbg=0   cterm=none
+hi Visual                 ctermbg=14  ctermfg=0    cterm=none
+hi CursorLineNr           ctermfg=250 ctermbg=6
+hi LineNr                 ctermfg=15  ctermbg=8
+hi VertSplit              ctermfg=0   ctermbg=8    cterm=none
+hi Specialkey             ctermfg=13  ctermbg=0
+hi ErrorMsg               ctermfg=0   ctermbg=12
+hi Pmenu                  ctermbg=8   ctermfg=15
+hi PmenuSel               ctermbg=14  ctermfg=0
+hi SpellBad               ctermfg=8   ctermbg=9
+hi Comment                ctermfg=4   ctermbg=0    cterm=italic
+hi MatchParen             ctermfg=0   ctermbg=14   cterm=none
+hi DiffAdd				  ctermfg=0
+hi DiffDelete			  ctermfg=0
+hi DiffText				  ctermfg=0
+hi DiffChange			  ctermfg=0
+hi YCMWarningSection      ctermfg=0  ctermbg=4
 
-highlight Constant   cterm=bold      ctermfg=11   guifg=#ffa0a0
+highlight Constant   cterm=none      ctermfg=11   guifg=#ffa0a0
 "highlight Number   	 term=underline ctermfg=DarkGrey                     guifg=Yellow
-highlight Identifier ctermfg=12       cterm=bold guifg=#40ffff
+highlight Identifier ctermfg=12       cterm=none guifg=#40ffff
 highlight Statement  ctermfg=10  gui=bold  guifg=#ffff60
 highlight Keyword    ctermfg=14
 highlight Conditional ctermfg=9
 highlight Number     ctermfg=13
 highlight PreProc    ctermfg=12      guifg=#ff4500
-highlight Type       ctermfg=9       cterm=italic gui=bold  guifg=#7d96ff
-highlight Ignore     ctermfg=0   guifg=bg
+highlight Type       ctermfg=9       cterm=italic term=none 
+highlight Ignore     ctermfg=0       guifg=bg
 highlight Error      ctermfg=15      ctermbg=8 guifg=White guibg=Red
 highlight Todo       ctermfg=15      ctermbg=8 guifg=Blue  guibg=Yellow
 
@@ -75,7 +84,7 @@ highlight Search                    ctermfg=0      ctermbg=12  guifg=Black    gu
 " Change the highlight of visual highlight.
 
 highlight Float          ctermfg=9  guifg=#88AAEE
-highlight Exception      ctermfg=10 ctermbg=234 guifg=Red   guibg=White
+highlight Exception      ctermfg=10 ctermbg=0 guifg=Red   guibg=White
 highlight Function       ctermfg=14
 highlight Typedef        ctermfg=9  ctermbg=8   gui=italic  guifg=White guibg=Blue
 highlight SpecialChar    ctermfg=12 ctermbg=8   guifg=Black guibg=White
@@ -99,7 +108,7 @@ highlight link StorageClass Type
 highlight link Structure    Type
 highlight link Tag          Special
 highlight link Debug        Special
-highlight link Typedef         Type
+highlight link Typedef      Type
 
 "highlight link SpecialChar     Special
 "highlight link Delimiter       Special

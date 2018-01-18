@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <openbox_menu xmlns="http://openbox.org/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openbox.org/                 file:///usr/share/openbox/menu.xsd">
 	<menu id="root-menu" label="Openbox 3.5">
-		<item label="Minecraft">
+		<item label="Code">
 			<action name="Execute">
-				<execute>java -jar ~/Downloads/Minecraft.jar</execute>
+				<execute>thunar ~/Code</execute>
 			</action>
 		</item>
+		<separator/>
 		<menu execute="/usr/bin/openbox-menu lxde-applications.menu" id="openbox-menu" label="Applications"/>
-		<item label="Github">
-			<action name="Execute">
-				<execute>thunar ~/Documents/github</execute>
-			</action>
-		</item>
 		<menu id="Preferences" label="Preferences">
 			<menu id="root-menu-525118" label="Openbox Config">
 				<item label="Edit autostart">
@@ -112,24 +108,7 @@
 					<execute>playonlinux --run &quot;Fireworks&quot;</execute>
 				</action>
 			</item>
-			<item label="Illustrator">
-				<action name="Execute">
-					<execute>playonlinux --run &quot;Illustrator&quot;</execute>
-				</action>
-			</item>
-			<item label="Photoshop">
-				<action name="Execute">
-					<execute>playonlinux --run &quot;Photoshop&quot;</execute>
-				</action>
-			</item>
-			<separator/>
-			<item label="Virtualbox">
-				<action name="Execute">
-					<execute>urxvt -e sh -c &quot;sudo modprobe vboxdrv &amp;&amp; virtualbox&quot;</execute>
-				</action>
-			</item>
 		</menu>
-		<separator/>
 		<item label="Exit">
 			<action name="Execute">
 				<execute>
