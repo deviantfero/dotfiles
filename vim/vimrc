@@ -1,34 +1,38 @@
 "this executes plug to load plugins
 call plug#begin( '~/.vim/plugged' )
-	"Editing
-	Plug 'tpope/vim-surround'
-	Plug 'tpope/vim-sleuth'
-	Plug 'tpope/vim-repeat'
-	Plug 'tpope/vim-endwise'
-	Plug 'vim-scripts/tComment'
-	Plug 'vim-scripts/auto-pairs-gentle'
-	"Navigation
-	Plug 'junegunn/vim-easy-align'
-	Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --bin' }
-	Plug 'junegunn/fzf.vim'
-	Plug 'junegunn/seoul256.vim'
-	Plug 'tpope/vim-vinegar'
-	Plug 'majutsushi/tagbar'
-	"Syntax
-	Plug 'elixir-lang/vim-elixir'
-	Plug 'mattreduce/vim-mix'
-	Plug 'mattn/emmet-vim', { 'for': ['html', 'php', 'jsp', 'javascript'] }
-	Plug 'vim-ruby/vim-ruby'
-	"Autocomplete additions
-	Plug 'SirVer/ultisnips'  | Plug 'honza/vim-snippets'
-	Plug 'alvan/vim-closetag'
-	Plug 'Valloric/YouCompleteMe', { 'do': './install.py --tern-completer --gocode-completer' }
-	Plug 'slashmili/alchemist.vim', { 'for': 'elixir' }
-	Plug 'w0rp/ale'
-	"LaTeX
-	Plug 'lervag/vimtex'
-	"Git
-	Plug 'tpope/vim-fugitive'
+  "Editing
+  Plug 'tpope/vim-surround'
+  Plug 'tpope/vim-sleuth'
+  Plug 'tpope/vim-repeat'
+  Plug 'tpope/vim-endwise'
+  Plug 'vim-scripts/tComment'
+  Plug 'vim-scripts/auto-pairs-gentle'
+  Plug 'jpalardy/vim-slime'
+  "Navigation
+  Plug 'junegunn/vim-easy-align'
+  Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --bin' }
+  Plug 'junegunn/fzf.vim'
+  Plug 'junegunn/seoul256.vim'
+  Plug 'deviantfero/wpgtk.vim'
+  Plug 'tpope/vim-vinegar'
+  Plug 'majutsushi/tagbar'
+  Plug 'thinca/vim-visualstar'
+  "Syntax
+  Plug 'elixir-lang/vim-elixir'
+  Plug 'mattreduce/vim-mix'
+  Plug 'mattn/emmet-vim', { 'for': ['html', 'php', 'jsp', 'javascript'] }
+  Plug 'vim-ruby/vim-ruby'
+  Plug 'leafgarland/typescript-vim'
+  "Autocomplete additions
+  Plug 'SirVer/ultisnips'  | Plug 'honza/vim-snippets'
+  Plug 'rdnetto/YCM-Generator', { 'branch': 'stable' }
+  Plug 'Valloric/YouCompleteMe', { 'do': './install.py --system-libclang --clang-completer --tern-completer --gocode-completer' }
+  Plug 'slashmili/alchemist.vim', { 'for': 'elixir' }
+  Plug 'w0rp/ale'
+  "LaTeX
+  Plug 'lervag/vimtex'
+  "Git
+  Plug 'tpope/vim-fugitive'
 call plug#end()
 
 " remaps "
@@ -87,9 +91,10 @@ set lazyredraw "less redraws
 set splitbelow "shows info or documentation below code, so code doesn't move
 set wildmenu "emacs like command autocompletion
 set scrolloff=1
-set sidescrolloff=5
+set sidescrolloff=1
 set autoread "auto read changes in a file, u to undo
-let g:AutoPairsUseInsertedCount = 1 "gentle-auto-close
+set backupcopy=yes 
+let g:AutoPairsUseInsertedCount=1 "gentle-auto-close
 
 
 " others "
@@ -102,8 +107,6 @@ set foldmethod=marker "allow marking folds
 filetype plugin indent on
 syntax on	"color syntax highlighting
 filetype plugin on	"load the filetype specific config
-let g:closetag_filenames = "*.html,*.xml,*.js" "autoclose tags in these files
-let g:closetag_emptyTags_caseSensitive = 1
 
 " netrw options "
 """"""""""""""""""
@@ -137,15 +140,15 @@ autocmd BufNewFile,BufRead *.tex set wrap
 set laststatus=2
 let $PYTHONPATH='/usr/lib/python2/site-packages'
 function! s:statusline_expr()
-  let mod = "%{&modified ? '[+]' : !&modifiable ? '[x] ' : ''}"
+  let mod = "%{&modified ? '[+]' : !&modifiable ? '[x]' : ''}"
   let ro  = "%{&readonly ? '[RO]' : ''}"
   let ft  = "%{len(&filetype) ? '['.&filetype.']' : ''}"
   let fug = "%{exists('g:loaded_fugitive') ? fugitive#statusline() : ''}"
-  let sep = ' %= '
+  let sep = '%='
+  let spt  = "[%{(&expandtab) ? 's' : 't'}:%{&sw}]"
   let pos = ' %-12(%l : %c%V%) '
   let pct = ' %P '
-
-  return '[%n] %F %<'.mod.ro.ft.fug.sep.pos.pct
+  return '[%n] %f %<'.mod.ro.ft.fug.sep.pos.pct.spt
 endfunction
 let &statusline = s:statusline_expr()
 
@@ -153,15 +156,17 @@ let &statusline = s:statusline_expr()
 " TTY only "
 """"""""""""
 if has("gui_running")
-  set background=light
+  set background=dark
   colorscheme PaperColor
-  set gfn=roboto\ mono\ 8
+  set gfn=Roboto\ Mono\ 8
 endif
 
 "auto complete"
 """""""""""""""
 silent! let g:EclimCompletionMethod = 'omnifunc'
+silent! let g:EclimJavascriptValidate = 0
 let g:ycm_autoclose_preview_window_after_completion=1
+let g:ycm_show_diagnostics_ui = 0
 
 "linters"
 """""""""
@@ -169,10 +174,12 @@ let g:ale_linters = {
   \'python':['flake8'],
   \'php':['php -l'],
   \'c++':['gcc'],
-  \'c':[],
+  \'c':['gcc'],
   \'go':['gofmt'],
   \'tex':[],
   \'ruby':[],
+  \'eruby': [],
+  \'javascript': [],
 \}
 let g:ale_lint_on_text_changed = 'never'
 let g:ale_lint_on_enter = 0
@@ -180,3 +187,8 @@ let g:ale_lint_on_enter = 0
 "latex"
 """""""
 let g:vimtex_view_method = 'mupdf'
+let g:tex_flavor = "latex"
+
+"shell"
+"""""""
+let g:slime_target = "tmux"
