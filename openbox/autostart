@@ -1,10 +1,10 @@
 sh ~/.wallpapers/wp_init.sh &
-#just in case of usage of MODEL M KEYBOARD
-#setxkbmap -option caps:super &
 #for swaping ctrl with capslock
 setxkbmap -option caps:escape &&
 setxkbmap -option compose:menu &
 volumeicon &
 compton --config ~/.config/compton.conf -b &
+xbacklight -set 30 &
+xgamma -gamma 0.89 &
 tint2 &
 #/usr/lib/lxpolkit/lxpolkit &
