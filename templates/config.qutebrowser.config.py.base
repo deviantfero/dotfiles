@@ -2,14 +2,14 @@
 # Documentation:
 #   qute://help/configuring.html
 #   qute://help/settings.html
-color0 = '#COLOR0'
-color13 = '#COLORX13'
-color14 = '#COLORX14'
-color15 = '#COLORX15'
-color9 = '#COLOR9'
-color8 = '#COLOR8'
-colora = '#COLORACT'
-colori = '#COLORIN'
+color0 = '#<COLOR0>'
+color13 = '#<COLOR13>'
+color14 = '#<COLOR14>'
+color15 = '#<COLOR15>'
+color9 = '#<COLOR9>'
+color8 = '#<COLOR8>'
+colora = '#<COLORACT>'
+colori = '#<COLORIN>'
 
 # Uncomment this to still load settings configured via autoconfig.yml
 # config.load_autoconfig()
@@ -22,6 +22,10 @@ c.aliases = {'q': 'quit', 'w': 'session-save', 'wq': 'quit --save'}
 # Always restore open sites when qutebrowser is reopened.
 # Type: Bool
 c.auto_save.session = True
+
+# Load a restored tab as soon as it takes focus.
+# Type: Bool
+c.session.lazy_restore = True
 
 # Background color of the statusbar in command mode.
 # Type: QssColor
@@ -41,6 +45,8 @@ c.colors.statusbar.url.error.fg = color9
 # Type: QtColor
 c.colors.tabs.even.bg = colori
 c.colors.tabs.bar.bg = color8
+c.colors.tabs.even.fg = color15
+c.colors.tabs.odd.fg = color15
 
 # Color for the tab indicator on errors.
 # Type: QtColor
@@ -61,10 +67,12 @@ c.colors.tabs.odd.bg = colori
 # Background color of selected even tabs.
 # Type: QtColor
 c.colors.tabs.selected.even.bg = colora
+c.colors.tabs.selected.even.fg = color15
 
 # Background color of selected odd tabs.
 # Type: QtColor
 c.colors.tabs.selected.odd.bg = colora
+c.colors.tabs.selected.odd.fg = color15
 
 # Open new windows in private browsing mode which does not record
 # visited pages.
