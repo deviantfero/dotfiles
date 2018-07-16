@@ -1,38 +1,43 @@
 "this executes plug to load plugins
 call plug#begin( '~/.vim/plugged' )
-  "Editing
+  " Editing
   Plug 'tpope/vim-surround'
   Plug 'tpope/vim-sleuth'
   Plug 'tpope/vim-repeat'
   Plug 'tpope/vim-endwise'
+  Plug 'tpope/vim-eunuch'
   Plug 'vim-scripts/tComment'
   Plug 'vim-scripts/auto-pairs-gentle'
   Plug 'jpalardy/vim-slime'
-  "Navigation
+  " Appearance
+  Plug 'deviantfero/wpgtk.vim'
+  " Navigation
+  Plug 'haya14busa/incsearch.vim'
   Plug 'junegunn/vim-easy-align'
   Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --bin' }
   Plug 'junegunn/fzf.vim'
-  Plug 'junegunn/seoul256.vim'
-  Plug 'deviantfero/wpgtk.vim'
+  Plug 'ludovicchabant/vim-gutentags'
   Plug 'tpope/vim-vinegar'
   Plug 'majutsushi/tagbar'
   Plug 'thinca/vim-visualstar'
-  "Syntax
-  Plug 'elixir-lang/vim-elixir'
+  " Syntax
+  Plug 'mxw/vim-jsx'
   Plug 'mattreduce/vim-mix'
   Plug 'mattn/emmet-vim', { 'for': ['html', 'php', 'jsp', 'javascript'] }
+  Plug 'elixir-editors/vim-elixir'
+  Plug 'jelera/vim-javascript-syntax'
   Plug 'vim-ruby/vim-ruby'
-  Plug 'leafgarland/typescript-vim'
-  "Autocomplete additions
+  " Language additions
   Plug 'SirVer/ultisnips'  | Plug 'honza/vim-snippets'
   Plug 'rdnetto/YCM-Generator', { 'branch': 'stable' }
   Plug 'Valloric/YouCompleteMe', { 'do': './install.py --system-libclang --clang-completer --tern-completer --gocode-completer' }
   Plug 'slashmili/alchemist.vim', { 'for': 'elixir' }
   Plug 'w0rp/ale'
-  "LaTeX
+  " LaTeX
   Plug 'lervag/vimtex'
-  "Git
+  " Wrapppers
   Plug 'tpope/vim-fugitive'
+  Plug 'diepm/vim-rest-console', { 'for': 'rest' }
 call plug#end()
 
 " remaps "
@@ -41,32 +46,47 @@ nmap <C-g> :GitFiles<cr>
 nmap <C-f> :Files<cr>
 nmap <C-o> :Buffers<cr>
 nmap <S-k> :Ag <Down>
-nnoremap <f3> :call HlToggle()<cr> 
-nnoremap <f4> :Lexplore<cr>
+" nnoremap <silent><f3> :call HlToggle()<cr> 
+nnoremap <silent><f4> :call NumberToggle()<cr>
 nmap <f8> :TagbarToggle<cr>
 nmap <F9> :Gstatus<cr>
+map /  <Plug>(incsearch-forward)
+map ?  <Plug>(incsearch-backward)
+map g/ <Plug>(incsearch-stay)
+
+" :h g:incsearch#auto_nohlsearch
+set hlsearch
+let g:incsearch#auto_nohlsearch = 1
+map n  <Plug>(incsearch-nohl-n)
+map N  <Plug>(incsearch-nohl-N)
+map *  <Plug>(incsearch-nohl-*)
+map #  <Plug>(incsearch-nohl-#)
+map g* <Plug>(incsearch-nohl-g*)
+map g# <Plug>(incsearch-nohl-g#)
 
 "Move more easily between splits
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-h> <C-w>h
 nnoremap <C-l> <C-w>l
+
 "for easy-align plugin.
-xmap ea :LiveEasyAlign<cr>
-nmap ea :LiveEasyAlign<cr>
+xmap ga <Plug>(EasyAlign)
+nmap ga <Plug>(EasyAlign)
 
+" commands "
+""""""""""
 
-"this adds sudo saving support, with the command sudow
+" save as root
 if !exists(':Sw')
-  command Sw :execute ':silent w !sudo tee % > /dev/null' | :edit!
+  command Sw :execute ':SudoWrite'
 endif
-
 
 "  snippets  "
 """"""""""""""
 let g:UltiSnipsExpandTrigger="<c-k>"
 let g:UltiSnipsJumpForwardTrigger="<c-k>"
-let g:UltiSnipsJumpBackwardTrigger="<c-z>"
+let g:UltiSnipsJumpBackwardTrigger="<c-j>"
 let python_highlight_all = 1
 
 " editing options "
@@ -95,6 +115,7 @@ set sidescrolloff=1
 set autoread "auto read changes in a file, u to undo
 set backupcopy=yes 
 let g:AutoPairsUseInsertedCount=1 "gentle-auto-close
+set previewheight=15 "fugitive.vim window
 
 
 " others "
@@ -129,7 +150,6 @@ packadd! matchit
 set t_Co=256
 colorscheme wpgtk
 
-
 " hpppl preferences for vim            "
 """""""""""""""""""""""""""""""""""""""""
 autocmd BufNewFile,BufRead *.hpppl set syntax=hpppl
@@ -157,16 +177,18 @@ let &statusline = s:statusline_expr()
 """"""""""""
 if has("gui_running")
   set background=dark
-  colorscheme PaperColor
-  set gfn=Roboto\ Mono\ 8
+  colorscheme peachpuff
+  set gfn=menlo\ 9
 endif
 
 "auto complete"
 """""""""""""""
 silent! let g:EclimCompletionMethod = 'omnifunc'
 silent! let g:EclimJavascriptValidate = 0
-let g:ycm_autoclose_preview_window_after_completion=1
+let g:ycm_autoclose_preview_window_after_completion = 1
 let g:ycm_show_diagnostics_ui = 0
+let g:deoplete#enable_at_startup = 1
+
 
 "linters"
 """""""""
@@ -179,7 +201,7 @@ let g:ale_linters = {
   \'tex':[],
   \'ruby':[],
   \'eruby': [],
-  \'javascript': [],
+  \'javascript': ['eslint'],
 \}
 let g:ale_lint_on_text_changed = 'never'
 let g:ale_lint_on_enter = 0
@@ -192,3 +214,4 @@ let g:tex_flavor = "latex"
 "shell"
 """""""
 let g:slime_target = "tmux"
+let NERDTreeHijackNetrw = 1
