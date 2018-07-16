@@ -9,7 +9,7 @@ error = ${xrdb:color9:#<COLOR9>}
 [bar/wpgtk]
 monitor = ${env:MONITOR:LVDS-1}
 width = 100%
-height = 24
+height = 21
 offset-y = 0%
 radius = 0.0
 fixed-center = true
@@ -21,7 +21,7 @@ line-size = 0
 label-line-color = #f00
 
 border-size = 0
-border-color = #00000000
+border-color = ${colors.inactive}
 
 padding-left = 0
 padding-right = 0
@@ -29,7 +29,7 @@ padding-right = 0
 module-margin-left = 0
 module-margin-right = 0
 
-font-0 = menlo:fontformat=truetype:size=8;1
+font-0 = menlo:fontformat=truetype:size=8;2
 font-1 = FontAwesome:style=Regular:size=10;2
 
 modules-left = i3 xwindow
@@ -74,13 +74,8 @@ fuzzy-matching = true
 ; Only show workspaces on the same output as the bar
 pin-workspaces = true
 
-ws-icon-0 = 1;
-ws-icon-1 = 2;
-ws-icon-2 = 9;
-ws-icon-3 = 10;
-ws-icon-default = 
-
-label-mode-padding = 1
+label-focused = %index%
+label-unfocused = %index%
 label-mode-foreground = ${colors.foreground}
 label-mode-background = ${colors.highlight}
 
@@ -141,8 +136,11 @@ label-connected = %local_ip%
 type = internal/date
 interval = 5
 
-date = "%d %b %Y, "
+date = ""
 time = %I:%M %p
+
+date-alt = "%d %b %Y "
+time-alt = %I:%M %p
 
 format-padding = 1
 format-background = ${colors.background}
