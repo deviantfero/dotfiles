@@ -29,7 +29,7 @@ padding-right = 0
 module-margin-left = 0
 module-margin-right = 0
 
-font-0 = menlo:fontformat=truetype:size=8;2
+font-0 = Go Mono:fontformat=truetype:size=8;2
 font-1 = FontAwesome:style=Regular:size=10;2
 
 modules-left = i3 xwindow
@@ -37,8 +37,8 @@ modules-center = date
 modules-right =  volume wlan eth battery
 
 tray-position = none
-tray-padding = 10
-tray-background = ${colors.inactive}
+tray-padding = 2
+tray-background = ${colors.active}
 
 [module/xwindow]
 type = internal/xwindow
@@ -74,20 +74,23 @@ fuzzy-matching = true
 ; Only show workspaces on the same output as the bar
 pin-workspaces = true
 
-label-focused = %index%
-label-unfocused = %index%
 label-mode-foreground = ${colors.foreground}
 label-mode-background = ${colors.highlight}
+label-mode-padding = 1
 
+label-focused = %index%
 label-focused-background = ${colors.active}
 label-focused-padding = 1
 
-label-unfocused-padding = 1
+label-unfocused = %index%
 label-unfocused-background = ${colors.inactive}
+label-unfocused-padding = 1
 
+label-visible = %index%
 label-visible-background = ${colors.highlight}
 label-visible-padding = 1
 
+label-urgent = %index%
 label-urgent-background = ${colors.highlight}
 label-urgent-padding = 1
 
