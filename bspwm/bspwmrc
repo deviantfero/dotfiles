@@ -1,0 +1,44 @@
+#!/bin/sh
+
+# startup
+export SXHKD_SHELL="sh"
+bash "$HOME/Code/scripts/polybar.sh" &
+setxkbmap -option caps:escape &
+pgrep sxhkd      || sxhkd &
+pgrep urxvtd     || urxvtd &
+pgrep emacs      || emacs --daemon &
+pgrep dockd      || dockd --daemon &
+pgrep volumeicon || volumeicon &
+pgrep compton    || compton &
+bash "$HOME/.config/wpg/wp_init.sh" &
+
+# global settings
+bspc config borderless_monocle true
+bspc config single_monocle true
+bspc config gapless_monocle true
+bspc config border_width 3
+bspc config window_gap   0
+bspc config top_padding  21
+bspc config pointer_follows_focus		false
+bspc config focus_follows_pointer		true
+bspc config pointer_follows_monitor     true
+bspc config remove_unplugged_monitors	true
+bspc config remove_disabled_monitors	true
+bspc config ignore_ewhm_focus			true
+bash "$HOME/.config/bspwm/bspwm_colors.sh" &
+
+# rules
+bspc rule -r "*:*"
+bspc rule -a URxvt:scratchpad sticky=on state=floating
+bspc rule -a Wpg:wpg state=floating
+bspc rule -a Polyconf:* state=floating
+bspc rule -a Zathura:zathura state=tiled
+bspc rule -a Google-chrome desktop=^1
+bspc rule -a DBeaver desktop=focused:^3
+
+# desktop / monitor
+for monitor in $(bspc query -M); do
+    bspc monitor $monitor -d I II III IV V
+done
+
+exit 0;
