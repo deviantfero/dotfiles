@@ -2,25 +2,35 @@
 !--many explanations of Xresources options for urxvt were found here--!
 
 ! Color options
-!URxvt*background: #121212	
-URxvt*foreground: white
-URxvt*background: 0
+! URxvt*background: #121212	
+
+URxvt*foreground: 15
+! URxvt*background: 0
 
 !Font options
-URxvt*font: xft:menlo:size=8:antialias=true:hinting=true
-! URxvt*font: xft:droid sans mono:size=8:antialias=true:hinting=true
-!URxvt*font: xft:source code pro for powerline:size=8:antialias=true:hinting=true
-URxvt*letterSpace: -1
-!URxvt*letterSpace: 0
+URxvt*font: xft:go mono:size=8
+URxvt*letterSpace: 0
+URxvt*lineSpace: 1
 URxvt*internalBorder: 8
-URxvt.boldFont:
+URxvt*boldFont: xft:go mono:size=8
 
 ! Other options
 URxvt*loginShell: true
-URxvt.scrollBar: false
-URxvt*perl-ext-common: default,matcher
-URxvt*cursorBlink: 1
+URxvt*scrollBar: false
+URxvt*perl-ext-common: font-size,default,matcher,selection-to-clipboard
+URxvt.url-launcher: /usr/bin/xdg-open
+URxvt.matcher.button: 1
+URxvt*cursorBlink: 0
+URxvt*cursorUnderline: 0
+URxvt*cursorColor: 14
 ! URxvt.tabbed.tabbar-bg: 8
 ! URxvt.tabbed.tabbar-fg: 6
 ! URxvt.tabbed.tab-fg: 0
-! URxvt.tabbed.tab-bg: 6
+URxvt.keysym.C-Up:     font-size:increase
+URxvt.keysym.C-Down:   font-size:decrease
+URxvt.keysym.C-S-Up:   font-size:incglobal
+URxvt.keysym.C-S-Down: font-size:decglobal
+URxvt.keysym.C-equal:  font-size:reset
+URxvt.keysym.C-slash:  font-size:show 
+! URxvt*buffered: false
+
