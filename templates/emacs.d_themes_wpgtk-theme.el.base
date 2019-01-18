@@ -372,7 +372,7 @@
 ;;;;; mode-line
      `(mode-line           ((,class (:foreground ,bg1 :background ,active1 :box (:color ,m-line-brdr :line-width 0)))))
      `(mode-line-inactive  ((,class (:foreground ,white :background ,bg2     :box (:color ,m-line-brdr :line-width 0)))))
-     `(mode-line-buffer-id ((,class (:bold f :foreground ,bg1))))
+     `(mode-line-buffer-id ((,class (:bold f :foreground ,bg1 :distant-foreground, white))))
 
 ;;;;; mode-line
      `(sml/modified    ((,class (:foreground ,bg1 :background ,red))))
@@ -510,7 +510,9 @@
      `(web-mode-html-attr-name-face ((,class (:foreground ,func))))
      `(web-mode-html-attr-value-face ((,class (:foreground ,keyword))))
      `(web-mode-html-tag-face ((,class (:foreground ,builtin))))
+     `(web-mode-html-tag-bracket-face ((,class (:foreground ,keyword))))
      `(web-mode-keyword-face ((,class (:foreground ,keyword))))
+     `(web-mode-json-key-face ((,class (:foreground ,keyword))))
      `(web-mode-string-face ((,class (:foreground ,str))))
      `(web-mode-type-face ((,class (:inherit ,font-lock-type-face))))
      `(web-mode-warning-face ((,class (:inherit ,font-lock-warning-face)))))))
