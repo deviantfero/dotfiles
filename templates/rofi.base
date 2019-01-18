@@ -1,4 +1,6 @@
-rofi.modi:                           window,run,ssh
+rofi.me-accept-entry:                MousePrimary
+rofi.me-select-entry:
+rofi.modi:                           windowcd,run,ssh
 rofi.width:                          50
 rofi.lines:                          15
 rofi.columns:                        1
