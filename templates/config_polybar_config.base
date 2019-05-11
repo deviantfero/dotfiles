@@ -1,32 +1,32 @@
 [colors]
-dimbackground = ${xrdb:color0:#<COLOR0>}
-background = ${xrdb:color8:#<COLOR8>}
-foreground = ${xrdb:color15:#<COLOR15>}
-dimforeground = ${xrdb:color7:#<COLOR7>}
-active = #<COLORACT>
-inactive = #<COLORIN>
-highlight = ${xrdb:color5:#<COLOR5>}
-error = ${xrdb:color9:#<COLOR9>}
+dimbackground = ${{xrdb:color0:{color0}}}
+background = ${{xrdb:color8:{color8}}}
+foreground = ${{xrdb:color15:{color15}}}
+dimforeground = ${{xrdb:color7:{color7}}}
+active = {active}
+inactive = {inactive}
+highlight = ${{xrdb:color5:{color5}}}
+error = ${{xrdb:color9:{color9}}}
 
 [bar/wpgtk]
-monitor = ${env:MONITOR:LVDS-1}
+monitor = ${{env:MONITOR:LVDS-1}}
 width = 100%
-height = 22
+height = 25
 offset-y = 0%
 radius = 0.0
 fixed-center = true
-; wm-restack = bspwm
-; override-redirect = true
+override-redirect = true
+wm-restack = bspwm
 
 
-background = ${colors.dimbackground}
-foreground = ${colors.foreground}
+background = ${{colors.dimbackground}}
+foreground = ${{colors.foreground}}
 
 line-size = 0
 label-line-color = #f00
 
 border-size = 0
-border-color = ${colors.inactive}
+border-color = ${{colors.inactive}}
 
 padding-left = 0
 padding-right = 0
@@ -34,12 +34,13 @@ padding-right = 0
 module-margin-left = 0
 module-margin-right = 0
 
-font-0 = go mono:size=9;2
+font-0 = inter:style=medium:size=10;2
 font-1 = fontawesome:style=bold:size=10;2
-font-2 = go mono:size=9:style=bold;2
-font-3 = go mono:size=9:style=bold;2
+font-2 = inter:size=10:style=bold;2
+font-3 = inter:size=11:style=bold;2
 
-modules-left = i3 xwindow
+modules-left = bspwm
+modules-center = xwindow
 modules-right =  volume wlan eth battery date
 
 tray-position = 
@@ -48,46 +49,44 @@ tray-padding = 2
 [module/xwindow]
 type = internal/xwindow
 format = <label>
-format-padding = 1
+format-padding = 2
 
 label = %title:0:40:...%
 label-empty = 
 
 [module/bspwm]
 type = internal/bspwm
-format = <label-mode><label-state>
+format = <label-mode><label-state> 
 
-label-focused = ●
-label-focused-foreground = ${colors.active}
-label-focused-padding = 1
+label-focused = %name%
+label-focused-font = 3
+label-focused-foreground = ${{colors.active}}
+label-focused-padding = 2
 
-label-occupied = ●	
-label-occupied-foreground = ${colors.foreground}
-label-occupied-padding = 1
+label-occupied = %name%	
+label-occupied-foreground = ${{colors.foreground}}
+label-occupied-padding = 2
 
-label-urgent = ◉
-label-urgent-background = ${colors.highlight}
-label-urgent-padding = 1
+label-urgent = %name%
+label-urgent-foreground = ${{colors.highlight}}
+label-urgent-padding = 2
 
-label-empty = ○
-label-empty-foreground = ${colors.dimforeground}
-; label-empty-background = ${colors.inactive}
-label-empty-padding = 1
+label-empty-font = 4
+label-empty = 
+label-empty-foreground = ${{colors.foreground}}
+label-empty-padding = 2
 
 label-monocle = ""
-label-monocle-padding = 1
-label-monocle-background = ${colors.active}
-label-monocle-foreground = ${colors.foreground}
+label-monocle-padding = 2
+label-monocle-foreground = ${{colors.active}}
 
 label-pseudotiled = ""
-label-pseudotiled-padding = 1
-label-pseudotiled-background = ${colors.active}
-label-pseudotiled-foreground = ${colors.foreground}
+label-pseudotiled-padding = 2
+label-pseudotiled-foreground = ${{colors.active}}
 
 label-sticky = ""
-label-sticky-padding = 1
-label-sticky-background = ${colors.active}
-label-sticky-foreground = ${colors.foreground}
+label-sticky-padding = 2
+label-sticky-foreground = ${{colors.active}}
 
 [module/i3]
 type = internal/i3
@@ -99,24 +98,24 @@ fuzzy-matching = true
 ; Only show workspaces on the same output as the bar
 pin-workspaces = true
 
-label-mode-background = ${colors.highlight}
+label-mode-background = ${{colors.highlight}}
 label-mode-padding = 2
 
 label-focused = %index%
-label-focused-foreground = ${colors.active}
-label-focused-padding = 1
+label-focused-foreground = ${{colors.active}}
+label-focused-padding = 2
 label-focused-font = 3
 
 label-unfocused = %index%
-label-unfocused-padding = 1
+label-unfocused-padding = 2
 
 label-visible = %index%
-label-visible-background = ${colors.highlight}
-label-visible-padding = 1
+label-visible-foreground = ${{colors.highlight}}
+label-visible-padding = 2
 
 label-urgent = %index%
-label-urgent-foreground = ${colors.highlight}
-label-urgent-padding = 1
+label-urgent-foreground = ${{colors.highlight}}
+label-urgent-padding = 2
 label-urgent-font = 3
 
 [module/wlan]
@@ -124,15 +123,15 @@ type = internal/network
 interface = wlp3s0
 interval = 3.0
 
-format-connected-padding = 1
+format-connected-padding = 2
 format-connected = <ramp-signal> <label-connected>
 label-connected = %essid%
-format-connected-foreground = ${colors.active}
+format-connected-foreground = ${{colors.active}}
 
 format-disconnected =
 
 ramp-signal-0 = 
-ramp-signal-foreground = ${colors.active}
+ramp-signal-foreground = ${{colors.active}}
 
 [module/eth]
 type = internal/network
@@ -140,10 +139,10 @@ interface = enp0s25
 interval = 3.0
 
 format-connected =  <label-connected>
-format-connected-padding = 1
-format-connected-foreground = ${colors.active}
+format-connected-padding = 2
+format-connected-foreground = ${{colors.active}}
 label-connected = %local_ip%
-label-connected-foreground = ${colors.foreground}
+label-connected-foreground = ${{colors.foreground}}
 
 
 [module/date]
@@ -154,29 +153,29 @@ time = %I:%M %p
 date-alt = "%d %b %Y "
 time-alt = %I:%M %p
 format =  <label>
-format-padding = 1
-format-foreground = ${colors.active}
+format-padding = 2
+format-foreground = ${{colors.active}}
 label = %date%%time%
-label-foreground = ${colors.foreground}
+label-foreground = ${{colors.foreground}}
 
 [module/volume]
 type = internal/alsa
 
 format-volume = <ramp-volume> <label-volume>
-format-volume-padding = 1
+format-volume-padding = 2
 ramp-volume-0 = 
 ramp-volume-1 = 
 ramp-volume-2 = 
 ramp-volume-3 = 
-ramp-volume-foreground = ${colors.active}
-ramp-volume-0-foreground = ${colors.error}
+ramp-volume-foreground = ${{colors.active}}
+ramp-volume-0-foreground = ${{colors.error}}
 
 format-muted-prefix = " "
-format-muted-foreground = ${colors.error}
+format-muted-foreground = ${{colors.error}}
 format-muted-font = 1
 label-muted = MUT
 label-muted-font = 1
-format-muted-padding = 1
+format-muted-padding = 2
 
 [module/battery]
 type = internal/battery
@@ -186,30 +185,30 @@ full-at = 100
 poll-interval = 5
 
 format-charging =   <animation-charging> <label-charging>
-format-charging-padding = 1
-format-discharging-padding = 1
+format-charging-padding = 2
+format-discharging-padding = 2
 format-discharging = <ramp-capacity> <label-discharging>
 format-full = <label-full> <ramp-capacity>
-format-full-padding = 1
-format-full-foreground = ${colors.active}
+format-full-padding = 2
+format-full-foreground = ${{colors.active}}
 
 ramp-capacity-0 = 
 ramp-capacity-1 =  
 ramp-capacity-2 =  
 ramp-capacity-3 = 
 ramp-capacity-4 =  
-ramp-capacity-foreground = ${colors.active}
-ramp-capacity-0-foreground = ${colors.error}
+ramp-capacity-foreground = ${{colors.active}}
+ramp-capacity-0-foreground = ${{colors.error}}
 
-animation-charging-foreground = ${colors.highlight}
+animation-charging-foreground = ${{colors.highlight}}
 animation-charging-framerate = 500
 animation-charging-0 = 
 animation-charging-1 =  
 animation-charging-2 =  
 animation-charging-3 = 
 animation-charging-4 =  
-format-charging-foreground = ${colors.highlight}
-format-discharging-foreground = ${colors.active}
+format-charging-foreground = ${{colors.highlight}}
+format-discharging-foreground = ${{colors.active}}
 
 [settings]
 screenchange-reload = true
