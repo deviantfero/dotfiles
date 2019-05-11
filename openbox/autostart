@@ -1,4 +1,4 @@
-sh ~/.wallpapers/wp_init.sh &
+sh ~/.config/wpg/wp_init.sh &
 #for swaping ctrl with capslock
 setxkbmap -option caps:escape &&
 setxkbmap -option compose:menu &
