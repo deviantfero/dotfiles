@@ -1,3 +1,4 @@
+
 border.width: 0
 padding.height: 5
 window.label.text.justify: Center
@@ -38,7 +39,7 @@ window.active.button.disabled.bg.border.color: {active}
 window.active.button.disabled.image.color: {active}
 window.active.button.hover.bg: Solid Flat
 window.active.button.hover.bg.color: {active}
-window.active.button.hover.bg.border.color: {inactive}
+window.active.button.hover.bg.border.color: {active}
 window.active.button.hover.image.color: {inactive}
 window.active.button.pressed.bg: Solid Flat
 window.active.button.pressed.bg.color: {active}

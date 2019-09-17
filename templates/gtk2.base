@@ -1,6 +1,6 @@
 #modded Numix gtkrc
 
-gtk-color-scheme = "bg_color:{color8}
+gtk-color-scheme = "bg_color:{color0}
 color0:{color0}
 color1:{color1}
 color2:{color2}
@@ -40,7 +40,7 @@ style "murrine-default" {{
 	GtkButton::child-displacement-x = 0
 	GtkButton::child-displacement-y = 0
 
-	Gtkbutton::default-border = {{ 0, 0, 0, 0 }}
+	GtkButton::default-border = {{ 0, 0, 0, 0 }}
 
 	GtkButtonBox::child-min-height = 26
 
