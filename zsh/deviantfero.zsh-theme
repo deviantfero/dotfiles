@@ -1,6 +1,6 @@
 if [ $UID -eq 0 ]; then CARETCOLOR="red"; else CARETCOLOR="blue"; fi
 
-local return_code="%(?..%{$fg_bold[red]%}%? ↵%{$reset_color%})"
+local return_code="%(?..%{$fg_bold[red]%}%?%{$reset_color%})"
 
 function get_pwd(){
   git_root=$PWD
@@ -9,7 +9,7 @@ function get_pwd(){
   done
   if [[ $git_root = / ]]; then
     unset git_root
-    prompt_short_dir=%~
+    prompt_short_dir=%/
   else
     parent=${git_root%\/*}
     prompt_short_dir=${PWD#$parent/}
@@ -17,10 +17,9 @@ function get_pwd(){
   echo $prompt_short_dir
 }
 
-PROMPT='%{${fg_bold[cyan]}%}%m%{${fg_bold[blue]}%} %{$reset_color%}%{${fg_bold[green]}%}$(get_pwd) $(git_prompt_info)%{${fg_bold[$CARETCOLOR]}%}%%%{${reset_color}%} '
+# RPROMPT='$return_code'
+PROMPT='%{$fg_bold[magenta]%}%* %{$fg_bold[cyan]%}%m %{$fg_bold[green]%}$(get_pwd)$(git_prompt_info)%{$fg_bold[cyan]%} %% %{$reset_color%}'
 
-RPS1="${return_code}"
-
-ZSH_THEME_GIT_PROMPT_PREFIX="%{$fg_bold[yellow]%}git:("
+ZSH_THEME_GIT_PROMPT_PREFIX=" %{$fg_bold[yellow]%}("
 ZSH_THEME_GIT_PROMPT_SUFFIX="%{$fg_bold[yellow]%})%{$reset_color%}"
-ZSH_THEME_GIT_PROMPT_DIRTY="%{$fg[red]%} +"
+ZSH_THEME_GIT_PROMPT_DIRTY="%{$fg[green]%}+"
