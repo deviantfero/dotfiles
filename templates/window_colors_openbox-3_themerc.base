@@ -1,0 +1,104 @@
+!!Made by  Ananymania
+!! Font size: 9px 
+!! Button order: NLSM
+!!-----------------------------------------
+
+!!Main style colors
+window.active.title.bg.color: #75324e
+!!window.active.title.bg.colorTo: MidnightBlue
+window.active.title.bg.colorTo: #ab4971
+
+window.inactive.title.bg.color: DimGray
+!!window.inactive.title.bg.colorTo: DimGray
+window.inactive.title.bg.colorTo: Gray
+
+
+!!-----------------------------------------
+
+
+!!Button layout
+*.bg.shadow: 200
+*.bg.highlight: 200
+*.button.*.bg: raised gradient diagonal 
+*.active.button.*.hover.bg: raised solid
+*.active.button.*.pressed.bg: sunken gradient diagonal
+
+!!Button colors (dont change)
+*.image.color: Black
+*.button.*.bg.color: #DFDFDF
+*.button.*.bg.colorTo: #8B8B8B
+*.active.button.*.hover.bg.color: LightGray
+*.active.button.*.pressed.bg.color: #8B8B8B
+*.active.button.*.pressed.bg.colorTo: #EEEEEE
+
+
+!!Text (Use a 9pt font)
+*.label.text.justify: left
+*.active.font: shadow=y:shadowtint=50:shadowoffset=1
+*.active.label.text.color: White
+*.inactive.label.text.font:shadow=n
+*.inactive.label.text.color: Gray
+
+
+!!Main Frame-settings (dont change)
+border.width: 0
+padding.width: 1
+padding.height: 3
+*.client.padding.width: 3
+*.client.padding.height: 3
+*.label.bg: parentrelative
+*.title.bg: raised Gradient Horizontal
+*.title.bg.shadow: 0
+*.handle.width: 1
+
+!!Frame colors
+border.color: #75324e
+*.client.color: #75324e
+*.separator.color: #75324e
+
+
+!!Menu
+menu.*.font:shadow=n
+menu.border.width: 1
+menu.border.color: #f7f7e4
+
+menu.title.bg: raised solid
+menu.title.bg.color: Gray
+menu.title.text.color: black
+menu.title.text.font:shadow=y
+menu.title.text.justify: center
+
+menu.items.bg: raised solid
+menu.items.bg.color: LightGray
+menu.items.text.color: Black
+menu.items.disabled.text.color: DimGray
+
+menu.items.active.bg: raised solid
+menu.items.active.bg.color: #ab4971
+menu.items.active.text.color: WhiteSmoke
+
+
+#Dialog
+osd.border.color: #e0ded8
+osd.border.width: 1
+
+osd.bg: raised solid
+osd.bg.color: #eae8e3
+osd.bg.shadow: 46
+osd.bg.highlight: 20
+
+osd.label.bg: parentrelative
+osd.label.text.color: #151515
+
+osd.hilight.bg: sunken gradient vertical
+osd.hilight.bg.color: #d0cdc3
+osd.hilight.bg.colorTo: #c4c0b6
+osd.hilight.bg.shadow: 46
+osd.hilight.bg.highlight: 20
+
+osd.unhilight.bg: raised gradient vertical
+osd.unhilight.bg.color: #f5f4f3
+osd.unhilight.bg.colorTo: #e5e3dd
+osd.unhilight.bg.shadow: 46
+osd.unhilight.bg.highlight: 20
+

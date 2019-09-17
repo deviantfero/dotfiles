@@ -40,7 +40,7 @@ font-2 = inter:size=10:style=bold;2
 font-3 = inter:size=11:style=bold;2
 
 modules-left = bspwm
-modules-center = xwindow
+modules-center = 
 modules-right =  volume wlan eth battery date
 
 tray-position = 
@@ -60,7 +60,7 @@ format = <label-mode><label-state>
 
 label-focused = %name%
 label-focused-font = 3
-label-focused-foreground = ${{colors.active}}
+label-focused-background = ${{colors.active}}
 label-focused-padding = 2
 
 label-occupied = %name%	
@@ -68,7 +68,7 @@ label-occupied-foreground = ${{colors.foreground}}
 label-occupied-padding = 2
 
 label-urgent = %name%
-label-urgent-foreground = ${{colors.highlight}}
+label-urgent-background = ${{colors.highlight}}
 label-urgent-padding = 2
 
 label-empty-font = 4
@@ -78,15 +78,15 @@ label-empty-padding = 2
 
 label-monocle = ""
 label-monocle-padding = 2
-label-monocle-foreground = ${{colors.active}}
+label-monocle-background = ${{colors.active}}
 
 label-pseudotiled = ""
 label-pseudotiled-padding = 2
-label-pseudotiled-foreground = ${{colors.active}}
+label-pseudotiled-background = ${{colors.active}}
 
 label-sticky = ""
 label-sticky-padding = 2
-label-sticky-foreground = ${{colors.active}}
+label-sticky-background = ${{colors.active}}
 
 [module/i3]
 type = internal/i3
